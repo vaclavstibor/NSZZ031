@@ -1,0 +1,202 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{glasman2010science}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDH}{%
+         family={Glasman-Deal},
+         familyi={G\bibinithyphendelim D\bibinitperiod},
+         given={Hilary},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {World Scientific}%
+    }
+    \strng{namehash}{GDH1}
+    \strng{fullhash}{GDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Science research writing for non-native speakers of English}
+    \field{year}{2010}
+  \endentry
+
+  \entry{knuth1979tex}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KDE}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={Donald\bibnamedelima Ervin},
+         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Mathematical Society}%
+    }
+    \strng{namehash}{KDE1}
+    \strng{fullhash}{KDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{TEX and METAFONT: New directions in typesetting}
+    \field{year}{1979}
+  \endentry
+
+  \entry{lamport1994latex}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LL}{%
+         family={Lamport},
+         familyi={L\bibinitperiod},
+         given={Leslie},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley}%
+    }
+    \strng{namehash}{LL1}
+    \strng{fullhash}{LL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{LATEX: a document preparation system: user's guide and
+  reference manual}
+    \field{year}{1994}
+  \endentry
+
+  \entry{sparling1989english}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SD}{%
+         family={Sparling},
+         familyi={S\bibinitperiod},
+         given={Don},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Státní pedagogické nakladatelství}%
+    }
+    \strng{namehash}{SD1}
+    \strng{fullhash}{SD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{English or Czenglish? Jak se vyhnout čechismům v
+  angličtině}
+    \field{year}{1989}
+  \endentry
+
+  \entry{tufte1990envisioning}{book}{}
+    \name{author}{3}{}{%
+      {{hash=TER}{%
+         family={Tufte},
+         familyi={T\bibinitperiod},
+         given={Edward\bibnamedelima R},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GNH}{%
+         family={Goeler},
+         familyi={G\bibinitperiod},
+         given={Nora\bibnamedelima Hillman},
+         giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Benson},
+         familyi={B\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Graphics press Cheshire, CT}%
+    }
+    \strng{namehash}{TERGNHBR1}
+    \strng{fullhash}{TERGNHBR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Envisioning information}
+    \field{year}{1990}
+  \endentry
+
+  \entry{tufte1983visual}{book}{}
+    \name{author}{1}{}{%
+      {{hash=TER}{%
+         family={Tufte},
+         familyi={T\bibinitperiod},
+         given={Edward\bibnamedelima R},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Graphics press Cheshire, CT}%
+    }
+    \strng{namehash}{TER1}
+    \strng{fullhash}{TER1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Visual display of quantitative information}
+    \field{year}{1983}
+  \endentry
+
+  \entry{wilke2019fundamentals}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WCO}{%
+         family={Wilke},
+         familyi={W\bibinitperiod},
+         given={Claus\bibnamedelima O},
+         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {O'Reilly Media, Inc.}%
+    }
+    \strng{namehash}{WCO1}
+    \strng{fullhash}{WCO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9781492031086}
+    \field{title}{Fundamentals of Data Visualization}
+    \verb{url}
+    \verb https://clauswilke.com/dataviz/
+    \endverb
+    \field{year}{2019}
+  \endentry
+
+  \entry{tantau2015tikz}{report}{}
+    \name{author}{1}{}{%
+      {{hash=TT}{%
+         family={Tantau},
+         familyi={T\bibinitperiod},
+         given={Till},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TT1}
+    \strng{fullhash}{TT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The TikZ and PGF Packages (Manual for version 3.1.8b)}
+    \verb{url}
+    \verb http://mirrors.ctan.org/graphics/pgf/base/doc/pgfmanual.pdf
+    \endverb
+    \list{institution}{1}{%
+      {Institut f{\"u}r Theoretische Informatik Universit{\"a}t zu L{\"u}beck}%
+    }
+    \field{type}{techreport}
+    \field{year}{2020}
+  \endentry
+\enddatalist
+\endinput

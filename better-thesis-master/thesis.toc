@@ -1,0 +1,28 @@
+\contentsline {chapter}{Introduction}{3}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Important first chapter}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Some extra assorted hints before you start writing English}{6}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Architecture}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Model}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}BERT}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}GPT}{10}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Data}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Train data}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Real time data}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Example with some mathematics}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Extra typesetting hints}{10}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Results and discussion}{13}{chapter.3}%
+\contentsline {section}{\numberline {3.1}SuperProgram is faster than OldAlgorithm}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Scalability estimation}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Precision of the results}{15}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Weird theorem is proven by induction}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Amount of code reduced by CodeRedTool}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Example}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Performance on real codebases}{15}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}\sloppy NeuroticHelper improves neural network learning}{15}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Graphics and figure quality}{15}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Visualize all important ideas}{15}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Make the figures comprehensible}{16}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}What is a discussion?}{17}{section.3.6}%
+\contentsline {chapter}{Conclusion}{19}{chapter*.11}%
+\contentsline {chapter}{Bibliography}{21}{chapter*.13}%
+\contentsline {chapter}{\numberline {A}Using CoolThesisSoftware}{23}{appendix.A}%
