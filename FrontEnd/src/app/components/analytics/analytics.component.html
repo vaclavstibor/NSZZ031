@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <main>
+            <h1>Analytics</h1>
+            <!-- Analyses -->
+            <!-- <marquee behavior="scroll" direction="left"></marquee> https://www.youtube.com/watch?v=sVZX0XvEBhk&t=130s-->
+            <div class="analyse">
+                <div class="sales">
+                    <mat-spinner color="primary"></mat-spinner>
+                </div>
+                <div class="sales">
+                    <mat-spinner color="warn"></mat-spinner>
+                </div>
+                <div class="sales">
+                    <mat-spinner color="accent"></mat-spinner>
+                </div>
+            </div>
+
+            <div class="sentiment-chart-block">
+                <h2>Sentiment</h2>
+                <div>
+                    <app-sentiment-chart></app-sentiment-chart>
+                </div>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>

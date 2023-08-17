@@ -1,0 +1,8 @@
+{
+    "/api": {
+      "target": "http://samples.openweathermap.org", 
+      "secure": false,
+      "changeOrigin": false
+    }
+  }
+  
