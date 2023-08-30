@@ -2,6 +2,7 @@ main {
     margin-top: 1.4rem;
 }
 
+
 main .analyse {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

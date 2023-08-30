@@ -17,13 +17,15 @@ import { MatSelectModule } from '@angular/material/select';
 import { SentimentChartComponent } from './components/analytics/widgets/sentiment-chart/sentiment-chart.component';
 import { SentimentService } from './sentiment.service';
 import { CanvasJSAngularChartsModule } from '@canvasjs/angular-charts';
+import { MarqueeNewsComponent } from './components/analytics/widgets/marquee-news/marquee-news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AnalyticsComponent,
     ProgressCircleBarComponent,
-    SentimentChartComponent
+    SentimentChartComponent,
+    MarqueeNewsComponent
   ],
   imports: [
     BrowserModule,

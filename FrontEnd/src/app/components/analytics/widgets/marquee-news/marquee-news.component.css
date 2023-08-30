@@ -1,0 +1,24 @@
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Adjust this to your container's width */
+}
+
+.marquee-content {
+    display: flex;
+    animation: marquee 20s linear infinite; /* Double the duration for two sets of content */
+}
+
+.marquee-item {
+    white-space: nowrap;
+    padding: 10px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); /* Move two sets of content (100%) to the left */
+    }
+}
