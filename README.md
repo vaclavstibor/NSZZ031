@@ -1,16 +1,13 @@
 # NPRG045
-## APIs
-- https://www.linkedin.com/pulse/10-alternatives-newsapi-newsdata-bing-news-yahoo-more-vikash/
-### MBOUM
 
-### yfinance
-- Nemezený počet dotazů
-#### News
-- Poskytuje
-    - Titulek
-    - Publisher
-    - Link na článek
-    - Related tickers
+- Pokračování s rss kanály yahoo, nutné získat related tickers
+## APIs
+- [https://www.linkedin.com/pulse/10-alternatives-newsapi-newsdata-bing-news-yahoo-more-vikash/]
+- MBOUM
+- yfinance (non official Yahoo!)
+    - Nemezený počet dotazů
+    - `news()`
+    - Proč nepoužívat yfinance pro analýzu sentimentu [https://analyzingalpha.com/yfinance-python]
     - ```
         {'uuid': '50b7811e-82a0-31ff-8916-781fa5678d5a', 
          'title': 'Earnings, Fed Decision, Jobs Data Are Key This Week. One Thing’s More Important.', 
@@ -21,7 +18,10 @@
          'thumbnail': {'resolutions': [{'url': 'https://s.yimg.com/uu/api/res/1.2/iXgzsWpiRgKbrTNXnh6jqw--~B/aD02NDA7dz0xMjc5O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/fa92d09e55c95de75a80bed7faaa9e0b', 'width': 1279, 'height': 640, 'tag': 'original'}, {'url': 'https://s.yimg.com/uu/api/res/1.2/VmOvcAxXCZLy6y92AMv56Q--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/fa92d09e55c95de75a80bed7faaa9e0b', 'width': 140, 'height': 140, 'tag': '140x140'}]}, 
          'relatedTickers': ['AAPL', 'AMD', '^GSPC', 'STLAM.MI', 'F']}
         ```
+- Finnhub
 
+## Proč není API  tomto případě ideální?
+API funguje na principu dotazování, to znamená že bychom se museli neustále dotazovat. Websockety by byly lepším řešení, pokud se bavíme o vytvoření API, jenž by bylo možné poskytovat vnějším systémům pro obchodování. Pokud by se jednalo pouze o vizuální webovou aplikaci pro uživatele postačilo by nám API, které by se dotázalo pokaždé po otevření stránky s detailem daného symbolu.
 
 ## Implementační návrhy
 - Zachytávání ceny v čase zveřejnění článku. Pro analýzu/vizualizaci možného dopadu. Dobré také jako mini featura v detailu.
