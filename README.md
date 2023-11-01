@@ -23,6 +23,8 @@
 ## Proč není API  tomto případě ideální?
 API funguje na principu dotazování, to znamená že bychom se museli neustále dotazovat. Websockety by byly lepším řešení, pokud se bavíme o vytvoření API, jenž by bylo možné poskytovat vnějším systémům pro obchodování. Pokud by se jednalo pouze o vizuální webovou aplikaci pro uživatele postačilo by nám API, které by se dotázalo pokaždé po otevření stránky s detailem daného symbolu.
 
+## RSS, WebSub, Atom
+
 ## Implementační návrhy
 - Zachytávání ceny v čase zveřejnění článku. Pro analýzu/vizualizaci možného dopadu. Dobré také jako mini featura v detailu.
 

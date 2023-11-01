@@ -2,8 +2,15 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 import re
+import pandas as pd
+from IPython.display import display
 
-rss_channels = ["https://finance.yahoo.com/news/rss"]
+rss_channel = "https://finance.yahoo.com/news/rss"
+
+titles = []
+links = []
+dates = []
+symbols = []
 
 def get_related_tickers(url: str):
     response = requests.get(url)
@@ -22,17 +29,18 @@ def get_related_tickers(url: str):
             if tickers:
                 unique_tickers = list(set(tickers))  # Remove duplicates
                 print("Tickers mentioned in the article:", unique_tickers)
+                return unique_tickers
+
             else:
-                print("No tickers mentioned in the article.")
+                return "No tickers mentioned in the article."
 
         else:
-            print("Article content not found on the page.")
+            return "Article content not found on the page."
 
     else:
-        print('Error fetching the article. Status code:', response.status_code)
+        return "Error fetching the article. Status code:" + str(response.status_code)
 
 def parse_rss(url):
-    limit = 0
     feed = feedparser.parse(url)
 
     if feed.get("bozo_exception"):
@@ -40,12 +48,21 @@ def parse_rss(url):
         return
 
     for entry in feed.entries:
-        print(entry.title)
-        print(entry.link)
-        print(entry.published)
-        print("\n")
-        get_related_tickers(entry.link)
+        titles.append(entry.title)
+        links.append(entry.link)
+        dates.append(entry.published)
+        #symbols.append(get_related_tickers(entry.link))
+
+    data = {
+        'title': titles,
+        'link':  links,
+        'date': dates,
+    }
+
+    df = pd.DataFrame(data)
+    df = df.sort_values('link')
+
+    display(df)
 
 if __name__ == "__main__":
-    for rss in rss_channels:
-        parse_rss(rss)
+    parse_rss(rss_channel)

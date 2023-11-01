@@ -1,18 +1,22 @@
 import yfinance as yf
 
-aapl = yf.Ticker('AAPL')
+tickers = {
+    "AAPL": yf.Ticker('AAPL'),
+    "MSFT": yf.Ticker('MSFT'),
+    "SPY": yf.Ticker('SPY')
+}
 
-# Get all stock news
-news_data = aapl.news
+def get_articles(news_data):
+    # Print news attributes in a structured format
+    for article in news_data:  
+        print("\n")  
+        print("Title: " + article['title'])
+        print("Related Tickers: " + ', '.join(article['relatedTickers']))    
+        print("Publisher: " + article['publisher'])
+        try:
+            print("Description: " + article['summary'])
+        except:
+            print("Description: None")
 
-for article in news_data:
-    print(article)
-    print("\n")
-
-# Print news attributes in a structured format
-for article in news_data:
-    print("Title: " + article['title'])
-    print("Publisher: " + article['publisher'])
-    print("Link: " + article['link'])
-    print("Related Tickers: " + ', '.join(article['relatedTickers']))
-    print("\n")
+for ticker in tickers.values():
+    get_articles(ticker.news)
