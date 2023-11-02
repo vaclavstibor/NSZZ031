@@ -1,0 +1,8 @@
+{
+    "New York Times": {
+        "rss": [
+            "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+            "https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml"
+        ]
+    }
+}
