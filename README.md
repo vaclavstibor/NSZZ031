@@ -8,6 +8,9 @@
     - Nemezený počet dotazů
     - `news()`
     - Proč nepoužívat yfinance pro analýzu sentimentu [https://analyzingalpha.com/yfinance-python]
+    - Is there an alternative to Yahoo Finance? Being an unofficial library, it is not uncommon for yfinance to suddenly stop working. Thus, having another free alternative is essential.
+    
+    - Although less popular, YahooQuery is another open-source Python library that fetches data from Yahoo Finance. You can install it simply by typing “pip install yahooquery” on your terminal. The library is also actively maintained and decently documented (Github / Documentation).
     - ```
         {'uuid': '50b7811e-82a0-31ff-8916-781fa5678d5a', 
          'title': 'Earnings, Fed Decision, Jobs Data Are Key This Week. One Thing’s More Important.', 
@@ -30,3 +33,6 @@ API funguje na principu dotazování, to znamená že bychom se museli neustále
 
 ## News filter 
 - Filtrování na základě klíčových slov (https://scanz.com/smart-ways-to-create-keyword-based-news-scans/)
+
+### Poznámky
+Jakmile se kvantita stane hlavním důrazem, kvalita nevyhnutelně trpí. 
