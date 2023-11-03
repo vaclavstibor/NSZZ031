@@ -10,6 +10,7 @@ rss_channel = "https://finance.yahoo.com/news/rss"
 titles = []
 links = []
 dates = []
+description = []
 symbols = []
 
 def get_related_tickers(url: str):
@@ -63,6 +64,7 @@ def parse_rss(url):
     df = df.sort_values('link')
 
     display(df)
+    print("\n")
 
 if __name__ == "__main__":
     parse_rss(rss_channel)

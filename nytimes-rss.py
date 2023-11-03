@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-rss_channels = ["https://rss.nytimes.com/services/xml/rss/nyt/World.xml"]
+rss_channels = ["https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"]
 
 def parse_rss(url):
     limit = 0
