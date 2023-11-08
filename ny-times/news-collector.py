@@ -2,8 +2,21 @@ import argparse
 import json
 
 class NewsCollector:
-    def __init__(self,sources='sources.json'):
+    
+    def __init__(self,sources='./ny-times/sources.json'):
         self.sources = Utils.load_sources(sources)
+
+    def execute(self):
+        try:
+            print("execute")
+        except Exception as err:
+            print(f'ERROR: Unexpected {err=}, {type(err)=}')
+            raise
+            
+class Scraper:
+
+    def __init__(self,sources):
+        self.sources = sources
 
 class Utils:
     def load_sources(file: str):
