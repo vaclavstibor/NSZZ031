@@ -1,5 +1,5 @@
 {
     "New York Times": {
-        "api": "https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key="
+        "api": "https://api.nytimes.com/svc/news/v3/content/all/business.json?api-key="
     }
 }
