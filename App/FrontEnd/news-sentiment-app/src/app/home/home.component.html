@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    
+    <section class="hidden">
+        <h1>News Sentiment App works!</h1>   
+    </section>
+    
+    <section class="hidden">
+        <h2>This is {{title}}</h2>
+        <p>Change the title here:</p>
+        <input type="text" #input [value]="title" (keyup)="updateTitle(input.value)">
+    </section>
+
+    <section class="hidden">
+        <h2>Data sources</h2>
+        <div class="logos">
+            <div class="logo hidden">            
+                <img src="assets/images/new-york-times-icon.svg">
+            </div>
+            <div class="logo hidden">            
+                <img src="assets/images/reuters-icon.svg">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hidden">
+        <h2>It's still working!</h2>
+        <p>It's awesome that something like this is still working!</p>
+    </section>
+
+</body>
+</html>
