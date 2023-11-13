@@ -1,11 +1,21 @@
 # NPRG045
 
 ## Data
-Grafová síť tvořená společnostmi vyskytujících se v článku (relativní vrcholy grafu reprezentuje průnik s FORTUNE 500, momentálně za rok 2022). Hrany reprezetují vztahy mezi společnostmi. Každá společnost má odkaz na id článku, který je zaznamenán (například) v .json s analyzovaným sentimentem (nejlépe z pohledu každé společnosti zmíněné v článku) a dalšími atributy.
+Grafová síť tvořená společnostmi vyskytujících se v článku (relevenatní vrcholy grafu reprezentuje průnik s FORTUNE 500, momentálně za rok 2022). Každý vrchol představuje jednu společnost. Společnost o sobě nese několik infromací, jejichž soubor můžeme/nažýváme kontextem. Společnosti jsou mezi sebou pospojovány na základě vytvořených vztahů/hran z článku. Každá společnost má odkaz na id článku, který je zaznamenán (například) v .json s analyzovaným sentimentem (nejlépe z pohledu každé společnosti zmíněné v článku) a dalšími atributy.
 
 New York Times Api nám přináší výhodu ve formě vybraných společností, které článek zmiňuje. Za nevýhodu bych mohli brát to, že se nejedná o stream dat, tj. nemůžeme se připojit na server a aktivně odchytávat nově zveřejněné články/publikace. V našem případě tento fakt není (domněnka) důležitý, protože se jedná (spíše) o predikce v delším časovém horizontu. Jiná situace by byla, pokud bychom analyzovali například pouze titulky. Vystačíme si s periodickým dotazováním API (perioda zatím nastavena na 1D).
 
 ---
+https://eoddata.com/symbols.aspx
+- List of Symbols for New York Stock Exchange [NYSE]
+- List of Symbols for NASDAQ Stock Exchange [NASDAQ]
+---
+Bloomberg - https://www.bloomberg.com/professional/product/event-driven-feeds/
+- Přístup k real-time datum lze získat pouze přes vyučujícího.
+DB
+- Neo4j (lpg)
+- https://medium.com/geekculture/labeled-vs-typed-property-graphs-all-graph-databases-are-not-the-same-efdbc782f099
+
 - Pokračování s rss kanály yahoo, nutné získat related tickers
 ## APIs
 - [https://www.linkedin.com/pulse/10-alternatives-newsapi-newsdata-bing-news-yahoo-more-vikash/]
