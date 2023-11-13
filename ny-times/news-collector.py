@@ -5,8 +5,6 @@ import os
 import requests
 import datetime
 
-# Add rest of api.ipynb implementation
-
 class NewsCollector:
     
     def __init__(self):
@@ -89,7 +87,7 @@ class DataManager:
                 try:
                     current_time = datetime.datetime.now()
                     content_response = json.loads(r.content)
-                    with open(f'./output/all/business-{current_time.day}-{current_time.month}-{current_time.year}.json', 'w', encoding='utf-8') as f:
+                    with open(f'./data/all/business-{current_time.day}-{current_time.month}-{current_time.year}.json', 'w', encoding='utf-8') as f:
                         json.dump(content_response, f, ensure_ascii=False, indent=4)
                         print(f"INFO: Response content was successfully written into file {f.name}")
                 except Exception as err:
@@ -109,7 +107,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    dm = DataManager(args.sources)
+    #dm = DataManager(args.sources)
 
     #collector = NewsCollector(args.sources)
     #collector.run()
