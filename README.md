@@ -1,5 +1,11 @@
 # NPRG045
 
+## Data
+Grafová síť tvořená společnostmi vyskytujících se v článku (relativní vrcholy grafu reprezentuje průnik s FORTUNE 500, momentálně za rok 2022). Hrany reprezetují vztahy mezi společnostmi. Každá společnost má odkaz na id článku, který je zaznamenán (například) v .json s analyzovaným sentimentem (nejlépe z pohledu každé společnosti zmíněné v článku) a dalšími atributy.
+
+New York Times Api nám přináší výhodu ve formě vybraných společností, které článek zmiňuje. Za nevýhodu bych mohli brát to, že se nejedná o stream dat, tj. nemůžeme se připojit na server a aktivně odchytávat nově zveřejněné články/publikace. V našem případě tento fakt není (domněnka) důležitý, protože se jedná (spíše) o predikce v delším časovém horizontu. Jiná situace by byla, pokud bychom analyzovali například pouze titulky. Vystačíme si s periodickým dotazováním API (perioda zatím nastavena na 1D).
+
+---
 - Pokračování s rss kanály yahoo, nutné získat related tickers
 ## APIs
 - [https://www.linkedin.com/pulse/10-alternatives-newsapi-newsdata-bing-news-yahoo-more-vikash/]
@@ -22,6 +28,15 @@
          'relatedTickers': ['AAPL', 'AMD', '^GSPC', 'STLAM.MI', 'F']}
         ```
 - Finnhub
+
+## Optimlaizace skenování RSS kanálu
+Začneme na jednom skenování denně.
+
+## GDELT - knowledge graph
+- Updatování databáze každých 15 min - https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/
+- Použít jako https://odupuis.medium.com/consuming-the-gdelt-projects-events-database-13e4b7def2ce a updatovat vlastní databázy
+- Vizualizace pomocí three js https://medium.com/neo4j/visualizing-graphs-in-3d-with-webgl-9adaaff6fe43 možná https://www.esri.com/arcgis-blog/products/js-api-arcgis/3d-gis/interactive-3d-globe/
+- Vizualizace Země - https://isotropic.co/3d-globe-on-website/ 
 
 ## Proč není API  tomto případě ideální?
 API funguje na principu dotazování, to znamená že bychom se museli neustále dotazovat. Websockety by byly lepším řešení, pokud se bavíme o vytvoření API, jenž by bylo možné poskytovat vnějším systémům pro obchodování. Pokud by se jednalo pouze o vizuální webovou aplikaci pro uživatele postačilo by nám API, které by se dotázalo pokaždé po otevření stránky s detailem daného symbolu.
