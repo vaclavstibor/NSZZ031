@@ -5,6 +5,8 @@ Grafová síť tvořená společnostmi vyskytujících se v článku (relevenatn
 
 New York Times Api nám přináší výhodu ve formě vybraných společností, které článek zmiňuje. Za nevýhodu bych mohli brát to, že se nejedná o stream dat, tj. nemůžeme se připojit na server a aktivně odchytávat nově zveřejněné články/publikace. V našem případě tento fakt není (domněnka) důležitý, protože se jedná (spíše) o predikce v delším časovém horizontu. Jiná situace by byla, pokud bychom analyzovali například pouze titulky. Vystačíme si s periodickým dotazováním API (perioda zatím nastavena na 1D).
 
+Vizualizace https://neo4j.com/developer-blog/15-tools-for-visualizing-your-neo4j-graph-database/
+- KeyLens
 ---
 https://eoddata.com/symbols.aspx
 - List of Symbols for New York Stock Exchange [NYSE]
