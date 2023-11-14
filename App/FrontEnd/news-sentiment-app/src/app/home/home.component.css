@@ -11,7 +11,8 @@
 
 .logos {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 3rem;
 }
 
 .logos > * {
@@ -24,7 +25,9 @@
     background-color: #e3e3e3;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
-    padding: 10px;
+    /*padding: 10px;*/
+    padding:2rem;
+    padding-bottom: 1.8rem;
 }
 
 .logos img {
@@ -47,4 +50,8 @@
 
 .logo:nth-child(2) {
     transition-delay: 300ms;
+}
+
+.logo:nth-child(3) {
+    transition-delay: 400ms;
 }
