@@ -6,18 +6,21 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 import { RouterModule } from '@angular/router';
+import { GraphComponent } from './graph/graph.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    GraphComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      { path: '', pathMatch: 'full', redirectTo: 'home'},
+      { path: '', component: HomeComponent},
       { path: 'home', component: HomeComponent },
+      { path: 'graph', component: GraphComponent}
     ])
   ],
   providers: [],
