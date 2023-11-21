@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-</head>
-<body>
-    
-    <section class="hidden">
-        <h1>News Sentiment App works!</h1>   
-    </section>
-    
-    <section class="hidden">
-        <h2>This is {{title}}</h2>
-        <p>Change the title here:</p>
-        <input type="text" #input [value]="title" (keyup)="updateTitle(input.value)">
-    </section>
-
-    <section class="hidden">
-        <h2>Data sources</h2>
-        <div class="logos">
-            <div class="logo hidden">            
-                <a target="_blank" href="https://www.nytimes.com"><img src="assets/images/new-york-times-icon.svg"></a>
-            </div>
-            <div class="logo hidden">            
-                <a target="_blank" href="https://www.reuters.com"><img src="assets/images/reuters-icon.svg"></a>
-            </div>
-            <div class="logo hidden">            
-                <a target="_blank" href="https://www.factset.com"><img src="assets/images/factset-icon.svg"></a>
-            </div>            
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" routerLink="/">GlobeSense</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" routerLink="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/graph">Graph</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
+    <section class="hidden">
+      <h1>News Sentiment App works!</h1>
     </section>
 
     <section class="hidden">
-        <h2>It's still working!</h2>
-        <p>It's awesome that something like this is still working!</p>
+      <h2>This is {{ title }}</h2>
+      <p>Change the title here:</p>
+      <input
+        type="text"
+        #input
+        [value]="title"
+        (keyup)="updateTitle(input.value)"
+      />
     </section>
 
-</body>
+    <section class="hidden">
+      <h2>Data sources</h2>
+      <div class="logos">
+        <div class="logo hidden">
+          <a target="_blank" href="https://www.nytimes.com"
+            ><img src="assets/images/new-york-times-icon.svg"
+          /></a>
+        </div>
+        <div class="logo hidden">
+          <a target="_blank" href="https://www.reuters.com"
+            ><img src="assets/images/reuters-icon.svg"
+          /></a>
+        </div>
+        <div class="logo hidden">
+          <a target="_blank" href="https://www.factset.com"
+            ><img src="assets/images/factset-icon.svg"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hidden">
+      <h2>It's still working!</h2>
+      <p>It's awesome that something like this is still working!</p>
+    </section>
+  </body>
 </html>
