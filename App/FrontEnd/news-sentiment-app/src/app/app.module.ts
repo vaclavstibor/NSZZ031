@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 
 import { RouterModule } from '@angular/router';
 import { GraphComponent } from './graph/graph.component';
+import { GraphCosmosComponent } from './graph-cosmos/graph-cosmos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    GraphComponent
+    GraphComponent,
+    GraphCosmosComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import { GraphComponent } from './graph/graph.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent},
       { path: 'home', component: HomeComponent },
-      { path: 'graph', component: GraphComponent}
+      { path: 'graph', component: GraphComponent},
+      { path: 'graph-cosmos', component: GraphCosmosComponent}
     ])
   ],
   providers: [],
