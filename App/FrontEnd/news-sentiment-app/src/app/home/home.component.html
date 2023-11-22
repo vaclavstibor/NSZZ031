@@ -3,79 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Home</title>
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" routerLink="/">
-          <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="GlobeSense" />
-          GlobeSense
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item active">
-              <a class="nav-link" routerLink="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLink="/graph">Graph</a>
-            </li>
-          </ul>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">
+            <a class="navbar-brand" routerLink="/">
+            <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="GlobeSense"/>  
+            GlobeSense
+            </a>
+          </h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" routerLink="/">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" routerLink="/graph">3D Force Graph</a>
+            <a class="nav-link fw-bold py-1 px-0" href="/graph-cosmos">Cosmos Graph</a>            
+          </nav>
         </div>
-      </div>
-    </nav>
+      </header>
 
-    <section class="hidden">
-      <h1>News Sentiment App works!</h1>
-    </section>
+      <main class="px-3">
+        <section>
+        <h1>News Sentiment App works! </h1>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Nullam rhoncus aliquam metus. Aliquam id dolor. Aenean id metus id velit ullamcorper pulvinar. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
+        </p>
+        </section>
 
-    <section class="hidden">
-      <h2>This is {{ title }}</h2>
-      <p>Change the title here:</p>
-      <input
-        type="text"
-        #input
-        [value]="title"
-        (keyup)="updateTitle(input.value)"
-      />
-    </section>
+        <section>
+          <h2>This is {{ title }}</h2>
+          <p>Change the title here:</p>
+          <input
+            type="text"
+            #input
+            [value]="title"
+            (keyup)="updateTitle(input.value)"
+          />
+        </section>
 
-    <section class="hidden">
-      <h2>Data sources</h2>
-      <div class="logos">
-        <div class="logo hidden">
-          <a target="_blank" href="https://www.nytimes.com"
-            ><img src="assets/images/new-york-times-icon.svg"
-          /></a>
-        </div>
-        <div class="logo hidden">
-          <a target="_blank" href="https://www.reuters.com"
-            ><img src="assets/images/reuters-icon.svg"
-          /></a>
-        </div>
-        <div class="logo hidden">
-          <a target="_blank" href="https://www.factset.com"
-            ><img src="assets/images/factset-icon.svg"
-          /></a>
-        </div>
-      </div>
-    </section>
+        <section class="hidden">
+          <h2>Data sources</h2>
+          <div class="logos">
+            <div class="logo hidden">
+              <a target="_blank" href="https://www.nytimes.com"
+                ><img src="assets/images/new-york-times-icon.svg"
+              /></a>
+            </div>
+            <div class="logo hidden">
+              <a target="_blank" href="https://www.reuters.com"
+                ><img src="assets/images/reuters-icon.svg"
+              /></a>
+            </div>
+            <div class="logo hidden">
+              <a target="_blank" href="https://www.factset.com"
+                ><img src="assets/images/factset-icon.svg"
+              /></a>
+            </div>
+          </div>
+        </section>
+        
+        <section class="hidden">
+          <h2>It's still working!</h2>
+          <p>It's awesome that something like this is still working!</p>
+        </section>
+      
+      </main>
 
-    <section class="hidden">
-      <h2>It's still working!</h2>
-      <p>It's awesome that something like this is still working!</p>
-    </section>
+      <footer class="mt-auto text-white-50">
+        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+      </footer>
+    </div>
+
   </body>
 </html>
