@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { GraphComponent } from './graph/graph.component';
+import { GraphCosmosComponent } from './graph-cosmos/graph-cosmos.component';
 
 const routes: Routes = [
   {
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'graph',
     component: GraphComponent
+  },
+  {
+    path: 'graph-cosmos',
+    component: GraphCosmosComponent
   }
 ];
 
