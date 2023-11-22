@@ -1,3 +1,8 @@
+/* 
+Note: Důležité si uvědomit, že pokud má nějaký uzel 3M hran a v query 
+nespecifikujeme název hrany, tak je 3M krát pomalejší, než když ji specifikujeme.
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 import ForceGraph3D, { 
@@ -5,7 +10,7 @@ import ForceGraph3D, {
   ForceGraph3DInstance 
 } from "3d-force-graph";
 
-import neo4j, { Transaction, Record } from 'neo4j-driver';
+import neo4j, { Transaction, Record, graph } from 'neo4j-driver';
 
 @Component({
   selector: 'app-graph',
@@ -13,7 +18,8 @@ import neo4j, { Transaction, Record } from 'neo4j-driver';
   styleUrls: ['./graph.component.css']
 })
 export class GraphComponent implements OnInit {
-  
+  graph: any;
+
   data: {
     nodes: any;
     links: any[];
@@ -37,8 +43,8 @@ export class GraphComponent implements OnInit {
     const start = new Date();
     try {
       const result = await session.run(
-        'MATCH (n)-->(m) RETURN { id: id(n), label:head(labels(n)), value:n.value, abstract:n.abstract } as source, { id: id(m), label:head(labels(m)), value:m.value, abstract:m.abstract } as target LIMIT $limit', 
-        {limit: neo4j.int(5000)}
+        'MATCH (k:Keyword)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(k), label:head(labels(k)), value:k.value } as source, { id: id(a), label:head(labels(a)), abstract:a.abstract } as target LIMIT $limit', 
+        {limit: neo4j.int(3000)}
       );
       const nodes: {[key: number]: any} = {};
       const links = result.records.map((r:Record) => { 
@@ -60,22 +66,27 @@ export class GraphComponent implements OnInit {
 
       console.log(links.length + " links loaded in " + (new Date().getTime() - start.getTime()) + " ms.");
       const gData = { nodes: Object.values(nodes), links: links};
-      const Graph = ForceGraph3D()(document.getElementById('3d-graph') as HTMLElement)
+      this.graph = ForceGraph3D()(document.getElementById('3d-graph') as HTMLElement)
                     .graphData(gData)
                     .nodeAutoColorBy('label')
                     .nodeLabel((obj: object) => {
                       const node = obj as Node;
                       if (node.label === 'Keyword') {
-                        return `${node.label}: ${node.value}`;
+                        return `${node.value}`;
                       } else {
-                        return `${node.label}: ${node.abstract}`;
+                        return `${node.abstract}`;
                       }
                     })
-                    .onNodeHover(node => document.body.style.cursor = node ? 'pointer' : 'default');
+                    .onNodeHover(node => document.body.style.cursor = node ? 'pointer' : 'default')
+
     } catch (error) {
       console.log(error);
     } finally {
       await session.close();
     }
+  }
+
+  ngOnDestroy(): void {
+    this.graph = null;
   }
 }
