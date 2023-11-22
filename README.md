@@ -5,8 +5,16 @@ Grafová síť tvořená společnostmi vyskytujících se v článku (relevenatn
 
 New York Times Api nám přináší výhodu ve formě vybraných společností, které článek zmiňuje. Za nevýhodu bych mohli brát to, že se nejedná o stream dat, tj. nemůžeme se připojit na server a aktivně odchytávat nově zveřejněné články/publikace. V našem případě tento fakt není (domněnka) důležitý, protože se jedná (spíše) o predikce v delším časovém horizontu. Jiná situace by byla, pokud bychom analyzovali například pouze titulky. Vystačíme si s periodickým dotazováním API (perioda zatím nastavena na 1D).
 
-Vizualizace https://neo4j.com/developer-blog/15-tools-for-visualizing-your-neo4j-graph-database/
-- KeyLens
+Vizualizace
+- KeyLens - placené
+- 3d-force-graph (WebGL)
+- Forced-directed tree (SVG) [https://observablehq.com/@d3/force-directed-tree?intent=fork]
+- Cosmograph/cosmos - neposkytuje timeline, není příliš spolehlivou knihovnou
+- Sigma 
+- D3 [https://stackoverflow.com/questions/50789482/is-it-possible-visualize-large-graph-in-d3]
+- https://npmtrends.com/3d-force-graph-vs-d3-vs-d3.js-vs-mxgraph-vs-sigma
+- https://imld.de/cnt/uploads/Horak-2018-Graph-Performance.pdf
+- https://neo4j.com/developer-blog/15-tools-for-visualizing-your-neo4j-graph-database/
 ---
 https://eoddata.com/symbols.aspx
 - List of Symbols for New York Stock Exchange [NYSE]
