@@ -1,82 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>Home</title>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
-        <div>
-          <h3 class="float-md-start mb-0">
-            <a class="navbar-brand" routerLink="/">
-            <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="GlobeSense"/>  
-            GlobeSense
-            </a>
-          </h3>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" routerLink="/">Home</a>
-            <a class="nav-link fw-bold py-1 px-0" routerLink="/graph">3D Force Graph</a>
-            <a class="nav-link fw-bold py-1 px-0" href="/graph-cosmos">Cosmos Graph</a>            
-          </nav>
-        </div>
-      </header>
 
-      <main class="px-3">
-        <section>
-        <h1>News Sentiment App works! </h1>
-        <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis diam. Nullam rhoncus aliquam metus. Aliquam id dolor. Aenean id metus id velit ullamcorper pulvinar. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin et, dolor.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">
+          <a class="navbar-brand" routerLink="/">
+            <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top"
+              alt="GlobeSense" />
+            <span class="ms-1">GlobeSense</span>
+          </a>
+        </h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" routerLink="/">Home</a>
+          <a class="nav-link fw-bold py-1 px-0" routerLink="/graph">3D Force Graph</a>
+          <a class="nav-link fw-bold py-1 px-0" href="/graph-cosmos">Cosmos Graph</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="px-3">
+      <section class="cover-section">
+        <h1>News Sentiment App works!</h1>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla quis
+          diam. Nullam rhoncus aliquam metus. Aliquam id dolor. Aenean id
+          metus id velit ullamcorper pulvinar. Duis sapien nunc, commodo et,
+          interdum suscipit, sollicitudin et, dolor.
+        </p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
         </p>
-        </section>
+      </section>
 
-        <section>
-          <h2>This is {{ title }}</h2>
-          <p>Change the title here:</p>
-          <input
-            type="text"
-            #input
-            [value]="title"
-            (keyup)="updateTitle(input.value)"
-          />
-        </section>
-
-        <section class="hidden">
-          <h2>Data sources</h2>
-          <div class="logos">
-            <div class="logo hidden">
-              <a target="_blank" href="https://www.nytimes.com"
-                ><img src="assets/images/new-york-times-icon.svg"
-              /></a>
-            </div>
-            <div class="logo hidden">
-              <a target="_blank" href="https://www.reuters.com"
-                ><img src="assets/images/reuters-icon.svg"
-              /></a>
-            </div>
-            <div class="logo hidden">
-              <a target="_blank" href="https://www.factset.com"
-                ><img src="assets/images/factset-icon.svg"
-              /></a>
-            </div>
+      <section class="cover-section">
+        <h2>Data sources</h2>
+        <div class="logos">
+          <div class="jumbotron rounded" data-mdb-toggle="animation" data-mdb-animation-start="onHover"
+            data-mdb-animation-reset="true" data-mdb-animation="slide-right">
+            <a target="_blank" href="">
+              <img src="assets/images/new-york-times-icon.svg" alt="new-york-times" />
+            </a>
           </div>
-        </section>
-        
-        <section class="hidden">
-          <h2>It's still working!</h2>
-          <p>It's awesome that something like this is still working!</p>
-        </section>
-      
-      </main>
+          <div class="jumbotron rounded" data-mdb-toggle="animation" data-mdb-animation-start="onHover"
+            data-mdb-animation-reset="true" data-mdb-animation="slide-right">
+            <a target="_blank" href="">
+              <img src="assets/images/new-york-times-icon.svg" alt="new-york-times" />
+            </a>
+          </div>
+          <div class="jumbotron rounded" data-mdb-toggle="animation" data-mdb-animation-start="onHover"
+            data-mdb-animation-reset="true" data-mdb-animation="slide-right">
+            <a target="_blank" href="">
+              <img src="assets/images/new-york-times-icon.svg" alt="new-york-times" />
+            </a>
+          </div>
+        </div>
+      </section>
 
-      <footer class="mt-auto text-white-50">
-        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-      </footer>
-    </div>
+      <section class="cover-section">
+        <h2>This is {{ title }}</h2>
+        <p>Change the title here:</p>
+        <input type="text" #input [value]="title" (keyup)="updateTitle(input.value)" />
+      </section>
 
-  </body>
+      <section class="cover-section">
+        <h2>It's still working!</h2>
+        <p>It's awesome that something like this is still working!</p>
+      </section>
+    </main>
+
+    <footer class="mt-auto text-white-50">
+      <p>
+        Cover template for
+        <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>,
+        by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.
+      </p>
+    </footer>
+  </div>
+</body>
+
 </html>
