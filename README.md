@@ -1,5 +1,12 @@
 # NPRG045
 
+## Úvod
+V dnešní době informační exploze a neustálého toku zpráv se stává stěžejním úkolem porozumět obsahu, který je distribuován prostřednictvím médií a online zpravodajství. Analýza sentimentu, tedy schopnost identifikovat a vyhodnotit emocionální náboj obsahu, se stala klíčovým nástrojem pro pochopení názorů, postojů a obecné atmosféry kolem různých témat. Tato práce se zaměřuje na vývoj aplikace, která umožňuje uživatelům vizualizovat a analyzovat sentiment zpráv v reálném čase, s využitím konceptu knowledge grafové sítě.
+
+Knowledge grafy se stávají stále populárnějším nástrojem pro reprezentaci a propojení informací. V naší aplikaci jsou využity k tomu, aby uživatelům umožnily nejen sledovat sentiment jednotlivých zpráv, ale také propojovat a vizualizovat vztahy mezi společnostmi prostřednictvím článků. Tímto způsobem mohou uživatelé získat holistický pohled na dění ve světě a porozumět interakcím mezi různými subjekty.
+
+V práci se budeme zabývat jak technickými aspekty analýzy sentimentu, tak i návrhem a implementací aplikace, která tyto informace přenáší uživatelům co nejefektivněji. Cílem je poskytnout uživatelům nástroj, který jim umožní nejen pasivně konzumovat zprávy, ale aktivně sledovat a analyzovat tok informací s ohledem na emocionální podtón, a to v reálném čase.
+
 ## Data
 Grafová síť tvořená společnostmi vyskytujících se v článku (relevenatní vrcholy grafu reprezentuje průnik s FORTUNE 500, momentálně za rok 2022). Každý vrchol představuje jednu společnost. Společnost o sobě nese několik infromací, jejichž soubor můžeme/nažýváme kontextem. Společnosti jsou mezi sebou pospojovány na základě vytvořených vztahů/hran z článku. Každá společnost má odkaz na id článku, který je zaznamenán (například) v .json s analyzovaným sentimentem (nejlépe z pohledu každé společnosti zmíněné v článku) a dalšími atributy.
 
@@ -15,6 +22,7 @@ Vizualizace
 - https://npmtrends.com/3d-force-graph-vs-d3-vs-d3.js-vs-mxgraph-vs-sigma
 - https://imld.de/cnt/uploads/Horak-2018-Graph-Performance.pdf
 - https://neo4j.com/developer-blog/15-tools-for-visualizing-your-neo4j-graph-database/
+- !! [https://neo4j.com/blog/5-ways-to-tackle-big-graph-data-keylines-neo4j/]
 ---
 https://eoddata.com/symbols.aspx
 - List of Symbols for New York Stock Exchange [NYSE]
