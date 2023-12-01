@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form class="form mt-5">
+                <label for="exampleDataList" class="form-label">Search for ticker</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..."
+                    name="inputText" [(ngModel)]="inputText" (ngModelChange)="search()">
+                <datalist id="datalistOptions">
+                    <option *ngFor="let ticker of tickers" [value]="ticker.properties.name">
+                </datalist>
+            </form>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-sm-4" *ngFor="let ticker of tickers | paginate: { itemsPerPage:15, currentPage:page }">
+            <div class="card">
+                <h3 class="card-header">{{ticker.properties.name}}</h3>
+            </div>
+        </div>
+    </div>
+
+    <pagination-controls class="text-center" (pageChange)="page = $event"></pagination-controls>
+</div>

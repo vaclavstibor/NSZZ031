@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { GraphComponent } from './graph/graph.component';
 import { GraphCosmosComponent } from './graph-cosmos/graph-cosmos.component';
+import { TickersComponent } from './tickers/tickers.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,11 @@ const routes: Routes = [
   {
     path: 'graph-cosmos',
     component: GraphCosmosComponent
-  }
+  },
+  {
+    path: 'tickers',
+    component: TickersComponent
+  },
 ];
 
 @NgModule({

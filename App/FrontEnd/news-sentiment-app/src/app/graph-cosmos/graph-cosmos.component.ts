@@ -36,7 +36,7 @@ const config: GraphConfigInterface<Node, Link> = {
     linkSpring: 2,
     repulsion: 0.5,
     gravity: 0.5,
-    decay: 10,
+
   }};
 
 @Component({
@@ -61,7 +61,7 @@ export class GraphCosmosComponent implements OnInit {
     try {
       const result = await session.run(
         'MATCH (k:Keyword)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(k), label:head(labels(k)), value:k.value } as source, { id: id(a), label:head(labels(a)), abstract:a.abstract } as target LIMIT $limit', 
-        {limit: neo4j.int(10000)}
+        {limit: neo4j.int(100)}
       );
       const nodes: {[key: number]: any} = {};
       const links = result.records.map((r:Record) => { 

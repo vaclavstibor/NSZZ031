@@ -8,13 +8,18 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { GraphComponent } from './graph/graph.component';
 import { GraphCosmosComponent } from './graph-cosmos/graph-cosmos.component';
+import { TickersComponent } from './tickers/tickers.component';
+
+import { FormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     GraphComponent,
-    GraphCosmosComponent
+    GraphCosmosComponent,
+    TickersComponent
   ],
   imports: [
     BrowserModule,
@@ -23,8 +28,11 @@ import { GraphCosmosComponent } from './graph-cosmos/graph-cosmos.component';
       { path: '', component: HomeComponent},
       { path: 'home', component: HomeComponent },
       { path: 'graph', component: GraphComponent},
-      { path: 'graph-cosmos', component: GraphCosmosComponent}
-    ])
+      { path: 'graph-cosmos', component: GraphCosmosComponent},
+      { path: 'tickers', component: TickersComponent},
+    ]),
+    FormsModule,
+    NgxPaginationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

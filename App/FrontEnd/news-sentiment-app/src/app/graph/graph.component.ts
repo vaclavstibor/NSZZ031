@@ -43,7 +43,8 @@ export class GraphComponent implements OnInit {
     const start = new Date();
     try {
       const result = await session.run(
-        'MATCH (k:Keyword)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(k), label:head(labels(k)), value:k.value } as source, { id: id(a), label:head(labels(a)), abstract:a.abstract } as target LIMIT $limit', 
+        // NYT 'MATCH (k:Keyword)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(k), label:head(labels(k)), value:k.value } as source, { id: id(a), label:head(labels(a)), abstract:a.abstract } as target LIMIT $limit', 
+        'MATCH (t:Ticker)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(t), label:head(labels(t)), name:t.name } as source, { id: id(a), label:head(labels(a)), title:a.title, abstract:a.abstract } as target LIMIT $limit', 
         {limit: neo4j.int(3000)}
       );
       const nodes: {[key: number]: any} = {};
@@ -62,6 +63,8 @@ export class GraphComponent implements OnInit {
         caption: string;
         value: number;
         abstract: string;
+        name: string;
+        title: string;
       }
 
       console.log(links.length + " links loaded in " + (new Date().getTime() - start.getTime()) + " ms.");
@@ -71,10 +74,10 @@ export class GraphComponent implements OnInit {
                     .nodeAutoColorBy('label')
                     .nodeLabel((obj: object) => {
                       const node = obj as Node;
-                      if (node.label === 'Keyword') {
-                        return `${node.value}`;
+                      if (node.label === 'Ticker') {
+                        return `${node.name}`;
                       } else {
-                        return `${node.abstract}`;
+                        return `${node.title}`;
                       }
                     })
                     .onNodeHover(node => document.body.style.cursor = node ? 'pointer' : 'default')
