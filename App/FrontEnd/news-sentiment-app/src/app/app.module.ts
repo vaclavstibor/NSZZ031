@@ -12,6 +12,7 @@ import { TickersComponent } from './tickers/tickers.component';
 
 import { FormsModule } from '@angular/forms';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { NgPipesModule } from 'ngx-pipes';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     ]),
     FormsModule,
     NgxPaginationModule,
+    NgPipesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,6 +2,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { SearchService } from '../search.service';
+import { OrderByPipe } from 'ngx-pipes';
 
 @Component({
   selector: 'app-tickers',
@@ -21,7 +22,7 @@ export class TickersComponent implements OnInit {
 
   getAllTickers() {
     this.service.getTickers().then((res: any[])=>{
-      this.tickers = res;
+      this.tickers = new OrderByPipe().transform(res, 'properties.name');
       console.log(res);
     })
   }
