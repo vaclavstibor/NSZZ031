@@ -62,9 +62,13 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> 
    <dc:format>application/pdf</dc:format> 
-   <dc:title><rdf:Alt><rdf:li xml:lang="x-default">Název práce</rdf:li></rdf:Alt></dc:title>
-   <dc:creator><rdf:Seq><rdf:li>Jméno Příjmení</rdf:li></rdf:Seq></dc:creator>
-   <dc:publisher><rdf:Bag><rdf:li>Univerzita Karlova</rdf:li></rdf:Bag></dc:publisher>
+   <dc:title><rdf:Alt><rdf:li xml:lang="x-default">Thesis title</rdf:li></rdf:Alt></dc:title>
+   <dc:creator><rdf:Seq><rdf:li>Name Surname</rdf:li></rdf:Seq></dc:creator>
+   <dc:publisher><rdf:Bag><rdf:li>Charles University</rdf:li></rdf:Bag></dc:publisher>
+   <dc:description><rdf:Alt><rdf:li xml:lang="x-default">Abstract of thesis</rdf:li></rdf:Alt></dc:description>
+   <dc:subject><rdf:Bag><rdf:li>keywords</rdf:li>
+     <rdf:li>more such</rdf:li>
+     <rdf:li>yet another</rdf:li></rdf:Bag></dc:subject>
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:prism="http://prismstandard.org/namespaces/basic/2.2/"> 
   </rdf:Description> 
@@ -76,15 +80,15 @@
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> 
    <xmp:CreatorTool>LaTeX with hyperref</xmp:CreatorTool> 
-   <xmp:ModifyDate>2023-04-14T15:30:59+02:00</xmp:ModifyDate> 
-   <xmp:CreateDate>2023-04-14T15:30:59+02:00</xmp:CreateDate> 
-   <xmp:MetadataDate>2023-04-14T15:30:59+02:00</xmp:MetadataDate> 
+   <xmp:ModifyDate>2023-12-13T00:02:03+01:00</xmp:ModifyDate> 
+   <xmp:CreateDate>2023-12-13T00:02:03+01:00</xmp:CreateDate> 
+   <xmp:MetadataDate>2023-12-13T00:02:03+01:00</xmp:MetadataDate> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpRights = "http://ns.adobe.com/xap/1.0/rights/"> 
   </rdf:Description> 
   <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"> 
-   <xmpMM:DocumentID>uuid:743AFE61-977F-8D6E-84C2-29C6D98BC979</xmpMM:DocumentID> 
-   <xmpMM:InstanceID>uuid:D1C4EA90-58D9-4818-D361-1E5087D2AD46</xmpMM:InstanceID> 
+   <xmpMM:DocumentID>uuid:C8CFC28F-88E1-7995-E9AD-F6D12EAD346B</xmpMM:DocumentID> 
+   <xmpMM:InstanceID>uuid:FF8ED66E-E933-9797-1B44-AC8C4973DEFD</xmpMM:InstanceID> 
   </rdf:Description> 
  </rdf:RDF> 
 </x:xmpmeta> 
