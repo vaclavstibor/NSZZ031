@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  13 DEC 2023 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  21 DEC 2023 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,6 +486,17 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTleft=\skip70
 \LTright=\skip71
 \flrow@types=\toks38
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen182
+\ttl@minus=\dimen183
+\ttl@toksa=\toks39
+\titlewidth=\dimen184
+\titlewidthlast=\dimen185
+\titlewidthfirst=\dimen186
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/logreq/logreq.sty
@@ -537,14 +548,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@sectionciteorderinternal@0=\count342
 \blx@entrysetcounter=\count343
 \blx@biblioinstance=\count344
-\labelnumberwidth=\skip72
-\labelalphawidth=\skip73
-\biblabelsep=\skip74
-\bibitemsep=\skip75
-\bibnamesep=\skip76
-\bibinitsep=\skip77
-\bibparsep=\skip78
-\bibhang=\skip79
+\labelnumberwidth=\skip74
+\labelalphawidth=\skip75
+\biblabelsep=\skip76
+\bibitemsep=\skip77
+\bibnamesep=\skip78
+\bibinitsep=\skip79
+\bibparsep=\skip80
+\bibhang=\skip81
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language87
@@ -628,20 +639,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count413
 \c@pageref=\count414
 \c@savedpageref=\count415
-\shorthandwidth=\skip80
-\shortjournalwidth=\skip81
-\shortserieswidth=\skip82
-\shorttitlewidth=\skip83
-\shortauthorwidth=\skip84
-\shorteditorwidth=\skip85
-\locallabelnumberwidth=\skip86
-\locallabelalphawidth=\skip87
-\localshorthandwidth=\skip88
-\localshortjournalwidth=\skip89
-\localshortserieswidth=\skip90
-\localshorttitlewidth=\skip91
-\localshortauthorwidth=\skip92
-\localshorteditorwidth=\skip93
+\shorthandwidth=\skip82
+\shortjournalwidth=\skip83
+\shortserieswidth=\skip84
+\shorttitlewidth=\skip85
+\shortauthorwidth=\skip86
+\shorteditorwidth=\skip87
+\locallabelnumberwidth=\skip88
+\locallabelalphawidth=\skip89
+\localshorthandwidth=\skip90
+\localshortjournalwidth=\skip91
+\localshortserieswidth=\skip92
+\localshorttitlewidth=\skip93
+\localshortauthorwidth=\skip94
+\localshorteditorwidth=\skip95
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -720,7 +731,7 @@ Package: expl3 2023-02-22 L3 programming layer (loader)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count427
-\l__pdf_internal_box=\box57
+\l__pdf_internal_box=\box58
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2023-02-22 L3 programming layer (loader) 
@@ -734,16 +745,16 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
 \FV@CodeLineNo=\count428
 \FV@InFile=\read4
-\FV@TabBox=\box58
+\FV@TabBox=\box59
 \c@FancyVerbLine=\count429
 \FV@StepNumber=\count430
 \FV@OutFile=\write5
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks39
-\pgfutil@tempdima=\dimen182
-\pgfutil@tempdimb=\dimen183
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen187
+\pgfutil@tempdimb=\dimen188
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box60
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -751,30 +762,30 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks40
-\pgfkeys@temptoks=\toks41
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks42
+\pgfkeys@tmptoks=\toks43
 ))
-\pgf@x=\dimen184
-\pgf@y=\dimen185
-\pgf@xa=\dimen186
-\pgf@ya=\dimen187
-\pgf@xb=\dimen188
-\pgf@yb=\dimen189
-\pgf@xc=\dimen190
-\pgf@yc=\dimen191
-\pgf@xd=\dimen192
-\pgf@yd=\dimen193
+\pgf@x=\dimen189
+\pgf@y=\dimen190
+\pgf@xa=\dimen191
+\pgf@ya=\dimen192
+\pgf@xb=\dimen193
+\pgf@yb=\dimen194
+\pgf@xc=\dimen195
+\pgf@yc=\dimen196
+\pgf@xd=\dimen197
+\pgf@yd=\dimen198
 \w@pgf@writea=\write6
 \r@pgf@reada=\read5
 \c@pgf@counta=\count431
 \c@pgf@countb=\count432
 \c@pgf@countc=\count433
 \c@pgf@countd=\count434
-\t@pgf@toka=\toks43
-\t@pgf@tokb=\toks44
-\t@pgf@tokc=\toks45
+\t@pgf@toka=\toks44
+\t@pgf@tokb=\toks45
+\t@pgf@tokc=\toks46
 \pgf@sys@id@count=\count435
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -793,52 +804,52 @@ File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen194
+\pgfmath@dimen=\dimen199
 \pgfmath@count=\count438
-\pgfmath@box=\box60
-\pgfmath@toks=\toks46
-\pgfmath@stack@operand=\toks47
-\pgfmath@stack@operation=\toks48
+\pgfmath@box=\box61
+\pgfmath@toks=\toks47
+\pgfmath@stack@operand=\toks48
+\pgfmath@stack@operation=\toks49
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count439
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen195
-\pgf@picmaxx=\dimen196
-\pgf@picminy=\dimen197
-\pgf@picmaxy=\dimen198
-\pgf@pathminx=\dimen199
-\pgf@pathmaxx=\dimen256
-\pgf@pathminy=\dimen257
-\pgf@pathmaxy=\dimen258
-\pgf@xx=\dimen259
-\pgf@xy=\dimen260
-\pgf@yx=\dimen261
-\pgf@yy=\dimen262
-\pgf@zx=\dimen263
-\pgf@zy=\dimen264
+\pgf@picminx=\dimen256
+\pgf@picmaxx=\dimen257
+\pgf@picminy=\dimen258
+\pgf@picmaxy=\dimen259
+\pgf@pathminx=\dimen260
+\pgf@pathmaxx=\dimen261
+\pgf@pathminy=\dimen262
+\pgf@pathmaxy=\dimen263
+\pgf@xx=\dimen264
+\pgf@xy=\dimen265
+\pgf@yx=\dimen266
+\pgf@yy=\dimen267
+\pgf@zx=\dimen268
+\pgf@zy=\dimen269
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen265
-\pgf@path@lasty=\dimen266
+\pgf@path@lastx=\dimen270
+\pgf@path@lasty=\dimen271
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen267
-\pgf@shorten@start@additional=\dimen268
+\pgf@shorten@end@additional=\dimen272
+\pgf@shorten@start@additional=\dimen273
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
 \pgf@picture@serial@count=\count440
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen269
+\pgflinewidth=\dimen274
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen270
-\pgf@pt@y=\dimen271
-\pgf@pt@temp=\dimen272
+\pgf@pt@x=\dimen275
+\pgf@pt@y=\dimen276
+\pgf@pt@temp=\dimen277
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -847,17 +858,17 @@ File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen273
+\pgfarrowsep=\dimen278
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen274
+\pgf@max=\dimen279
 \pgf@sys@shading@range@num=\count441
 \pgf@shadingcount=\count442
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box65
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
@@ -868,40 +879,40 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box65
+\pgfnodeparttextbox=\box66
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen275
-\pgf@nodesepend=\dimen276
+\pgf@nodesepstart=\dimen280
+\pgf@nodesepend=\dimen281
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen277
-\pgffor@skip=\dimen278
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@iter=\dimen282
+\pgffor@skip=\dimen283
+\pgffor@stack=\toks50
+\pgffor@toks=\toks51
 )) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count443
-\pgfplotmarksize=\dimen279
+\pgfplotmarksize=\dimen284
 )
-\tikz@lastx=\dimen280
-\tikz@lasty=\dimen281
-\tikz@lastxsaved=\dimen282
-\tikz@lastysaved=\dimen283
-\tikz@lastmovetox=\dimen284
-\tikz@lastmovetoy=\dimen285
-\tikzleveldistance=\dimen286
-\tikzsiblingdistance=\dimen287
-\tikz@figbox=\box66
-\tikz@figbox@bg=\box67
-\tikz@tempbox=\box68
-\tikz@tempbox@bg=\box69
+\tikz@lastx=\dimen285
+\tikz@lasty=\dimen286
+\tikz@lastxsaved=\dimen287
+\tikz@lastysaved=\dimen288
+\tikz@lastmovetox=\dimen289
+\tikz@lastmovetoy=\dimen290
+\tikzleveldistance=\dimen291
+\tikzsiblingdistance=\dimen292
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
 \tikztreelevel=\count444
 \tikznumberofchildren=\count445
 \tikznumberofcurrentchild=\count446
@@ -926,13 +937,13 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count452
 \c@ALG@rem=\count453
 \c@ALG@nested=\count454
-\ALG@tlm=\skip94
-\ALG@thistlm=\skip95
+\ALG@tlm=\skip96
+\ALG@thistlm=\skip97
 \c@ALG@Lnr=\count455
 \c@ALG@blocknr=\count456
 \c@ALG@storecount=\count457
 \c@ALG@tmpcounter=\count458
-\ALG@tmplength=\skip96
+\ALG@tmplength=\skip98
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty
@@ -940,28 +951,28 @@ Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environ
 \c@algorithm=\count459
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count460
-\lst@gtempboxa=\box70
-\lst@token=\toks51
+\lst@gtempboxa=\box71
+\lst@token=\toks52
 \lst@length=\count461
-\lst@currlwidth=\dimen288
+\lst@currlwidth=\dimen293
 \lst@column=\count462
 \lst@pos=\count463
-\lst@lostspace=\dimen289
-\lst@width=\dimen290
+\lst@lostspace=\dimen294
+\lst@width=\dimen295
 \lst@newlines=\count464
 \lst@lineno=\count465
-\lst@maxwidth=\dimen291
+\lst@maxwidth=\dimen296
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count466
 \lst@skipnumbers=\count467
-\lst@framebox=\box71
+\lst@framebox=\box72
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-Package hyperref Info: Option `unicode' set `true' on input line 104.
-Package hyperref Info: Option `breaklinks' set `true' on input line 105.
+Package hyperref Info: Option `unicode' set `true' on input line 107.
+Package hyperref Info: Option `breaklinks' set `true' on input line 108.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -986,14 +997,14 @@ Package: todonotes 2023/01/31
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count468
 \calc@Bcount=\count469
-\calc@Adimen=\dimen292
-\calc@Bdimen=\dimen293
-\calc@Askip=\skip97
-\calc@Bskip=\skip98
+\calc@Adimen=\dimen297
+\calc@Bdimen=\dimen298
+\calc@Askip=\skip99
+\calc@Bskip=\skip100
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count470
-\calc@Cskip=\skip99
+\calc@Cskip=\skip101
 )
 \c@@todonotes@numberoftodonotes=\count471
 )) (./macros.tex
@@ -1009,72 +1020,79 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ))
 \@quotelevel=\count475
 \@quotereset=\count476
-LaTeX Font Info:    Trying to load font information for T1+LibertinusSerif-TLF on input line 114.
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSerif-TLF on input line 117.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSerif-TLF.fd
 File: T1LibertinusSerif-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSerif-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 114.
- (./thesis.aux (./title.aux) (./intro.aux) (./ch1.aux) (./ch2.aux) (./conclusion.aux) (./bibliography.aux) (./ch101.aux) (./ch102.aux) (./howto.aux))
+(Font)              scaled to size 12.0pt on input line 117.
+ (./thesis.aux (./title.aux) (./intro.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./conclusion.aux) (./bibliography.aux) (./ch101.aux) (./ch102.aux
+
+LaTeX Warning: Label `fig:f' multiply defined.
+
+
+LaTeX Warning: Label `fig:f@cref' multiply defined.
+
+) (./howto.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count477
-\scratchdimen=\dimen294
-\scratchbox=\box72
+\scratchdimen=\dimen299
+\scratchbox=\box73
 \nofMPsegments=\count478
 \nofMParguments=\count479
-\everyMPshowfont=\toks52
+\everyMPshowfont=\toks53
 \MPscratchCnt=\count480
-\MPscratchDim=\dimen295
+\MPscratchDim=\dimen300
 \MPnumerator=\count481
 \makeMPintoPDFobject=\count482
-\everyMPtoPDFconversion=\toks53
+\everyMPtoPDFconversion=\toks54
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 117.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write7
 \openout7 = `thesis.out'.
 
 \c@mv@tabular=\count483
 \c@mv@boldtabular=\count484
-LaTeX Info: Redefining \microtypecontext on input line 114.
-Package microtype Info: Applying patch `item' on input line 114.
-Package microtype Info: Applying patch `toc' on input line 114.
-Package microtype Info: Applying patch `eqnum' on input line 114.
-Package microtype Info: Applying patch `footnote' on input line 114.
-Package microtype Info: Applying patch `verbatim' on input line 114.
+LaTeX Info: Redefining \microtypecontext on input line 117.
+Package microtype Info: Applying patch `item' on input line 117.
+Package microtype Info: Applying patch `toc' on input line 117.
+Package microtype Info: Applying patch `eqnum' on input line 117.
+Package microtype Info: Applying patch `footnote' on input line 117.
+Package microtype Info: Applying patch `verbatim' on input line 117.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 114.
+LaTeX Info: Redefining \showhyphens on input line 117.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1104,14 +1122,14 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 114.
-Package biblatex Info: Reference segment=0 on input line 114.
+Package biblatex Info: Reference section=0 on input line 117.
+Package biblatex Info: Reference segment=0 on input line 117.
 \c@lstlisting=\count485
 \openout2 = `title.aux'.
 
  (./title.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 4.
-<img/logo-en.pdf, id=134, 506.4591pt x 156.49065pt>
+<img/logo-en.pdf, id=122, 506.4591pt x 156.49065pt>
 File: img/logo-en.pdf Graphic file (type pdf)
 <use img/logo-en.pdf>
 Package pdftex.def Info: img/logo-en.pdf  used on input line 39.
@@ -1139,9 +1157,9 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 68.
 
 ])
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 118.
+(Font)              scaled to size 24.88pt on input line 121.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 118.
+(Font)              scaled to size 24.88pt on input line 121.
  (./thesis.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -1178,19 +1196,52 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
-
-
-
-])
+))
 \tf@toc=\write8
 \openout8 = `thesis.toc'.
 
- [2]
+ [1
+
+
+
+]
 \openout2 = `intro.aux'.
 
- (./intro.tex
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 21.
+ (./intro.tex [2
+
+
+]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 9.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 9.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 10.
+<img/motivation-sample.png, id=208, 714.7503pt x 498.663pt>
+File: img/motivation-sample.png Graphic file (type png)
+<use img/motivation-sample.png>
+Package pdftex.def Info: img/motivation-sample.png  used on input line 13.
+(pdftex.def)             Requested size: 390.0pt x 272.09694pt.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 14.
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 14.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
+File: T1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSans-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 14.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LibertinusSans-TLF' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
+(Font)              scaled to size 10.95pt on input line 14.
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 14.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3] [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_hvvyjb.enc} <./img/motivation-sample.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 30.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1198,28 +1249,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 22.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 22.
- [3
-
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 24.
-) [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}]
-\openout2 = `ch1.aux'.
-
- (./ch1.tex
-Chapter 1.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 11.
-) [5
-
-
-
-
-]
+(Font)              scaled to size 12.0pt on input line 33.
+) [5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}]
 \openout2 = `ch2.aux'.
 
  (./ch2.tex [6
@@ -1228,55 +1260,43 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 
 
 ]
-Chapter 2.
+Chapter 1.
+
+LaTeX Warning: Reference `chap:theoretical-background' on page 7 undefined on input line 6.
+
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 10.
+(Font)              scaled to size 14.4pt on input line 44.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 10.
+(Font)              scaled to size 14.4pt on input line 44.
+[7] [8]) [9]
+\openout2 = `ch3.aux'.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ (./ch3.tex [10
 
- [7]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/scit' will be
-(Font)              scaled to size 12.0pt on input line 43.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 43.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 43.
-<img/ukazka-obr02.pdf, id=254, 433.62pt x 433.62pt>
-File: img/ukazka-obr02.pdf Graphic file (type pdf)
-<use img/ukazka-obr02.pdf>
-Package pdftex.def Info: img/ukazka-obr02.pdf  used on input line 52.
-(pdftex.def)             Requested size: 234.00238pt x 234.00575pt.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 53.
-LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 53.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
-File: T1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSans-TLF.
-)
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 53.
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LibertinusSans-TLF' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 53.
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 61.
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 61.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 64.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 77.
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 81.
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 87.
- [8{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}] [9{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc} <./img/ukazka-obr02.pdf>]) [10{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_hvvyjb.enc}]
+
+
+
+]
+Chapter 2.
+) [11]
+\openout2 = `ch4.aux'.
+
+ (./ch4.tex [12
+
+
+
+
+]
+Chapter 3.
+) [13]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex
+ (./conclusion.tex [14
+
+
+
+
+]
 LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif-TLF on input line 6.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/TS1LibertinusSerif-TLF.fd
 File: TS1LibertinusSerif-TLF.fd 2022/11/07 (autoinst) Font definitions for TS1/LibertinusSerif-TLF.
@@ -1287,29 +1307,27 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusSerif-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [11
-
-
-
-
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}]
+) [15{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex [12
-
-
-
-
-]) [13]
-\openout2 = `ch101.aux'.
-
- (./ch101.tex [14
+ (./bibliography.tex [16
 
 
 
 
 ]
-Chapter 3.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 8.
+) [17{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}]
+\openout2 = `ch101.aux'.
+
+ (./ch101.tex [18
+
+
+
+
+]
+Chapter 4.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
@@ -1318,31 +1336,42 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 9.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 7.0pt on input line 9.
 
-LaTeX Warning: Marginpar on page 15 moved.
+LaTeX Warning: Marginpar on page 19 moved.
 
-[15] [16]) [17]
+[19] [20]) [21]
 \openout2 = `ch102.aux'.
 
- (./ch102.tex [18
+ (./ch102.tex [22
 
 
 
 
 ]
-Chapter 4.
-<img/ukazka-obr01.pdf, id=368, 433.62pt x 433.62pt>
+Chapter 5.
+
+LaTeX Warning: Reference `chap:math' on page 1 undefined on input line 3.
+
+<img/ukazka-obr01.pdf, id=341, 433.62pt x 433.62pt>
 File: img/ukazka-obr01.pdf Graphic file (type pdf)
 <use img/ukazka-obr01.pdf>
 Package pdftex.def Info: img/ukazka-obr01.pdf  used on input line 17.
 (pdftex.def)             Requested size: 234.00238pt x 234.00575pt.
-LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/it' will be
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 18.
 
+LaTeX Warning: Reference `thm:y' on page 1 undefined on input line 18.
+
+
+LaTeX Warning: Reference `thm:y' on page 1 undefined on input line 18.
+
+
 Underfull \hbox (badness 2894) in paragraph at lines 31--31
-[]\T1/LibertinusSerif-TLF/b/n/17.28 (+20) NeuroticHelper im-proves neu-ral net-work
+|[]\T1/LibertinusSerif-TLF/b/n/17.28 (+20) NeuroticHelper im-proves neu-ral net-work
  []
 
 
@@ -1369,7 +1398,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfuzz' on input line 31.
 
-[19] [20 <./img/ukazka-obr01.pdf>] [21] [22] [23]) [24]
+
+Underfull \vbox (badness 5374) has occurred while \output is active []
+
+ [23] [24 <./img/ukazka-obr01.pdf>] [25]
+
+LaTeX Warning: Reference `fig:schema' on page 1 undefined on input line 45.
+
+[26]
+
+LaTeX Warning: Reference `fig:schema' on page 1 undefined on input line 67.
+
+[27]) [28]
 \openout2 = `howto.aux'.
 
  (./howto.tex
@@ -1377,17 +1417,25 @@ Appendix A.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 34.
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on input line 43.
-) [25
+) [29
 
 
 
 
-] [26] (./thesis.aux (./title.aux) (./intro.aux) (./ch1.aux) (./ch2.aux) (./conclusion.aux) (./bibliography.aux) (./ch101.aux) (./ch102.aux) (./howto.aux))
+] [30]
+
+Package caption Warning: Unused \captionsetup[algorithm] on input line 56.
+See the caption package documentation for explanation.
+
+(./thesis.aux (./title.aux) (./intro.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./conclusion.aux) (./bibliography.aux) (./ch101.aux) (./ch102.aux) (./howto.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 98FEC7A7C2655F488B827F0A593CEC70;5128.
+(rerunfilecheck)             Checksum: CEEECE0ECA8168CDCBC58D58269E9A0D;4776.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                thesis
@@ -1398,18 +1446,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41987 strings out of 476025
- 790838 string characters out of 5790016
- 1868388 words of memory out of 5000000
- 61152 multiletter control sequences out of 15000+600000
- 735704 words of font info for 371 fonts, out of 8000000 for 9000
+ 42111 strings out of 476025
+ 791207 string characters out of 5790016
+ 1872388 words of memory out of 5000000
+ 61323 multiletter control sequences out of 15000+600000
+ 699943 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,9n,117p,1913b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (34 pages, 1094797 bytes).
+ 92i,10n,117p,1913b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (38 pages, 1045267 bytes).
 PDF statistics:
- 570 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 118 named destinations out of 1000 (max. 500000)
- 108320 words of extra memory for PDF output out of 128383 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 89864 words of extra memory for PDF output out of 106986 (max. 10000000)
 

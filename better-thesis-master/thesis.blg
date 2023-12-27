@@ -4,8 +4,9 @@ The top-level auxiliary file: thesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: title.aux
 A level-1 auxiliary file: intro.aux
-A level-1 auxiliary file: ch1.aux
 A level-1 auxiliary file: ch2.aux
+A level-1 auxiliary file: ch3.aux
+A level-1 auxiliary file: ch4.aux
 A level-1 auxiliary file: conclusion.aux
 A level-1 auxiliary file: bibliography.aux
 A level-1 auxiliary file: ch101.aux
@@ -33,7 +34,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 9 entries,
             6399 wiz_defined-function locations,
-            1253 strings with 10097 characters,
+            1254 strings with 10104 characters,
 and the built_in function-call counts, 50969 in all, are:
 = -- 4036
 > -- 925

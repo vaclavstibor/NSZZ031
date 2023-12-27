@@ -49,7 +49,10 @@
 \usepackage{booktabs}
 \usepackage{caption}
 \usepackage{floatrow}
-
+\usepackage{titlesec}
+\titleformat{\chapter}[hang] 
+{\normalfont\huge\bfseries}{\thechapter.}{0.5em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
 % load bibliography tools
 \usepackage[backend=bibtex,natbib,style=numeric,sorting=none]{biblatex}
 % alternative with alphanumeric citations (more informative than numbers):
@@ -118,8 +121,10 @@
 \tableofcontents
 
 \include{intro}
-\include{ch1}
+% \include{ch1}
 \include{ch2}
+\include{ch3}
+\include{ch4}
 \include{conclusion}
 \include{bibliography}
 \include{ch101}

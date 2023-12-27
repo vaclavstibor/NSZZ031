@@ -1,101 +1,55 @@
-\chapter{Architecture}
-\label{chap:math}
+\chapter{Data}
+\label{chap:data}
 
-\section{Model}
-\label{sec:model}
-There are many models for sentiment analysis of financial news, and each has its advantages and disadvantages. Some of these models are based on traditional statistical methods, while others are based on deep learning.
+Newspaper articles play a key role in our web application. We must consider several essential aspects to integrate these data into our web application to ensure a smooth and effective implementation. The following chapter will discuss these aspects from different perspectives, including the programmer's viewpoint and legislative considerations. \todo{In section X.X. we will give an overview...}
 
-Among the latest and best models are those based on the Transformer architecture, which are capable of high accuracy and can process large amounts of data. Some of the most well-known ones include BERT (Bidirectional Encoder Representations from Transformers) by Google or GPT (Generative Pre-trained Transformer) by OpenAI.
+For our entity-level sentiment proposes, we need a body of each article as we discuss in Chapter \ref{chap:theoretical-background} \todo{refer to chapter Related Works, where we discuss maybe why others work only with titles}. 
+When selecting data source of news article, it is essential to consider several main aspects.
 
-\subsection{BERT}
-\label{sec:bert}
-Bidirectional Encoder Representation from Transformer is one of the most popular state of the art text embedding model published by Google. One of the reasons BERT is more successful is that it uses a context based embedding model. Without context, the word would have the same meaning in both sentences. 
+\begin{table}[htbp]
+    \caption{Considerations for Selecting News Article Data Source}
+    \centering
+    \begin{tabular}{p{0.3\linewidth}p{0.5\linewidth}}
+        \toprule
+        \textbf{Aspect} & \textbf{Description} \\
+        \midrule
+        Reliability & Expresses the degree to which a source can be trusted based on its history and reputation. \\
+        \hline
+        Availability & Expresses the degree to which a source is available to the public. \\
+        \hline
+        Accessibility & Refers to the ease with which the data source can be accessed. Consider factors such as API availability, data retrieval methods, and any restrictions on accessing the news articles. \\
+        \hline
+        Relevance & Ensuring that the selected news articles align with the interests and requirements of your web application and its users. \\
+        \hline
+        Timeliness & The freshness of the news data is crucial. Choose a source that provides timely updates to keep your application's content current. \\
+        \hline
+        Consistency & Look for a data source that maintains a consistent format and structure, facilitating easier integration into your web application. \\
+        \hline
+        Licensing and Copyright & Ensure compliance with legal considerations. Verify the licensing terms and copyright issues associated with using the news articles in your application. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
-BERT looks at the sentence and figures out what words is related to in the sentence, and will create embedding of the word based on the context. BERT does this by using transformers, which is a state of the art deep learning architecture, that is mostly used for Natural language processing. The architecture uses encoder-decoder paradigm.
+\begin{description}
+    \item[Reliability] Expresses the degree to which a source can be trusted based on its history and reputation.
+    \item[Availability] Expresses the degree to which a source is available to the public.
+    \item[Accessibility] Refers to the ease with which the data source can be accessed. Consider factors such as API availability, data retrieval methods, and any restrictions on accessing the news articles.
+    \item[Relevance] Ensuring that the selected news articles align with the interests and requirements of your web application and its users.
+    \item[Timeliness] The freshness of the news data is crucial. Choose a source that provides timely updates to keep your application's content current.
+    \item[Consistency] Look for a data source that maintains a consistent format and structure, facilitating easier integration into your web application.
+    \item[Licensing and Copyright] Ensure compliance with legal considerations. Verify the licensing terms and copyright issues associated with using the news articles in your application.
+\end{description}
 
-\subsection{GPT}
-\label{sec:gpt}
+\section{Third party data providers}
+\subsection*{API}
+Application programming interface (API) třetích stran jsou dostupná v různých cenových plánech. Každý plán poskytuje odlišný rozsah přístupu k datům, který typicky spočívá v rozsahu dat, jenž jsou v rámci daného plánu dostupná. Dalším nejběžnějším omezení je maximálním počtem dotazů v rámci specifikované časové periody. Drtivá většina poskytovatelů nabízí bezlpatné plány, díky kterým může vývojář otestovat různé endpointy a ověřit, zda odpovídají požadavkům jeho aplikace.
 
-\section{Data}
-\label{sec:data}
+There is always some compromise at the expense of something else (, a proto bychom naší apilikaci dokázali omezit na počet dotazů tak). V naší aplikaci bychom se dokázali omezit na počet dotazů tak, abychom mohli uvažovat i bezplatného plánu anižbychom přišli o endpointy, jenž jsou pro naši aplikaci důležité. Avšak data obsahují častokrát velké mezery. Například Alpha Ventage poskytuje vyhledávání článků na základě tickeru a možností uvedení time range, ve kterém byly články vydány.
 
-\subsection{Train data}
-\label{sec:train_data}
+Vypadá to, že se můžeme dotazovat pouze na články v intervvalu 5 dní, avšak tento fakt není nikde v API zaznamenán.
 
-Use some datasets from kaggle to train model.
+Vždy jě něco na úkor něčeho jiného. 
 
-\subsection{Real time data}
-\label{sec:real_time_data}
-
-Description of data scraping algorithm and analysis of valid sources.
-
-\section{Example with some mathematics}
-\label{sec:demo}
-
-\begin{defn}[Triplet]\label{defn:x}
-Given stuff $X$, $Y$ and $Z$, we will write a \emph{triplet} of the stuff as $(X,Y,Z)$.
-\end{defn}
-
-\newcommand{\Col}{\textsc{Colour}}
-
-\begin{thm}[Car coloring]\label{thm:y}
-All cars have the same color. More specifically, for any set of cars $C$, we have
-$$(\forall c_1, c_2 \in C)\:\Col(c_1) = \Col(c_2).$$
-\end{thm}
-
-\begin{proof}
-Use induction on sets of cars $C$. The statement holds trivially for $|C|\leq1$. For larger $C$, select 2 overlapping subsets of $C$ smaller than $|C|$ (thus same-colored). Overlapping cars need to have the same color as the cars outside the overlap, thus also the whole $C$ is same-colored.\todo{This is plain wrong though.}
-\end{proof}
-
-\begin{figure}
-\centering
-\includegraphics[width=.6\linewidth]{img/ukazka-obr02.pdf}
-\caption{A figure with a plot, not entirely related to anything. If you copy the figures from anywhere, always refer to the original author, ideally by citation (if possible). In particular, this picture --- and many others, also a lot of surrounding code --- was taken from the example bachelor thesis of MFF, originally created by Martin Mareš and others.}
-\label{fig:g}
-\end{figure}
-
-\begin{figure}
-\centering
-\tikzstyle{box}=[rectangle,draw,rounded corners=0.5ex,fill=green!10]
-\begin{tikzpicture}[thick,font=\sf\scriptsize]
-\node[box,rotate=45] (a) {A test.};
-\node[] (b) at (4,0) {Node with no border!};
-\node[circle,draw,dashed,fill=yellow!20, text width=6em, align=center] (c) at (0,4) {Ugly yellow node.\\Is this the Sun?};
-\node[box, right=1cm of c] (d) {Math: $X=\sqrt{\frac{y}{z}}$};
-\draw[->](a) to (b);
-\draw[->](a) to[bend left=30] node[midway,sloped,anchor=north] {flow flows} (c);
-\draw[->>>,dotted](b) to[bend right=30] (d);
-\draw[ultra thick](c) to (d);
-
-\end{tikzpicture}
-\caption{An example diagram typeset with TikZ.}
-\label{fig:schema}
-\end{figure}
-
-\begin{algorithm}
-\begin{algorithmic}
-\Function{ExecuteWithHighProbability}{$A$}
-	\State $r \gets$ a random number between $0$ and $1$
-	\State $\varepsilon \gets 0.0000000000000000000000000000000000000042$
-	\If{$r\geq\varepsilon$}
-		\State execute $A$ \Comment{We discard the return value}
-	\Else
-		\State print: \texttt{Not today, sorry.}
-	\EndIf
-\EndFunction
-\end{algorithmic}
-\caption{Algorithm that executes an action with high probability. Do not care about formal semantics in the pseudocode --- semicolons, types, correct function call parameters and similar nonsense from `realistic' languages can be safely omitted. Instead make sure that the intuition behind (and perhaps some hints about its correctness or various corner cases) can be seen as easily as possible.}
-\label{alg:w}
-\end{algorithm}
-
-\section{Extra typesetting hints}
-
-Do not overuse text formatting for highlighting various important parts of your sentences. If an idea cannot be communicated without formatting, the sentence probably needs rewriting anyway. Imagine the thesis being read aloud as a podcast --- the storytellers are generally unable to speak in boldface font.
-
-Most importantly, do \underline{not} overuse bold text, which is designed to literally \textbf{shine from the page} to be the first thing that catches the eye of the reader. More precisely, use bold text only for `navigation' elements that need to be seen and located first, such as headings, list item leads, and figure numbers.
-
-Use underline only in dire necessity, such as in the previous paragraph where it was inevitable to ensure that the reader remembers to never typeset boldface text manually again.
-
-Use \emph{emphasis} to highlight the first occurrences of important terms that the reader should notice. The feeling the emphasis produces is, roughly, ``Oh my --- what a nicely slanted word! Surely I expect it be important for the rest of the thesis!''
-
-Finally, never draw a vertical line, not even in a table or around figures, ever. Vertical lines outside of the figures are ugly.
+\section{The Guardian}
+The Guardian is a British daily newspaper that covers American and international news for an online, global audience.
+\section{Dostupnost}
