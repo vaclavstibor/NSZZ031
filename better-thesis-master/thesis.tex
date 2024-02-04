@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,twoside,openright]{report}
+\documentclass[12pt,a4paper,twoside,openany]{report} %openright
 \let\openright=\cleardoublepage
 
 \input{metadata}
@@ -54,7 +54,19 @@
 {\normalfont\huge\bfseries}{\thechapter.}{0.5em}{}
 \titlespacing*{\chapter}{0pt}{0pt}{20pt}
 % load bibliography tools
-\usepackage[backend=bibtex,natbib,style=numeric,sorting=none]{biblatex}
+\usepackage[backend=bibtex,natbib,style=authoryear,maxnames=1,sorting=none]{biblatex}
+\DeclareFieldFormat*{title}{\emph{#1}} % italic title without quotation marks
+\DeclareFieldFormat*{citetitle}{\emph{#1\isdot}} % italic title without quotation marks
+\DeclareCiteCommand{\citetitle}
+  {\boolfalse{citetracker}%
+   \boolfalse{pagetracker}%
+   \usebibmacro{prenote}}
+  {\ifciteindex
+     {\indexfield{indextitle}}
+     {}%
+   \printtext[bibhyperref]{\printfield[citetitle]{labeltitle}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
 % alternative with alphanumeric citations (more informative than numbers):
 %\usepackage[backend=bibtex,natbib,style=alphabetic]{biblatex}
 %
@@ -89,6 +101,11 @@
 % load the file with bibliography entries
 \addbibresource{refs}
 
+% load the glossary entries
+\usepackage[acronym]{glossaries}
+
+\loadglsentries{acronyms}
+
 % remove this if you won't use fancy verbatim environments
 \usepackage{fancyvrb}
 
@@ -121,16 +138,17 @@
 \tableofcontents
 
 \include{intro}
-% \include{ch1}
+\include{ch1}
 \include{ch2}
 \include{ch3}
-\include{ch4}
+%\include{ch4}
+%\include{ch5}
+\include{ch6}
 \include{conclusion}
 \include{bibliography}
-\include{ch101}
-\include{ch102}
-
-
+\include{abservations}
+%\include{ch101}
+%\include{ch102}
 
 \appendix
 \include{howto}
@@ -140,3 +158,5 @@
 
 \openright
 \end{document}
+
+%\footnote{\raggedright\url{https://www.bloomberg.com/professional/solution/bloomberg-terminal/}}

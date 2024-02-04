@@ -1,17 +1,56 @@
-\chapter{Natural Language Processing}
-\label{chap:natural-language-processing}
+\chapter{Textual data}
+\label{chap:textual-data}
 
-\section{Model}
-\label{sec:model}
-There are many models for sentiment analysis of financial news, and each has its advantages and disadvantages. Some of these models are based on traditional statistical methods, while others are based on deep learning.
+The integration of data, particularly newspaper article content, constitutes a fundamental component within the framework of our web application. We must consider several essential aspects to integrate these data into our web application to ensure a smooth and effective implementation. The following chapter will discuss these aspects from different perspectives, including the programmer's viewpoint and legislative considerations. 
 
-Among the latest and best models are those based on the Transformer architecture, which are capable of high accuracy and can process large amounts of data. Some of the most well-known ones include BERT (Bidirectional Encoder Representations from Transformers) by Google or GPT (Generative Pre-trained Transformer) by OpenAI.
+\textcolor{teal}{In this chapter, we will first present the data source options and then the aspects we will explore for each. In section X.X. we will give an overview...}
 
-\subsection{BERT}
-\label{sec:bert}
-Bidirectional Encoder Representation from Transformer is one of the most popular state of the art text embedding model published by Google. One of the reasons BERT is more successful is that it uses a context based embedding model. Without context, the word would have the same meaning in both sentences. 
+\section{Aspects for considerations}
+For the purpose of entity-level sentiment analysis, it is necessary to retrieve the entire content of each article, including full body text, as we detailed in Chapter \ref{chap:theoretical-background} \todo{refer to chapter Related Works, where we discuss maybe why others work only with titles, describe why is better whole text and not only headlines}. This requirement complicates the actual development process from the beginning, especially since building an application on a dataset from the past would be inefficient as it would not include current news coverage and would be useless to the user. Therefore, we address this unexplored data problem.
 
-BERT looks at the sentence and figures out what words is related to in the sentence, and will create embedding of the word based on the context. BERT does this by using transformers, which is a state of the art deep learning architecture, that is mostly used for Natural language processing. The architecture uses encoder-decoder paradigm.
+When selecting a data source for news article content, it is essential to consider several main aspects.
 
-\subsection{GPT}
-\label{sec:gpt}
+\begin{description}
+    \item[Reliability] Expresses the degree to which a source can be trusted based on its history and reputation.
+    \item[Availability] Expresses the degree to which a source is available to the public.
+    \item[Accessibility] Refers to the ease with which the data source can be accessed. Consider factors such as API availability, data retrieval methods, and any restrictions on accessing the news articles.
+    \item[Consistency] Look for a data source that maintains a consistent format and structure, facilitating easier integration into your web application. 
+    \item[Licensing and Copyright] Ensure compliance with legal considerations. Verify the licensing terms and copyright issues associated with using the news articles in your application.
+\end{description}
+
+This thesis will mainly focus on the API caused by accessibility and functionality. In our case, RSS (Rich Site Summary) feeds are not very appropriate as a format for providing regularly changing web content.
+
+\section{Data sources}
+%https://www.newscatcherapi.com/blog/build-your-own-crypto-news-aggregator#sources-of-news-data
+%json format snipet code: https://stackoverflow.com/questions/741985/%latex-source-code-listing-like-in-professional-books?noredirect=1&lq=1
+\subsection{Web Scraping}
+\subsection{RSS Feeds}
+\subsection{News publisher's APIs}
+\subsection{Third party data providers}
+
+\section{First party data providers}
+\subsection{The New York Times}
+\subsection{The Guardian}
+The Guardian is a British daily newspaper that covers American and international news for an online, global audience.
+
+We will focus to three basic domains.
+
+\section{Third party data providers}
+bla bla
+
+\subsection{Alpha Ventage}
+Application programming interface (API) třetích stran jsou dostupná v různých cenových plánech. Každý plán poskytuje odlišný rozsah přístupu k datům, který typicky spočívá v rozsahu dat, jenž jsou v rámci daného plánu dostupná. Dalším nejběžnějším omezení je maximálním počtem dotazů v rámci specifikované časové periody. Drtivá většina poskytovatelů nabízí bezlpatné plány, díky kterým může vývojář otestovat různé endpointy a ověřit, zda odpovídají požadavkům jeho aplikace.
+
+There is always some compromise at the expense of something else (, a proto bychom naší apilikaci dokázali omezit na počet dotazů tak). V naší aplikaci bychom se dokázali omezit na počet dotazů tak, abychom mohli uvažovat i bezplatného plánu anižbychom přišli o endpointy, jenž jsou pro naši aplikaci důležité. Avšak data obsahují častokrát velké mezery. Například Alpha Ventage poskytuje vyhledávání článků na základě tickeru a možností uvedení time range, ve kterém byly články vydány.
+
+Vypadá to, že se můžeme dotazovat pouze na články v intervvalu 5 dní, avšak tento fakt není nikde v API zaznamenán.
+
+Vždy jě něco na úkor něčeho jiného. 
+
+Nutno podotknout, že někteří provideři poskytují i RSS feedy, ale spise se jedná o shromaždujici agregator, který agreguje články z různých zdrojů.
+
+Nám jde o webovou aplikaci, tj. jako zdroj nepovažujeme dataset.
+
+With the growing popularity of the internet, the web has become one of the largest mediums of information.
+
+Stejně jako při zobrazování číselného dopadu zpráv o NFLX, chci porovnat dopad vyhledávacího štítku NFLX na sociální síti X. To by nám mělo ukázat, že jsme se vyhnuli možnosti setkat se s náhodnými příspěvky od náhodných uživatelů, což v našem případě můžeme nazvat datovým šumem, protože je nepravděpodobné, že by měly vliv na hodnotu firmy. Pokud bychom filtrovali NFLX na X zpravodajských zdrojů, stále bychom nedostali celé články, pouze odkazy na ně, což je zbytečné. To může také poukázat na chybu ve volbě našeho zdroje dat. Vložit sem a nebo do sekce Data?

@@ -17,184 +17,946 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{glasman2010science}{book}{}
-    \name{author}{1}{}{%
-      {{hash=GDH}{%
-         family={Glasman-Deal},
-         familyi={G\bibinithyphendelim D\bibinitperiod},
-         given={Hilary},
-         giveni={H\bibinitperiod},
+  \entry{PIRYANI2017122}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PR}{%
+         family={Piryani},
+         familyi={P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Madhavi},
+         familyi={M\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={V.K.},
+         giveni={V\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {World Scientific}%
-    }
-    \strng{namehash}{GDH1}
-    \strng{fullhash}{GDH1}
+    \keyw{Affective computing, Opinion mining, Scientometrics, Sentiment analysis}
+    \strng{namehash}{PR+1}
+    \strng{fullhash}{PRMDSV1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Science research writing for non-native speakers of English}
-    \field{year}{2010}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The new transformed read-write Web has resulted in a rapid growth of user generated content on the Web resulting into a huge volume of unstructured data. A substantial part of this data is unstructured text such as reviews and blogs. Opinion mining and sentiment analysis (OMSA) as a research discipline has emerged during last 15 years and provides a methodology to computationally process the unstructured data mainly to extract opinions and identify their sentiments. The relatively new but fast growing research discipline has changed a lot during these years. This paper presents a scientometric analysis of research work done on OMSA during 2000–2016. For the scientometric mapping, research publications indexed in Web of Science (WoS) database are used as input data. The publication data is analyzed computationally to identify year-wise publication pattern, rate of growth of publications, types of authorship of papers on OMSA, collaboration patterns in publications on OMSA, most productive countries, institutions, journals and authors, citation patterns and an year-wise citation reference network, and theme density plots and keyword bursts in OMSA publications during the period. A somewhat detailed manual analysis of the data is also performed to identify popular approaches (machine learning and lexicon-based) used in these publications, levels (document, sentence or aspect-level) of sentiment analysis work done and major application areas of OMSA. The paper presents a detailed analytical mapping of OMSA research work and charts the progress of discipline on various useful parameters.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.ipm.2016.07.001
+    \endverb
+    \field{issn}{0306-4573}
+    \field{number}{1}
+    \field{pages}{122\bibrangedash 150}
+    \field{title}{Analytical mapping of opinion mining and sentiment analysis research during 2000–2015}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S030645731630245X
+    \endverb
+    \field{volume}{53}
+    \field{journaltitle}{Information Processing \& Management}
+    \field{year}{2017}
   \endentry
 
-  \entry{knuth1979tex}{book}{}
-    \name{author}{1}{}{%
-      {{hash=KDE}{%
-         family={Knuth},
-         familyi={K\bibinitperiod},
-         given={Donald\bibnamedelima Ervin},
-         giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {American Mathematical Society}%
-    }
-    \strng{namehash}{KDE1}
-    \strng{fullhash}{KDE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{TEX and METAFONT: New directions in typesetting}
-    \field{year}{1979}
-  \endentry
-
-  \entry{lamport1994latex}{book}{}
-    \name{author}{1}{}{%
-      {{hash=LL}{%
-         family={Lamport},
-         familyi={L\bibinitperiod},
-         given={Leslie},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Addison-Wesley}%
-    }
-    \strng{namehash}{LL1}
-    \strng{fullhash}{LL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{LATEX: a document preparation system: user's guide and reference manual}
-    \field{year}{1994}
-  \endentry
-
-  \entry{sparling1989english}{book}{}
+  \entry{saunders_2020}{thesis}{}
     \name{author}{1}{}{%
       {{hash=SD}{%
-         family={Sparling},
+         family={Saunders},
          familyi={S\bibinitperiod},
-         given={Don},
+         given={Danielle},
          giveni={D\bibinitperiod},
       }}%
     }
-    \list{publisher}{1}{%
-      {Státní pedagogické nakladatelství}%
-    }
+    \keyw{Neural machine translation, Natural language processing, Domain adaptation}
     \strng{namehash}{SD1}
     \strng{fullhash}{SD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{English or Czenglish? Jak se vyhnout čechismům v angličtině}
-    \field{year}{1989}
-  \endentry
-
-  \entry{tufte1990envisioning}{book}{}
-    \name{author}{3}{}{%
-      {{hash=TER}{%
-         family={Tufte},
-         familyi={T\bibinitperiod},
-         given={Edward\bibnamedelima R},
-         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=GNH}{%
-         family={Goeler},
-         familyi={G\bibinitperiod},
-         given={Nora\bibnamedelima Hillman},
-         giveni={N\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Benson},
-         familyi={B\bibinitperiod},
-         given={Richard},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Graphics press Cheshire, CT}%
-    }
-    \strng{namehash}{TERGNHBR1}
-    \strng{fullhash}{TERGNHBR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Envisioning information}
-    \field{year}{1990}
-  \endentry
-
-  \entry{tufte1983visual}{book}{}
-    \name{author}{1}{}{%
-      {{hash=TER}{%
-         family={Tufte},
-         familyi={T\bibinitperiod},
-         given={Edward\bibnamedelima R},
-         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Graphics press Cheshire, CT}%
-    }
-    \strng{namehash}{TER1}
-    \strng{fullhash}{TER1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Visual display of quantitative information}
-    \field{year}{1983}
-  \endentry
-
-  \entry{wilke2019fundamentals}{book}{}
-    \name{author}{1}{}{%
-      {{hash=WCO}{%
-         family={Wilke},
-         familyi={W\bibinitperiod},
-         given={Claus\bibnamedelima O},
-         giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {O'Reilly Media, Inc.}%
-    }
-    \strng{namehash}{WCO1}
-    \strng{fullhash}{WCO1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{9781492031086}
-    \field{title}{Fundamentals of Data Visualization}
-    \verb{url}
-    \verb https://clauswilke.com/dataviz/
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \verb{doi}
+    \verb 10.17863/CAM.66458
     \endverb
+    \field{title}{Domain adaptation for neural machine translation}
+    \verb{url}
+    \verb https://www.repository.cam.ac.uk/handle/1810/319335
+    \endverb
+    \list{institution}{1}{%
+      {Apollo - University of Cambridge Repository}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2020}
+  \endentry
+
+  \entry{liu2022sentiment}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=LB}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Nature}%
+    }
+    \strng{namehash}{LB1}
+    \strng{fullhash}{LB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{chapter}{3}
+    \field{pages}{31\bibrangedash 36}
+    \field{title}{Sentiment analysis and opinion mining}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Wankhade2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WM}{%
+         family={Wankhade},
+         familyi={W\bibinitperiod},
+         given={Mayur},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RACS}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={Annavarapu Chandra\bibnamedelima Sekhara},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Kulkarni},
+         familyi={K\bibinitperiod},
+         given={Chaitanya},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMRACSKC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    The rapid growth of Internet-based applications, such as social media platforms and blogs, has resulted in comments and reviews concerning day-to-day activities. Sentiment analysis is the process of gathering and analyzing people's opinions, thoughts, and impressions regarding various topics, products, subjects, and services. People's opinions can be beneficial to corporations, governments, and individuals for collecting information and making decisions based on opinion. However, the sentiment analysis and evaluation procedure face numerous challenges. These challenges create impediments to accurately interpreting sentiments and determining the appropriate sentiment polarity. Sentiment analysis identifies and extracts subjective information from the text using natural language processing and text mining. This article discusses a complete overview of the method for completing this task as well as the applications of sentiment analysis. Then, it evaluates, compares, and investigates the approaches used to gain a comprehensive understanding of their advantages and disadvantages. Finally, the challenges of sentiment analysis are examined in order to define future directions.%
+    }
+    \verb{doi}
+    \verb 10.1007/s10462-022-10144-1
+    \endverb
+    \field{issn}{1573-7462}
+    \field{number}{7}
+    \field{pages}{5731\bibrangedash 5780}
+    \field{title}{A survey on sentiment analysis methods, applications, and challenges}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10462-022-10144-1
+    \endverb
+    \field{volume}{55}
+    \field{journaltitle}{Artificial Intelligence Review}
+    \field{year}{2022}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Jenifer2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MAJJ}{%
+         family={Mary},
+         familyi={M\bibinitperiod},
+         given={A.\bibnamedelima Jenifer\bibnamedelima Jothi},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AL}{%
+         family={Arockiam},
+         familyi={A\bibinitperiod},
+         given={Lawrence},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MAJJ+1}
+    \strng{fullhash}{MAJJAL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{pages}{452\bibrangedash 457}
+    \field{title}{Jen-Ton: A framework to enhance the accuracy of aspect level sentiment analysis in big data}
+    \verb{url}
+    \verb https://api.semanticscholar.org/CorpusID:44112128
+    \endverb
+    \field{journaltitle}{2017 International Conference on Inventive Computing and Informatics (ICICI)}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Wang2019}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yequan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Aixin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Minlie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Xiaoyan},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \strng{namehash}{WY+1}
+    \strng{fullhash}{WYSAHMZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Aspect-level sentiment analysis aims to provide complete and detailed view of sentiment analysis from different aspects. Existing solutions usually adopt a two-staged approach: first detecting aspect category in a document, then categorizing the polarity of opinion expressions for detected aspect(s). Inevitably, such methods lead to error accumulation. Moreover, aspect detection and aspect-level sentiment classification are highly correlated with each other. The key issue here is how to perform aspect detection and aspect-level sentiment classification jointly, and effectively. In this paper, we propose the aspect-level sentiment capsules model (AS-Capsules), which is capable of performing aspect detection and sentiment classification simultaneously, in a joint manner. AS-Capsules utilizes the correlation between aspect and sentiment through shared components including capsule embedding, shared encoders, and shared attentions. AS-Capsules is also capable of communicating with different capsules through a shared Recurrent Neural Network (RNN). More importantly, AS-Capsules model does not require any linguistic knowledge as additional input. Instead, through the attention mechanism, this model is able to attend aspect related words and sentiment words corresponding to different aspect(s). Experiments show that the AS-Capsules model achieves state-of-the-art performances on a benchmark dataset for aspect-level sentiment analysis.%
+    }
+    \field{booktitle}{The World Wide Web Conference}
+    \verb{doi}
+    \verb 10.1145/3308558.3313750
+    \endverb
+    \field{isbn}{9781450366748}
+    \field{pages}{2033–2044}
+    \field{series}{WWW '19}
+    \field{title}{Aspect-level Sentiment Analysis using AS-Capsules}
+    \verb{url}
+    \verb https://doi.org/10.1145/3308558.3313750
+    \endverb
+    \list{location}{1}{%
+      {San Francisco, CA, USA}%
+    }
+    \field{year}{2019}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{ronningstad-etal-2022-entity}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=RE}{%
+         family={R{\o}nningstad},
+         familyi={R\bibinitperiod},
+         given={Egil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Velldal},
+         familyi={V\bibinitperiod},
+         given={Erik},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=OL}{%
+         family={{\O}vrelid},
+         familyi={{\O}\bibinitperiod},
+         given={Lilja},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \name{editor}{20}{}{%
+      {{hash=CN}{%
+         family={Calzolari},
+         familyi={C\bibinitperiod},
+         given={Nicoletta},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HCR}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Chu-Ren},
+         giveni={C\bibinithyphendelim R\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Hansaem},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pustejovsky},
+         familyi={P\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wanner},
+         familyi={W\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CKS}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Key-Sun},
+         giveni={K\bibinithyphendelim S\bibinitperiod},
+      }}%
+      {{hash=RPM}{%
+         family={Ryu},
+         familyi={R\bibinitperiod},
+         given={Pum-Mo},
+         giveni={P\bibinithyphendelim M\bibinitperiod},
+      }}%
+      {{hash=CHH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Hsin-Hsi},
+         giveni={H\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Donatelli},
+         familyi={D\bibinitperiod},
+         given={Lucia},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kurohashi},
+         familyi={K\bibinitperiod},
+         given={Sadao},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Paggio},
+         familyi={P\bibinitperiod},
+         given={Patrizia},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=XN}{%
+         family={Xue},
+         familyi={X\bibinitperiod},
+         given={Nianwen},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Seokhwan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Hahm},
+         familyi={H\bibinitperiod},
+         given={Younggyun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HZ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Zhong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LTK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Tony\bibnamedelima Kyungil},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Santus},
+         familyi={S\bibinitperiod},
+         given={Enrico},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Bond},
+         familyi={B\bibinitperiod},
+         given={Francis},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=NSH}{%
+         family={Na},
+         familyi={N\bibinitperiod},
+         given={Seung-Hoon},
+         giveni={S\bibinithyphendelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Committee on Computational Linguistics}%
+    }
+    \strng{namehash}{RE+1}
+    \strng{fullhash}{REVEOL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    This paper explores the task of identifying the overall sentiment expressed towards volitional entities (persons and organizations) in a document - what we refer to as Entity-Level Sentiment Analysis (ELSA). While identifying sentiment conveyed towards an entity is well researched for shorter texts like tweets, we find little to no research on this specific task for longer texts with multiple mentions and opinions towards the same entity. This lack of research would be understandable if ELSA can be derived from existing tasks and models. To assess this, we annotate a set of professional reviews for their overall sentiment towards each volitional entity in the text. We sample from data already annotated for document-level, sentence-level, and target-level sentiment in a multi-domain review corpus, and our results indicate that there is no single proxy task that provides this overall sentiment we seek for the entities at a satisfactory level of performance. We present a suite of experiments aiming to assess the contribution towards ELSA provided by document-, sentence-, and target-level sentiment analysis, and provide a discussion of their shortcomings. We show that sentiment in our dataset is expressed not only with an entity mention as target, but also towards targets with a sentiment-relevant relation to a volitional entity. In our data, these relations extend beyond anaphoric coreference resolution, and our findings call for further research of the topic. Finally, we also present a survey of previous relevant work.%
+    }
+    \field{booktitle}{Proceedings of the 29th International Conference on Computational Linguistics}
+    \field{pages}{6773\bibrangedash 6783}
+    \field{title}{Entity-Level Sentiment Analysis ({ELSA}): An Exploratory Task Survey}
+    \verb{url}
+    \verb https://aclanthology.org/2022.coling-1.589
+    \endverb
+    \list{location}{1}{%
+      {Gyeongju, Republic of Korea}%
+    }
+    \field{month}{10}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Liu2015}{inbook}{}
+    \name{author}{1}{}{%
+      {{hash=LB}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LB1}
+    \strng{fullhash}{LB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{booktitle}{Sentiment Analysis: Mining Opinions, Sentiments, and Emotions}
+    \field{pages}{137–188}
+    \field{title}{Aspect and Entity Extraction}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Zhang2014}{inbook}{}
+    \name{author}{2}{}{%
+      {{hash=ZL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Lei},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=CWW}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Wesley\bibnamedelima W.},
+         giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Berlin Heidelberg}%
+    }
+    \strng{namehash}{ZL+1}
+    \strng{fullhash}{ZLLB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Opinion mining or sentiment analysis is the computational study of people's opinions, appraisals, attitudes, and emotions toward entities such as products, services, organizations, individuals, events, and their different aspects. It has been an active research area in natural language processing and Web mining in recent years. Researchers have studied opinion mining at the document, sentence and aspect levels. Aspect-level (called aspect-based opinion mining) is often desired in practical applications as it provides the detailed opinions or sentiments about different aspects of entities and entities themselves, which are usually required for action. Aspect extraction and entity extraction are thus two core tasks of aspect-based opinion mining. In this chapter, we provide a broad overview of the tasks and the current state-of-the-art extraction techniques.%
+    }
+    \field{booktitle}{Data Mining and Knowledge Discovery for Big Data: Methodologies, Challenge and Opportunities}
+    \verb{doi}
+    \verb 10.1007/978-3-642-40837-3_1
+    \endverb
+    \field{isbn}{978-3-642-40837-3}
+    \field{pages}{1\bibrangedash 40}
+    \field{title}{Aspect and Entity Extraction for Opinion Mining}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-3-642-40837-3_1
+    \endverb
+    \list{location}{1}{%
+      {Berlin, Heidelberg}%
+    }
+    \field{year}{2014}
+  \endentry
+
+  \entry{bloomberg}{online}{}
+    \name{author}{4}{}{%
+      {{hash=B}{%
+         family={{Bloomberg L.P.}},
+         familyi={B\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lam},
+         familyi={L\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Verma},
+         familyi={V\bibinitperiod},
+         given={Arun},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B+1}
+    \strng{fullhash}{BCXLDVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{note}{Received via email from Bloomberg L.P. on 2.2.2024}
+    \field{title}{Embedded Value in Bloomberg News \& Social Sentiment Data}
+    \verb{url}
+    \verb https://data.bloomberglp.com/promo/sites/12/725454457_EDFSentimentWP.
+    \verb pdf
+    \endverb
+    \field{year}{2024}
+  \endentry
+
+  \entry{chenInformationalRole}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GC}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kurov},
+         familyi={K\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Twitter sentiment, News sentiment, Social media, Return predictability, Analyst recommendations, Earnings forecasts, Target prices}
+    \strng{namehash}{GC+1}
+    \strng{fullhash}{GCKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    This paper examines the information content of firm-specific sentiment extracted from Twitter messages. We find that Twitter sentiment predicts stock returns without subsequent reversals. This finding is consistent with the view that tweets provide information not already reflected in stock prices. We investigate possible sources of return predictability with Twitter sentiment. The results show that Twitter sentiment provides new information about analyst recommendations, analyst price targets and quarterly earnings. This information explains about one third of the predictive ability of Twitter sentiment for stock returns. Taken together, our findings shed new light on whether and why social media content has predictive value for stock returns.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.jbankfin.2020.105969
+    \endverb
+    \field{issn}{0378-4266}
+    \field{pages}{105969}
+    \field{title}{Informational role of social media: Evidence from Twitter sentiment}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0378426620302314
+    \endverb
+    \field{volume}{121}
+    \field{journaltitle}{Journal of Banking \& Finance}
+    \field{year}{2020}
+  \endentry
+
+  \entry{li2014newsimpact}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Xiaodong},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=XH}{%
+         family={Xie},
+         familyi={X\bibinitperiod},
+         given={Haoran},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Jianping},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DX}{%
+         family={Deng},
+         familyi={D\bibinitperiod},
+         given={Xiaotie},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \keyw{News impact, Stock price return, Sentiment, Prediction, Experiment}
+    \strng{namehash}{LX+1}
+    \strng{fullhash}{LXXHCLWJDX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Financial news articles are believed to have impacts on stock price return. Previous works model news pieces in bag-of-words space, which analyzes the latent relationship between word statistical patterns and stock price movements. However, news sentiment, which is an important ring on the chain of mapping from the word patterns to the price movements, is rarely touched. In this paper, we first implement a generic stock price prediction framework, and plug in six different models with different analyzing approaches. To take one step further, we use Harvard psychological dictionary and Loughran–McDonald financial sentiment dictionary to construct a sentiment space. Textual news articles are then quantitatively measured and projected onto the sentiment space. Instance labeling method is rigorously discussed and tested. We evaluate the models’ prediction accuracy and empirically compare their performance at different market classification levels. Experiments are conducted on five years historical Hong Kong Stock Exchange prices and news articles. Results show that (1) at individual stock, sector and index levels, the models with sentiment analysis outperform the bag-of-words model in both validation set and independent testing set; (2) the models which use sentiment polarity cannot provide useful predictions; (3) there is a minor difference between the models using two different sentiment dictionaries.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.knosys.2014.04.022
+    \endverb
+    \field{issn}{0950-7051}
+    \field{pages}{14\bibrangedash 23}
+    \field{title}{News impact on stock price return via sentiment analysis}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0950705114001440
+    \endverb
+    \field{volume}{69}
+    \field{journaltitle}{Knowledge-Based Systems}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Wan2021}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WX}{%
+         family={Wan},
+         familyi={W\bibinitperiod},
+         given={Xingchen},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Marinov},
+         familyi={M\bibinitperiod},
+         given={Slavi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJP}{%
+         family={Calliess},
+         familyi={C\bibinitperiod},
+         given={Jan-Peter},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zohren},
+         familyi={Z\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DX}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Xiaowen},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WX+1}
+    \strng{fullhash}{WXYJMSCJPZSDX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    In an increasingly connected global market, news sentiment towards one company may not only indicate its own market performance, but can also be associated with a broader movement on the sentiment and performance of other companies from the same or even different sectors. In this paper, we apply NLP techniques to understand news sentiment of 87 companies among the most reported on Reuters for a period of 7 years. We investigate the propagation of such sentiment in company networks and evaluate the associated market movements in terms of stock price and volatility. Our results suggest that, in certain sectors, strong media sentiment towards one company may indicate a significant change in media sentiment towards related companies measured as neighbours in a financial network constructed from news co-occurrence. Furthermore, there exists a weak but statistically significant association between strong media sentiment and abnormal market return as well as volatility. Such an association is more significant at the level of individual companies, but nevertheless remains visible at the level of sectors or groups of companies.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41598-021-82338-6
+    \endverb
+    \field{issn}{2045-2322}
+    \field{number}{1}
+    \field{pages}{3062}
+    \field{title}{Sentiment correlation in financial news networks and associated market movements}
+    \verb{url}
+    \verb https://doi.org/10.1038/s41598-021-82338-6
+    \endverb
+    \field{volume}{11}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{khedr2017predicting}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{2}{}{%
+      {{hash=KAE}{%
+         family={Khedr},
+         familyi={K\bibinitperiod},
+         given={Ayman\bibnamedelima E},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=YN}{%
+         family={Yaseen},
+         familyi={Y\bibinitperiod},
+         given={Nagwa},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Modern Education}%
+      {Computer Science Press}%
+    }
+    \strng{namehash}{KAE+1}
+    \strng{fullhash}{KAEYN+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{number}{7}
+    \field{pages}{22}
+    \field{title}{Predicting stock market behavior using data mining technique and news sentiment analysis}
+    \field{volume}{9}
+    \field{journaltitle}{International Journal of Intelligent Systems and Applications}
+    \field{year}{2017}
+  \endentry
+
+  \entry{zhao2021bert}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=ZL}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Lingyun},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lin},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Xinhao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jianwei},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Text mining;Support vector machines;Sentiment analysis;Analytical models;Social networking (online);Conferences;Bit error rate;online financial text mining;sentiment analysis;key entity detection;BERT}
+    \strng{namehash}{ZL+2}
+    \strng{fullhash}{ZLLLZXZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{booktitle}{2021 IEEE 24th International Conference on Computer Supported Cooperative Work in Design (CSCWD)}
+    \verb{doi}
+    \verb 10.1109/CSCWD49262.2021.9437616
+    \endverb
+    \field{pages}{1233\bibrangedash 1238}
+    \field{title}{A BERT based Sentiment Analysis and Key Entity Detection Approach for Online Financial Texts}
+    \field{year}{2021}
+  \endentry
+
+  \entry{liu2019roberta}{misc}{}
+    \name{author}{10}{}{%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yinhan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Ott},
+         familyi={O\bibinitperiod},
+         given={Myle},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GN}{%
+         family={Goyal},
+         familyi={G\bibinitperiod},
+         given={Naman},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Jingfei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={Mandar},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Danqi},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LO}{%
+         family={Levy},
+         familyi={L\bibinitperiod},
+         given={Omer},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Mike},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zettlemoyer},
+         familyi={Z\bibinitperiod},
+         given={Luke},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Stoyanov},
+         familyi={S\bibinitperiod},
+         given={Veselin},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYOMGNDJJMCDLOLMZLSV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \verb{eprint}
+    \verb 1907.11692
+    \endverb
+    \field{title}{RoBERTa: A Robustly Optimized BERT Pretraining Approach}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
     \field{year}{2019}
   \endentry
 
-  \entry{tantau2015tikz}{report}{}
-    \name{author}{1}{}{%
-      {{hash=TT}{%
-         family={Tantau},
-         familyi={T\bibinitperiod},
-         given={Till},
-         giveni={T\bibinitperiod},
+  \entry{liu2019mrc}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shanshan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Sheng},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Weiming},
+         giveni={W\bibinitperiod},
       }}%
     }
-    \strng{namehash}{TT1}
-    \strng{fullhash}{TT1}
+    \strng{namehash}{LS+1}
+    \strng{fullhash}{LSZXZSWHZW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{The TikZ and PGF Packages (Manual for version 3.1.8b)}
-    \verb{url}
-    \verb http://mirrors.ctan.org/graphics/pgf/base/doc/pgfmanual.pdf
-    \endverb
-    \list{institution}{1}{%
-      {Institut f{\"u}r Theoretische Informatik Universit{\"a}t zu L{\"u}beck}%
+    \field{labelyear}{2019}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Machine reading comprehension (MRC), which requires a machine to answer questions based on a given context, has attracted increasing attention with the incorporation of various deep-learning techniques over the past few years. Although research on MRC based on deep learning is flourishing, there remains a lack of a comprehensive survey summarizing existing approaches and recent trends, which motivated the work presented in this article. Specifically, we give a thorough review of this research field, covering different aspects including (1) typical MRC tasks: their definitions, differences, and representative datasets; (2) the general architecture of neural MRC: the main modules and prevalent approaches to each; and (3) new trends: some emerging areas in neural MRC as well as the corresponding challenges. Finally, considering what has been achieved so far, the survey also envisages what the future may hold by discussing the open issues left to be addressed.%
     }
-    \field{type}{techreport}
-    \field{year}{2020}
+    \verb{doi}
+    \verb 10.3390/app9183698
+    \endverb
+    \field{issn}{2076-3417}
+    \field{number}{18}
+    \field{title}{Neural Machine Reading Comprehension: Methods and Trends}
+    \verb{url}
+    \verb https://www.mdpi.com/2076-3417/9/18/3698
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{Applied Sciences}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Jin2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JY}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Yingzi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LCY}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Ching-Yung},
+         giveni={C\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Matsuo},
+         familyi={M\bibinitperiod},
+         given={Yutaka},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Ishizuka},
+         familyi={I\bibinitperiod},
+         given={Mitsuru},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JY+1}
+    \strng{fullhash}{JYLCYMYIM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{abstract}{%
+    Dynamic networks are studied by sociologists to understand network evolution, belief formation, friendship formation, etc. Companies make and receive different impacts from other companies in different periods. If one can understand what types of network changes affect a company's value, then one would be able to predict the future value of the company, grasp industry innovations, and make business more successful. However, it is often difficult to collect continuous records of network changes, and the models of mining longitudinal network are complicated. In this study, we developed algorithms and a system to infer large-scale evolutionary company networks from public news during 1981--2009. Then, based on how networks change over time, and on the financial information of the companies, we predicted company profit and revenue growth. Herein, we propose a feature extraction and selection algorithm for longitudinal networks. This paper is the first to describe a study examining longitudinal network-mining-based company performance analysis. We measured how networks affect company performance and what network features are important.%
+    }
+    \verb{doi}
+    \verb 10.1007/s13278-011-0045-5
+    \endverb
+    \field{issn}{1869-5469}
+    \field{number}{3}
+    \field{pages}{217\bibrangedash 228}
+    \field{title}{Mining dynamic social networks from public news articles for company value prediction}
+    \verb{url}
+    \verb https://doi.org/10.1007/s13278-011-0045-5
+    \endverb
+    \field{volume}{2}
+    \field{journaltitle}{Social Network Analysis and Mining}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 \enddatalist
 \endinput

@@ -1,28 +1,30 @@
-\contentsline {chapter}{Introduction}{3}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Data}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Third party data providers}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}The Guardian}{9}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Dostupnost}{9}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Natural Language Processing}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Model}{11}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}BERT}{11}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}GPT}{11}{subsection.2.1.2}%
-\contentsline {chapter}{\numberline {3}Architecture}{13}{chapter.3}%
-\contentsline {chapter}{Conclusion}{15}{chapter*.9}%
-\contentsline {chapter}{Bibliography}{17}{chapter*.11}%
-\contentsline {chapter}{\numberline {4}Important first chapter}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Some extra assorted hints before you start writing English}{20}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Results and discussion}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}SuperProgram is faster than OldAlgorithm}{25}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Scalability estimation}{25}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Precision of the results}{25}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Weird theorem is proven by induction}{25}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Amount of code reduced by CodeRedTool}{25}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Example}{25}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Performance on real codebases}{25}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}\sloppy NeuroticHelper improves neural network learning}{25}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Graphics and figure quality}{25}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Visualize all important ideas}{25}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Make the figures comprehensible}{26}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6}What is a discussion?}{27}{section.5.6}%
-\contentsline {chapter}{\numberline {A}Using CoolThesisSoftware}{29}{appendix.A}%
+\contentsline {chapter}{Introduction}{2}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Theoretical Background}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Sentiment Analysis Basics}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Levels of Sentiment Analysis}{3}{subsection.1.1.1}%
+\contentsline {paragraph}{}{5}{section*.6}%
+\contentsline {subsection}{\numberline {1.1.2}Workflow of Sentiment Analysis}{6}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Named Entity Recognition}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Time Series Forecasting Integration}{6}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Related work}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Existing Application Overview}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Bloomberg Terminal}{7}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Predicting Stock Market Behaviour}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Entity-level Sentiment Analysis}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Mining dynamic Social Networks}{10}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Textual data}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Aspects for considerations}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Data sources}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Web Scraping}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}RSS Feeds}{13}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}News publisher's APIs}{13}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Third party data providers}{13}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}First party data providers}{13}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}The New York Times}{13}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}The Guardian}{13}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Third party data providers}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Alpha Ventage}{13}{subsection.3.4.1}%
+\contentsline {chapter}{\numberline {4}Architecture}{15}{chapter.4}%
+\contentsline {chapter}{Conclusion}{16}{chapter*.14}%
+\contentsline {chapter}{Bibliography}{17}{chapter*.16}%
+\contentsline {chapter}{\numberline {A}Using CoolThesisSoftware}{20}{appendix.A}%

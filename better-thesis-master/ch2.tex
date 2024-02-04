@@ -1,55 +1,81 @@
-\chapter{Data}
-\label{chap:data}
+\chapter{Related work}
+\label{chap:related-work}
+While examining online applications with similar characteristics, a common challenge arises from the need for more transparency regarding the techniques applied in sentiment analysis. Specifically, details concerning the depth of sentiment investigation, the methods employed, and the details of the models remain undisclosed and are not publicly available. We acknowledge this limitation due to the proprietary nature of the software, mainly as it is an essential part of the business model. Hence, this chapter is organized into two primary sections. 
 
-Newspaper articles play a key role in our web application. We must consider several essential aspects to integrate these data into our web application to ensure a smooth and effective implementation. The following chapter will discuss these aspects from different perspectives, including the programmer's viewpoint and legislative considerations. \todo{In section X.X. we will give an overview...}
+The initial part provides an overview of existing applications, while the second section will concern the most recent and relevant research on predicting stock market behaviour using data mining techniques and news sentiment analysis. Additionally, it explores research studies on entity level sentiment analysis over news articles and its application in the stock market.
 
-For our entity-level sentiment proposes, we need a body of each article as we discuss in Chapter \ref{chap:theoretical-background} \todo{refer to chapter Related Works, where we discuss maybe why others work only with titles}. 
-When selecting data source of news article, it is essential to consider several main aspects.
+\section{Existing Application Overview}
+\label{sec:existing-application-overview}
 
-\begin{table}[htbp]
-    \caption{Considerations for Selecting News Article Data Source}
-    \centering
-    \begin{tabular}{p{0.3\linewidth}p{0.5\linewidth}}
-        \toprule
-        \textbf{Aspect} & \textbf{Description} \\
-        \midrule
-        Reliability & Expresses the degree to which a source can be trusted based on its history and reputation. \\
-        \hline
-        Availability & Expresses the degree to which a source is available to the public. \\
-        \hline
-        Accessibility & Refers to the ease with which the data source can be accessed. Consider factors such as API availability, data retrieval methods, and any restrictions on accessing the news articles. \\
-        \hline
-        Relevance & Ensuring that the selected news articles align with the interests and requirements of your web application and its users. \\
-        \hline
-        Timeliness & The freshness of the news data is crucial. Choose a source that provides timely updates to keep your application's content current. \\
-        \hline
-        Consistency & Look for a data source that maintains a consistent format and structure, facilitating easier integration into your web application. \\
-        \hline
-        Licensing and Copyright & Ensure compliance with legal considerations. Verify the licensing terms and copyright issues associated with using the news articles in your application. \\
-        \bottomrule
-    \end{tabular}
-\end{table}
+Sentiment analysis applications accessible to the public are typically based on investigating social network posts, with StockTwist\footnote{\href{https://stocktwits.com}{\textit{https://stocktwits.com}}} as a notable illustration. According to Reuters\todo{(Q-2.1) Zeptat se - je třeba uvádět odkaz na webový článek?}, StockTwits in 2022 boasts more than six million registered users and one million monthly active users, underscoring its prominent user base. With the growing volume of social media contributions, it is difficult to determine which post will prompt action. In our case, these posts do not constitute highly relevant data since our interest is in news articles containing a more significant amount of information. Even if the selection of accounts is limited to informative sources, News organizations' social media accounts only link to their articles, usually accompanied by a headline or lead paragraph. These posts are not enough for our purposes, as we need the entire article to perform better context for entity-level sentiment analysis (discussed further in Chapter \ref{chap:textual-data}).
 
-\begin{description}
-    \item[Reliability] Expresses the degree to which a source can be trusted based on its history and reputation.
-    \item[Availability] Expresses the degree to which a source is available to the public.
-    \item[Accessibility] Refers to the ease with which the data source can be accessed. Consider factors such as API availability, data retrieval methods, and any restrictions on accessing the news articles.
-    \item[Relevance] Ensuring that the selected news articles align with the interests and requirements of your web application and its users.
-    \item[Timeliness] The freshness of the news data is crucial. Choose a source that provides timely updates to keep your application's content current.
-    \item[Consistency] Look for a data source that maintains a consistent format and structure, facilitating easier integration into your web application.
-    \item[Licensing and Copyright] Ensure compliance with legal considerations. Verify the licensing terms and copyright issues associated with using the news articles in your application.
-\end{description}
+\subsection{Bloomberg Terminal}
+\label{subsec:bloomberg-terminal}
 
-\section{Third party data providers}
-\subsection*{API}
-Application programming interface (API) třetích stran jsou dostupná v různých cenových plánech. Každý plán poskytuje odlišný rozsah přístupu k datům, který typicky spočívá v rozsahu dat, jenž jsou v rámci daného plánu dostupná. Dalším nejběžnějším omezení je maximálním počtem dotazů v rámci specifikované časové periody. Drtivá většina poskytovatelů nabízí bezlpatné plány, díky kterým může vývojář otestovat různé endpointy a ověřit, zda odpovídají požadavkům jeho aplikace.
+The only software similar to the one created is a module in the so-called Bloomberg Terminal\footnote{\href{https://www.bloomberg.com/professional/solution/bloomberg-terminal/}{\textit{https://www.bloomberg.com/professional/solution/bloomberg-terminal/}}} \textcolor{lightgray}{from Bloomberg L.P.}. This software system provides investors with analytical tools over financial data, including sentiment analysis of news articles and posts on social network X, formerly known as Twitter. The cost of a Bloomberg Terminal depends on the required specific features and services. \linebreak A standard subscription typically amounts to approximately \$24,000 per year. It is a very complex and powerful software, but it is not accessible to the general public.
 
-There is always some compromise at the expense of something else (, a proto bychom naší apilikaci dokázali omezit na počet dotazů tak). V naší aplikaci bychom se dokázali omezit na počet dotazů tak, abychom mohli uvažovat i bezplatného plánu anižbychom přišli o endpointy, jenž jsou pro naši aplikaci důležité. Avšak data obsahují častokrát velké mezery. Například Alpha Ventage poskytuje vyhledávání článků na základě tickeru a možností uvedení time range, ve kterém byly články vydány.
+Bloomberg's work \parencite{bloomberg}\todo{(Q-2.1.1) Zeptat se - Mohu přehodit jméa autorů? Protože jako poslední autor zmiňovaného white paperu je Bloomberg L.P. a rád bych an to kladl důraz. To znamená, aby se při citatci objevilo Bloomberg L.P. namísto Cui} describes two types of sentiment analysis: story-level and company-level sentiment, utilizing a suite of \acrshort{sml} techniques. Classification engines are trained on labeled datasets containing news articles and social media posts. Reportedly, the labeling process is based on the question:\footnote{This information is difficult to verify due to the unavailability of the dataset.} \begin{quote}
+    \textit{``If an investor having a long position in the security mentioned were to read this news or tweet, is he/she bullish, bearish or neutral on his/her holdings?''}
+\end{quote} Once model training is completed, the models are employed to analyze recently published posts and articles associated with organizations, seeking distinctive sentiment signals related to the business and finance domain. As mentioned above, sentiment is divided into two levels:\begin{description}
+    \item[Story-level] Sentiment score value of articles and posts is calculated in real time upon arrival. The calculation includes score and confidence, where the score has one of three options: positive, negative, or neutral, each described by a numerical value from the set $\{-1, 0, 1\}$. The confidence is defined by a~value ranging from $0$ to $1$\todo{Zeptat se (osobně?)- Toto jsem musel změnit z původního znění od Bloombergu, protože se zmiňovaná hodnota v intervalu 0 až 100 rozchází s další nimi zmiňovanou definicí Company-level, kde uvádí že confidence-waighted average nabývá hodnoty -1 až 1. Bloomberg jiné s více zdrojů neposkytuje.. "Research" na mě působí vágně, ale nemám jiný zdroj, ze kterého čerpat. Snažil jsem se vyjádřit výpočty matematicky pro lepší vhled/pochopení.}, demonstrating the intensity of the sentiment, which can be interpreted as the probability of being positive, negative, or neutral. Hence, the story-level sentiment ranges from $-1$ to $1$. For both, we get the following equation:
+    \begin{equation}
+    \label{eq:story-level-article-sentiment}
+    \text{\textit{Story-level}}_{c}^{\text{\textit{Articles}}} = S_{c}^{a} C_{c}^{a}, \quad a \in P(c)
+    \end{equation}
+    \begin{equation}
+    \label{eq:story-level-post-sentiment}
+    \text{\textit{Story-level}}_{c}^{\text{\textit{Posts}}} = S_{c}^{p} C_{c}^{p}, \quad p \in P(c)
+    \end{equation} where $a$ represents an article and $p$ represents a post from $P(c)$, the set of published articles and posts referencing company $c$. $S_{c}^{a}$ and $S_{c}^{p}$ are the sentiment polarity scores of article $a$ and post $p$ that reference company $c$. $C_{c}^{a}$ and $C_{c}^{p}$ are the confidences of article $a$ and post $p$ that reference company $c$.
+    \item[Company-level] Sentiment score value is then calculated as the confidence-weighted average of the story-level sentiment scores, incorporating all relevant news articles and social media posts mentioning the company.
+    \begin{equation}
+        \label{eq:company-level-article-sentiment}
+        \text{\textit{Company-level}}_{c,t}^{Articles} = \frac{\sum_{a \in P(c,T)} S_{c}^{a} C_{c}^{a}}{N_{c,T}^{a}}, \quad T \in [t_{b}, t]
+    \end{equation}
+    \begin{equation}
+        \label{eq:company-level-post-sentiment}
+        \text{\textit{Company-level}}_{c,t}^{Posts} = \frac{\sum_{p \in P(c,T)} S_{c}^{p} C_{c}^{p}}{N_{c,T}^{p}}, \quad T \in [t_{b}, t]
+    \end{equation} where $a$ represents an article and $p$ represents a post from $P(c,T)$, the set of published articles and posts referencing company $c$ during period $T$. Period $T$ is a time interval of length $t_{b}$ to $t$, where $t_{b}$ is the time constant of the beginning. $N_{c,T}^{a}$ and $N_{c,T}^{p}$ are the number of articles and posts referencing company $c$ during period $T$. Then, the company-level sentiment is calculated as follows:
+    \begin{equation}
+    \label{eq:company-level-sentiment}
+    \text{\textit{Company-level}}_{c,t} = \text{\textit{Company-level}}_{c,t}^{Articles} + \text{\textit{Company-level}}_{c,t}^{Posts}
+    \end{equation}
+ \end{description}
 
-Vypadá to, že se můžeme dotazovat pouze na články v intervvalu 5 dní, avšak tento fakt není nikde v API zaznamenán.
+Intraday company-level sentiment score for news articles is recalculated every two minutes, utilizing an eight-hour rolling window. The sentiment score for social network posts is recalculated every minute, employing a 30-minute rolling window. Due to the previous definitions, we can express these by a simple substitution of $t_{b}$ depending on the rolling window as follows:
+\begin{equation}
+    \label{eq:intraday-company-level-article-sentiment}
+    \text{\textit{Intraday Company-level}}_{c,t}^{Articles} = \frac{\sum_{a \in P(c,T)} S_{c}^{a} C_{c}^{a}}{N_{c,T}^{a}}, \quad T \in [t-8, t]
+\end{equation}
+\begin{equation}
+    \label{eq:intraday-company-level-post-sentiment}
+    \text{\textit{Intraday Company-level}}_{c,t}^{Posts} = \frac{\sum_{p \in P(c,T)} S_{c}^{p} C_{c}^{p}}{N_{c,T}^{p}}, \quad T \in [t-0.5, t]
+\end{equation}
+\begin{equation}
+    \label{eq:intraday-company-level-sentiment}
+    \text{\textit{Intraday Company-level}}_{c,t} = \text{\textit{Company-level}}_{c,t}^{Articles} + \text{\textit{Company-level}}_{c,t}^{Posts}
+\end{equation}
 
-Vždy jě něco na úkor něčeho jiného. 
+Daily company-level sentiment scores are published every morning about 10 minutes before the market opens. The calculation is determined as a confidence-weighted average of sentiment scores derived from the story-level sentiments of news and social media posts over the past 24 hours as follows:
+\begin{equation}
+    \label{eq:daily-company-level-sentiment}
+    \text{\textit{Daily Company-level}}_{c,t} = \frac{\sum_{d \in P(c,T)} S_{c}^{d} C_{c}^{d}}{N_{c,T}}, \quad T \in [t-24, t]
+\end{equation} where document $d$ represents a news article or social media post, the sentiment polarity score of document $d$ referencing company $c$ is denoted as $S_{c}^{d}$, and the confidence associated with this reference is represented by $C_{c}^{d}$. The set $P(c,T)$ encompasses non-neutral documents referencing company $c$ published within the last 24 hours. $N_{c,T}$ expresses the count of non-neutral documents referencing company $c$ during period $T$. This approach is further explored in terms of the informational role of social media by \textcite{chenInformationalRole}.
 
-\section{The Guardian}
-The Guardian is a British daily newspaper that covers American and international news for an online, global audience.
-\section{Dostupnost}
+\section{Predicting Stock Market Behaviour}
+\label{sec:predicting-stock-market-behaviour}
+Several approaches for predicting stock market behaviour and price trends have been proposed, utilizing sentiment analysis of financial news and historical stock prices. Severaly studies prove a strong correlation between financial news sentiment and stock prices \parencite{li2014newsimpact} \parencite{Wan2021}. Due to the nature of unstructured textual data, predicting stock market behaviour is challenging.
+
+\textcite{khedr2017predicting} focuses on creating an effective model for forecasting future trends in the stock market, using sentiment analysis of financial news and historical stock prices. The model achieves more accurate results than previous works by considering different market and company news types combined with historical stock prices. The experiments utilize datasets of three companies: Yahoo Inc., Facebook Inc.\footnote{Renamed to Meta in the year 2021}, and Microsoft Corporation. The authors use well-known and informative news sources such as Reuters, The Wall Street Journal, and Nasdaq. The first step of sentiment analysis to get the text polarity using a Naive Bayes classifier was shown to achieve accuracy from 72.73\% to 86.21\%, while the second step, which combines news sentiment with historical prices, improved prediction accuracy up to 89.80\%. Moreover, that is why we find this study motivating and inspiring.
+
+\section{Entity-level Sentiment Analysis}
+\label{sec:entity-level-sentiment-analysis}
+This section will discuss the most recent and relevant research conducted in entity level sentiment analysis including named entity recognition over news articles. (additionally, its application in the stock market)
+
+In general, named entity recognition plays a significant role in entity-level sentiment analysis, as we discussed in Section \ref{sec:named-entity-recognition}. \cite{zhao2021bert} employed RoBERTa, a Robustly Optimized \acrshort{bert} Pretraining Approach \parencite{liu2019roberta}, to propose a sentiment analysis and entity detection strategy in financial text mining and public opinion analysis in social media. In the first step, sentiment analysis is performed, focusing mainly on negative polarity, and then entity detection is considered in different granularities with MRC, Machine Reading Comprehension \parencite{liu2019mrc}, or sentence-matching tasks. As a result, this study serves entity detection differently than traditional Named Entity Recognition.
+
+\section{Mining dynamic Social Networks}
+\label{sec:mining-dynamic-social-networks}
+\todo{Ještě si nejsem jistý, zda-li je tato sekce potřebná.}
+This section will discuss interesting research \cite{Jin2012} dealing with mining dynamic social networks and its application in the stock market. 
+
+%https://lbezone.hkust.edu.hk/bib/991012657169103412
