@@ -107,7 +107,7 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    #dm = DataManager(args.sources)
+    dm = DataManager(args.sources)
 
     #collector = NewsCollector(args.sources)
     #collector.run()
