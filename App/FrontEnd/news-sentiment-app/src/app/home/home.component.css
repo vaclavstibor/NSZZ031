@@ -71,3 +71,22 @@ h1 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+/*
+ANIMATION OF THE H1
+  h1 {
+    background: linear-gradient(to right, #0499F2, #26F596);
+    background-size: 200% auto;
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 3s linear infinite;
+}
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+*/

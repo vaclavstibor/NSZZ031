@@ -44,8 +44,8 @@ export class GraphComponent implements OnInit {
     try {
       const result = await session.run(
         // NYT 'MATCH (k:Keyword)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(k), label:head(labels(k)), value:k.value } as source, { id: id(a), label:head(labels(a)), abstract:a.abstract } as target LIMIT $limit', 
-        'MATCH (t:Ticker)-[:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(t), label:head(labels(t)), name:t.name } as source, { id: id(a), label:head(labels(a)), title:a.title, abstract:a.abstract } as target LIMIT $limit', 
-        {limit: neo4j.int(3000)}
+        'MATCH (t:Ticker)-[rel:IS_MENTIONED_IN]->(a:Article) RETURN { id: id(t), label:head(labels(t)), name:t.name, ticker_sentiment_label:rel.ticker_sentiment_label } as source, { id: id(a), label:head(labels(a)), title:a.title, abstract:a.abstract, overall_sentiment_label:a.overall_sentiment_label, ticker_sentiment_label:rel.ticker_sentiment_label } as target LIMIT $limit', 
+        {limit: neo4j.int(1000)}
       );
       const nodes: {[key: number]: any} = {};
       const links = result.records.map((r:Record) => { 
@@ -55,7 +55,7 @@ export class GraphComponent implements OnInit {
         var target = r.get('target');
         target.id = target.id.toNumber();
         nodes[target.id] = target;
-        return {source: source.id, target: target.id};
+        return {source: source.id, target: target.id, ticker_sentiment_label: target.ticker_sentiment_label};
       });
       interface Node {
         id: number;
@@ -71,7 +71,22 @@ export class GraphComponent implements OnInit {
       const gData = { nodes: Object.values(nodes), links: links};
       this.graph = ForceGraph3D()(document.getElementById('3d-graph') as HTMLElement)
                     .graphData(gData)
+                    .forceEngine('ngraph')
+                    .warmupTicks(100)
+                    .cooldownTicks(0)
                     .nodeAutoColorBy('label')
+                    .nodeOpacity(1)
+                    .linkDirectionalParticles(2)
+                    .linkDirectionalParticleWidth(1)
+                    .linkDirectionalParticleSpeed(0.006)
+                    .nodeVal((node: any) => Math.pow((node.label == 'Ticker' ? 2 : 1), 2))
+                    .nodeColor((node: any) => {
+                      if (node.label === 'Ticker') {
+                        return '#176696' // default blue by nodeAutoColorBy('label')
+                      } else {
+                        return this.getColorBySentimentLabel(node.overall_sentiment_label)  
+                      }
+                    })                    
                     .nodeLabel((obj: object) => {
                       const node = obj as Node;
                       if (node.label === 'Ticker') {
@@ -80,12 +95,33 @@ export class GraphComponent implements OnInit {
                         return `${node.title}`;
                       }
                     })
+                    .linkColor((link: any) => {     
+                      return this.getColorBySentimentLabel(link.ticker_sentiment_label)    
+                    })                   
                     .onNodeHover(node => document.body.style.cursor = node ? 'pointer' : 'default')
+                  
 
     } catch (error) {
       console.log(error);
     } finally {
       await session.close();
+    }
+  }
+
+  getColorBySentimentLabel(sentimentLabel: any): string {
+    switch (sentimentLabel) {
+      case 'Bearish':
+        return '#BC2023'; // Red
+      case 'Somewhat-Bearish ':
+        return '#Eb442C'; // Orange
+      case 'Neutral':
+        return '#F8B324'; // Yellow
+      case 'Somewhat-Bullish':
+        return '#0B6E4F'; // Dark Green 0C6B37
+      case 'Bullish':
+        return '#4AB535'; // Light Green
+      default:
+        return 'white';
     }
   }
 
