@@ -7,9 +7,9 @@ The final version of the application will be available for the course [NSZZ031](
 
 You can try it out in deployment without the backend part (due to the local Neo4j database):
 - In repository ``App/frontend/news-sentiment-app`` run ``ng serve``
-- Then navigate to the ``http://localhost:4200/`
+- Then navigate to the ``http://localhost:4200/``
 
-The beginning of the thesis, the textual part of this work, is available [here](better-thesis-master/thesis.pdf) 
+The beginning of the thesis, the textual part of this work, is available [here](better-thesis-master/version/thesis-v1.pdf) 
 
 ![teaser1](images/teaser01.png)
 ![teaser2](images/teaser02.png)
