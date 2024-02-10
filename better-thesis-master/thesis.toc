@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.1.1}Bloomberg Terminal}{7}{subsection.2.1.1}%
 \contentsline {section}{\numberline {2.2}Predicting Stock Market Behaviour}{10}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Entity-level Sentiment Analysis}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Mining dynamic Social Networks}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Mining dynamic Social Networks}{11}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Textual data}{12}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Aspects for considerations}{12}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Data sources}{13}{section.3.2}%
