@@ -1901,7 +1901,6 @@ INPUT ch1.tex
 INPUT ./ch1.tex
 INPUT ch1.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.tfm
@@ -1943,9 +1942,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1Libertinus
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSans-Regular-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSans-Bold-tlf-t1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1--base.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Regular-tlf-t1.vf
@@ -1959,11 +1955,15 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/Liber
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSans-Regular-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSans-Regular-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.tfm
 INPUT ./img/entity-feature-aspect-level.pdf
 INPUT ./img/entity-feature-aspect-level.pdf
 INPUT img/entity-feature-aspect-level.pdf
 INPUT ./img/entity-feature-aspect-level.pdf
 INPUT ./img/entity-feature-aspect-level.pdf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertinus-type1/LibertinusSerif-Italic-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc
 INPUT ./ch2.tex
 INPUT ./ch2.tex
 INPUT ./ch2.tex

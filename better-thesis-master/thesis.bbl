@@ -493,12 +493,29 @@
     \field{year}{2014}
   \endentry
 
+  \entry{reuters2022}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={{Reuters}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{title}{After crypto, Stocktwits takes aim at stocks trading}
+    \verb{url}
+    \verb https://www.reuters.com/technology/after-crypto-stocktwits-takes-aim-
+    \verb stocks-trading-2022-07-19/
+    \endverb
+    \field{year}{2022}
+  \endentry
+
   \entry{bloomberg}{online}{}
     \name{author}{4}{}{%
-      {{hash=B}{%
-         family={{Bloomberg L.P.}},
-         familyi={B\bibinitperiod},
-      }}%
       {{hash=CX}{%
          family={Cui},
          familyi={C\bibinitperiod},
@@ -517,9 +534,15 @@
          given={Arun},
          giveni={A\bibinitperiod},
       }}%
+      {{hash=LB}{%
+         family={L.P.},
+         familyi={L\bibinitperiod},
+         given={Bloomberg},
+         giveni={B\bibinitperiod},
+      }}%
     }
-    \strng{namehash}{B+1}
-    \strng{fullhash}{BCXLDVA1}
+    \strng{namehash}{CX+1}
+    \strng{fullhash}{CXLDVALB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2024}

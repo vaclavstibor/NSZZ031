@@ -4,9 +4,9 @@ Since the application's core is sentiment analysis, it is necessary to define th
 
 \section{Sentiment Analysis Basics}
 \label{sec:sentiment-analysis-basics}
-Sentiment analysis or opinion mining is a subfield of \acrshort{nlp} that aims to identify and extract opinions and emotions from a text. The goal is to determine the author's attitude towards a particular topic or the overall contextual polarity~of various document levels. We measure the text's polarity using a numerical scale ranging from -1 to 1. The low-end score of the scale signifies a negative sentiment, zero represents neutrality, and the high-end score indicates a positive sentiment. This scale effectively estimates the degree of negativity or positivity in the text's tone. 
+Sentiment analysis or opinion mining is a subfield of \acrfull{nlp} that aims to identify and extract opinions and emotions from a text. The~goal is to determine the author's attitude towards a particular topic or the overall contextual polarity~of various document levels. We measure the text's polarity using a numerical scale ranging from -1 to 1. The low-end score of the scale signifies a negative sentiment, zero represents neutrality, and the high-end score indicates a positive sentiment. This scale effectively estimates the degree of negativity or positivity in the text's tone. 
 
-The extraction of opinions and emotions has applications in various areas, from product reviews to political events. Hence, it is imperative to work in different domains (see \cite{PIRYANI2017122}). Because of cross-domain and cross-language, two of the most general issues in sentiment analysis, this thesis will focus only on the financial domain in English. Nevertheless, domain-specific sentiment analysis achieves remarkable accuracy while staying highly domain-sensitive, as shown \cite{saunders_2020}. To delve deeper into cross issues, \citeauthor{liu2022sentiment} provides further details in his book \citetitle{liu2022sentiment}\todo{(Q-1.1) Zeptat se - nebo je lepší odkaz "in his work Lei, 2022" v context citatce v Bibliography, kde odkazuji na konkrétní strany z jeho knihy, které se daným problémem odkazují.}.
+The extraction of opinions and emotions has applications in various areas, from product reviews to political events. Hence, it is imperative to work in different domains (see \cite{PIRYANI2017122}). Because of cross-domain and cross-language, two of the most general issues in sentiment analysis, this thesis will focus only on the financial domain in English. Nevertheless, domain-specific sentiment analysis achieves remarkable accuracy while staying highly domain-sensitive, as shown in \parencite{saunders_2020}. To delve deeper into cross issues, \citeauthor{liu2022sentiment} provides further details in his book \parencite{liu2022sentiment}.
 
 \subsection{Levels of Sentiment Analysis}
 \label{subsec:levels-of-sentiment-analysis}
@@ -18,7 +18,6 @@ Sentiment analysis has been studied at several levels of granularity: Document-l
     \caption{Levels of sentiment analysis (inspired by \cite{Wankhade2022}).}
     \label{fig:sa-levels}
 \end{figure}
-\todo{(Q-1.1.1-1) Zeptat se - Je třeba citovat?}
 
 \subsubsection*{Document-level}
 \label{subsubsec:document-level}
@@ -36,13 +35,14 @@ Phrase-level sentiment analysis examines sentiment within smaller linguistic uni
 
 \subsubsection*{Entity-level}
 \label{subsubsec:entity-level}
+%https://wandb.ai/madhana/Named_Entity_Recognition/reports/A-Beginner-s-Guide-to-Named-Entity-Recognition-NER---VmlldzozNjE2MzI1
 The most elaborative level is entity-level sentiment analysis, where we study sentiment associated with specific entities mentioned in the text. This level provides a detailed look at the expressed polarity of certain products, individuals, or organizations. One of the main tasks in this scope is the named entity recognition, which will be discussed later.
 
 \paragraph{}
 
 Some researchers classify the last level as the aspect-level, as noted by \cite{Wankhade2022}, or a more detailed entity-level version called the feature-level proposed by \cite{Jenifer2017}. While both approaches aim to evaluate sentiment towards specific aspects, they differ in their task approach. Relationships between these levels are illustrated in Fig. \ref{fig:enity-feature-aspect-level}.
 
-In the first case, aspects are considered without directly mentioning entities in the text. We are not interested in the entities since the \todo{(Q-1.1.1-2) Zeptat se - Nebo zaměnit "investigated textual data" za "(input) data"?} investigated textual data are commonly associated with them\footnote{Entities are not handled in this case, but we provide them here for a better understanding.}, such as reviews. The study conducted by \cites{Wang2019} analyzed sentiment at the aspect level within restaurant reviews. It primarily examines aspects such as food, price, service, and others. In~the feature-based approach, aspects are commonly associated with an entity's features by connecting the entity and its aspects in text. To illustrate, consider the sentence:\begin{quote}
+In the first case, aspects are considered without directly mentioning entities in the text. We are not interested in the entities since the input textual data are commonly associated with them\footnote{Entities are not handled in this case, but we provide them here for a better understanding.}, such as reviews. The study conducted by \cites{Wang2019} analyzed sentiment at the aspect level within restaurant reviews. It primarily examines aspects such as food, price, service, and others. In~the feature-based approach, aspects are commonly associated with an entity's features by connecting the entity and its aspects in text. To illustrate, consider the sentence:\begin{quote}
     \textit{``The battery life of this phone is excellent, but the camera is not good.''}
 \end{quote} At the feature level, we identify \textit{the battery life} and \textit{camera} as specific features of entity \textit{the phone}, allowing us to determine the polarity of each entity's feature.
 

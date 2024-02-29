@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  10 FEB 2024 02:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  29 FEB 2024 16:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1375,8 +1375,6 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 5.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 9.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 11.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
@@ -1396,7 +1394,7 @@ LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
 
 
 pdfTeX warning: pdflatex (file ./img/sa-levels.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/sa-levels.pdf, id=220, 383.384pt x 393.71764pt>
+<img/sa-levels.pdf, id=221, 383.384pt x 393.71764pt>
 File: img/sa-levels.pdf Graphic file (type pdf)
 <use img/sa-levels.pdf>
 Package pdftex.def Info: img/sa-levels.pdf  used on input line 17.
@@ -1420,15 +1418,18 @@ LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
 
 
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}] [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc} <./img/sa-levels.pdf>]
+] [4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc} <./img/sa-levels.pdf>]
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 46.
+
 
 pdfTeX warning: pdflatex (file ./img/entity-feature-aspect-level.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/entity-feature-aspect-level.pdf, id=322, 342.59485pt x 251.30255pt>
+<img/entity-feature-aspect-level.pdf, id=321, 342.59485pt x 251.30255pt>
 File: img/entity-feature-aspect-level.pdf Graphic file (type pdf)
 <use img/entity-feature-aspect-level.pdf>
 Package pdftex.def Info: img/entity-feature-aspect-level.pdf  used on input line 51.
 (pdftex.def)             Requested size: 195.0pt x 143.03687pt.
-[5 <./img/entity-feature-aspect-level.pdf>]) [6]
+[5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc} <./img/entity-feature-aspect-level.pdf>]) [6]
 \openout2 = `ch2.aux'.
 
  (./ch2.tex
@@ -1534,7 +1535,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 12C5A22BA5A44F23A19E40FCCA4678A6;4721.
+(rerunfilecheck)             Checksum: 5835E440D1A718F2E744AF9B44B01479;4721.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                thesis
@@ -1545,18 +1546,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46261 strings out of 476025
- 866059 string characters out of 5790016
- 1873388 words of memory out of 5000000
- 65359 multiletter control sequences out of 15000+600000
- 705768 words of font info for 337 fonts, out of 8000000 for 9000
+ 46203 strings out of 476025
+ 864585 string characters out of 5790016
+ 1869388 words of memory out of 5000000
+ 65322 multiletter control sequences out of 15000+600000
+ 704148 words of font info for 325 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,9n,117p,2296b,2938s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,9n,117p,2296b,2974s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (30 pages, 1079750 bytes).
+Output written on thesis.pdf (30 pages, 1077861 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 710 PDF objects out of 1000 (max. 8388607)
+ 567 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
  91920 words of extra memory for PDF output out of 106986 (max. 10000000)
 
