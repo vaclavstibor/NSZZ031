@@ -62,3 +62,12 @@ Dockerfile: This file would contain the instructions for building your Docker co
 requirements.txt: This file would list the Python packages that your application depends on.
 
 The Guardian [5544] - (X) Parallel: Elapsed time: 41.68116307258606 seconds - Sequential: Elapsed time: 39.854920864105225 seconds - Parallel: Elapsed time: 16.91698408126831 seconds - Refactor: Elapsed time: 22.789713144302368 seconds
+
+Airflow
+
+```
+python3 -m venv airflow_venv
+source airflow_venv/bin/activatepip install apache-airflow==2.2.3 --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.2.3/constraints-3.8.txt
+```
+
+pip freeze > requirements.txt

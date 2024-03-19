@@ -1,0 +1,5 @@
+# All dirs with data
+**/data/
+
+# Python cache
+__pycache__/

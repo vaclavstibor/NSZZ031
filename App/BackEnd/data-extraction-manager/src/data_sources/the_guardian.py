@@ -1,46 +1,18 @@
 import logging
 import uuid
 import os
-import time
 import json
 from typing import Any, Dict, List
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime
 
-import colorlog
 from dotenv import load_dotenv
 import requests
 from bs4 import BeautifulSoup
 
 from .models.article import Article
 from .models.base_source import BaseSource
-from dotenv import find_dotenv
 
-def setup_logger():
-    formatter = colorlog.ColoredFormatter(
-        "%(log_color)s%(levelname)-8s%(reset)s %(blue)s%(message)s",
-        datefmt=None,
-        reset=True,
-        log_colors={
-            "DEBUG": "cyan",
-            "INFO": "green",
-            "WARNING": "yellow",
-            "ERROR": "red",
-            "CRITICAL": "red,bg_white",
-        },
-        secondary_log_colors={},
-        style="%",
-    )
-
-    logger = colorlog.getLogger()
-    handler = logging.StreamHandler()
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
-    logger.setLevel(logging.INFO)
-
-setup_logger()
-
-load_dotenv(find_dotenv())
+load_dotenv()
 
 BEGINNING_OF_TIME = os.getenv("BEGINNING_OF_TIME")
 THE_GUARDIAN_DIRECTORY = os.getenv("THE_GUARDIAN_DIRECTORY")
@@ -48,17 +20,15 @@ THE_GUARDIAN_SECTIONS = os.getenv("THE_GUARDIAN_SECTIONS").split(",")
 THE_GUARDIAN_BASE_URL = os.getenv("THE_GUARDIAN_BASE_URL")
 GUARDIAN_API_KEY = os.getenv("THE_GUARDIAN_API_KEY")
 
+
 class TheGuardian(BaseSource):
     def __init__(self):
         self.base_url = os.getenv("THE_GUARDIAN_BASE_URL")
         self.api_key = os.getenv("THE_GUARDIAN_API_KEY")
         self.article_counter = 0
 
-    def fetch_data(
-        self,
-        sections: List[str],
-        from_date: str = BEGINNING_OF_TIME,
-    ):
+    def fetch_articles(self, sections: List[str], from_date: str) -> None:
+        """ """
         for section in sections:
             os.makedirs(f"{THE_GUARDIAN_DIRECTORY}/{section}", exist_ok=True)
 
@@ -71,9 +41,24 @@ class TheGuardian(BaseSource):
                     range(1, total_pages + 1),
                 )
 
+    def save_to_json(self, articles: List[dict], section: str, page: int) -> None:
+        """
+        Save the data to a JSON file.
+        """
+        try:
+            file_path = f"{THE_GUARDIAN_DIRECTORY}/{section}/{section}-{page}.json"
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            with open(file_path, "w") as f:
+                json.dump(articles, f, ensure_ascii=False, indent=4)
+        except Exception as e:
+            message = f"Failed to save data to JSON. Error: {str(e)}"
+            logging.error(message)
+            raise Exception(message)
+
     def get_total_pages(
         self, section: str, from_date: str = BEGINNING_OF_TIME, page_size: int = 200
     ) -> int:
+        """ """
         url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-fields=body&page=1&page-size={page_size}&api-key={self.api_key}"
         try:
             request = requests.get(url, timeout=5)
@@ -83,7 +68,9 @@ class TheGuardian(BaseSource):
             return data["response"]["pages"]
 
         except Exception as e:
-            message = f"Failed to get total pages from The Guardian API. Error: {str(e)}"
+            message = (
+                f"Failed to get total pages from The Guardian API. Error: {str(e)}"
+            )
             logging.error(message)
             raise Exception(message)
 
@@ -132,17 +119,9 @@ class TheGuardian(BaseSource):
                 self.process_article(article) for article in data["response"]["results"]
             ]
 
-            file_path = f"{THE_GUARDIAN_DIRECTORY}/{section}/{section}-{page}.json"
-            os.makedirs(os.path.dirname(file_path), exist_ok=True)
-            with open(file_path, "w") as f:
-                json.dump(articles, f, ensure_ascii=False, indent=4)
+            self.save_to_json(articles, section, page)
 
         except Exception as e:
             message = f"Failed to get articles from The Guardian API. Error: {str(e)}"
             logging.error(message)
             raise Exception(message)
-
-
-if __name__ == "__main__":
-    guardian = TheGuardian()
-    guardian.fetch_data(sections=THE_GUARDIAN_SECTIONS, from_date=BEGINNING_OF_TIME)
