@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 from typing import List
 
+from .article import Article
+
 
 class BaseSource(ABC):
     """
@@ -38,12 +40,12 @@ class BaseSource(ABC):
         raise NotImplementedError("Subclasses should implement this method!")
 
     @abstractmethod
-    def save_to_json(self, data: List[dict], section: str, page: int) -> None:
+    def save_to_json(self, data: List[Article], section: str, page: int) -> None:
         """
         Save the data to a JSON file.
 
         Args:
-            data (List[dict]): The data to save.
+            data (List[Article]): The data to save.
             section (str): The section of the source the data is from.
             page (int): The page number of the data.
 

@@ -1,5 +1,7 @@
-from .models.base_source import BaseSource
 from typing import List
+
+from .models.base_source import BaseSource
+from .models.article import Article
 
 
 class TheNewYorkTimes(BaseSource):
@@ -32,12 +34,12 @@ class TheNewYorkTimes(BaseSource):
         """
         pass
 
-    def save_to_json(self, data: List[dict], section: str, page: int) -> None:
+    def save_to_json(self, data: List[Article], section: str, page: int) -> None:
         """
         Save New York Times articles to JSON.
 
         Args:
-            data (List[dict]): The data to save.
+            data (List[Article]): The data to save.
             section (str): The section of the New York Times the data is from.
             page (int): The page number of the data.
         """

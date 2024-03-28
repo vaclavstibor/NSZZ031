@@ -66,16 +66,18 @@ class TheGuardian(BaseSource):
                     range(1, total_pages + 1),
                 )
 
-    def save_to_json(self, articles: List[dict], section: str, page: int) -> None:
+    def save_to_json(self, articles: List[Article], section: str, page: int) -> None:
         """
         Save the given articles to a JSON file in the directory for the given section.
 
         Args:
-            articles (List[dict]): The articles to save.
+            articles (List[Article]): The articles to save.
             section (str): The section of The Guardian the articles are from.
             page (int): The page number of the articles.
         """
         try:
+            articles = [article.to_dict() for article in articles]
+
             file_path = f"{self.directory}/{section}/{section}-{page}.json"
 
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -149,7 +151,7 @@ class TheGuardian(BaseSource):
             content=body_text,
             author="",
             published_date=published_date,
-        ).to_dict()
+        )
 
     def get_articles(
         self,
