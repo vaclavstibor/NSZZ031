@@ -1,8 +1,15 @@
-# Airflow logs
-**/logs/
-
 # All dirs with data
 **/data/
 
 # Python cache
 __pycache__/
+
+## Airflow
+#  - Airflow logs
+**/logs/
+# - Airflow pid
+**/airflow-webserver.pid
+**/airflow-scheduler.pid
+
+# notes.txt
+**/notes.txt

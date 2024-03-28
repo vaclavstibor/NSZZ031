@@ -39,3 +39,8 @@ pkill -f "airflow scheduler"
 
 airflow dags trigger extract_transform_load -e 2024-03-27    
 airflow tasks run extract_transform_load extract.extract_the_guardian_data 2024-03-27
+
+
+Python
+- formating
+- To provide detailed descriptions and types of class attributes in Python, you can use the Sphinx style of docstring
