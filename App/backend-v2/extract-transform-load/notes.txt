@@ -1,0 +1,41 @@
+Koupil
+https://www.ksi.mff.cuni.cz/~koupil/232-NDBI046/class06/NDBI046_06_Apache_Airflow.pdf
+https://gitlab.mff.cuni.cz/contosp/ndbi046/-/blob/master/class06/library_extract.py
+
+https://www.restack.io/docs/airflow-knowledge-apache-mac-m1-install
+
+pip install "apache-airflow[celery]==2.6.1" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.6.1/constraints-3.7.txt"
+pip install kubernetes
+
+export NO_PROXY="*" // POUZE PRO MACOS, KDYZTAK JE V ETL.PY: os.environ['NO_PROXY'] = '*'  # disable proxy
+export AIRFLOW_HOME=/Users/stiborv/Documents/ZS2324/NPRG045/App/backend-v2/extract-transform-load/airflow 
+
+airflow db init
+airflow webserver -p 8080
+airflow scheduler
+
+airflow users create \
+    --username admin \
+    --firstname FIRST_NAME \
+    --lastname LAST_NAME \
+    --role Admin \
+    --email admin@example.com
+
+------password: admin
+
+airflow users create \
+    --username viewer \
+    --firstname FIRST_NAME \
+    --lastname LAST_NAME \
+    --role Viewer \
+    --email viewer@example.com
+
+------ password: Viewer
+
+pkill -f "airflow webserver"
+pkill -f "airflow scheduler"
+
+------
+
+airflow dags trigger extract_transform_load -e 2024-03-27    
+airflow tasks run extract_transform_load extract.extract_the_guardian_data 2024-03-27
