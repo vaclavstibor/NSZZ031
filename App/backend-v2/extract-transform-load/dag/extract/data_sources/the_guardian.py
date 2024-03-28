@@ -4,7 +4,6 @@ import os
 import json
 from typing import Any, Dict, List
 from concurrent.futures import ThreadPoolExecutor
-from concurrent.futures import wait
 
 from dotenv import load_dotenv
 import requests
@@ -12,56 +11,75 @@ import requests
 from .models.article import Article
 from .models.base_source import BaseSource
 
+# Load environment variables from a .env file
 load_dotenv()
-
-THE_GUARDIAN_DIRECTORY = "/Users/stiborv/Documents/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data"  # os.getenv("THE_GUARDIAN_DIRECTORY")
 
 
 class TheGuardian(BaseSource):
+    """
+    A class for fetching and saving articles to JSON from The Guardian.
+
+    Attributes:
+        base_url (str): The base URL of The Guardian API.
+        api_key (str): The API key for accessing The Guardian API.
+        directory (str): The directory where the fetched data will be stored.
+        article_counter (int): A counter to keep track of the number of articles processed.
+    """
+
     def __init__(self):
+        """
+        Initialize TheGuardian class with base_url, api_key, directory, and article_counter.
+        """
         self.base_url = os.getenv("THE_GUARDIAN_BASE_URL")
         self.api_key = os.getenv("THE_GUARDIAN_API_KEY")
+        self.directory = os.getenv("THE_GUARDIAN_DIRECTORY")
         self.article_counter = 0
-        logging.info(f"TheGuardian initialized with base_url: {self.base_url} and api_key: {self.api_key}")
+
+        logging.info(
+            f"TheGuardian initialized with base_url: {self.base_url} and api_key: {self.api_key}"
+        )
 
     def fetch_articles(self, sections: List[str], from_date: str) -> None:
-        """ """
+        """
+        Fetch articles from The Guardian API for the given sections and from the given date.
+
+        Args:
+            sections (List[str]): The sections of The Guardian to fetch articles from.
+            from_date (str): The date from which to fetch articles.
+        """
         logging.info("The Guardian started fetching articles.")
 
+        # Create directories for each section if they do not exist
         for section in sections:
-            os.makedirs(f"{THE_GUARDIAN_DIRECTORY}/{section}", exist_ok=True)
+            os.makedirs(f"{self.directory}/{section}", exist_ok=True)
 
+        # Get the total number of pages for each section
         pages = {
             section: self.get_total_pages(section, from_date) for section in sections
         }
-        
-        """
+
+        # Fetch articles from each page in parallel using a ThreadPoolExecutor
         with ThreadPoolExecutor() as executor:
             for section, total_pages in pages.items():
                 executor.map(
                     lambda page: self.get_articles(section, page, from_date),
                     range(1, total_pages + 1),
                 )
-        """
-        
-        for section in sections:
-            logging.info(f"Processing section: {section}")
-            total_pages = self.get_total_pages(section, from_date)
-            logging.info(f"Total pages for section {section}: {total_pages}")
-            for page in range(1, total_pages + 1):
-                logging.info(f"Processing page {page} for section {section}")
-                self.get_articles(section, page, from_date)
-                logging.info(f"Completed processing page {page} for section {section}")
-            logging.info(f"Completed processing section: {section}")
-        
 
     def save_to_json(self, articles: List[dict], section: str, page: int) -> None:
         """
-        Save the data to a JSON file.
+        Save the given articles to a JSON file in the directory for the given section.
+
+        Args:
+            articles (List[dict]): The articles to save.
+            section (str): The section of The Guardian the articles are from.
+            page (int): The page number of the articles.
         """
         try:
-            file_path = f"{THE_GUARDIAN_DIRECTORY}/{section}/{section}-{page}.json"
+            file_path = f"{self.directory}/{section}/{section}-{page}.json"
+
             os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
             with open(file_path, "w") as f:
                 json.dump(articles, f, ensure_ascii=False, indent=4)
         except Exception as e:
@@ -72,12 +90,22 @@ class TheGuardian(BaseSource):
     def get_total_pages(
         self, section: str, from_date: str, page_size: int = 200
     ) -> int:
-        """ """
+        """
+        Get the total number of pages of articles for the given section and from the given date.
+
+        Args:
+            section (str): The section of The Guardian to get the total pages from.
+            from_date (str): The date from which to get the total pages.
+            page_size (int, optional): The number of articles per page. Defaults to 200.
+
+        Returns:
+            int: The total number of pages.
+        """
         url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-fields=bodyText&page=1&page-size={page_size}&api-key={self.api_key}"
         try:
             response = requests.get(url)
-            response.raise_for_status()  # This will raise an HTTPError if the status is 4xx or 5xx
-            
+            response.raise_for_status()  # Raise an HTTPError if the status is 4xx or 5xx
+
             data = response.json()
             return data["response"]["pages"]
 
@@ -89,6 +117,15 @@ class TheGuardian(BaseSource):
             raise
 
     def process_article(self, article: Dict[str, Any]) -> Article:
+        """
+        Process the given article data and return an Article object.
+
+        Args:
+            article (Dict[str, Any]): The article data to process.
+
+        Returns:
+            Article: The processed Article object.
+        """
         body_text = article["fields"]["bodyText"]
 
         if body_text is None or body_text == "":
@@ -109,9 +146,9 @@ class TheGuardian(BaseSource):
             section=article["sectionId"],
             url=article["webUrl"],
             title=article["webTitle"],
+            content=body_text,
             author="",
             published_date=published_date,
-            content=body_text,
         ).to_dict()
 
     def get_articles(
@@ -121,6 +158,15 @@ class TheGuardian(BaseSource):
         from_date: str,
         page_size: int = 200,
     ):
+        """
+        Get articles from The Guardian API for the given section and from the given date.
+
+        Args:
+            section (str): The section of The Guardian to get articles from.
+            page (int): The page number to get articles from.
+            from_date (str): The date from which to get articles.
+            page_size (int, optional): The number of articles per page. Defaults to 200.
+        """
         url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-fields=bodyText&page={page}&page-size={page_size}&api-key={self.api_key}"
         try:
             response = requests.get(url, timeout=5)

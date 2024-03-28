@@ -4,23 +4,36 @@ from dataclasses import dataclass
 @dataclass
 class Article:
     """
-    A class to represent an article.
+    Article is a data class that represents an article.
+
+    Attributes:
+        id (str): Unique identifier for the article.
+        type (str): Type of the article.
+        section (str): Section where the article belongs.
+        url (str): URL of the article.
+        title (str): Title of the article.
+        content (str): Content of the article.
+        author (str): Author of the article.
+        published_date (str): Date when the article was published.
     """
 
-    id: str  # Unique identifier for the article
-    type: str  # Type of the article
-    section: str  # Section where the article belongs
-    url: str  # URL of the article
-    title: str  # Title of the article
-    content: str  # Content of the article
-    author: str  # Author of the article
-    published_date: str  # Date when the article was published
+    id: str
+    type: str
+    section: str
+    url: str
+    title: str
+    content: str
+    author: str
+    published_date: str
 
     def to_dict(self) -> dict:
         """
-        Convert the Article instance into a dictionary for JSON serialization.
+        Convert the Article object to a dictionary.
+
+        Returns:
+            dict: The Article object as a dictionary.
         """
-    
+
         return {
             "id": self.id,
             "type": self.type,
