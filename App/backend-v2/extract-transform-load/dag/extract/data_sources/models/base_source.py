@@ -1,3 +1,4 @@
+import os
 from abc import ABC, abstractmethod
 from typing import List
 
@@ -13,6 +14,7 @@ class BaseSource(ABC):
         base_url (str): The base URL of the data source.
         api_key (str): The API key for accessing the data source.
         directory (str): The directory where the fetched data will be stored.
+        sections (List[str]): The sections of the source to fetch articles from.
         article_counter (int): A counter to keep track of the number of articles processed.
     """
 
@@ -23,15 +25,52 @@ class BaseSource(ABC):
         self.base_url: str
         self.api_key: str
         self.directory: str
+        self.sections: List[str]
         self.article_counter: int = 0
 
+    
+    def create_and_clear_directory(self) -> None:
+        """Creates and clears directories for each section.
+
+        For each section, two directories are created: an 'extract' directory and a 'transform' directory.
+        If these directories already exist, all files within them are removed.
+
+        Directories are structured as follows:
+        - {self.directory}/extract/{section}
+        - {self.directory}/transform/{section}
+
+        Where {self.directory} is the base directory, and {section} is the name of the section.
+
+        Raises:
+            PermissionError: If the process does not have sufficient permissions to create or delete the directories.
+        """
+        try:
+            for section in self.sections:
+                extract_dir = f"{self.directory}/extract/{section}"
+                transform_dir = f"{self.directory}/transform/{section}"
+
+                if not os.path.exists(extract_dir):
+                    os.makedirs(extract_dir)
+                else:
+                    files = os.listdir(extract_dir)
+                    for file in files:
+                        os.remove(os.path.join(extract_dir, file))
+
+                if not os.path.exists(transform_dir):
+                    os.makedirs(transform_dir)
+                else:
+                    files = os.listdir(transform_dir)
+                    for file in files:
+                        os.remove(os.path.join(transform_dir, file))
+        except PermissionError as e:
+            raise PermissionError(f"Permission denied. {str(e)}")
+
     @abstractmethod
-    def fetch_articles(self, sections: List[str], from_date: str) -> None:
+    def fetch_articles(self, from_date: str) -> None:
         """
         Fetch data from the source.
 
         Args:
-            sections (List[str]): The sections of the source to fetch articles from.
             from_date (str): The date from which to fetch articles.
 
         Raises:

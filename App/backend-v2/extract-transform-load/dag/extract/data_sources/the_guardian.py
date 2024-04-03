@@ -23,39 +23,35 @@ class TheGuardian(BaseSource):
         base_url (str): The base URL of The Guardian API.
         api_key (str): The API key for accessing The Guardian API.
         directory (str): The directory where the fetched data will be stored.
+        sections (List[str]): The sections of The Guardian to fetch articles from.
         article_counter (int): A counter to keep track of the number of articles processed.
     """
 
     def __init__(self):
         """
-        Initialize TheGuardian class with base_url, api_key, directory, and article_counter.
+        Initialize TheGuardian class with base_url, api_key, directory, sections, and article_counter.
         """
         self.base_url = os.getenv("THE_GUARDIAN_BASE_URL")
         self.api_key = os.getenv("THE_GUARDIAN_API_KEY")
         self.directory = os.getenv("THE_GUARDIAN_DIRECTORY")
+        self.sections = os.getenv("THE_GUARDIAN_SECTIONS").split(",")
         self.article_counter = 0
 
         logging.info(
             f"TheGuardian initialized with base_url: {self.base_url} and api_key: {self.api_key}"
         )
 
-    def fetch_articles(self, sections: List[str], from_date: str) -> None:
+    def fetch_articles(self, from_date: str) -> None:
         """
         Fetch articles from The Guardian API for the given sections and from the given date.
 
         Args:
-            sections (List[str]): The sections of The Guardian to fetch articles from.
             from_date (str): The date from which to fetch articles.
         """
-        logging.info("The Guardian started fetching articles.")
-
-        # Create directories for each section if they do not exist
-        for section in sections:
-            os.makedirs(f"{self.directory}/{section}", exist_ok=True)
 
         # Get the total number of pages for each section
         pages = {
-            section: self.get_total_pages(section, from_date) for section in sections
+            section: self.get_total_pages(section, from_date) for section in self.sections
         }
 
         # Fetch articles from each page in parallel using a ThreadPoolExecutor
@@ -76,11 +72,10 @@ class TheGuardian(BaseSource):
             page (int): The page number of the articles.
         """
         try:
-            articles = [article.to_dict() for article in articles]
+            articles = [article.to_dict() for article in articles if article is not None]
 
-            file_path = f"{self.directory}/{section}/{section}-{page}.json"
-
-            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            file_path = f"{self.directory}/extract/{section}/{section}_{page}.json"
+            logging.info(f"Saving data to {file_path}")
 
             with open(file_path, "w") as f:
                 json.dump(articles, f, ensure_ascii=False, indent=4)

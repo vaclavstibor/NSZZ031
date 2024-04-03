@@ -22,14 +22,14 @@ class FinancialTimes(BaseSource):
         self.base_url = f"The Financial Times API URL here"
         self.api_key = f"The Financial Times API key here"
         self.directory = f"Directory for Financial Times data here"
+        self.sections = ["section1", "section2", "section3"]
         self.article_counter = 0
 
-    def fetch_articles(self, sections: List[str], from_date: str) -> None:
+    def fetch_articles(self, from_date: str) -> None:
         """
         Fetch articles from the Financial Times.
 
         Args:
-            sections (List[str]): The sections of the Financial Times to fetch articles from.
             from_date (str): The date from which to fetch articles.
         """
         pass

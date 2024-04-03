@@ -12,6 +12,7 @@ class TheNewYorkTimes(BaseSource):
         base_url (str): The base URL of the New York Times API.
         api_key (str): The API key for accessing the New York Times API.
         directory (str): The directory where the fetched data will be stored.
+        sections (List[str]): The sections of the New York Times to fetch articles from.
         article_counter (int): A counter to keep track of the number of articles processed.
     """
 
@@ -22,14 +23,14 @@ class TheNewYorkTimes(BaseSource):
         self.base_url = f"The New York Times API URL here"
         self.api_key = f"The New York Times API key here"
         self.directory = f"Directory for New York Times data here"
+        self.sections = ["section1", "section2", "section3"]
         self.article_counter = 0
 
-    def fetch_articles(self, sections: List[str], from_date: str) -> None:
+    def fetch_articles(self, from_date: str) -> None:
         """
         Fetch articles from the New York Times.
 
         Args:
-            sections (List[str]): The sections of the New York Times to fetch articles from.
             from_date (str): The date from which to fetch articles.
         """
         pass
