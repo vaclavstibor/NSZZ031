@@ -13,3 +13,6 @@ __pycache__/
 
 # notes.txt
 **/notes.txt
+
+# throttle
+**/throttle.ctrl
