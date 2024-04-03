@@ -10,6 +10,7 @@ TODO:
  - pip install colorlog [x]
  - then change it in requirements.txt
 
+ - add to Microsoft Azure https://www.youtube.com/watch?v=HyCO6nMdxC0&t=2s
  
 """
 
@@ -19,13 +20,13 @@ import logging
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from src.model import predict_entities
+from src.ner.model import extract_entities
 from src.utils.helpers import setup_logger
 
 setup_logger()
 
 class Query(BaseModel):
-    text: str
+    content: str
 
 
 class Entity(BaseModel):
@@ -44,16 +45,16 @@ class Response(BaseModel):
 app = FastAPI()
 
 
-@app.post("/predict/", response_model=Response)
-async def predict(in_query: Query):
+@app.post("/extract-entities", response_model=Response)
+async def extract(in_query: Query):
     """
-    Asynchronously predict the entities in the input text.
+    Asynchronously predict the entities in the input content.
     By using async def instead of def: this function should be run in a separate thread, allowing FastAPI to take other requests while this function is running.
     """
-    entities = predict_entities(in_query.text)
-    
+    entities = extract_entities(in_query.content)
+
     return Response(entities=[Entity(**x) for x in entities])
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("app:app", host="0.0.0.0", port=5051, reload=True)
