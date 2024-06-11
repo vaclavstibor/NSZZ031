@@ -1,41 +1,122 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Sentiment analysis}{15}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Company to Symbol Linking}{23}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chap:sentiment-analysis}{{4}{15}{Sentiment analysis}{chapter.4}{}}
-\newlabel{chap:sentiment-analysis@cref}{{[chapter][4][]4}{[1][15][]15}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Overview}{15}{section.4.1}\protected@file@percent }
-\newlabel{sec:overview}{{4.1}{15}{Overview}{section.4.1}{}}
-\newlabel{sec:overview@cref}{{[section][1][4]4.1}{[1][15][]15}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Levels of sentiment analysis}{15}{section.4.2}\protected@file@percent }
-\newlabel{sec:levels-sentiment-analysis}{{4.2}{15}{Levels of sentiment analysis}{section.4.2}{}}
-\newlabel{sec:levels-sentiment-analysis@cref}{{[section][2][4]4.2}{[1][15][]15}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Related work}{15}{section.4.3}\protected@file@percent }
-\newlabel{sec:related-work}{{4.3}{15}{Related work}{section.4.3}{}}
-\newlabel{sec:related-work@cref}{{[section][3][4]4.3}{[1][15][]15}}
+\newlabel{chap:comapny-to-symbol-linking}{{4}{23}{Company to Symbol Linking}{chapter.4}{}}
+\newlabel{chap:comapny-to-symbol-linking@cref}{{[chapter][4][]4}{[1][23][]23}}
+\@writefile{tdo}{\contentsline {todo}{TODO: Přidat nebo už je to moc navíc? The implementation involves using a spaCy entity linker pipeline built on a knowledge base to link text entities with Wikidata entities of the organization type. Subsequently, SPARQL queries are used to extract ticker symbols and exchanges from Wikidata, covering direct retrieval, owner-based retrieval, and differentiated retrieval scenarios.}{23}{section*.23}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{TODO: První část posledního odstavce pravděpodobně přesunu do Stock Exchange kapitoly, kde se budou popisovat nějaké základní info.}{23}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{23}{section.4.1}\protected@file@percent }
+\newlabel{sec:introduction}{{4.1}{23}{Introduction}{section.4.1}{}}
+\newlabel{sec:introduction@cref}{{[section][1][4]4.1}{[1][23][]23}}
+\@writefile{tdo}{\contentsline {todo}{TODO: Je nutná tato footnote?}{24}{section*.25}\protected@file@percent }
+\@writefile{tdo}{\contentsline {todo}{TODO: Dodat odkaz a zmínit identifikátor v sekci.}{24}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Problem definition}{24}{section.4.2}\protected@file@percent }
+\newlabel{sec:problem-definition}{{4.2}{24}{Problem definition}{section.4.2}{}}
+\newlabel{sec:problem-definition@cref}{{[section][2][4]4.2}{[1][24][]24}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Organisations identified in the Guardian's article about deepfake technology with their official names, ticker symbols, and stock exchanges.\relax }}{26}{table.caption.27}\protected@file@percent }
+\newlabel{table:deepfake-article-excerpt}{{4.1}{26}{Organisations identified in the Guardian's article about deepfake technology with their official names, ticker symbols, and stock exchanges.\relax }{table.caption.27}{}}
+\newlabel{table:deepfake-article-excerpt@cref}{{[table][1][4]4.1}{[1][25][]26}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Naive approach}{26}{section.4.3}\protected@file@percent }
+\newlabel{sec:naive-approach}{{4.3}{26}{Naive approach}{section.4.3}{}}
+\newlabel{sec:naive-approach@cref}{{[section][3][4]4.3}{[1][26][]26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Database}{26}{subsection.4.3.1}\protected@file@percent }
+\newlabel{subsec:data-preparation}{{4.3.1}{26}{Database}{subsection.4.3.1}{}}
+\newlabel{subsec:data-preparation@cref}{{[subsection][1][4,3]4.3.1}{[1][26][]26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data preprocessing}{27}{subsection.4.3.2}\protected@file@percent }
+\newlabel{subsec:data-processing}{{4.3.2}{27}{Data preprocessing}{subsection.4.3.2}{}}
+\newlabel{subsec:data-processing@cref}{{[subsection][2][4,3]4.3.2}{[1][27][]27}}
+\@writefile{tdo}{\contentsline {todo}{Dopsat citace na cosine similarity a n-grams. + Ověřit správnost citace knihovny, ale ve footnote by měla být v pořádku - verzi zapíšu do ipynbs.}{27}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Fuzzy matching}{28}{subsection.4.3.3}\protected@file@percent }
+\newlabel{subsec:fuzzy-matching}{{4.3.3}{28}{Fuzzy matching}{subsection.4.3.3}{}}
+\newlabel{subsec:fuzzy-matching@cref}{{[subsection][3][4,3]4.3.3}{[1][27][]28}}
+\newlabel{subsubsec:levenshtein-distance}{{4.3.3}{28}{}{subsection.4.3.3}{}}
+\newlabel{subsubsec:levenshtein-distance@cref}{{[subsection][3][4,3]4.3.3}{[1][28][]28}}
+\newlabel{subsubsec:wighted-jaccard-similarity}{{4.3.3}{28}{}{table.caption.29}{}}
+\newlabel{subsubsec:wighted-jaccard-similarity@cref}{{[subsection][3][4,3]4.3.3}{[1][28][]28}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Extracted organisation names from the Guardian's article and their matches with official names in the dataset using the match quality scores based on the discounted Levensthein distance.\relax }}{29}{table.caption.29}\protected@file@percent }
+\newlabel{table:discounted-levenshtein-distance}{{4.2}{29}{Extracted organisation names from the Guardian's article and their matches with official names in the dataset using the match quality scores based on the discounted Levensthein distance.\relax }{table.caption.29}{}}
+\newlabel{table:discounted-levenshtein-distance@cref}{{[table][2][4]4.2}{[1][28][]29}}
+\newlabel{eq:weighted-jaccard-similarity}{{4.1}{29}{}{equation.4.3.1}{}}
+\newlabel{eq:weighted-jaccard-similarity@cref}{{[equation][1][4]4.1}{[1][29][]29}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Extracted organisation names from the Guardian's article and their matches with official names in the dataset using the match quality scores based on the Weighted Jaccard Similarity.\relax }}{30}{table.caption.30}\protected@file@percent }
+\newlabel{table:weighted-jaccard-similarity}{{4.3}{30}{Extracted organisation names from the Guardian's article and their matches with official names in the dataset using the match quality scores based on the Weighted Jaccard Similarity.\relax }{table.caption.30}{}}
+\newlabel{table:weighted-jaccard-similarity@cref}{{[table][3][4]4.3}{[1][29][]30}}
+\newlabel{subsubsec:fuzzy-wuzzy-token-set-ratio}{{4.3.3}{30}{}{table.caption.30}{}}
+\newlabel{subsubsec:fuzzy-wuzzy-token-set-ratio@cref}{{[subsection][3][4,3]4.3.3}{[1][30][]30}}
+\@writefile{tdo}{\contentsline {todo}{Q: Tady mi zase přijde na druhou stranu, že čísla nejsou potřeba. Mám číslování equations psát vždy a všude?}{30}{section*.31}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Extracted organisation names from the Guardian's article and their matches with official company names in the dataset using the match quality scores based on the Token Set Ratio.\relax }}{31}{table.caption.32}\protected@file@percent }
+\newlabel{table:token-set-ratio}{{4.4}{31}{Extracted organisation names from the Guardian's article and their matches with official company names in the dataset using the match quality scores based on the Token Set Ratio.\relax }{table.caption.32}{}}
+\newlabel{table:token-set-ratio@cref}{{[table][4][4]4.4}{[1][31][]31}}
+\newlabel{subsubsec:naive-approach-summary}{{4.3.3}{31}{}{table.caption.32}{}}
+\newlabel{subsubsec:naive-approach-summary@cref}{{[subsection][3][4,3]4.3.3}{[1][31][]31}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces The match quality scores for extracted organisation names from the Guardian's article using different similarity measures.\relax }}{32}{table.caption.33}\protected@file@percent }
+\newlabel{table:combined-scores}{{4.5}{32}{The match quality scores for extracted organisation names from the Guardian's article using different similarity measures.\relax }{table.caption.33}{}}
+\newlabel{table:combined-scores@cref}{{[table][5][4]4.5}{[1][32][]32}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Entity linking approach}{32}{section.4.4}\protected@file@percent }
+\newlabel{sec:entity-linking-approach}{{4.4}{32}{Entity linking approach}{section.4.4}{}}
+\newlabel{sec:entity-linking-approach@cref}{{[section][4][4]4.4}{[1][32][]32}}
+\@writefile{tdo}{\contentsline {todo}{QA: Je citace správně? Případně co mi tam chybí? Definuju v latexu jako @misc, kde urldate=den vytvoření citace a year=2024, aby se v textu nezobrazovalo n.d.}{32}{section*.34}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Wikidata}{33}{subsection.4.4.1}\protected@file@percent }
+\newlabel{subsec:wikidata}{{4.4.1}{33}{Wikidata}{subsection.4.4.1}{}}
+\newlabel{subsec:wikidata@cref}{{[subsection][1][4,4]4.4.1}{[1][33][]33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Spacy Entity Linker}{33}{subsection.4.4.2}\protected@file@percent }
+\newlabel{subsec:spacy-entity-linker}{{4.4.2}{33}{Spacy Entity Linker}{subsection.4.4.2}{}}
+\newlabel{subsec:spacy-entity-linker@cref}{{[subsection][2][4,4]4.4.2}{[1][33][]33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Wikidata item for Microsoft.\relax }}{34}{figure.caption.35}\protected@file@percent }
+\newlabel{fig:wikidata-microsoft}{{4.1}{34}{Wikidata item for Microsoft.\relax }{figure.caption.35}{}}
+\newlabel{fig:wikidata-microsoft@cref}{{[figure][1][4]4.1}{[1][33][]34}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}SPARQL Wrapper}{35}{subsection.4.4.3}\protected@file@percent }
+\newlabel{subsubsec:sparql-wrapper}{{4.4.3}{35}{SPARQL Wrapper}{subsection.4.4.3}{}}
+\newlabel{subsubsec:sparql-wrapper@cref}{{[subsection][3][4,4]4.4.3}{[1][35][]35}}
+\@writefile{tdo}{\contentsline {todo}{QA: Dlouho jsem hledal nějakou operaci jak sekvenční přístup nahradit a všechny queries sloučit do jedné. Nakonec se mi ale líbí, navíc můžeme přidávat další filtry za sebe.}{35}{section*.36}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Query 1: Direct ticker retrieval}{36}{section*.36}\protected@file@percent }
+\newlabel{subsubsec:q1-direct-ticker-retrieval}{{4.4.3}{36}{Query 1: Direct ticker retrieval}{section*.36}{}}
+\newlabel{subsubsec:q1-direct-ticker-retrieval@cref}{{[subsection][3][4,4]4.4.3}{[1][36][]36}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces The results of the SPARQL Query 1: Direct ticker retrieval.\relax }}{36}{table.caption.37}\protected@file@percent }
+\newlabel{table:sparql_query_1_results}{{4.6}{36}{The results of the SPARQL Query 1: Direct ticker retrieval.\relax }{table.caption.37}{}}
+\newlabel{table:sparql_query_1_results@cref}{{[table][6][4]4.6}{[1][36][]36}}
+\@writefile{tdo}{\contentsline {todo}{QA/TODO: Dodat, že není tolik běžné, že mají companies na námi specializoavných burzách více než 2 tickery a pro jednoduchost aplikace a struktury od každé entity vezmeme pouze jeden. Na druhou stranu jsem ještě nikdy neviděl API, které by zahrnovalo více než jeden ticker na company, protože mi přijde, že se od jednoho dají další odvodit. Pro jednoduchost a implementační záležitosti zatím volím raději pro jeden ticker. Co si o tom myslíte Vy?}{36}{section*.38}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Query 2: Owner-based ticker retrieval}{36}{section*.38}\protected@file@percent }
+\newlabel{subsubsec:q2-owner-based-ticker-retrieval}{{4.4.3}{36}{Query 2: Owner-based ticker retrieval}{section*.38}{}}
+\newlabel{subsubsec:q2-owner-based-ticker-retrieval@cref}{{[subsection][3][4,4]4.4.3}{[1][36][]36}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces The results of the SPARQL Query 2: Owner-based ticker retrieval.\relax }}{37}{table.caption.39}\protected@file@percent }
+\newlabel{table:sparql_query_2_results}{{4.7}{37}{The results of the SPARQL Query 2: Owner-based ticker retrieval.\relax }{table.caption.39}{}}
+\newlabel{table:sparql_query_2_results@cref}{{[table][7][4]4.7}{[1][36][]37}}
+\@writefile{toc}{\contentsline {subsubsection}{Query 3: Differentiated ticker retrieval}{37}{table.caption.39}\protected@file@percent }
+\newlabel{subsubsec:q3-differentiated-ticker-retrieval}{{4.4.3}{37}{Query 3: Differentiated ticker retrieval}{table.caption.39}{}}
+\newlabel{subsubsec:q3-differentiated-ticker-retrieval@cref}{{[subsection][3][4,4]4.4.3}{[1][37][]37}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces The results of the SPARQL Query 3: Differentiated ticker retrieval.\relax }}{37}{table.caption.40}\protected@file@percent }
+\newlabel{table:sparql_query_3_results}{{4.8}{37}{The results of the SPARQL Query 3: Differentiated ticker retrieval.\relax }{table.caption.40}{}}
+\newlabel{table:sparql_query_3_results@cref}{{[table][8][4]4.8}{[1][37][]37}}
+\newlabel{subsubsec:sparql-wrapper-summary}{{4.4.3}{37}{}{table.caption.40}{}}
+\newlabel{subsubsec:sparql-wrapper-summary@cref}{{[subsection][3][4,4]4.4.3}{[1][37][]37}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.9}{\ignorespaces The results of the SPARQL queries for all extracted organisation names from the Guardian's article.\relax }}{38}{table.caption.41}\protected@file@percent }
+\newlabel{table:sparql-all-queries-results}{{4.9}{38}{The results of the SPARQL queries for all extracted organisation names from the Guardian's article.\relax }{table.caption.41}{}}
+\newlabel{table:sparql-all-queries-results@cref}{{[table][9][4]4.9}{[1][38][]38}}
 \@setckpt{ch4}{
-\setcounter{page}{16}
-\setcounter{equation}{0}
-\setcounter{enumi}{0}
-\setcounter{enumii}{0}
+\setcounter{page}{39}
+\setcounter{equation}{5}
+\setcounter{enumi}{3}
+\setcounter{enumii}{2}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
-\setcounter{footnote}{0}
+\setcounter{footnote}{12}
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{4}
-\setcounter{section}{3}
-\setcounter{subsection}{0}
+\setcounter{section}{4}
+\setcounter{subsection}{3}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
-\setcounter{table}{0}
+\setcounter{figure}{1}
+\setcounter{table}{9}
 \setcounter{section@level}{0}
-\setcounter{Item}{0}
-\setcounter{Hfootnote}{6}
-\setcounter{bookmark@seq@number}{29}
+\setcounter{Item}{12}
+\setcounter{Hfootnote}{20}
+\setcounter{bookmark@seq@number}{38}
 \setcounter{parentequation}{0}
 \setcounter{caption@flags}{2}
 \setcounter{continuedfloat}{0}
@@ -53,7 +134,7 @@
 \setcounter{citetotal}{0}
 \setcounter{multicitecount}{0}
 \setcounter{multicitetotal}{0}
-\setcounter{instcount}{18}
+\setcounter{instcount}{40}
 \setcounter{maxnames}{1}
 \setcounter{minnames}{1}
 \setcounter{maxitems}{3}
@@ -68,7 +149,7 @@
 \setcounter{maxextratitle}{0}
 \setcounter{maxextratitleyear}{0}
 \setcounter{maxextraname}{0}
-\setcounter{maxextradate}{0}
+\setcounter{maxextradate}{2}
 \setcounter{maxextraalpha}{0}
 \setcounter{abbrvpenalty}{50}
 \setcounter{highnamepenalty}{50}
@@ -171,7 +252,7 @@
 \setcounter{ALG@tmpcounter}{0}
 \setcounter{algorithm}{0}
 \setcounter{lstnumber}{1}
-\setcounter{@todonotes@numberoftodonotes}{9}
+\setcounter{@todonotes@numberoftodonotes}{19}
 \setcounter{thm}{0}
 \setcounter{defn}{0}
 \setcounter{listing}{0}
