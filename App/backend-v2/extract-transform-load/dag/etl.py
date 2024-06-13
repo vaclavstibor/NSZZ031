@@ -37,7 +37,7 @@ default_args = {
 @dag(
     dag_id="extract_transform_load",
     default_args=default_args,
-    start_date=datetime(2024, 3, 27),
+    start_date=datetime(2024, 6, 11),
     schedule="@daily",
     catchup=False,
 )
@@ -76,21 +76,6 @@ def extract_transform_load() -> None:
                                 data = json.load(f)
 
                             ti.xcom_push(key=f'{file_basename}_json_extract_articles', value=data)
-
-                        """
-                        def apply_ner_model(ti):
-                            data = ti.xcom_pull(key='json_extract_articles')
-                            entities = apply_ner(data)
-                            # Apply NER model to data
-                            # ...
-                        
-
-                        def apply_sentiment_analysis(ti):
-                            data = ti.xcom_pull(key=f'{file_basename}_json_extract_articles')
-                            entities = ti.xcom_pull(key=f'{file_basename}_articles_entities')                            
-                            # Apply sentiment analysis to data
-                            # ...
-                        """
 
                         def save_file(ti: TaskInstance, file_basename=file_basename, section=section):
                             data = ti.xcom_pull(key=f'{file_basename}_json_extract_articles')

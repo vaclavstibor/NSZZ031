@@ -3,7 +3,7 @@ import logging
 from airflow.models import TaskInstance
 
 
-NER_MODEL_API_URL = 'http://localhost:5051/extract-entities'
+NER_MODEL_API_URL = 'http://host.docker.internal:5051/extract-entities'
 
 
 def apply_ner(ti: TaskInstance, file_basename:str) -> None:

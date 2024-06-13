@@ -19,7 +19,7 @@ from pywikibot.exceptions import IsRedirectPageError
 import logging
 import spacy
 from spacy.tokens import Span
-from SPARQLWrapper import SPARQLWrapper, JSON # TODO add pip SPARQLWrapper to req.txt
+from SPARQLWrapper import SPARQLWrapper, JSON
 
 from typing import Dict, List, Set, Any
 

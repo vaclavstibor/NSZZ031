@@ -1,15 +1,6 @@
 """
 We use the FastAPI because BaseModel is a Pydantic model that is used to define the request and response models for the FastAPI endpoints.
 
-TODO:
- - pip install spacy-transformers [x]
- - pip install spacy-entity-linker [x]
- - python3 -m spacy download en_core_web_trf [x]
- - python3 -m spacy_entity_linker "download_knowledge_base" [x]
- - pip install pywikibot [x]
- - pip install colorlog [x]
- - then change it in requirements.txt
-
  - add to Microsoft Azure https://www.youtube.com/watch?v=HyCO6nMdxC0&t=2s
  
 """

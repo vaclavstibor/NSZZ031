@@ -1,0 +1,48 @@
+# https://bytemedirk.medium.com/developing-locally-with-dockerized-apache-airflow-and-postgres-a2890b8ae199
+# airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+
+version: "3.1"
+services:
+  postgres:
+    image: postgres:latest
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+
+  scheduler:
+    build:
+      context: .
+    command: >
+      bash -c "
+      airflow db migrate &&
+      airflow scheduler"
+    restart: on-failure
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data:/extract-transform-load/data
+
+  webserver:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    command: >
+      bash -c "
+      airflow db migrate &&
+      airflow webserver -p 8080"
+    restart: on-failure
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data:/extract-transform-load/data
+volumes:
+  postgres_data:

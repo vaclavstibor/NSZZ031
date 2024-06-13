@@ -9,3 +9,4 @@ spacy==3.7.4
 spacy-entity-linker==1.0.3
 uvicorn==0.29.0
 python-dotenv==1.0.1
+SPARQLWrapper==2.0.0

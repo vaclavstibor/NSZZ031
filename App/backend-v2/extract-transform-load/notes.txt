@@ -8,7 +8,12 @@ pip install "apache-airflow[celery]==2.6.1" --constraint "https://raw.githubuser
 pip install kubernetes
 
 export NO_PROXY="*" // POUZE PRO MACOS, KDYZTAK JE V ETL.PY: os.environ['NO_PROXY'] = '*'  # disable proxy
-export AIRFLOW_HOME=/Users/stiborv/Documents/ZS2324/NPRG045/App/backend-v2/extract-transform-load/airflow 
+
+for each (3) terminal
+cd /Users/stiborv/Documents/2324/ZS2324/NPRG045 
+source .venv/bin/activate
+cd /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load
+export AIRFLOW_HOME=/Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/airflow 
 
 airflow db init
 airflow webserver -p 8080
@@ -37,6 +42,17 @@ pkill -f "airflow scheduler"
 
 ------
 
+The warning message you're seeing is because SQLite, the database Airflow is using by default, doesn't support more than one connection at a time. This is a limitation of SQLite and not Airflow.
+
+If you want to use more than one thread, you'll need to use a different database backend that supports multiple connections. PostgreSQL and MySQL are both supported by Airflow and can handle multiple connections.
+
+Here are the steps to configure Airflow to use PostgreSQL:
+
+- ?
+pip install 'apache-airflow[postgres]'
+
+-
+
 airflow dags trigger extract_transform_load -e 2024-03-27    
 airflow tasks run extract_transform_load extract.extract_the_guardian_data 2024-03-27
 
@@ -44,3 +60,7 @@ airflow tasks run extract_transform_load extract.extract_the_guardian_data 2024-
 Python
 - formating
 - To provide detailed descriptions and types of class attributes in Python, you can use the Sphinx style of docstring
+
+
+Do files ukladame pouze velke soubory a rozdelene
+Do Xcom kvuli zatezovani pouze entities
