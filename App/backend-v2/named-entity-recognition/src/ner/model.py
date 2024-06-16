@@ -1,27 +1,11 @@
-"""
-The en_core_web_trf model in SpaCy is a transformer-based model, while en_core_web_md is a statistical model. Transformer models, such as the ones based on the BERT architecture, are generally more accurate but also more computationally intensive, which can make them slower than statistical models.
-
-Here are a few reasons why en_core_web_trf might be slower:
-
-Model complexity: Transformer models are larger and more complex than statistical models. They have more parameters, which means they require more computation to make predictions.
-
-Sequence length: Transformer models process text in sequences, and the time it takes to process a sequence increases quadratically with the length of the sequence. If you're processing long texts, this could significantly slow down your model.
-
-Hardware: Transformer models are designed to be run on GPUs. If you're running en_core_web_trf on a CPU, it will be significantly slower than if you were running it on a GPU.
-
-Batch size: Transformer models can process multiple texts at once (in a batch). If you're processing texts one at a time, you're not taking full advantage of the model's capabilities, which could slow down your application.
-"""
-
 import os
 import sys
-import pywikibot
-from pywikibot.exceptions import IsRedirectPageError
 import logging
 import spacy
 from spacy.tokens import Span
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-from typing import Dict, List, Set, Any
+from typing import Dict, List, Set, Tuple, Any
 
 from src.utils.helpers import setup_logger
 from dotenv import load_dotenv
@@ -29,188 +13,272 @@ from dotenv import load_dotenv
 setup_logger()
 load_dotenv()
 
-
 STOCK_EXCHANGES = os.getenv("WIKIDATA_STOCK_EXCHANGE_IDS").split(",")
-logging.info(f"Stock Exchanges: {STOCK_EXCHANGES}") 
+
+# Define the additional attributes for the Entity class
+Span.set_extension("qid", default=None)
+
 
 class Model:
-    def __init__(self, model_name: str = "en_core_web_md"):
-        self.nlp = spacy.load(model_name)
-        self.nlp.add_pipe("entityLinker", last=True)
-    
-class SPARQLWikidataConnector:
-    def __init__(self):
-        self.endpoint_url = "https://query.wikidata.org/sparql"
-        self.user_agent = "WDQS-example Python/%s.%s" % (sys.version_info[0], sys.version_info[1])
+    """
+    A class used to represent the Model.
 
-    def run_query(self, query):
+    Attributes:
+        nlp (spacy.lang): The loaded Spacy language model.
+    """
+
+    def __init__(self, model_name: str):
+        """
+        Initializes the Model with the given Spacy model name.
+
+        Args:
+            model_name (str): The name of the Spacy model to load.
+        """
+        self.nlp = spacy.load(model_name)
+        self.nlp.add_pipe("entityLinker", after="ner")
+
+
+class SPARQLWikidataConnector:
+    """
+    A class used to represent the SPARQL Wikidata Connector.
+
+    Attributes:
+        endpoint_url (str): The endpoint URL for the SPARQL queries.
+        user_agent (str): The user agent for the SPARQL queries.
+    """
+
+    def __init__(self):
+        """
+        Initializes the SPARQLWikidataConnector with the endpoint URL and user agent.
+        """
+        self.endpoint_url = "https://query.wikidata.org/sparql"
+        self.user_agent = "WDQS-example Python/%s.%s" % (
+            sys.version_info[0],
+            sys.version_info[1],
+        )
+
+    def run_query(self, query: str) -> Dict[str, Any]:
+        """
+        Runs a SPARQL query and returns the result.
+
+        Args:
+            query (str): The SPARQL query to run.
+
+        Returns:
+            Dict[str, Any]: The result of the SPARQL query.
+        """
         sparql = SPARQLWrapper(self.endpoint_url, agent=self.user_agent)
         sparql.setQuery(query)
         sparql.setReturnFormat(JSON)
         return sparql.query().convert()
 
-    def retrieve_entities_info(self, entities_identifiers: Set[str]) -> Dict[str, Any]:
-        stock_exchanges = " ".join(f"wd:{exchange}" for exchange in STOCK_EXCHANGES)
-        entities_id = " ".join(f"wd:{entity_id}" for entity_id in entities_identifiers)
+    QUERY_TEMPLATE = """
+    SELECT DISTINCT ?id ?idLabel ?exchangesLabel ?ticker WHERE {{
+        SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }}
+        VALUES ?id {{ {entities_ids_str} }}
+        VALUES ?exchanges {{ {stock_exchanges_str} }}
+        {additional_conditions_str}
+        FILTER NOT EXISTS {{
+            ?exchange pq:P582 ?endTime.
+        }}                                      
+    }}
+    """
+    ID_SPLIT_STR = "/"
 
-        logging.info(f"Entities IDs: {entities_identifiers}")
-
-        # First query
-        query1 = f"""
-        SELECT DISTINCT ?id ?idLabel ?exchangesLabel ?ticker WHERE {{
-            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }}
-            VALUES ?id {{ {entities_id} }}
-            VALUES ?exchanges {{ {stock_exchanges} }}
-            ?id p:P414 ?exchange.
-            ?exchange ps:P414 ?exchanges;
-                      pq:P249 ?ticker.
-            FILTER NOT EXISTS {{ 
-                ?exchange pq:P582 ?endTime .
-            }}
-        }}
+    def retrieve_entities_info(self, init_entities_ids: Set[str]) -> Dict[str, Any]:
         """
-        results1 = self.run_query(query1)
-        matched_ids = {result['id']['value'].split('/')[-1] for result in results1['results']['bindings']}
+        Retrieves information about entities from Wikidata.
 
-        logging.info(f"Matched IDs: {matched_ids}")
+        Args:
+            init_entities_ids (Set[str]): A set of entity IDs to retrieve information for.
 
-        # Find the QIDs that did not match in the first query
-        unmatched_ids = entities_identifiers - matched_ids
-        if not unmatched_ids:
-            return results1
-        
-        logging.info(f"Unmatched IDs: {unmatched_ids}")
-
-        # Second query
-        unmatched_entities_id = " ".join(f"wd:{entity_id}" for entity_id in unmatched_ids)
-        query2 = f"""
-        SELECT DISTINCT ?id ?idLabel ?exchangesLabel ?ticker WHERE {{
-            SERVICE wikibase:label {{ bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }}
-            VALUES ?id {{ {unmatched_entities_id} }}
-            VALUES ?exchanges {{ {stock_exchanges} }}
-            ?id wdt:P127 ?owner.
-            ?owner p:P414 ?exchange.
-            ?exchange ps:P414 ?exchanges;
-                      pq:P249 ?ticker.
-            FILTER NOT EXISTS {{ 
-                ?exchange pq:P582 ?endTime .
-            }}
-        }}
+        Returns:
+            Dict[str, Any]: A dictionary mapping entity IDs to their information.
         """
-        results2 = self.run_query(query2)
+        stock_exchanges_str = " ".join(f"wd:{exchange}" for exchange in STOCK_EXCHANGES)
 
-        # Combine the results
-        results1['results']['bindings'].extend(results2['results']['bindings'])
+        logging.info(f"Entities IDs: {init_entities_ids}")
+
+        # Query 1: Direct retrieval of entities with stock exchange statements
+        additional_conditions_str = """
+        ?id p:P414 ?exchange.
+        ?exchange ps:P414 ?exchanges;
+                  pq:P249 ?ticker.
+        """
+        results, unmatched_ids = self.run_query_and_get_unmatched_ids(
+            init_entities_ids, stock_exchanges_str, additional_conditions_str
+        )
+
+        # Query 2: Retrieve entities where the owner is listed on the specified exchanges
+        additional_conditions_str = """
+        ?id wdt:P127 ?owner.
+        ?owner p:P414 ?exchange.
+        ?exchange ps:P414 ?exchanges;
+                  pq:P249 ?ticker.
+        """
+        additional_results, unmatched_ids = self.run_query_and_get_unmatched_ids(
+            unmatched_ids, stock_exchanges_str, additional_conditions_str
+        )
+        results["results"]["bindings"].extend(additional_results["results"]["bindings"])
+
+        # Query 3: Differentiated ticker retrieval
+        additional_conditions_str = """
+        ?id wdt:P1889 ?differs.
+        ?differs p:P414 ?exchange.
+        ?exchange ps:P414 ?exchanges;
+                pq:P249 ?ticker.
+        """
+        additional_results, unmatched_ids = self.run_query_and_get_unmatched_ids(
+            unmatched_ids, stock_exchanges_str, additional_conditions_str
+        )
+        results["results"]["bindings"].extend(additional_results["results"]["bindings"])
 
         # Map for QID to entity info dict
         entities_identifiers_info = {
-            result['id']['value'].split('/')[-1]: {
-                "idLabel": result['idLabel']['value'],
-                "exchangesLabel": result['exchangesLabel']['value'],
-                "ticker": result['ticker']['value'],
+            result["id"]["value"].split(self.ID_SPLIT_STR)[-1]: {
+                "idLabel": result["idLabel"]["value"],
+                "ticker": result["ticker"]["value"],
             }
-            for result in results1['results']['bindings']
+            for result in results["results"]["bindings"]
         }
-
-        logging.info(f"Entities IDs info: {entities_identifiers_info}")
 
         return entities_identifiers_info
 
+    def run_query_and_get_unmatched_ids(
+        self,
+        entities_ids: Set[str],
+        stock_exchanges_str: str,
+        additional_conditions_str: str,
+    ):
+        """
+        Runs a SPARQL query and returns the matched and unmatched entity IDs.
 
-# Define the additional attributes for the Entity class
-Span.set_extension("ticker", default=None)
-Span.set_extension("exchange", default=None)
+        Args:
+            entities_ids (Set[str]): A set of entity IDs to run the query for.
+            stock_exchanges_str (str): A string of stock exchange IDs.
+            additional_conditions_str (str): Additional conditions for the SPARQL query.
 
-model = Model("en_core_web_md")
-connector = SPARQLWikidataConnector()
+        Returns:
+            Tuple[Dict[str, Any], Set[str]]: A tuple containing the result of the SPARQL query and the unmatched entity IDs.
+        """
 
-def extract_entities(content: str) -> List[Dict[str, str]]:
+        # Convert the entities IDs to a string
+        entities_ids_str = " ".join(f"wd:{entity_id}" for entity_id in entities_ids)
 
+        # Create the query
+        query = self.QUERY_TEMPLATE.format(
+            entities_ids_str=entities_ids_str,
+            stock_exchanges_str=stock_exchanges_str,
+            additional_conditions_str=additional_conditions_str,
+        )
+
+        # Run the query
+        results = self.run_query(query)
+
+        # Get the matched and unmatched IDs
+        matched_ids = {
+            result["id"]["value"].split(self.ID_SPLIT_STR)[-1]
+            for result in results["results"]["bindings"]
+        }
+        logging.info(f"Matched IDs: {matched_ids}")
+        unmatched_ids = entities_ids - matched_ids
+        logging.info(f"Remaining unmatched IDs: {unmatched_ids}")
+
+        return results, unmatched_ids
+
+
+def unique_and_map_entities(
+    doc: spacy.tokens.Doc, linked_entities: List[Span]
+) -> Tuple[spacy.tokens.Doc, Dict[str, Set[str]]]:
+    """
+    Maps Wikidata identifiers to organization entities and removes duplicates.
+
+    Args:
+        doc (spacy.tokens.Doc): The document to process.
+        linked_entities (List[Span]): A list of linked entities.
+
+    Returns:
+        Tuple[spacy.tokens.Doc, Dict[str, Set[str]]]: A tuple containing the processed document and a dictionary mapping Wikidata identifiers to organization entities.
+    """
+
+    # Dictionary to map the wikidata identifiers to the organisation entities
+    qid_ent_dict = {}
+
+    # Sort the entities by their start character
+    linked_entities = sorted(linked_entities, key=lambda e: e.span.start_char)
+    org_entities = sorted(list(doc.ents), key=lambda e: e.start_char)
+
+    # Inizialize two pointers
+    i, j = 0, 0
+
+    # Loop while both pointers are within range
+    while i < len(linked_entities) and j < len(org_entities):
+        linked_entity = linked_entities[i]
+        org_entity = org_entities[j]
+
+        # If the entities overlap
+        if (
+            linked_entity.span.start_char <= org_entity.end_char
+            and linked_entity.span.end_char >= org_entity.start_char
+        ):
+            # Get linked entity qid
+            qid = "Q" + str(linked_entity.identifier)
+
+            qid_ent_dict[qid] = {org_entity.text}
+            org_entity._.qid = qid
+
+            i += 1
+            j += 1
+        # If the linked entity starts later, move the pointer for org_entities
+        elif linked_entity.span.start_char > org_entity.start_char:
+            j += 1
+        # If the org entity starts later, move the pointer for linked_entities
+        else:
+            i += 1
+
+    return doc, qid_ent_dict
+
+
+def extract_entities(
+    model: Model, connector: SPARQLWikidataConnector, content: str
+) -> List[Dict[str, str]]:
+    """
+    Extracts entities from the content using the given model and connector.
+
+    Args:
+        model (Model): The model to use for entity extraction.
+        connector (SPARQLWikidataConnector): The connector to use for entity extraction.
+        content (str): The content to extract entities from.
+
+    Returns:
+        List[Dict[str, str]]: A list of dictionaries representing the extracted entities.
+    """
+
+    # Process the content with the NLP model
     doc = model.nlp(content)
 
-    # Get collection of entities
-    _entities = doc.ents
+    # Keep only the entities with the label "ORG"
+    doc.ents = [ent for ent in doc.ents if ent.label_ == "ORG"]
 
-    # Filter entities to only include ORG entities
-    org_entities = [entity for entity in _entities if entity.label_ == "ORG"]
+    # Dictionary to map the wikidata identifiers to the organisation entities
+    doc, qid_ent_dict = unique_and_map_entities(doc, doc._.linkedEntities)
 
-    # Get collection of linked entities
-    linked_entities = doc._.linkedEntities
+    # Retrieve the additional attributes (ticker) for the entities
+    entities_identifiers_info = connector.retrieve_entities_info(
+        set(qid_ent_dict.keys())
+    )
 
-    # Map linked entities to original named recognition entities
-    org_entity_mapping = {}
-
-    # Set of unique wikidata identifiers for each entity
-    entities_identifiers = set()
-     
-    for linked_entity in linked_entities:
-        for org_entity in org_entities:
-            if (
-                linked_entity.span.start_char <= org_entity.end_char
-                and linked_entity.span.end_char >= org_entity.start_char
-            ):
-                wikidata_id = "Q" + str(linked_entity.identifier)
-                org_entity_mapping[org_entity] = wikidata_id
-                entities_identifiers.add(wikidata_id)
-
-
-    # Myslenka dostat pro kazdy QID ticker symbol a exchange a nazev
-    entities_identifiers_info = connector.retrieve_entities_info(entities_identifiers)
-
-    # Add to org_entities the additional attributes
-    for org_entity in org_entities:
-        wikidata_id = org_entity_mapping.get(org_entity, "")
-        entity_info = entities_identifiers_info.get(wikidata_id, {})
-        org_entity._.ticker = entity_info.get("ticker", "")
-        org_entity._.exchange = entity_info.get("exchangesLabel", "")
-
-    logging.info(org_entity_mapping)
-
+    # Extract the entities with the additional attributes (ticker)
     entities = [
         {
-            "ticker": entity._.ticker,
-            "exchange": entity._.exchange,
-            "text": entity.text,
-            "label": entity.label_,
-            "start_idx": entity.start_char,
-            "end_idx": entity.end_char,
+            "text": ent.text,
+            "ticker": entities_identifiers_info[ent._.qid]["ticker"],
         }
-        for entity in org_entities
+        for ent in doc.ents
+        if ent._.qid in entities_identifiers_info
+        and "ticker" in entities_identifiers_info[ent._.qid]
     ]
 
-    return entities
+    logging.info(f"entities: {entities}")
 
-"""
-SELECT ?id ?idLabel ?exchangesLabel ?ticker WHERE {
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-  
-  VALUES ?id { wd:Q355 wd:Q312 wd:Q12345 }
-  VALUES ?exchanges { wd:Q13677 wd:Q82059 } # NYSE, NASDAQ
-  
-  {
-    # Retrieve entities with direct stock exchange statements
-    ?id p:P414 ?exchange.
-    ?exchange ps:P414 ?exchanges;
-              pq:P249 ?ticker. # Get the ticker symbol              
-    FILTER NOT EXISTS { 
-      ?exchange pq:P582 ?endTime . # Ensure that the ticker symbol does not have an "end time" specified
-    }
-  }
-  
-  UNION
-  
-  {
-    # Retrieve entities where the owner is listed on the specified exchanges, and the entity itself is not listed on any other exchanges
-    ?id wdt:P127 ?owner. # Get the owner of the entity
-    ?owner p:P414 ?exchange. # Get the "stock exchange" statement from the owner
-    ?exchange ps:P414 ?exchanges;
-              pq:P249 ?ticker. # Get the ticker symbol
-    FILTER NOT EXISTS { 
-      ?exchange pq:P582 ?endTime . # Ensure that the ticker symbol does not have an "end time" specified
-    }
-     # Retrieve the label of the owner
-    ?owner rdfs:label ?ownerLabel.
-    FILTER(LANG(?ownerLabel) = "en") # Filter to get the English label
-  }
-}
-"""
+    return entities
