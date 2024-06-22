@@ -1,4 +1,4 @@
-### Simple test POST reqiest
+### TODO test the API with expected output
 POST http://localhost:5051/extract-entities
 Content-Type: application/json
 

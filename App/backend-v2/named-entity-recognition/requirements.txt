@@ -3,7 +3,7 @@ en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_
 fastapi==0.110.0
 pydantic==2.6.4
 pydantic-core==2.16.3
-pywikibot==9.0.0
+#pywikibot==9.0.0
 requests==2.31.0
 spacy==3.7.4
 spacy-entity-linker==1.0.3

@@ -7,6 +7,8 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 
 from typing import Dict, List, Set, Tuple, Any
 
+from src.models.entity import Entity
+
 from src.utils.helpers import setup_logger
 from dotenv import load_dotenv
 
@@ -15,27 +17,24 @@ load_dotenv()
 
 STOCK_EXCHANGES = os.getenv("WIKIDATA_STOCK_EXCHANGE_IDS").split(",")
 
-# Define the additional attributes for the Entity class
-Span.set_extension("qid", default=None)
-
-
 class Model:
     """
-    A class used to represent the Model.
+    A class used to represent the spaCy Model.
 
     Attributes:
-        nlp (spacy.lang): The loaded Spacy language model.
+        nlp (spacy.lang): The loaded spaCy language model.
     """
 
     def __init__(self, model_name: str):
         """
-        Initializes the Model with the given Spacy model name.
+        Initializes the Model with the given spaCy model.
 
         Args:
-            model_name (str): The name of the Spacy model to load.
+            model_name (str): The name of the spaCy model to load.
         """
         self.nlp = spacy.load(model_name)
         self.nlp.add_pipe("entityLinker", after="ner")
+        Span.set_extension("qid", default=None)
 
 
 class SPARQLWikidataConnector:
@@ -97,7 +96,7 @@ class SPARQLWikidataConnector:
         """
         stock_exchanges_str = " ".join(f"wd:{exchange}" for exchange in STOCK_EXCHANGES)
 
-        logging.info(f"Entities IDs: {init_entities_ids}")
+        # logging.info(f"Entities IDs: {init_entities_ids}")
 
         # Query 1: Direct retrieval of entities with stock exchange statements
         additional_conditions_str = """
@@ -180,9 +179,9 @@ class SPARQLWikidataConnector:
             result["id"]["value"].split(self.ID_SPLIT_STR)[-1]
             for result in results["results"]["bindings"]
         }
-        logging.info(f"Matched IDs: {matched_ids}")
+        # logging.info(f"Matched IDs: {matched_ids}")
         unmatched_ids = entities_ids - matched_ids
-        logging.info(f"Remaining unmatched IDs: {unmatched_ids}")
+        # logging.info(f"Remaining unmatched IDs: {unmatched_ids}")
 
         return results, unmatched_ids
 
@@ -241,7 +240,7 @@ def unique_and_map_entities(
 
 def extract_entities(
     model: Model, connector: SPARQLWikidataConnector, content: str
-) -> List[Dict[str, str]]:
+) -> List[Entity]:
     """
     Extracts entities from the content using the given model and connector.
 
@@ -251,7 +250,7 @@ def extract_entities(
         content (str): The content to extract entities from.
 
     Returns:
-        List[Dict[str, str]]: A list of dictionaries representing the extracted entities.
+        List[Entity]: A list of Entity objects extracted from the content.
     """
 
     # Process the content with the NLP model
@@ -263,20 +262,25 @@ def extract_entities(
     # Dictionary to map the wikidata identifiers to the organisation entities
     doc, qid_ent_dict = unique_and_map_entities(doc, doc._.linkedEntities)
 
+    #logging.info(f"qid_ent_dict.keys(): {qid_ent_dict.keys()}")
+
     # Retrieve the additional attributes (ticker) for the entities
     entities_identifiers_info = connector.retrieve_entities_info(
         set(qid_ent_dict.keys())
     )
 
+    #logging.info(f"entities_identifiers_info: {entities_identifiers_info}")
+
     # Extract the entities with the additional attributes (ticker)
-    entities = [
-        {
-            "text": ent.text,
-            "ticker": entities_identifiers_info[ent._.qid]["ticker"],
-        }
+    entities_dict = {
+        ent.text: entities_identifiers_info[ent._.qid]["ticker"]
         for ent in doc.ents
         if ent._.qid in entities_identifiers_info
-        and "ticker" in entities_identifiers_info[ent._.qid]
+    }
+
+    # Convert the dictionary of entities into a list of Entity objects
+    entities = [
+        Entity(text=text, ticker=ticker) for text, ticker in entities_dict.items()
     ]
 
     logging.info(f"entities: {entities}")

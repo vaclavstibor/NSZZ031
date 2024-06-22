@@ -9,7 +9,6 @@ RUN python -m venv /venv
 
 # Copy only the necessary files for building the application
 COPY requirements.txt ./
-COPY . .
 
 # Install dependencies using pip
 RUN /venv/bin/pip install -r requirements.txt
@@ -30,8 +29,7 @@ COPY --from=builder /venv /venv
 COPY . .
 
 # Declare the port that the application uses
-EXPOSE 5000
+EXPOSE 4200
 
-# Run the application
-ENTRYPOINT ["/venv/bin/python", "-m", "uvicorn"]
-CMD ["app:app", "--host", "0.0.0.0", "--port", "5051", "--workers", "2"]
+# Use the shell form to allow environment variable expansion
+CMD /venv/bin/python -m uvicorn app:app --host 0.0.0.0 --port 4200 --workers 2

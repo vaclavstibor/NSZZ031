@@ -4,5 +4,7 @@ services:
   named_entity_recognition:
     build:
       context: .
+    env_file:
+      - .env
     ports:
-      - "5051:5051"
+      - ${SERVER_PORT}:${SERVER_PORT}
