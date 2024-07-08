@@ -4,7 +4,7 @@ from dataclasses import dataclass
 @dataclass
 class Article:
     """
-    Article is a data class that represents an article.
+    Data class that represents an article with metadata.
 
     Attributes:
         id (str): Unique identifier for the article.
@@ -40,7 +40,7 @@ class Article:
             "section": self.section,
             "url": self.url,
             "title": self.title,
+            "content": self.content,
             "author": self.author,
             "published_date": self.published_date,
-            "content": self.content,
         }

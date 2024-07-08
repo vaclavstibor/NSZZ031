@@ -1,19 +1,22 @@
 # https://bytemedirk.medium.com/developing-locally-with-dockerized-apache-airflow-and-postgres-a2890b8ae199
-# airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
+# docker exec extract-transform-load-webserver-1 airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com
 
-version: "3.1"
 services:
   postgres:
-    image: postgres:latest
+    image: postgres:15.2
+    platform: linux/amd64
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U airflow"]
-      interval: 5s
-      timeout: 5s
+      test: ["CMD-SHELL", "pg_isready -U $POSTGRES_USER"]
+      interval: 10s
+      timeout: 10s
       retries: 3
-    environment:
-      POSTGRES_USER: airflow
-      POSTGRES_PASSWORD: airflow
-      POSTGRES_DB: airflow
+    restart: on-failure
+    env_file:
+      - .env
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./scripts/postgres:/docker-entrypoint-initdb.d
 
   scheduler:
     build:
@@ -26,7 +29,10 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    env_file:
+      - .env
     volumes:
+      - ./scripts/scheduler:/docker-entrypoint-initdb.d
       - /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data:/extract-transform-load/data
 
   webserver:
@@ -42,7 +48,10 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+    env_file:
+      - .env
     volumes:
+      - ./scripts/webserver:/docker-entrypoint-initdb.d
       - /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data:/extract-transform-load/data
 volumes:
   postgres_data:

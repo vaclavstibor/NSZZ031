@@ -7,7 +7,7 @@ from .article import Article
 
 class BaseSource(ABC):
     """
-    BaseSource is an abstract base class that outlines the necessary methods and attributes for any data source class.
+    An abstract base class that outlines the necessary methods and attributes for any data source class.
     It provides a structured way to fetch and save articles from different data sources.
 
     Attributes:
@@ -20,7 +20,7 @@ class BaseSource(ABC):
 
     def __init__(self):
         """
-        Initialize BaseSource class with base_url, api_key, directory, and article_counter.
+        Initialize BaseSource class with base_url, api_key, directory, sections, and article_counter.
         """
         self.base_url: str
         self.api_key: str
@@ -28,11 +28,11 @@ class BaseSource(ABC):
         self.sections: List[str]
         self.article_counter: int = 0
 
-    
     def create_and_clear_directory(self) -> None:
-        """Creates and clears directories for each section.
+        """
+        Creates and clears directories for each section.
 
-        For each section, two directories are created: an 'extract' directory and a 'transform' directory.
+        For each section, two directories are created: an extract directory and a transform directory.
         If these directories already exist, all files within them are removed.
 
         Directories are structured as follows:
@@ -63,7 +63,7 @@ class BaseSource(ABC):
                     for file in files:
                         os.remove(os.path.join(transform_dir, file))
         except PermissionError as e:
-            raise PermissionError(f"Permission denied. {str(e)}")
+            raise PermissionError(f"Permission denied. {str(e)}")                
 
     @abstractmethod
     def fetch_articles(self, from_date: str) -> None:

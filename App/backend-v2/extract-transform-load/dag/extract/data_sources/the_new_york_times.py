@@ -1,3 +1,7 @@
+"""
+This is prepared to be used as a template for The New York Times class as another source.
+"""
+
 from typing import List
 
 from .models.base_source import BaseSource

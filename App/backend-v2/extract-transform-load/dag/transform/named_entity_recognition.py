@@ -1,13 +1,21 @@
+from typing import List
 import requests
 import logging
 from airflow.models import TaskInstance
 
+from .models.entity import Entity
+from .models.response import NamedEntityRecognitionResponse as NERResponse
 
-NER_MODEL_API_URL = 'http://host.docker.internal:5051/extract-entities'
 
+#NER_MODEL_API_URL = 'http://host.docker.internal:5051/extract-entities'
+NER_MODEL_API_URL = 'http://acheron.ms.mff.cuni.cz:42045/extract-entities'
 
 def apply_ner(ti: TaskInstance, file_basename:str) -> None:
-    # Pull (file) data from XCom
+    """
+    
+    """
+
+    # Extract data (file) from xcom
     data = ti.xcom_pull(key=f'{file_basename}_json_extract_articles')
 
     articles_entities = post_request(data)
@@ -17,9 +25,9 @@ def apply_ner(ti: TaskInstance, file_basename:str) -> None:
 
     ti.xcom_push(key=f'{file_basename}_articles_entities', value=articles_entities)
 
-def post_request(data): # TODO specify the data type and return type
+def post_request(data: List[dict]) -> List[List[Entity]]:
     """
-    Request to NER model API.
+    
     """
     articles_entities = []
 

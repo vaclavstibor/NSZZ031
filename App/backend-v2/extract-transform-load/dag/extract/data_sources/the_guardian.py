@@ -11,13 +11,12 @@ import requests
 from .models.article import Article
 from .models.base_source import BaseSource
 
-# Load environment variables from a .env file
 load_dotenv()
 
 
 class TheGuardian(BaseSource):
     """
-    A class for fetching and saving articles to JSON from The Guardian.
+    A class for fetching and saving (to JSON) articles from The Guardian's Open Platform API.
 
     Attributes:
         base_url (str): The base URL of The Guardian API.
@@ -31,6 +30,7 @@ class TheGuardian(BaseSource):
         """
         Initialize TheGuardian class with base_url, api_key, directory, sections, and article_counter.
         """
+
         self.base_url = os.getenv("THE_GUARDIAN_BASE_URL")
         self.api_key = os.getenv("THE_GUARDIAN_API_KEY")
         self.directory = os.getenv("THE_GUARDIAN_DIRECTORY")
@@ -38,7 +38,7 @@ class TheGuardian(BaseSource):
         self.article_counter = 0
 
         logging.info(
-            f"TheGuardian initialized with base_url: {self.base_url} and api_key: {self.api_key}"
+            f"TheGuardian initialized with base_url: {self.base_url}, directory: {self.directory}, and sections: {self.sections}"
         )
 
     def fetch_articles(self, from_date: str) -> None:
@@ -51,7 +51,8 @@ class TheGuardian(BaseSource):
 
         # Get the total number of pages for each section
         pages = {
-            section: self.get_total_pages(section, from_date) for section in self.sections
+            section: self.get_total_pages(section, from_date)
+            for section in self.sections
         }
 
         # Fetch articles from each page in parallel using a ThreadPoolExecutor
@@ -70,25 +71,45 @@ class TheGuardian(BaseSource):
             articles (List[Article]): The articles to save.
             section (str): The section of The Guardian the articles are from.
             page (int): The page number of the articles.
+
+        Raises:
+            Exception: If any error occurs during the file operations, it raises an exception.
         """
+
         try:
-            articles = [article.to_dict() for article in articles if article is not None]
+            articles = [
+                article.to_dict() for article in articles if article is not None
+            ]
 
-            file_path = f"{self.directory}/extract/{section}/{section}_{page}.json"
-            logging.info(f"Saving data to {file_path}")
+            extract_file_path = (
+                f"{self.directory}/extract/{section}/{section}_{page}.json"
+            )
 
-            with open(file_path, "w") as f:
+            with open(extract_file_path, "w") as f:
                 json.dump(articles, f, ensure_ascii=False, indent=4)
+
+            # Transform phase temporarily saves empty articles
+            empty_articles = []
+
+            transform_file_path = (
+                f"{self.directory}/transform/{section}/{section}_{page}.json"
+            )
+
+            with open(transform_file_path, "w") as f:
+                json.dump(empty_articles, f, ensure_ascii=False, indent=4)
+
         except Exception as e:
-            message = f"Failed to save data to JSON. Error: {str(e)}"
-            logging.error(message)
-            raise Exception(message)
+            raise Exception(
+                f"Failed to save data from The Guardian API to JSON. Error: {str(e)}"
+            )
 
     def get_total_pages(
         self, section: str, from_date: str, page_size: int = 200
     ) -> int:
         """
         Get the total number of pages of articles for the given section and from the given date.
+        The Guardian API returns a maximum of 200 articles per page. This method takes the total
+        number of pages from one request and returns it.
 
         Args:
             section (str): The section of The Guardian to get the total pages from.
@@ -97,21 +118,23 @@ class TheGuardian(BaseSource):
 
         Returns:
             int: The total number of pages.
+
+        Raises:
+            Exception: If any error occurs during the request, it raises an exception.
         """
-        url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-fields=bodyText&page=1&page-size={page_size}&api-key={self.api_key}"
+        url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-tags=contributor&show-fields=bodyText&page=1&page-size={page_size}&api-key={self.api_key}"
         try:
             response = requests.get(url)
-            response.raise_for_status()  # Raise an HTTPError if the status is 4xx or 5xx
+            # Raise an HTTPError if the status is 4xx or 5xx
+            response.raise_for_status()
 
             data = response.json()
             return data["response"]["pages"]
 
         except Exception as e:
-            message = (
+            raise Exception(
                 f"Failed to get total pages from The Guardian API. Error: {str(e)}"
             )
-            logging.error(message)
-            raise
 
     def process_article(self, article: Dict[str, Any]) -> Article:
         """
@@ -123,6 +146,7 @@ class TheGuardian(BaseSource):
         Returns:
             Article: The processed Article object.
         """
+
         body_text = article["fields"]["bodyText"]
 
         if body_text is None or body_text == "":
@@ -132,6 +156,14 @@ class TheGuardian(BaseSource):
 
         # Published date ISO 8601 format
         published_date = str(article["webPublicationDate"]).replace("Z", "+00:00")
+
+        # Extract the first (article can have multiple authors) author if available
+        author = ""
+        author_tags = [
+            tag for tag in article.get("tags", []) if tag.get("type") == "contributor"
+        ]
+        if author_tags:
+            author = author_tags[0].get("webTitle", "")
 
         self.article_counter += 1
 
@@ -144,7 +176,7 @@ class TheGuardian(BaseSource):
             url=article["webUrl"],
             title=article["webTitle"],
             content=body_text,
-            author="",
+            author=author,
             published_date=published_date,
         )
 
@@ -154,7 +186,7 @@ class TheGuardian(BaseSource):
         page: int,
         from_date: str,
         page_size: int = 200,
-    ):
+    ) -> None:
         """
         Get articles from The Guardian API for the given section and from the given date.
 
@@ -163,10 +195,16 @@ class TheGuardian(BaseSource):
             page (int): The page number to get articles from.
             from_date (str): The date from which to get articles.
             page_size (int, optional): The number of articles per page. Defaults to 200.
+
+        Raises:
+            Exception: If any error occurs during the request, it raises an exception.
         """
-        url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-fields=bodyText&page={page}&page-size={page_size}&api-key={self.api_key}"
+
+        url = f"{self.base_url}/search?section={section}&from-date={from_date}&show-tags=contributor&show-fields=bodyText&page={page}&page-size={page_size}&api-key={self.api_key}"
+
         try:
             response = requests.get(url, timeout=5)
+            # Raise an HTTPError if the status is 4xx or 5xx
             response.raise_for_status()
 
             data = response.json()
@@ -177,6 +215,6 @@ class TheGuardian(BaseSource):
             self.save_to_json(articles, section, page)
 
         except Exception as e:
-            message = f"Failed to get articles from The Guardian API. Error: {str(e)}"
-            logging.error(message)
-            raise
+            raise Exception(
+                f"Failed to get articles from The Guardian API. Error: {str(e)}"
+            )

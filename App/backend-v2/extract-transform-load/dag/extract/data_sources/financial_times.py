@@ -1,3 +1,7 @@
+"""
+This is prepared to be used as a template for the Financial Times class as another source.
+"""
+
 from typing import List
 
 from .models.base_source import BaseSource
@@ -12,6 +16,7 @@ class FinancialTimes(BaseSource):
         base_url (str): The base URL of the Financial Times API.
         api_key (str): The API key for accessing the Financial Times API.
         directory (str): The directory where the fetched data will be stored.
+        sections (List[str]): The sections of the Financial Times to fetch articles from.
         article_counter (int): A counter to keep track of the number of articles processed.
     """
 
