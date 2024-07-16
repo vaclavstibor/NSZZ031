@@ -3,13 +3,13 @@ from typing import List
 from datetime import datetime
 from uuid import UUID
 
-from load.models.ticker import Ticker
+from load.models.company import Company
 
 
 @dataclass
 class Article:
     """
-    Data class that represents an article with metadata and associated company tickers. 
+    Data class that represents an article with metadata and associated companies. 
     (without content field which is not to be used stored in the database)
 
     Attributes:
@@ -20,7 +20,7 @@ class Article:
         title (str): The title of the article.
         author (str): The author of the article.
         published_date (datetime): The date and time when the article was published.
-        tickers (List[Ticker]): A list of company tickers associated with the article, if any.
+        compnies (List[Company]): A list of companies associated with the article, if any.
     """
 
     id: UUID
@@ -30,4 +30,4 @@ class Article:
     title: str
     author: str
     published_date: datetime
-    tickers: List[Ticker] = field(default_factory=list)
+    companies: List[Company] = field(default_factory=list)

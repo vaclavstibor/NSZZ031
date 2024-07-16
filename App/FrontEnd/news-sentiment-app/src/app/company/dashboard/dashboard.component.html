@@ -1,0 +1,74 @@
+<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div class="d-flex justify-content-between align-items-center">
+      <h3 class="mb-0">
+        <a class="navbar-brand d-flex align-items-center" routerLink="/">
+          <img src="assets/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="GlobeSense" />
+          <span class="ms-1">GlobeSense</span>
+        </a>
+      </h3>
+      <button class="navbar-toggler d-md-none" type="button" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="nav nav-masthead justify-content-center d-none d-md-flex">
+        <a class="nav-link fw-bold py-1 px-0" routerLink="/">HOME</a>
+        <a class="nav-link fw-bold py-1 px-0" routerLink="/companies/graphs">GRAPHS</a>
+        <a class="nav-link fw-bold py-1 px-0" routerLink="/companies">COMPANIES</a>
+      </nav>
+    </div>
+    <nav class="nav nav-masthead justify-content-center d-flex d-md-none">
+      <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" routerLink="/">HOME</a>
+      <a class="nav-link fw-bold py-1 px-0" routerLink="/companies/graphs">GRAPHS</a>
+      <a class="nav-link fw-bold py-1 px-0" routerLink="/companies">COMPANIES</a>
+    </nav>
+  </header> 
+
+  <div class="row mt-4">
+    <div class="col-md-12 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <div *ngIf="infoLoading" class="loader"></div>
+          <app-company-info *ngIf="!infoLoading && infoData" [infoData]="infoData"></app-company-info>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-12 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <div *ngIf="chartLoading" class="loader"></div>
+          <app-stock-chart *ngIf="!chartLoading && chartData" [chartData]="chartData"></app-stock-chart>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-7 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <div *ngIf="chartLoading" class="loader"></div>
+          <app-spline-chart *ngIf="!chartLoading && chartData" [chartData]="chartData"></app-spline-chart>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 mb-3"> 
+      <div class="card">
+        <div class="card-body">
+          <div *ngIf="chartLoading" class="loader"></div>
+          <app-pie-chart *ngIf="!chartLoading && chartData" [chartData]="chartData"></app-pie-chart>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <div *ngIf="articlesLoading" class="loader"></div>
+          <app-article-list *ngIf="!articlesLoading && articlesData" [articlesData]="articlesData"></app-article-list>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

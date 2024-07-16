@@ -29,29 +29,32 @@ psql -v ON_ERROR_STOP=1 --username "${POSTGRES_USER}" --dbname="${ARTICLES_DB}" 
         published_date TIMESTAMP WITH TIME ZONE NOT NULL
     );
 
-    CREATE TABLE tickers (
+    CREATE TABLE companies (
         id SERIAL PRIMARY KEY,
-        name VARCHAR(10) NOT NULL UNIQUE
+        shortName VARCHAR(100),
+        ticker VARCHAR(10) NOT NULL UNIQUE,
+        industry VARCHAR(100),
+        website VARCHAR(255)
     );
 
-    CREATE TABLE article_tickers (
+    CREATE TABLE article_companies (
         article_id UUID NOT NULL,
-        ticker_id INT NOT NULL,
-        PRIMARY KEY (article_id, ticker_id),
+        company_id INT NOT NULL,
+        PRIMARY KEY (article_id, company_id),
         FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE,
-        FOREIGN KEY (ticker_id) REFERENCES tickers(id) ON DELETE CASCADE
+        FOREIGN KEY (company_id) REFERENCES companies(id) ON DELETE CASCADE
     );
 
     CREATE TABLE sentiments (
         id SERIAL PRIMARY KEY,
         article_id UUID NOT NULL,
-        ticker_id INT NOT NULL,
+        company_id INT NOT NULL,
         classification VARCHAR(50),
         positive NUMERIC(5,5),
         negative NUMERIC(5,5),
         neutral NUMERIC(5,5),
-        FOREIGN KEY (article_id, ticker_id) REFERENCES article_tickers(article_id, ticker_id) ON DELETE CASCADE,
-        UNIQUE (article_id, ticker_id)
+        FOREIGN KEY (article_id, company_id) REFERENCES article_companies(article_id, company_id) ON DELETE CASCADE,
+        UNIQUE (article_id, company_id)
     );
 
     CREATE TABLE sections (
@@ -66,6 +69,11 @@ psql -v ON_ERROR_STOP=1 --username "${POSTGRES_USER}" --dbname="${ARTICLES_DB}" 
         FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE,
         FOREIGN KEY (section_id) REFERENCES sections(id) ON DELETE CASCADE
     );
+
+    - join indices
+    CREATE UNIQUE INDEX idx_article_companies_article_id_company_id ON article_companies(article_id, company_id);
+    CREATE UNIQUE INDEX idx_sentiments_article_id_company_id ON sentiments(article_id, company_id);
+    CREATE UNIQUE INDEX idx_article_sections_article_id_section_id ON article_sections(article_id, section_id);
 
     COMMIT;
 EOSQL

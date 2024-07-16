@@ -1,18 +1,44 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { HttpClient, HttpParams } from '@angular/common/http';
-import { environment  } from 'src/environments/environment';
-import { APIResponse } from '../models/APIResponse';
-import { Ticker } from '../models/Ticker';
-
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class HttpService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
-  getTickerByName(name: string): Observable<Ticker> { 
-    return this.http.get<Ticker>(`${environment.API_BASE_URL}/tickers/${name}`);
+  getCompanyInfoData(ticker: string): Observable<any> {
+    return this.http.get<any>(
+      `${environment.API_BASE_URL}/company/${ticker}/info`
+    );
   }
+
+  getCompanyChartData(ticker: string): Observable<any> {
+    return this.http.get<any>(
+      `${environment.API_BASE_URL}/company/${ticker}/chart`
+    );
+  }
+
+  getCompanyGraphData(ticker: string): Observable<any> {
+    return this.http.get<any>(
+      `${environment.API_BASE_URL}/company/${ticker}/graph`
+    );
+  }
+  
+  getCompanyArticlesData(ticker: string): Observable<any> {
+    return this.http.get<any>(
+      `${environment.API_BASE_URL}/company/${ticker}/articles`
+    );
+  }
+
+  getCompaniesNamesAndTickers(): Observable<any[]> {
+    return this.http.get<any[]>(`${environment.API_BASE_URL}/companies/names`);
+  }
+
+  getCompaniesGraphsData(): Observable<any> {
+    return this.http.get<any>(`${environment.API_BASE_URL}/companies/graphs`);
+  }
+
 }

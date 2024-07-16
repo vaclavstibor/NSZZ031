@@ -4,7 +4,7 @@ from dataclasses import dataclass
 @dataclass
 class Sentiment:
     """
-    Data class that represents the sentiment of an ticker.
+    Data class that represents the sentiment of an company.
 
     Attributes:
         classification (str): The classification of the sentiment (positive, negative, neutral).

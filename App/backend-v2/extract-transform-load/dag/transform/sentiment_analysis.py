@@ -36,9 +36,14 @@ def post_request(data: List[dict], articles_entities: List[Entity]) -> List[List
     # Process each article and its entities
     for article, entities in zip(data, articles_entities):
         article_content = article['content']
-        #entities_payload = [{"text": entity['text'], "ticker": entity['ticker']} for entity in entities]
+
+        if len(entities) == 0:
+            logging.info(f"No entities for article {article['id']}, appending empty list")
+            articles_tickers.append([])
+            continue
 
         try:
+            
             logging.info(f"Request: ('content'=str, 'entities'={entities})")
             
             response = requests.post(SA_MODEL_API_URL, json={'content': article_content, 'entities': entities})
@@ -49,6 +54,7 @@ def post_request(data: List[dict], articles_entities: List[Entity]) -> List[List
             tickers = response.json()['tickers']
             articles_tickers.append(tickers)
         except Exception as e:
+            articles_tickers.append([])
             logging.error(f"Error processing article {article['id']}: {str(e)}")
     
     return articles_tickers

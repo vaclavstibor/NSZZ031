@@ -16,3 +16,6 @@ __pycache__/
 
 # throttle
 **/throttle.ctrl
+
+# envs
+*.env

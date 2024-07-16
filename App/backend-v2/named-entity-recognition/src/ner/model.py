@@ -3,19 +3,16 @@ import sys
 import logging
 import spacy
 from spacy.tokens import Span
-from SPARQLWrapper import SPARQLWrapper, JSON
-
+from dotenv import load_dotenv
 from typing import Dict, List, Set, Tuple, Any
+from xml.etree import ElementTree as ET
+import httpx
 
 from src.models.entity import Entity
 
-from src.utils.helpers import setup_logger
-from dotenv import load_dotenv
-
-setup_logger()
 load_dotenv()
-
 STOCK_EXCHANGES = os.getenv("WIKIDATA_STOCK_EXCHANGE_IDS").split(",")
+
 
 class Model:
     """
@@ -56,9 +53,9 @@ class SPARQLWikidataConnector:
             sys.version_info[1],
         )
 
-    def run_query(self, query: str) -> Dict[str, Any]:
+    async def run_query(self, query: str) -> Dict[str, Any]:
         """
-        Runs a SPARQL query and returns the result.
+        Asynchronously runs a SPARQL query and returns the result.
 
         Args:
             query (str): The SPARQL query to run.
@@ -66,10 +63,49 @@ class SPARQLWikidataConnector:
         Returns:
             Dict[str, Any]: The result of the SPARQL query.
         """
-        sparql = SPARQLWrapper(self.endpoint_url, agent=self.user_agent)
-        sparql.setQuery(query)
-        sparql.setReturnFormat(JSON)
-        return sparql.query().convert()
+        headers = {"User-Agent": self.user_agent}
+        async with httpx.AsyncClient() as client:
+            response = await client.post(
+                self.endpoint_url,
+                data={"query": query},
+                headers=headers
+            )
+
+            try:
+                response.raise_for_status() # Raise an exception for 4xx/5xx status codes
+                return self.parse_sparql_results(response.text)
+
+            except httpx.HTTPStatusError as e:
+                logging.error(f"HTTP error: {e}")
+                logging.error(f"Response: {response.text}")
+                return {}
+
+    def parse_sparql_results(self, xml_response: str) -> Dict[str, Any]:
+        """
+        Parses the XML SPARQL results into a dictionary.
+
+        Args:
+            xml_response (str): The XML response from the SPARQL endpoint.
+
+        Returns:
+            Dict[str, Any]: The parsed SPARQL results.
+        """
+        root = ET.fromstring(xml_response)
+        results = {"results": {"bindings": []}}
+        
+        for result in root.findall('.//{http://www.w3.org/2005/sparql-results#}result'):
+            binding = {}
+            for binding_element in result:
+                name = binding_element.get('name')
+                uri = binding_element.find('{http://www.w3.org/2005/sparql-results#}uri')
+                literal = binding_element.find('{http://www.w3.org/2005/sparql-results#}literal')
+                if uri is not None:
+                    binding[name] = {"type": "uri", "value": uri.text}
+                elif literal is not None:
+                    binding[name] = {"type": "literal", "value": literal.text}
+            results["results"]["bindings"].append(binding)
+        
+        return results
 
     QUERY_TEMPLATE = """
     SELECT DISTINCT ?id ?idLabel ?exchangesLabel ?ticker WHERE {{
@@ -84,9 +120,9 @@ class SPARQLWikidataConnector:
     """
     ID_SPLIT_STR = "/"
 
-    def retrieve_entities_info(self, init_entities_ids: Set[str]) -> Dict[str, Any]:
+    async def retrieve_entities_info(self, init_entities_ids: Set[str]) -> Dict[str, Any]:
         """
-        Retrieves information about entities from Wikidata.
+        Asynchronously retrieves information about entities from Wikidata.
 
         Args:
             init_entities_ids (Set[str]): A set of entity IDs to retrieve information for.
@@ -96,15 +132,13 @@ class SPARQLWikidataConnector:
         """
         stock_exchanges_str = " ".join(f"wd:{exchange}" for exchange in STOCK_EXCHANGES)
 
-        # logging.info(f"Entities IDs: {init_entities_ids}")
-
         # Query 1: Direct retrieval of entities with stock exchange statements
         additional_conditions_str = """
         ?id p:P414 ?exchange.
         ?exchange ps:P414 ?exchanges;
                   pq:P249 ?ticker.
         """
-        results, unmatched_ids = self.run_query_and_get_unmatched_ids(
+        results, unmatched_ids = await self.run_query_and_get_unmatched_ids(
             init_entities_ids, stock_exchanges_str, additional_conditions_str
         )
 
@@ -115,7 +149,7 @@ class SPARQLWikidataConnector:
         ?exchange ps:P414 ?exchanges;
                   pq:P249 ?ticker.
         """
-        additional_results, unmatched_ids = self.run_query_and_get_unmatched_ids(
+        additional_results, unmatched_ids = await self.run_query_and_get_unmatched_ids(
             unmatched_ids, stock_exchanges_str, additional_conditions_str
         )
         results["results"]["bindings"].extend(additional_results["results"]["bindings"])
@@ -127,7 +161,7 @@ class SPARQLWikidataConnector:
         ?exchange ps:P414 ?exchanges;
                 pq:P249 ?ticker.
         """
-        additional_results, unmatched_ids = self.run_query_and_get_unmatched_ids(
+        additional_results, unmatched_ids = await self.run_query_and_get_unmatched_ids(
             unmatched_ids, stock_exchanges_str, additional_conditions_str
         )
         results["results"]["bindings"].extend(additional_results["results"]["bindings"])
@@ -143,12 +177,12 @@ class SPARQLWikidataConnector:
 
         return entities_identifiers_info
 
-    def run_query_and_get_unmatched_ids(
+    async def run_query_and_get_unmatched_ids(
         self,
         entities_ids: Set[str],
         stock_exchanges_str: str,
         additional_conditions_str: str,
-    ):
+    ) -> Tuple[Dict[str, Any], Set[str]]:
         """
         Runs a SPARQL query and returns the matched and unmatched entity IDs.
 
@@ -172,16 +206,14 @@ class SPARQLWikidataConnector:
         )
 
         # Run the query
-        results = self.run_query(query)
+        results = await self.run_query(query)
 
         # Get the matched and unmatched IDs
         matched_ids = {
             result["id"]["value"].split(self.ID_SPLIT_STR)[-1]
             for result in results["results"]["bindings"]
         }
-        # logging.info(f"Matched IDs: {matched_ids}")
         unmatched_ids = entities_ids - matched_ids
-        # logging.info(f"Remaining unmatched IDs: {unmatched_ids}")
 
         return results, unmatched_ids
 
@@ -207,7 +239,7 @@ def unique_and_map_entities(
     linked_entities = sorted(linked_entities, key=lambda e: e.span.start_char)
     org_entities = sorted(list(doc.ents), key=lambda e: e.start_char)
 
-    # Inizialize two pointers
+    # Pointers
     i, j = 0, 0
 
     # Loop while both pointers are within range
@@ -238,7 +270,7 @@ def unique_and_map_entities(
     return doc, qid_ent_dict
 
 
-def extract_entities(
+async def extract_entities(
     model: Model, connector: SPARQLWikidataConnector, content: str
 ) -> List[Entity]:
     """
@@ -262,14 +294,10 @@ def extract_entities(
     # Dictionary to map the wikidata identifiers to the organisation entities
     doc, qid_ent_dict = unique_and_map_entities(doc, doc._.linkedEntities)
 
-    #logging.info(f"qid_ent_dict.keys(): {qid_ent_dict.keys()}")
-
     # Retrieve the additional attributes (ticker) for the entities
-    entities_identifiers_info = connector.retrieve_entities_info(
+    entities_identifiers_info = await connector.retrieve_entities_info(
         set(qid_ent_dict.keys())
     )
-
-    #logging.info(f"entities_identifiers_info: {entities_identifiers_info}")
 
     # Extract the entities with the additional attributes (ticker)
     entities_dict = {

@@ -1,92 +1,184 @@
-/*
- * Globals
- */
 
-/* Custom default button */
-.btn-light,
-.btn-light:hover,
-.btn-light:focus {
-    color: #333;
-    text-shadow: none;
-    /* Prevent inheritance from `body` */
+/* Data Source Section */
+.data-source-container,
+.dashboard-charts-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
 }
 
-/*
- * Base structure
- */
-
-body {
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+.dashboard-charts-container {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
 }
 
-.cover-container {
-    max-width: 42em;
+.dashboard-charts-images {
+  display: flex;
+  width: 100%;
 }
 
-/*
- * Header
- */
-
-.nav-masthead .nav-link {
-    color: rgba(255, 255, 255, 0.5);
-    border-bottom: 0.25rem solid transparent;
+.dashboard-charts-container .jumbotron {
+  flex: 0 0 calc(33.333% - 40px); 
+  margin: 10px;
+  width: auto; 
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, 0.25);
+.text-content,
+.text-content-graph
+.text-content-graphs {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
 }
 
-.nav-masthead .nav-link+.nav-link {
-    margin-left: 1rem;
+.text-content-graph,
+.text-content-graphs {
+  flex-basis: 50%;
 }
 
-.nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
+.jumbotron,
+.jumbotron-graph,
+.jumbotron-graphs {
+  transition: transform 0.5s ease;
+  flex-basis: 30%; 
+  border-radius: 200px;
+  overflow: hidden;
 }
 
-.jumbotron {
-    background-color: #e3e3e3;
-    padding: 1rem;
+.jumbotron-graph,
+.jumbotron-graphs {
+  flex-basis: 50%; 
 }
 
+.jumbotron-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px; 
+}
+
+.jumbotron:hover {
+  transform: translateY(-10px);
+}
+
+/* Graphs Section*/
+.jumbotron-graphs {
+  border-radius: 25px;
+}
+
+.jumbotron-graphs-image {
+  border-radius: 10px; 
+}
+
+
+
+/* Graph Section */
+.jumbotron-graph {
+  border-radius: 25px; 
+}
+
+.jumbotron-graph-image {
+  border-radius: 10px; 
+}
+
+
+/* Dashboard Section */
+.jumbotron-dashboard {
+  border-radius: 25px; 
+}
+
+.jumbotron-dashboard-image {
+  border-radius: 10px;
+}
+
+/* Existing styles */
 section {
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
 }
 
 .logos {
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-h1 {
-    background: linear-gradient(to right, #0499F2,#26F596);
-    text-shadow: none;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+.data-source-container h1, p {
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: #e3e3e3;
+  text-decoration: none;
+}
+
+
+/* Techstack Section */
+.techstack-source-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.sliding-images {
+  display: flex;
+  width: 100%;
+  animation: slide 30s linear infinite;
+}
+
+.techstack-source-container .jumbotron {
+  flex: 0 0 150px; 
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.techstack-source-container .jumbotron img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  height: auto; 
+}
+
+/* Animation for sliding images */
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
   }
-
-/*
-ANIMATION OF THE H1
-  h1 {
-    background: linear-gradient(to right, #0499F2, #26F596);
-    background-size: 200% auto;
-    text-shadow: none;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradient-animation 3s linear infinite;
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-@keyframes gradient-animation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+@media (max-width: 768px) {
+  .cover-section {
+    font-size: 14px;
+  }
+  .cover-section h1 {
+    font-size: 30px;
+  }
 }
-*/
+
+.cover-section .intro {
+  text-align: center;
+}

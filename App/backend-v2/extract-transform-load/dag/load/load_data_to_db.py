@@ -10,8 +10,8 @@ from psycopg2.extensions import connection as psycopg2_connection
 from psycopg2.extensions import cursor as psycopg2_cursor
 
 from load.models.article import Article
+from load.models.company import Company
 from load.models.sentiment import Sentiment
-from load.models.ticker import Ticker
 
 
 def get_section_id(cursor: psycopg2_cursor, section: str) -> int:
@@ -40,25 +40,29 @@ def get_section_id(cursor: psycopg2_cursor, section: str) -> int:
     return section_id
 
 
-def insert_tickers(cursor: psycopg2_cursor, tickers: List[Ticker]) -> None:
+def insert_companies(cursor: psycopg2_cursor, companies: List[Company]) -> None:
     """
-    Inserts tickers into the database if they don't already exist.
+    Inserts companies (with only ticker) into the database if they don't already exist. 
+    
 
     Args:
         cursor (psycopg2_cursor): The database cursor.
-        tickers (List[Ticker]): A list of Ticker objects to be inserted.
+        companies (List[Company]): A list of Company objects to be inserted.
     """
 
+    # This function insters only company ticker so that we don't have to repeatedly download data from yahoo finance for each ticker
+    
+    # Additional data from yahoo finance are downloaded (once) after the insertion of all tickers via `insert_additional_company_data`
+
     # Due to potentinal noise data (wikidata QIDs) from the extraction process, we only insert tickers with length less than or equal to 10
-    valid_tickers = {ticker.ticker for ticker in tickers if len(ticker.ticker) <= 10}
+    valid_companies = [company for company in companies if len(company.ticker) <= 10]
 
-    if valid_tickers:
-        tickers_data = [(ticker,) for ticker in valid_tickers]
-        insert_query = (
-            "INSERT INTO tickers (name) VALUES (%s) ON CONFLICT (name) DO NOTHING;"
-        )
-        execute_batch(cursor, insert_query, tickers_data)
+    # Prepare data for insertion
+    companies_data = [(company.ticker,) for company in valid_companies]
 
+    if companies_data:
+        insert_query = "INSERT INTO companies (ticker) VALUES (%s) ON CONFLICT (ticker) DO NOTHING;"
+        execute_batch(cursor, insert_query, companies_data)        
 
 def insert_article(cursor: psycopg2_cursor, article: Article) -> None:
     """
@@ -102,33 +106,33 @@ def insert_article_section(
     )
 
 
-def insert_article_ticker(
-    cursor: psycopg2_cursor, article_id: UUID, ticker: Ticker
+def insert_article_company(
+    cursor: psycopg2_cursor, article_id: UUID, company: Company
 ) -> None:
     """
-    Inserts a relationship between an article and a ticker into the database, along with sentiment data.
+    Inserts a relationship between an article and a company into the database, along with sentiment data.
 
     Args:
         cursor (psycopg2_cursor): The database cursor.
         article_id (UUID): The ID of the article.
-        ticker (Ticker): The Ticker object associated with the article.
+        company (Company): The Company object associated with the article.
     """
 
-    cursor.execute("SELECT id FROM tickers WHERE name = %s;", (ticker.ticker,))
-    ticker_id = cursor.fetchone()
+    cursor.execute("SELECT id FROM companies WHERE ticker = %s;", (company.ticker,))
+    company_id = cursor.fetchone()
 
-    if ticker_id:
-        ticker_id = ticker_id[0]
+    if company_id:
+        company_id = company_id[0]
         cursor.execute(
-            "INSERT INTO article_tickers (article_id, ticker_id) VALUES (%s, %s) ON CONFLICT DO NOTHING;",
-            (article_id, ticker_id),
+            "INSERT INTO article_companies (article_id, company_id) VALUES (%s, %s) ON CONFLICT DO NOTHING;",
+            (article_id, company_id),
         )
-        sentiment = ticker.sentiment
+        sentiment = company.sentiment
         cursor.execute(
-            "INSERT INTO sentiments (article_id, ticker_id, classification, positive, negative, neutral) VALUES (%s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING;",
+            "INSERT INTO sentiments (article_id, company_id, classification, positive, negative, neutral) VALUES (%s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING;",
             (
                 article_id,
-                ticker_id,
+                company_id,
                 sentiment.classification,
                 sentiment.positive,
                 sentiment.negative,
@@ -141,7 +145,7 @@ def load_data_to_db(
     connection: psycopg2_connection, source: str, section: str, file_path: str
 ) -> None:
     """
-    Loads data from a JSON file into the database, including articles, tickers, and their relationships.
+    Loads data from a JSON file into the database, including articles, companies based on tickers, and their relationships.
     (keeping source information for case of multiple sources in the future)
 
     Args:
@@ -163,24 +167,24 @@ def load_data_to_db(
                         item["published_date"].replace("Z", "+00:00")
                     )
                     tickers_data = item.pop("tickers", [])
-                    tickers = [
-                        Ticker(
+                    companies = [
+                        Company(
                             ticker=ticker_data["ticker"],
                             sentiment=Sentiment(**ticker_data["sentiment"]),
                         )
                         for ticker_data in tickers_data
                     ]
-                    item["tickers"] = tickers
+                    item["companies"] = companies
 
                     article = Article(**item)
-                    if not article.tickers:
+                    if not article.companies:
                         continue
 
-                    insert_tickers(cursor, article.tickers)
+                    insert_companies(cursor, article.companies)
                     insert_article(cursor, article)
                     insert_article_section(cursor, article.id, section_id)
-                    for ticker in article.tickers:
-                        insert_article_ticker(cursor, article.id, ticker)
+                    for company in article.companies:
+                        insert_article_company(cursor, article.id, company)
 
         connection.commit()
         logging.info("Data loading completed successfully.")

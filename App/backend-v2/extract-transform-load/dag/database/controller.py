@@ -9,7 +9,10 @@ from psycopg2.extensions import connection as psycopg2_connection
 
 from database.queries.delete_replicated_tables import delete_replicated_tables
 from database.queries.replicate_and_clear_tables import replicate_and_clear_tables
+
 from load.load_data_to_db import load_data_to_db
+from load.insert_additional_company_data import insert_additional_company_data
+from load.delete_articles_without_companies import delete_articles_without_companies
 
 load_dotenv()
 
@@ -61,7 +64,7 @@ class DatabaseController:
         """
         Replicates and clears tables in the database.
 
-        This method uses the `replicate_and_clear_tables` function 
+        This method uses the `replicate_and_clear_tables` function from queries
         to replicate and clear tables within the database.
         """
 
@@ -73,7 +76,7 @@ class DatabaseController:
         """
         Deletes replicated tables from the database.
 
-        This method uses the `delete_replicated_tables` function
+        This method uses the `delete_replicated_tables` function from queries
         to delete temporary tables within the database.
         """
 
@@ -90,7 +93,7 @@ class DatabaseController:
             section (str): The section of the data.
             file_path (str): The file path of the data to be loaded.
 
-        This method uses the `load_data_to_db` function to load data
+        This method uses the `load_data_to_db` function from load phase to load data
         from the specified file into the database.
         """
 
@@ -102,3 +105,28 @@ class DatabaseController:
                 section=section,
                 file_path=file_path,
             )
+
+    def insert_additional_company_data(self) -> None:
+        """
+        Inserts additional company data into the database from Yahoo Finance.
+
+        This method uses the `insert_additional_company_data` function from load phase 
+        to insert additional company data into the database from Yahoo Finance.
+        """
+        
+        logging.info("Inserting additional company data from Yahoo Finance.")
+        with self.get_connection() as connection:
+            insert_additional_company_data(connection=connection)
+
+    def delete_articles_without_companies(self) -> None:
+        """
+        Deletes articles that do not have any associated companies in the database.
+
+        This method uses the `delete_articles_without_companies` function from load phase
+        to delete articles that do not have any associated companies.
+        """
+
+        logging.info("Deleting articles without companies.")
+        with self.get_connection() as connection:
+            delete_articles_without_companies(connection=connection)
+

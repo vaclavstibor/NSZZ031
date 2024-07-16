@@ -5,8 +5,8 @@ from fastapi import FastAPI, Depends
 
 from src.models.response import Response
 from src.models.query import Query
-
 from src.ner.model import Model, SPARQLWikidataConnector, extract_entities
+
 from src.utils.helpers import setup_logger
 from dotenv import load_dotenv
 
@@ -25,8 +25,8 @@ def startup_event():
     """
     A startup event handler that initializes the model and connector.
 
-    This function is called when the FastAPI application starts up. It initializes the model 
-    and connector and stores them in the application state.
+    This function is called when the FastAPI application starts up. It initializes
+    the model and connector and stores them in the application state.
     """
     app.state.model = Model(model_name=SPACY_MODEL_NAME)
     app.state.connector = SPARQLWikidataConnector()
@@ -42,19 +42,20 @@ async def extract(
     Asynchronously extract entities from the input query.
 
     This function takes in a Query object, extracts entities from the query content,
-    and returns a Response object containing thi list of extracted entities.
+    and returns a Response object containing the list of extracted entities.
 
     Args:
-        in_query (Query): The input query.
+        query (Query): The input query.
         model (Model, optional): The model used for entity extraction. Defaults to the model in the application state.
         connector (SPARQLWikidataConnector, optional): The connector used for entity extraction. Defaults to the connector in the application state.
 
     Returns:
         Response: A Response object containing the list of extracted entities.
     """
+    
     content = query.content
 
-    entities = extract_entities(model=model, connector=connector, content=content)
+    entities = await extract_entities(model=model, connector=connector, content=content)
 
     return Response(entities=entities)
 
