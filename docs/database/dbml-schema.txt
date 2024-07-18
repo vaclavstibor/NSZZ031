@@ -1,0 +1,50 @@
+Table articles {
+    id UUID [pk]
+    type VARCHAR(50) [not null]
+    url TEXT [not null]
+    title TEXT [not null]
+    author VARCHAR(255)
+    published_date TIMESTAMP [not null]
+}
+
+Table companies {
+    id SERIAL [pk]
+    shortName VARCHAR(100)
+    ticker VARCHAR(10) [not null, unique]
+    industry VARCHAR(100)
+    website VARCHAR(255)
+}
+
+Table article_companies {
+    article_id UUID [ref: > articles.id, not null]
+    company_id INT [ref: > companies.id, not null]
+    indexes {
+        (article_id, company_id) [unique]
+    }
+}
+
+Table sentiments {
+    id SERIAL [pk]
+    article_id UUID [ref: > article_companies.article_id, not null]
+    company_id INT [ref: > article_companies.company_id, not null]
+    classification VARCHAR(50)
+    positive NUMERIC(5,5)
+    negative NUMERIC(5,5)
+    neutral NUMERIC(5,5)
+    indexes {
+        (article_id, company_id) [unique]
+    }
+}
+
+Table sections {
+    id SERIAL [pk]
+    name VARCHAR(100) [not null, unique]
+}
+
+Table article_sections {
+    article_id UUID [ref: > articles.id, not null]
+    section_id INT [ref: > sections.id, not null]
+    indexes {
+        (article_id, section_id) [unique]
+    }
+}

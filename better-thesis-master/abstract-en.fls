@@ -1,8 +1,8 @@
-PWD /Users/stiborv/Documents/ZS2324/NPRG045/better-thesis-master
+PWD /Users/stiborv/Documents/2324/ZS2324/NPRG045/better-thesis-master
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/stiborv/Documents/ZS2324/NPRG045/better-thesis-master/abstract-en.tex
+INPUT /Users/stiborv/Documents/2324/ZS2324/NPRG045/better-thesis-master/abstract-en.tex
 OUTPUT abstract-en.log
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls

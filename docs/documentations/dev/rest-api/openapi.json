@@ -1,0 +1,637 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "GlobeSense REST API",
+        "description": "A REST API for GlobeSense",
+        "termsOfService": "",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/v0/companies/graphs": {
+            "get": {
+                "tags": [
+                    "Companies Graphs"
+                ],
+                "summary": "Fetches all companies' graphs from a database.",
+                "description": "The data is processed to form a graph representation consisting of nodes (representing companies and articles) and links (representing relationships between them), including sentiment analysis for each node. The function also computes average sentiment scores for articles based on associated company sentiments. Due to troubles with (oneOf) field in schema, maybe same of swagger reders will not be able to load schema of artilce and node to the documentation, so check the code for better understanding. The result is a dictionary containing the graph structure, which is returned as a JSON response. If no companies are found, a 404 response is returned.",
+                "responses": {
+                    "200": {
+                        "description": "Successful",
+                        "schema": {
+                            "$ref": "#/definitions/CompaniesGraphs"
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v0/companies/names": {
+            "get": {
+                "tags": [
+                    "Companies Names and Tickers"
+                ],
+                "summary": "Fetches all companies' names and tickers from a database.",
+                "description": "The data is processed to form a list of dictionaries, where each dictionary contains the keys \"shortName\" and \"ticker\" for a company. If no companies are found, a 404 response is returned. The result is returned as a JSON response.",
+                "responses": {
+                    "200": {
+                        "description": "Successful",
+                        "schema": {
+                            "$ref": "#/definitions/CompaniesNamesAndTickers"
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v0/company/{ticker}/articles": {
+            "get": {
+                "tags": [
+                    "Company Article List"
+                ],
+                "summary": "Fetches a company's articles from a database.",
+                "description": "The data is processed to form a list of dictionaries, where each dictionary contains data for an article. If no articles are found, a 404 response is returned. The result is returned as a JSON response.",
+                "parameters": [
+                    {
+                        "name": "ticker",
+                        "description": "The company's ticker symbol",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful",
+                        "schema": {
+                            "$ref": "#/definitions/CompanyArticleList"
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v0/company/{ticker}/chart": {
+            "get": {
+                "tags": [
+                    "Company Chart"
+                ],
+                "summary": "Fetches a company's chart data from a database and Yahoo Finance.",
+                "description": "The data is processed to form a chart representation consisting of historical data for the company. For each day to the past 3 months the data contains adjusted close price, volume, and sentiment score. Sentiment data are average for each day and are calculated based on the sentiment of articles from the beggining of the day. Additional price data in sentiment are for purpose of visualisation. The result is a dictionary containing the chart data, which is returned as a JSON response. If no company is found, a 404 response is returned.",
+                "parameters": [
+                    {
+                        "name": "ticker",
+                        "description": "The company's ticker symbol",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful",
+                        "schema": {
+                            "$ref": "#/definitions/CompanyChart"
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v0/company/{ticker}/graph": {
+            "get": {
+                "tags": [
+                    "Company Graph"
+                ],
+                "summary": "Fetches a company's graph data from a database.",
+                "description": "The data is processed to form a graph representation consisting of nodes (representing companies and articles) and links (representing relationships between them), including sentiment analysis for each node. The function also computes average daily sentiment score for ticker based its sentiment in articles from the beggining of the day. Which is also used in ticker info. The result is a dictionary containing the graph structure, which is returned as a JSON response. If no company is found, a 404 response is returned.",
+                "parameters": [
+                    {
+                        "name": "ticker",
+                        "description": "The company's ticker symbol",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful",
+                        "schema": {
+                            "$ref": "#/definitions/CompanyGraph"
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        },
+        "/api/v0/company/{ticker}/info": {
+            "get": {
+                "tags": [
+                    "Company Info"
+                ],
+                "summary": "Fetches a company's info from a database and Yahoo Finance.",
+                "description": "The data is processed to form a dictionary containing company information such as short name, sector, industry, and website. The function also fetches additional information from Yahoo Finance, such as volume, daily high and low, volume. Additionaly it computes average daily sentiment based on its sentiments from the beggining of day. If no company info is found, a 404 response is returned. The result is returned as a JSON response.",
+                "parameters": [
+                    {
+                        "name": "ticker",
+                        "description": "The company's ticker symbol",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful",
+                        "schema": {
+                            "$ref": "#/definitions/CompanyInfo"
+                        }
+                    },
+                    "404": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "CompanyChart": {
+            "type": "object",
+            "properties": {
+                "price_data": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "date": {
+                                "type": "string",
+                                "format": "date-time"
+                            },
+                            "adj_close": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                },
+                "sentiment_data": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "date": {
+                                "type": "string",
+                                "format": "date-time"
+                            },
+                            "adj_close": {
+                                "type": "number"
+                            },
+                            "sentiment": {
+                                "type": "object",
+                                "properties": {
+                                    "classification": {
+                                        "type": "string",
+                                        "enum": [
+                                            "POSITIVE",
+                                            "NEUTRAL",
+                                            "NEGATIVE"
+                                        ]
+                                    },
+                                    "positive": {
+                                        "type": "number"
+                                    },
+                                    "neutral": {
+                                        "type": "number"
+                                    },
+                                    "negative": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CompanyArticleList": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "uuid"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "string"
+                    },
+                    "section": {
+                        "type": "string"
+                    },
+                    "published_date": {
+                        "type": "string",
+                        "format": "date-time"
+                    },
+                    "url": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "author": {
+                        "type": "string",
+                        "x-nullable": true
+                    },
+                    "sentiment": {
+                        "type": "object",
+                        "properties": {
+                            "classification": {
+                                "type": "string",
+                                "enum": [
+                                    "POSITIVE",
+                                    "NEUTRAL",
+                                    "NEGATIVE"
+                                ]
+                            },
+                            "positive": {
+                                "type": "number"
+                            },
+                            "neutral": {
+                                "type": "number"
+                            },
+                            "negative": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CompanyInfo": {
+            "type": "object",
+            "properties": {
+                "shortName": {
+                    "type": "string"
+                },
+                "ticker": {
+                    "type": "string"
+                },
+                "website": {
+                    "type": "string"
+                },
+                "industry": {
+                    "type": "string"
+                },
+                "dayHigh": {
+                    "type": "number"
+                },
+                "dayLow": {
+                    "type": "number"
+                },
+                "volume": {
+                    "type": "number"
+                },
+                "sentiment": {
+                    "type": "object",
+                    "properties": {
+                        "classification": {
+                            "type": "string",
+                            "enum": [
+                                "POSITIVE",
+                                "NEUTRAL",
+                                "NEGATIVE"
+                            ]
+                        },
+                        "positive": {
+                            "type": "number"
+                        },
+                        "neutral": {
+                            "type": "number"
+                        },
+                        "negative": {
+                            "type": "number"
+                        }
+                    }
+                }
+            }
+        },
+        "CompanyGraph": {
+            "type": "object",
+            "properties": {
+                "nodes": {
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string",
+                                        "format": "uuid"
+                                    },
+                                    "node_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "article"
+                                        ]
+                                    },
+                                    "title": {
+                                        "type": "string"
+                                    },
+                                    "published_date": {
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "author": {
+                                        "type": "string",
+                                        "x-nullable": true
+                                    },
+                                    "sentiment": {
+                                        "type": "object",
+                                        "properties": {
+                                            "classification": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "POSITIVE",
+                                                    "NEUTRAL",
+                                                    "NEGATIVE"
+                                                ]
+                                            },
+                                            "positive": {
+                                                "type": "number"
+                                            },
+                                            "neutral": {
+                                                "type": "number"
+                                            },
+                                            "negative": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "integer"
+                                    },
+                                    "node_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "company"
+                                        ]
+                                    },
+                                    "short_name": {
+                                        "type": "string"
+                                    },
+                                    "ticker": {
+                                        "type": "string"
+                                    },
+                                    "sentiment": {
+                                        "type": "object",
+                                        "properties": {
+                                            "classification": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "POSITIVE",
+                                                    "NEUTRAL",
+                                                    "NEGATIVE"
+                                                ]
+                                            },
+                                            "positive": {
+                                                "type": "number"
+                                            },
+                                            "neutral": {
+                                                "type": "number"
+                                            },
+                                            "negative": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "links": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "source": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "target": {
+                                "type": "integer"
+                            },
+                            "sentiment": {
+                                "type": "object",
+                                "properties": {
+                                    "classification": {
+                                        "type": "string",
+                                        "enum": [
+                                            "POSITIVE",
+                                            "NEUTRAL",
+                                            "NEGATIVE"
+                                        ]
+                                    },
+                                    "positive": {
+                                        "type": "number"
+                                    },
+                                    "neutral": {
+                                        "type": "number"
+                                    },
+                                    "negative": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CompaniesNamesAndTickers": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "shortName": {
+                        "type": "string"
+                    },
+                    "ticker": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "CompaniesGraphs": {
+            "type": "object",
+            "properties": {
+                "nodes": {
+                    "type": "array",
+                    "items": {
+                        "oneOf": [
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string",
+                                        "format": "uuid"
+                                    },
+                                    "node_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "article"
+                                        ]
+                                    },
+                                    "title": {
+                                        "type": "string"
+                                    },
+                                    "published_date": {
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "format": "uri"
+                                    },
+                                    "author": {
+                                        "type": "string",
+                                        "x-nullable": true
+                                    },
+                                    "sentiment": {
+                                        "type": "object",
+                                        "properties": {
+                                            "classification": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "POSITIVE",
+                                                    "NEUTRAL",
+                                                    "NEGATIVE"
+                                                ]
+                                            },
+                                            "positive": {
+                                                "type": "number"
+                                            },
+                                            "neutral": {
+                                                "type": "number"
+                                            },
+                                            "negative": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    },
+                                    "companies": {
+                                        "type": "array",
+                                        "format": "int"
+                                    }
+                                }
+                            },
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "integer"
+                                    },
+                                    "node_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "company"
+                                        ]
+                                    },
+                                    "short_name": {
+                                        "type": "string"
+                                    },
+                                    "ticker": {
+                                        "type": "string"
+                                    },
+                                    "sentiment": {
+                                        "type": "object",
+                                        "properties": {
+                                            "classification": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "POSITIVE",
+                                                    "NEUTRAL",
+                                                    "NEGATIVE"
+                                                ]
+                                            },
+                                            "positive": {
+                                                "type": "number"
+                                            },
+                                            "neutral": {
+                                                "type": "number"
+                                            },
+                                            "negative": {
+                                                "type": "number"
+                                            }
+                                        }
+                                    },
+                                    "articles": {
+                                        "type": "array",
+                                        "format": "uuid"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                "links": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "source": {
+                                "type": "string",
+                                "format": "uuid"
+                            },
+                            "target": {
+                                "type": "integer"
+                            },
+                            "sentiment": {
+                                "type": "object",
+                                "properties": {
+                                    "classification": {
+                                        "type": "string",
+                                        "enum": [
+                                            "POSITIVE",
+                                            "NEUTRAL",
+                                            "NEGATIVE"
+                                        ]
+                                    },
+                                    "positive": {
+                                        "type": "number"
+                                    },
+                                    "neutral": {
+                                        "type": "number"
+                                    },
+                                    "negative": {
+                                        "type": "number"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

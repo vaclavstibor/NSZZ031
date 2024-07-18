@@ -1,49 +1,101 @@
-\contentsline {chapter}{Introduction}{3}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}Theoretical Background}{4}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Sentiment Analysis Basics}{4}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Levels of Sentiment Analysis}{4}{subsection.1.1.1}%
-\contentsline {paragraph}{}{6}{figure.caption.3}%
-\contentsline {section}{\numberline {1.2}Named Entity Recognition}{7}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Techniques}{8}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Workflow of Entity-level Sentiment Analysis}{14}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Time Series Forecasting Integration}{14}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Text similarity}{14}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Related work}{15}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Existing Application Overview}{15}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Bloomberg Terminal}{15}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Predicting Stock Market Behaviour}{18}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Entity-level Sentiment Analysis}{18}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Mining dynamic Social Networks}{19}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Textual data}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Aspects for considerations}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Data sources}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Web Scraping}{21}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}RSS Feeds}{21}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}News publisher's APIs}{21}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Third party data providers}{21}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}First party data providers}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}The New York Times}{21}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}The Guardian}{21}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Third party data providers}{21}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Alpha Ventage}{21}{subsection.3.4.1}%
-\contentsline {chapter}{\numberline {4}Company to Symbol Linking}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{23}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Problem definition}{24}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Naive approach}{26}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Database}{26}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Data preprocessing}{27}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Fuzzy matching}{28}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Entity linking approach}{32}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Wikidata}{33}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Spacy Entity Linker}{33}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}SPARQL Wrapper}{35}{subsection.4.4.3}%
-\contentsline {subsubsection}{Query 1: Direct ticker retrieval}{36}{section*.36}%
-\contentsline {subsubsection}{Query 2: Owner-based ticker retrieval}{36}{section*.38}%
-\contentsline {subsubsection}{Query 3: Differentiated ticker retrieval}{37}{table.caption.39}%
-\contentsline {chapter}{\numberline {5}Architecture}{39}{chapter.5}%
-\contentsline {chapter}{Conclusion}{40}{chapter*.42}%
-\contentsline {chapter}{Bibliography}{41}{chapter*.44}%
-\contentsline {chapter}{\numberline {A}SPARQL Wrapper}{46}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Query 1: Direct ticker retrieval}{46}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Query 2: Owner-based ticker retrieval}{47}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Query 3: Differentiated ticker retrieval}{48}{section.A.3}%
+\contentsline {chapter}{Introduction}{4}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Theoretical Background}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Sentiment Analysis Basics}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Levels of Sentiment Analysis}{7}{subsection.1.1.1}%
+\contentsline {paragraph}{}{8}{figure.caption.4}%
+\contentsline {section}{\numberline {1.2}Named Entity Recognition}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Techniques}{11}{subsection.1.2.1}%
+\contentsline {chapter}{\numberline {2}Related work}{16}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Existing Application Overview}{16}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Bloomberg Terminal}{16}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Entity-level Sentiment Analysis}{19}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Stock Market Behaviour}{20}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Textual Data}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Terms of Services}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Data Extraction Techniques}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}RSS Feeds}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Web Scraping}{24}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}API}{24}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Third-party Data Providers}{25}{section.3.4}%
+\contentsline {section}{\numberline {3.5}First-party Data Providers}{28}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Company to Symbol Linking}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Problem definition}{32}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Naive approach}{34}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Database}{34}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Data preprocessing}{35}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Fuzzy matching}{36}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Entity linking approach}{40}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Wikidata}{41}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Spacy Entity Linker}{41}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}SPARQL Wrapper}{43}{subsection.4.4.3}%
+\contentsline {subsubsection}{Query 1: Direct ticker retrieval}{44}{subsection.4.4.3}%
+\contentsline {subsubsection}{Query 2: Owner-based ticker retrieval}{44}{table.caption.22}%
+\contentsline {subsubsection}{Query 3: Differentiated ticker retrieval}{45}{table.caption.23}%
+\contentsline {chapter}{\numberline {5}Entity-level Sentiment Analysis}{47}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{47}{section.5.1}%
+\contentsline {section}{\numberline {5.2}FinABSA model}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Experiment: FinEntity Dataset}{49}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Experiment: Sentiment and Adjusted Close Price}{52}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Hold Strategy}{54}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Correlation}{56}{subsection.5.4.2}%
+\contentsline {chapter}{\numberline {6}Application Requirements}{60}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Functional Requirements}{60}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Non-Functional Requirements}{61}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Architecture}{62}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{62}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Backend}{63}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Extract Transform Load Service}{63}{subsection.7.2.1}%
+\contentsline {subsubsection}{Database Details}{67}{figure.caption.38}%
+\contentsline {subsubsection}{Extract Details}{68}{figure.caption.39}%
+\contentsline {subsubsection}{Transform Details}{68}{figure.caption.39}%
+\contentsline {subsubsection}{Load Details}{70}{figure.caption.40}%
+\contentsline {subsection}{\numberline {7.2.2}Named Entity Recognition Service}{71}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Sentiment Analysis Service}{73}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}REST API Service}{74}{subsection.7.2.4}%
+\contentsline {section}{\numberline {7.3}Frontend}{76}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Home Component}{76}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Graphs Component}{77}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Companies Component}{78}{subsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.3.4}CompanyGraph Component}{78}{subsection.7.3.4}%
+\contentsline {subsection}{\numberline {7.3.5}CompanyDashboard Component}{78}{subsection.7.3.5}%
+\contentsline {chapter}{\numberline {8}Development Documentation}{80}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Backend}{80}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Extract Transform Load Service}{80}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Named Entity Recognition Service}{81}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Sentiment Analysis Service}{81}{subsection.8.1.3}%
+\contentsline {section}{\numberline {8.2}REST API Service}{82}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Frontend}{82}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Components Overview}{82}{subsection.8.3.1}%
+\contentsline {subsubsection}{HomeComponent}{82}{subsection.8.3.1}%
+\contentsline {subsubsection}{CompaniesComponent}{82}{subsection.8.3.1}%
+\contentsline {subsubsection}{DashboardComponent}{82}{subsection.8.3.1}%
+\contentsline {subsubsection}{GraphsComponent}{83}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Services Overview}{83}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}Routes}{84}{subsection.8.3.3}%
+\contentsline {chapter}{\numberline {9}User Documentation}{85}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Home}{85}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Graphs}{85}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Control Panels}{86}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Actions}{87}{subsection.9.2.2}%
+\contentsline {section}{\numberline {9.3}Companies}{90}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Company Dashboard}{91}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Company Information}{91}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Stock Chart}{91}{subsection.9.4.2}%
+\contentsline {subsection}{\numberline {9.4.3}Spline Chart}{92}{subsection.9.4.3}%
+\contentsline {subsection}{\numberline {9.4.4}Pie Chart}{94}{subsection.9.4.4}%
+\contentsline {subsection}{\numberline {9.4.5}Article List}{94}{subsection.9.4.5}%
+\contentsline {section}{\numberline {9.5}Company Graph}{96}{section.9.5}%
+\contentsline {chapter}{Conclusion}{98}{chapter*.65}%
+\contentsline {chapter}{Bibliography}{100}{chapter*.66}%
+\contentsline {chapter}{\numberline {A}Textual Data}{107}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Third-party Data Providers}{107}{section.A.1}%
+\contentsline {section}{\numberline {A.2}First-party Data Providers}{109}{section.A.2}%
+\contentsline {chapter}{\numberline {B}SPARQL Wrapper}{111}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Query 1: Direct ticker retrieval}{111}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Query 2: Owner-based ticker retrieval}{112}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Query 3: Differentiated ticker retrieval}{113}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Sentiment and Adjusted Close Price}{115}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Hold Strategy}{115}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Correlation}{119}{section.C.2}%

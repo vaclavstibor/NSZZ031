@@ -1,0 +1,254 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Architecture}{62}{chapter.7}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:architecture}{{7}{62}{Architecture}{chapter.7}{}}
+\newlabel{chap:architecture@cref}{{[chapter][7][]7}{[1][62][]62}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Introduction}{62}{section.7.1}\protected@file@percent }
+\newlabel{sec:architecture-introduction}{{7.1}{62}{Introduction}{section.7.1}{}}
+\newlabel{sec:architecture-introduction@cref}{{[section][1][7]7.1}{[1][62][]62}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Backend}{63}{section.7.2}\protected@file@percent }
+\newlabel{sec:architecture-backend}{{7.2}{63}{Backend}{section.7.2}{}}
+\newlabel{sec:architecture-backend@cref}{{[section][2][7]7.2}{[1][63][]63}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Extract Transform Load Service}{63}{subsection.7.2.1}\protected@file@percent }
+\newlabel{subsec:architecture-etl}{{7.2.1}{63}{Extract Transform Load Service}{subsection.7.2.1}{}}
+\newlabel{subsec:architecture-etl@cref}{{[subsection][1][7,2]7.2.1}{[1][63][]63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces The application's high-level architecture containing individual services and their communication. Where N hours is a variable, which will be set to 4 hours in the current version.\relax }}{64}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:architecture-high}{{7.1}{64}{The application's high-level architecture containing individual services and their communication. Where N hours is a variable, which will be set to 4 hours in the current version.\relax }{figure.caption.37}{}}
+\newlabel{fig:architecture-high@cref}{{[figure][1][7]7.1}{[1][63][]64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces The \acrshort {dag} of Guardian's \acrshort {etl} phases, including four additional tasks for data tables replication and cleaning, insertion of additional company data, deletion of articles without companies, and deletion of replicated tables. Oriented from top to bottom.\relax }}{66}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:architecture-etl-highest}{{7.2}{66}{The \acrshort {dag} of Guardian's \acrshort {etl} phases, including four additional tasks for data tables replication and cleaning, insertion of additional company data, deletion of articles without companies, and deletion of replicated tables. Oriented from top to bottom.\relax }{figure.caption.38}{}}
+\newlabel{fig:architecture-etl-highest@cref}{{[figure][2][7]7.2}{[1][65][]66}}
+\@writefile{toc}{\contentsline {subsubsection}{Database Details}{67}{figure.caption.38}\protected@file@percent }
+\newlabel{subsubsec:architecture-etl-database-details}{{7.2.1}{67}{Database Details}{figure.caption.38}{}}
+\newlabel{subsubsec:architecture-etl-database-details@cref}{{[subsection][1][7,2]7.2.1}{[1][65][]67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Relational schema of \acrshort {etl} service database for storing article-related data.\relax }}{67}{figure.caption.39}\protected@file@percent }
+\newlabel{fig:architecture-etl-database-schema}{{7.3}{67}{Relational schema of \acrshort {etl} service database for storing article-related data.\relax }{figure.caption.39}{}}
+\newlabel{fig:architecture-etl-database-schema@cref}{{[figure][3][7]7.3}{[1][67][]67}}
+\@writefile{toc}{\contentsline {subsubsection}{Extract Details}{68}{figure.caption.39}\protected@file@percent }
+\newlabel{subsubsec:architecture-etl-extract-details}{{7.2.1}{68}{Extract Details}{figure.caption.39}{}}
+\newlabel{subsubsec:architecture-etl-extract-details@cref}{{[subsection][1][7,2]7.2.1}{[1][67][]68}}
+\@writefile{toc}{\contentsline {subsubsection}{Transform Details}{68}{figure.caption.39}\protected@file@percent }
+\newlabel{subsubsec:architecture-etl-transform-details}{{7.2.1}{68}{Transform Details}{figure.caption.39}{}}
+\newlabel{subsubsec:architecture-etl-transform-details@cref}{{[subsection][1][7,2]7.2.1}{[1][68][]68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces The transform phase task groups and its tasks in the \acrshort {dag} of Guardian's \acrshort {etl} process. Directed from left to right.\relax }}{69}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:architecture-etl-transform}{{7.4}{69}{The transform phase task groups and its tasks in the \acrshort {dag} of Guardian's \acrshort {etl} process. Directed from left to right.\relax }{figure.caption.40}{}}
+\newlabel{fig:architecture-etl-transform@cref}{{[figure][4][7]7.4}{[1][69][]69}}
+\@writefile{toc}{\contentsline {subsubsection}{Load Details}{70}{figure.caption.40}\protected@file@percent }
+\newlabel{subsubsec:architecture-etl-load-details}{{7.2.1}{70}{Load Details}{figure.caption.40}{}}
+\newlabel{subsubsec:architecture-etl-load-details@cref}{{[subsection][1][7,2]7.2.1}{[1][69][]70}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces The approximate duration of individual tasks and task groups in the \acrshort {etl} process for the Guardian source.\relax }}{70}{table.caption.41}\protected@file@percent }
+\newlabel{table:etl-task-durations}{{7.1}{70}{The approximate duration of individual tasks and task groups in the \acrshort {etl} process for the Guardian source.\relax }{table.caption.41}{}}
+\newlabel{table:etl-task-durations@cref}{{[table][1][7]7.1}{[1][70][]70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces The load phase task groups and its tasks in the \acrshort {dag} of Guardian's \acrshort {etl} process. Directed from left to right.\relax }}{71}{figure.caption.42}\protected@file@percent }
+\newlabel{fig:architecture-etl-load}{{7.5}{71}{The load phase task groups and its tasks in the \acrshort {dag} of Guardian's \acrshort {etl} process. Directed from left to right.\relax }{figure.caption.42}{}}
+\newlabel{fig:architecture-etl-load@cref}{{[figure][5][7]7.5}{[1][70][]71}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The approximate number of records in the database tables after three months of time frame extraction employs the Guardian as the source focusing on business and technology sections.\relax }}{71}{table.caption.44}\protected@file@percent }
+\newlabel{table:architecture-etl-database-records}{{7.2}{71}{The approximate number of records in the database tables after three months of time frame extraction employs the Guardian as the source focusing on business and technology sections.\relax }{table.caption.44}{}}
+\newlabel{table:architecture-etl-database-records@cref}{{[table][2][7]7.2}{[1][71][]71}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Named Entity Recognition Service}{71}{subsection.7.2.2}\protected@file@percent }
+\newlabel{subsec:architecture-ner}{{7.2.2}{71}{Named Entity Recognition Service}{subsection.7.2.2}{}}
+\newlabel{subsec:architecture-ner@cref}{{[subsection][2][7,2]7.2.2}{[1][71][]71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces The \acrshort {dag} of \acrshort {etl} phases for multiple sources, including the Guardian, New York Times, and Financial Times.\relax }}{72}{figure.caption.43}\protected@file@percent }
+\newlabel{fig:architecture-etl-sources}{{7.6}{72}{The \acrshort {dag} of \acrshort {etl} phases for multiple sources, including the Guardian, New York Times, and Financial Times.\relax }{figure.caption.43}{}}
+\newlabel{fig:architecture-etl-sources@cref}{{[figure][6][7]7.6}{[1][71][]72}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Schema of a POST request to the \acrshort {ner} service for extracting entities from article content and its response.\relax }}{73}{figure.caption.45}\protected@file@percent }
+\newlabel{fig:architecture-ner-req-res}{{7.7}{73}{Schema of a POST request to the \acrshort {ner} service for extracting entities from article content and its response.\relax }{figure.caption.45}{}}
+\newlabel{fig:architecture-ner-req-res@cref}{{[figure][7][7]7.7}{[1][72][]73}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Sentiment Analysis Service}{73}{subsection.7.2.3}\protected@file@percent }
+\newlabel{subsec:architecture-sa}{{7.2.3}{73}{Sentiment Analysis Service}{subsection.7.2.3}{}}
+\newlabel{subsec:architecture-sa@cref}{{[subsection][3][7,2]7.2.3}{[1][73][]73}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schema of a POST request to the SA service for sentiment analysis of extracted entities in article content and its reponse.\relax }}{74}{figure.caption.46}\protected@file@percent }
+\newlabel{fig:architecture-sa-req-res}{{7.8}{74}{Schema of a POST request to the SA service for sentiment analysis of extracted entities in article content and its reponse.\relax }{figure.caption.46}{}}
+\newlabel{fig:architecture-sa-req-res@cref}{{[figure][8][7]7.8}{[1][74][]74}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}REST API Service}{74}{subsection.7.2.4}\protected@file@percent }
+\newlabel{subsec:architecture-rest-api}{{7.2.4}{74}{REST API Service}{subsection.7.2.4}{}}
+\newlabel{subsec:architecture-rest-api@cref}{{[subsection][4][7,2]7.2.4}{[1][74][]74}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Frontend}{76}{section.7.3}\protected@file@percent }
+\newlabel{sec:frontend}{{7.3}{76}{Frontend}{section.7.3}{}}
+\newlabel{sec:frontend@cref}{{[section][3][7]7.3}{[1][75][]76}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Home Component}{76}{subsection.7.3.1}\protected@file@percent }
+\newlabel{subsec:frontend-home}{{7.3.1}{76}{Home Component}{subsection.7.3.1}{}}
+\newlabel{subsec:frontend-home@cref}{{[subsection][1][7,3]7.3.1}{[1][76][]76}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Flowchart navigation of application pages in the frontend.\relax }}{77}{figure.caption.47}\protected@file@percent }
+\newlabel{fig:architecture-frontend-flowchart}{{7.9}{77}{Flowchart navigation of application pages in the frontend.\relax }{figure.caption.47}{}}
+\newlabel{fig:architecture-frontend-flowchart@cref}{{[figure][9][7]7.9}{[1][76][]77}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Graphs Component}{77}{subsection.7.3.2}\protected@file@percent }
+\newlabel{subsec:frontend-graphs}{{7.3.2}{77}{Graphs Component}{subsection.7.3.2}{}}
+\newlabel{subsec:frontend-graphs@cref}{{[subsection][2][7,3]7.3.2}{[1][76][]77}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Companies Component}{78}{subsection.7.3.3}\protected@file@percent }
+\newlabel{subsec:frontend-companies}{{7.3.3}{78}{Companies Component}{subsection.7.3.3}{}}
+\newlabel{subsec:frontend-companies@cref}{{[subsection][3][7,3]7.3.3}{[1][78][]78}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}CompanyGraph Component}{78}{subsection.7.3.4}\protected@file@percent }
+\newlabel{subsec:frontend-graph}{{7.3.4}{78}{CompanyGraph Component}{subsection.7.3.4}{}}
+\newlabel{subsec:frontend-graph@cref}{{[subsection][4][7,3]7.3.4}{[1][78][]78}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}CompanyDashboard Component}{78}{subsection.7.3.5}\protected@file@percent }
+\newlabel{subsec:frontend-dashboard}{{7.3.5}{78}{CompanyDashboard Component}{subsection.7.3.5}{}}
+\newlabel{subsec:frontend-dashboard@cref}{{[subsection][5][7,3]7.3.5}{[1][78][]78}}
+\@setckpt{ch7}{
+\setcounter{page}{80}
+\setcounter{equation}{0}
+\setcounter{enumi}{3}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{16}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{7}
+\setcounter{section}{3}
+\setcounter{subsection}{5}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{9}
+\setcounter{table}{2}
+\setcounter{section@level}{0}
+\setcounter{Item}{3}
+\setcounter{Hfootnote}{55}
+\setcounter{bookmark@seq@number}{54}
+\setcounter{parentequation}{0}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{float@type}{32}
+\setcounter{FBl@b}{0}
+\setcounter{FRobj}{0}
+\setcounter{FRsobj}{0}
+\setcounter{FBcnt}{0}
+\setcounter{tabx@nest}{0}
+\setcounter{listtotal}{0}
+\setcounter{listcount}{0}
+\setcounter{liststart}{0}
+\setcounter{liststop}{0}
+\setcounter{citecount}{0}
+\setcounter{citetotal}{0}
+\setcounter{multicitecount}{0}
+\setcounter{multicitetotal}{0}
+\setcounter{instcount}{52}
+\setcounter{maxnames}{1}
+\setcounter{minnames}{1}
+\setcounter{maxitems}{3}
+\setcounter{minitems}{1}
+\setcounter{citecounter}{0}
+\setcounter{maxcitecounter}{0}
+\setcounter{savedcitecounter}{0}
+\setcounter{uniquelist}{0}
+\setcounter{uniquename}{0}
+\setcounter{refsection}{0}
+\setcounter{refsegment}{0}
+\setcounter{maxextratitle}{0}
+\setcounter{maxextratitleyear}{0}
+\setcounter{maxextraname}{0}
+\setcounter{maxextradate}{2}
+\setcounter{maxextraalpha}{0}
+\setcounter{abbrvpenalty}{50}
+\setcounter{highnamepenalty}{50}
+\setcounter{lownamepenalty}{25}
+\setcounter{maxparens}{3}
+\setcounter{parenlevel}{0}
+\setcounter{blx@maxsection}{0}
+\setcounter{mincomprange}{10}
+\setcounter{maxcomprange}{100000}
+\setcounter{mincompwidth}{1}
+\setcounter{afterword}{0}
+\setcounter{savedafterword}{0}
+\setcounter{annotator}{0}
+\setcounter{savedannotator}{0}
+\setcounter{author}{0}
+\setcounter{savedauthor}{0}
+\setcounter{bookauthor}{0}
+\setcounter{savedbookauthor}{0}
+\setcounter{commentator}{0}
+\setcounter{savedcommentator}{0}
+\setcounter{editor}{0}
+\setcounter{savededitor}{0}
+\setcounter{editora}{0}
+\setcounter{savededitora}{0}
+\setcounter{editorb}{0}
+\setcounter{savededitorb}{0}
+\setcounter{editorc}{0}
+\setcounter{savededitorc}{0}
+\setcounter{foreword}{0}
+\setcounter{savedforeword}{0}
+\setcounter{holder}{0}
+\setcounter{savedholder}{0}
+\setcounter{introduction}{0}
+\setcounter{savedintroduction}{0}
+\setcounter{namea}{0}
+\setcounter{savednamea}{0}
+\setcounter{nameb}{0}
+\setcounter{savednameb}{0}
+\setcounter{namec}{0}
+\setcounter{savednamec}{0}
+\setcounter{translator}{0}
+\setcounter{savedtranslator}{0}
+\setcounter{shortauthor}{0}
+\setcounter{savedshortauthor}{0}
+\setcounter{shorteditor}{0}
+\setcounter{savedshorteditor}{0}
+\setcounter{labelname}{0}
+\setcounter{savedlabelname}{0}
+\setcounter{institution}{0}
+\setcounter{savedinstitution}{0}
+\setcounter{lista}{0}
+\setcounter{savedlista}{0}
+\setcounter{listb}{0}
+\setcounter{savedlistb}{0}
+\setcounter{listc}{0}
+\setcounter{savedlistc}{0}
+\setcounter{listd}{0}
+\setcounter{savedlistd}{0}
+\setcounter{liste}{0}
+\setcounter{savedliste}{0}
+\setcounter{listf}{0}
+\setcounter{savedlistf}{0}
+\setcounter{location}{0}
+\setcounter{savedlocation}{0}
+\setcounter{organization}{0}
+\setcounter{savedorganization}{0}
+\setcounter{origlocation}{0}
+\setcounter{savedoriglocation}{0}
+\setcounter{origpublisher}{0}
+\setcounter{savedorigpublisher}{0}
+\setcounter{publisher}{0}
+\setcounter{savedpublisher}{0}
+\setcounter{language}{0}
+\setcounter{savedlanguage}{0}
+\setcounter{origlanguage}{0}
+\setcounter{savedoriglanguage}{0}
+\setcounter{pageref}{0}
+\setcounter{savedpageref}{0}
+\setcounter{textcitecount}{0}
+\setcounter{textcitetotal}{1}
+\setcounter{textcitemaxnames}{0}
+\setcounter{biburlbigbreakpenalty}{100}
+\setcounter{biburlbreakpenalty}{200}
+\setcounter{biburlnumpenalty}{0}
+\setcounter{biburlucpenalty}{0}
+\setcounter{biburllcpenalty}{0}
+\setcounter{smartand}{1}
+\setcounter{bbx:relatedcount}{0}
+\setcounter{bbx:relatedtotal}{0}
+\setcounter{su@anzahl}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{FancyVerbLine}{0}
+\setcounter{ALG@line}{0}
+\setcounter{ALG@rem}{0}
+\setcounter{ALG@nested}{0}
+\setcounter{ALG@Lnr}{2}
+\setcounter{ALG@blocknr}{10}
+\setcounter{ALG@storecount}{0}
+\setcounter{ALG@tmpcounter}{0}
+\setcounter{algorithm}{0}
+\setcounter{lstnumber}{1}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{@todonotes@numberoftodonotes}{0}
+\setcounter{thm}{0}
+\setcounter{defn}{0}
+\setcounter{listing}{0}
+\setcounter{FBLTpage}{0}
+\setcounter{lstlisting}{0}
+}

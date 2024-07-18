@@ -1,0 +1,3243 @@
+[
+    {
+        "published_date": "2024-06-29T11:56:47+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-29T09:00:48+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03906,
+                    "negative": 0.25399,
+                    "neutral": 0.70696
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00463,
+                    "negative": 0.00431,
+                    "neutral": 0.99107
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00545,
+                    "negative": 0.0043,
+                    "neutral": 0.99025
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-29T08:00:46+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-29T05:00:44+00:00",
+        "tickers": [
+            {
+                "ticker": "BTI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00278,
+                    "negative": 0.04052,
+                    "neutral": 0.9567
+                }
+            },
+            {
+                "ticker": "PM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00437,
+                    "negative": 0.11518,
+                    "neutral": 0.88045
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-28T18:04:05+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-28T15:14:44+00:00",
+        "tickers": [
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00726,
+                    "negative": 0.76746,
+                    "neutral": 0.22528
+                }
+            },
+            {
+                "ticker": "BCS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02016,
+                    "negative": 0.05265,
+                    "neutral": 0.92719
+                }
+            },
+            {
+                "ticker": "DJI",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.89784,
+                    "negative": 0.08188,
+                    "neutral": 0.02029
+                }
+            },
+            {
+                "ticker": "NKE",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04499,
+                    "negative": 0.26091,
+                    "neutral": 0.6941
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02467,
+                    "negative": 0.03985,
+                    "neutral": 0.93548
+                }
+            },
+            {
+                "ticker": "BAC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02193,
+                    "negative": 0.00581,
+                    "neutral": 0.97226
+                }
+            },
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00311,
+                    "negative": 0.01765,
+                    "neutral": 0.97924
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-28T12:31:45+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-28T12:05:49+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-28T11:55:16+00:00",
+        "tickers": [
+            {
+                "ticker": "EQT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00505,
+                    "negative": 0.02233,
+                    "neutral": 0.97262
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01395,
+                    "negative": 0.14712,
+                    "neutral": 0.83893
+                }
+            },
+            {
+                "ticker": "SONY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01199,
+                    "negative": 0.13944,
+                    "neutral": 0.84857
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-27T20:26:46+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-27T18:04:35+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-27T17:53:41+00:00",
+        "tickers": [
+            {
+                "ticker": "CVX",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00853,
+                    "negative": 0.00376,
+                    "neutral": 0.98771
+                }
+            },
+            {
+                "ticker": "XOM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0122,
+                    "negative": 0.00491,
+                    "neutral": 0.98289
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-27T15:35:03+00:00",
+        "tickers": [
+            {
+                "ticker": "BBL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00628,
+                    "negative": 0.05452,
+                    "neutral": 0.9392
+                }
+            },
+            {
+                "ticker": "SHEL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00862,
+                    "negative": 0.10755,
+                    "neutral": 0.88383
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00719,
+                    "negative": 0.05252,
+                    "neutral": 0.9403
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-27T14:41:37+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02395,
+                    "negative": 0.00754,
+                    "neutral": 0.9685
+                }
+            },
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00162,
+                    "negative": 0.01224,
+                    "neutral": 0.98614
+                }
+            },
+            {
+                "ticker": "WBA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.13059,
+                    "negative": 0.30307,
+                    "neutral": 0.56634
+                }
+            },
+            {
+                "ticker": "WAG",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.06492,
+                    "negative": 0.48937,
+                    "neutral": 0.44571
+                }
+            },
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00792,
+                    "negative": 0.05977,
+                    "neutral": 0.93231
+                }
+            },
+            {
+                "ticker": "IP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03236,
+                    "negative": 0.02767,
+                    "neutral": 0.93997
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-27T11:33:58+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-27T08:59:34+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.08749,
+                    "negative": 0.00299,
+                    "neutral": 0.90952
+                }
+            },
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.36408,
+                    "negative": 0.00863,
+                    "neutral": 0.6273
+                }
+            },
+            {
+                "ticker": "ACN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.17377,
+                    "negative": 0.00555,
+                    "neutral": 0.82069
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-27T04:16:35+00:00",
+        "tickers": [
+            {
+                "ticker": "C",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09846,
+                    "negative": 0.01073,
+                    "neutral": 0.89081
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T17:32:22+00:00",
+        "tickers": [
+            {
+                "ticker": "DASH",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02854,
+                    "negative": 0.46468,
+                    "neutral": 0.50677
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00626,
+                    "negative": 0.02896,
+                    "neutral": 0.96478
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01025,
+                    "negative": 0.00347,
+                    "neutral": 0.98628
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T17:01:21+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-26T16:11:48+00:00",
+        "tickers": [
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00055,
+                    "negative": 0.00658,
+                    "neutral": 0.99287
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T15:02:24+00:00",
+        "tickers": [
+            {
+                "ticker": "RY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05928,
+                    "negative": 0.01768,
+                    "neutral": 0.92304
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00123,
+                    "negative": 0.00457,
+                    "neutral": 0.99419
+                }
+            },
+            {
+                "ticker": "WHR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.33645,
+                    "negative": 0.03371,
+                    "neutral": 0.62985
+                }
+            },
+            {
+                "ticker": "LUV",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00463,
+                    "negative": 0.89159,
+                    "neutral": 0.10379
+                }
+            },
+            {
+                "ticker": "BBL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03206,
+                    "negative": 0.07124,
+                    "neutral": 0.8967
+                }
+            },
+            {
+                "ticker": "DASH",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.22841,
+                    "negative": 0.04107,
+                    "neutral": 0.73052
+                }
+            },
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.60684,
+                    "negative": 0.00571,
+                    "neutral": 0.38745
+                }
+            },
+            {
+                "ticker": "BCS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.28216,
+                    "negative": 0.00483,
+                    "neutral": 0.71301
+                }
+            },
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.43427,
+                    "negative": 0.00449,
+                    "neutral": 0.56124
+                }
+            },
+            {
+                "ticker": "C",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.3466,
+                    "negative": 0.00426,
+                    "neutral": 0.64914
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T15:00:24+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-26T14:48:52+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00835,
+                    "negative": 0.01215,
+                    "neutral": 0.9795
+                }
+            },
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01031,
+                    "negative": 0.01056,
+                    "neutral": 0.97913
+                }
+            },
+            {
+                "ticker": "BCS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00433,
+                    "negative": 0.00048,
+                    "neutral": 0.99519
+                }
+            },
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.10426,
+                    "negative": 0.00083,
+                    "neutral": 0.89492
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T13:29:33+00:00",
+        "tickers": [
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04851,
+                    "negative": 0.00092,
+                    "neutral": 0.95057
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T11:20:31+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-26T10:35:33+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-26T10:00:16+00:00",
+        "tickers": [
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.0036,
+                    "negative": 0.5906,
+                    "neutral": 0.4058
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-26T03:46:22+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-25T21:06:17+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00362,
+                    "negative": 0.00069,
+                    "neutral": 0.99568
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-25T14:39:54+00:00",
+        "tickers": [
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.34488,
+                    "negative": 0.63934,
+                    "neutral": 0.01578
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.34006,
+                    "negative": 0.10819,
+                    "neutral": 0.55175
+                }
+            },
+            {
+                "ticker": "DJI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.12314,
+                    "negative": 0.3521,
+                    "neutral": 0.52476
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.62016,
+                    "negative": 0.02782,
+                    "neutral": 0.35202
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.67356,
+                    "negative": 0.02717,
+                    "neutral": 0.29927
+                }
+            },
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.18301,
+                    "negative": 0.03255,
+                    "neutral": 0.78444
+                }
+            },
+            {
+                "ticker": "BCS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.20571,
+                    "negative": 0.037,
+                    "neutral": 0.75729
+                }
+            },
+            {
+                "ticker": "RY",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.03571,
+                    "negative": 0.67537,
+                    "neutral": 0.28892
+                }
+            },
+            {
+                "ticker": "STLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00226,
+                    "negative": 0.0134,
+                    "neutral": 0.98434
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09278,
+                    "negative": 0.02427,
+                    "neutral": 0.88296
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00242,
+                    "negative": 0.0042,
+                    "neutral": 0.99338
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.4695,
+                    "negative": 0.06864,
+                    "neutral": 0.46186
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.43521,
+                    "negative": 0.02198,
+                    "neutral": 0.54282
+                }
+            },
+            {
+                "ticker": "ASML",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00489,
+                    "negative": 0.99256,
+                    "neutral": 0.00255
+                }
+            },
+            {
+                "ticker": "AVGO",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.0415,
+                    "negative": 0.91067,
+                    "neutral": 0.04783
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00796,
+                    "negative": 0.11184,
+                    "neutral": 0.8802
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-25T13:55:46+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-25T13:00:26+00:00",
+        "tickers": [
+            {
+                "ticker": "SONY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09765,
+                    "negative": 0.00664,
+                    "neutral": 0.8957
+                }
+            },
+            {
+                "ticker": "WMG",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01729,
+                    "negative": 0.01045,
+                    "neutral": 0.97225
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-25T12:32:37+00:00",
+        "tickers": [
+            {
+                "ticker": "NVO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02653,
+                    "negative": 0.34233,
+                    "neutral": 0.63114
+                }
+            },
+            {
+                "ticker": "TEVA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02612,
+                    "negative": 0.00194,
+                    "neutral": 0.97194
+                }
+            },
+            {
+                "ticker": "PFE",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02124,
+                    "negative": 0.00222,
+                    "neutral": 0.97653
+                }
+            },
+            {
+                "ticker": "VTRS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05923,
+                    "negative": 0.00428,
+                    "neutral": 0.93649
+                }
+            },
+            {
+                "ticker": "NVS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01156,
+                    "negative": 0.00158,
+                    "neutral": 0.98686
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-25T10:34:46+00:00",
+        "tickers": [
+            {
+                "ticker": "STLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00735,
+                    "negative": 0.13644,
+                    "neutral": 0.85622
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-25T09:02:10+00:00",
+        "tickers": [
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00375,
+                    "negative": 0.86898,
+                    "neutral": 0.12727
+                }
+            },
+            {
+                "ticker": "SPR",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00102,
+                    "negative": 0.99249,
+                    "neutral": 0.0065
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00328,
+                    "negative": 0.91547,
+                    "neutral": 0.08125
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-25T08:32:56+00:00",
+        "tickers": [
+            {
+                "ticker": "NVO",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.92136,
+                    "negative": 0.00145,
+                    "neutral": 0.07719
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-24T23:01:50+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-24T17:07:18+00:00",
+        "tickers": [
+            {
+                "ticker": "PEP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01868,
+                    "negative": 0.036,
+                    "neutral": 0.94531
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-24T14:43:14+00:00",
+        "tickers": [
+            {
+                "ticker": "NGG",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00351,
+                    "negative": 0.06141,
+                    "neutral": 0.93508
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-24T14:28:04+00:00",
+        "tickers": [
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00406,
+                    "negative": 0.64626,
+                    "neutral": 0.34968
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.12859,
+                    "negative": 0.00293,
+                    "neutral": 0.86848
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00234,
+                    "negative": 0.303,
+                    "neutral": 0.69466
+                }
+            },
+            {
+                "ticker": "PEP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00831,
+                    "negative": 0.14398,
+                    "neutral": 0.84771
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-24T13:18:16+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00264,
+                    "negative": 0.00365,
+                    "neutral": 0.99371
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-24T10:44:57+00:00",
+        "tickers": [
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.04825,
+                    "negative": 0.49165,
+                    "neutral": 0.4601
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00112,
+                    "negative": 0.00765,
+                    "neutral": 0.99123
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00092,
+                    "negative": 0.00187,
+                    "neutral": 0.99721
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-24T08:32:05+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-24T05:00:20+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-23T17:28:14+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-23T17:18:10+00:00",
+        "tickers": [
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02349,
+                    "negative": 0.00058,
+                    "neutral": 0.97593
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-23T16:19:44+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-23T15:00:06+00:00",
+        "tickers": [
+            {
+                "ticker": "EMR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00117,
+                    "negative": 0.02439,
+                    "neutral": 0.97444
+                }
+            },
+            {
+                "ticker": "COST",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00554,
+                    "negative": 0.00388,
+                    "neutral": 0.99058
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00779,
+                    "negative": 0.00731,
+                    "neutral": 0.98489
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-23T13:50:27+00:00",
+        "tickers": [
+            {
+                "ticker": "SE0016844831",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00331,
+                    "negative": 0.00168,
+                    "neutral": 0.99501
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-23T13:00:01+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-23T11:00:00+00:00",
+        "tickers": [
+            {
+                "ticker": "ABNB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00584,
+                    "negative": 0.01548,
+                    "neutral": 0.97869
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-23T09:59:09+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-23T06:00:06+00:00",
+        "tickers": [
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00384,
+                    "negative": 0.00382,
+                    "neutral": 0.99234
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T20:05:22+00:00",
+        "tickers": [
+            {
+                "ticker": "AAL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00181,
+                    "negative": 0.11833,
+                    "neutral": 0.87987
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T20:03:49+00:00",
+        "tickers": [
+            {
+                "ticker": "LUV",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00291,
+                    "negative": 0.42447,
+                    "neutral": 0.57262
+                }
+            },
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00442,
+                    "negative": 0.25619,
+                    "neutral": 0.73939
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T16:30:15+00:00",
+        "tickers": [
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00275,
+                    "negative": 0.00678,
+                    "neutral": 0.99047
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T14:51:40+00:00",
+        "tickers": [
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00616,
+                    "negative": 0.99079,
+                    "neutral": 0.00305
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01596,
+                    "negative": 0.02057,
+                    "neutral": 0.96347
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T14:39:03+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-21T11:35:34+00:00",
+        "tickers": [
+            {
+                "ticker": "ING",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00227,
+                    "negative": 0.00459,
+                    "neutral": 0.99314
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T10:34:03+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-21T09:15:11+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-21T09:02:11+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03393,
+                    "negative": 0.07829,
+                    "neutral": 0.88778
+                }
+            },
+            {
+                "ticker": "PEP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.36816,
+                    "negative": 0.02896,
+                    "neutral": 0.60287
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-21T07:24:39+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-21T06:36:15+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-20T17:26:44+00:00",
+        "tickers": [
+            {
+                "ticker": "KR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00529,
+                    "negative": 0.00592,
+                    "neutral": 0.98879
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01174,
+                    "negative": 0.08654,
+                    "neutral": 0.90172
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-20T15:41:42+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-20T15:13:20+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-20T14:37:30+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-20T14:26:28+00:00",
+        "tickers": [
+            {
+                "ticker": "MTU",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00592,
+                    "negative": 0.01292,
+                    "neutral": 0.98116
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0006,
+                    "negative": 0.00272,
+                    "neutral": 0.99668
+                }
+            },
+            {
+                "ticker": "ADM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00361,
+                    "negative": 0.01074,
+                    "neutral": 0.98565
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00661,
+                    "negative": 0.02047,
+                    "neutral": 0.97292
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-20T13:20:15+00:00",
+        "tickers": [
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00175,
+                    "negative": 0.04081,
+                    "neutral": 0.95744
+                }
+            },
+            {
+                "ticker": "SPR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00193,
+                    "negative": 0.00695,
+                    "neutral": 0.99112
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-20T13:11:36+00:00",
+        "tickers": [
+            {
+                "ticker": "IP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00439,
+                    "negative": 0.00192,
+                    "neutral": 0.99369
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02486,
+                    "negative": 0.00393,
+                    "neutral": 0.97121
+                }
+            },
+            {
+                "ticker": "UL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02764,
+                    "negative": 0.00363,
+                    "neutral": 0.96873
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-20T12:11:12+00:00",
+        "tickers": [
+            {
+                "ticker": "BCS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00144,
+                    "negative": 0.00087,
+                    "neutral": 0.99769
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-20T09:00:34+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-19T15:58:19+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-19T15:38:20+00:00",
+        "tickers": [
+            {
+                "ticker": "DELL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00217,
+                    "negative": 0.01294,
+                    "neutral": 0.98489
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-19T15:00:16+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-19T14:16:51+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00531,
+                    "negative": 0.04273,
+                    "neutral": 0.95197
+                }
+            },
+            {
+                "ticker": "LYG",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00219,
+                    "negative": 0.04742,
+                    "neutral": 0.95039
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02009,
+                    "negative": 0.04511,
+                    "neutral": 0.9348
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-19T12:24:03+00:00",
+        "tickers": [
+            {
+                "ticker": "MS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00489,
+                    "negative": 0.00565,
+                    "neutral": 0.98946
+                }
+            },
+            {
+                "ticker": "BAM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01443,
+                    "negative": 0.00555,
+                    "neutral": 0.98002
+                }
+            },
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00574,
+                    "negative": 0.30868,
+                    "neutral": 0.68558
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-19T11:41:55+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-19T09:56:48+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-19T07:29:52+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-19T06:26:59+00:00",
+        "tickers": [
+            {
+                "ticker": "BCS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00455,
+                    "negative": 0.00163,
+                    "neutral": 0.99382
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-19T04:01:23+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-18T17:18:13+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-18T17:04:39+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-18T17:03:45+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-18T15:20:55+00:00",
+        "tickers": [
+            {
+                "ticker": "FSR",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00319,
+                    "negative": 0.62848,
+                    "neutral": 0.36833
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00639,
+                    "negative": 0.40086,
+                    "neutral": 0.59275
+                }
+            },
+            {
+                "ticker": "RIDE",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00223,
+                    "negative": 0.9618,
+                    "neutral": 0.03596
+                }
+            },
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0063,
+                    "negative": 0.45129,
+                    "neutral": 0.54241
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-18T14:44:27+00:00",
+        "tickers": [
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00237,
+                    "negative": 0.62389,
+                    "neutral": 0.37374
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-18T14:26:27+00:00",
+        "tickers": [
+            {
+                "ticker": "BAC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04071,
+                    "negative": 0.03645,
+                    "neutral": 0.92284
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00692,
+                    "negative": 0.03258,
+                    "neutral": 0.9605
+                }
+            },
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00509,
+                    "negative": 0.48066,
+                    "neutral": 0.51425
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04179,
+                    "negative": 0.02061,
+                    "neutral": 0.93759
+                }
+            },
+            {
+                "ticker": "MTU",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03886,
+                    "negative": 0.03042,
+                    "neutral": 0.93072
+                }
+            },
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00947,
+                    "negative": 0.00784,
+                    "neutral": 0.98269
+                }
+            },
+            {
+                "ticker": "FSR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01229,
+                    "negative": 0.39837,
+                    "neutral": 0.58934
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01954,
+                    "negative": 0.27183,
+                    "neutral": 0.70863
+                }
+            },
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0285,
+                    "negative": 0.08516,
+                    "neutral": 0.88634
+                }
+            },
+            {
+                "ticker": "F",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03446,
+                    "negative": 0.03832,
+                    "neutral": 0.92722
+                }
+            },
+            {
+                "ticker": "TM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01869,
+                    "negative": 0.22116,
+                    "neutral": 0.76015
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.96781,
+                    "negative": 0.02083,
+                    "neutral": 0.01136
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-18T11:00:18+00:00",
+        "tickers": [
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0678,
+                    "negative": 0.00225,
+                    "neutral": 0.92995
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-18T09:12:31+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-18T08:52:49+00:00",
+        "tickers": [
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.98143,
+                    "negative": 0.00392,
+                    "neutral": 0.01465
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.02059,
+                    "negative": 0.947,
+                    "neutral": 0.03241
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-18T04:00:04+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05578,
+                    "negative": 0.12411,
+                    "neutral": 0.82011
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05454,
+                    "negative": 0.00614,
+                    "neutral": 0.93932
+                }
+            },
+            {
+                "ticker": "MOT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05745,
+                    "negative": 0.00654,
+                    "neutral": 0.93601
+                }
+            },
+            {
+                "ticker": "NOK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04711,
+                    "negative": 0.00714,
+                    "neutral": 0.94575
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-18T04:00:03+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-18T00:25:22+00:00",
+        "tickers": [
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01033,
+                    "negative": 0.31538,
+                    "neutral": 0.67429
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-17T23:01:01+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-17T17:36:54+00:00",
+        "tickers": [
+            {
+                "ticker": "IBM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00343,
+                    "negative": 0.09021,
+                    "neutral": 0.90636
+                }
+            },
+            {
+                "ticker": "TACO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00587,
+                    "negative": 0.02715,
+                    "neutral": 0.96698
+                }
+            },
+            {
+                "ticker": "YUM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00339,
+                    "negative": 0.04895,
+                    "neutral": 0.94766
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-17T16:17:07+00:00",
+        "tickers": [
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01822,
+                    "negative": 0.02134,
+                    "neutral": 0.96044
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-17T15:00:06+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09464,
+                    "negative": 0.14238,
+                    "neutral": 0.76298
+                }
+            },
+            {
+                "ticker": "UAL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00294,
+                    "negative": 0.09686,
+                    "neutral": 0.9002
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-17T14:45:29+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00694,
+                    "negative": 0.06421,
+                    "neutral": 0.92885
+                }
+            },
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00956,
+                    "negative": 0.00554,
+                    "neutral": 0.98489
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-17T14:15:18+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00777,
+                    "negative": 0.31861,
+                    "neutral": 0.67363
+                }
+            },
+            {
+                "ticker": "C",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01978,
+                    "negative": 0.07536,
+                    "neutral": 0.90487
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00481,
+                    "negative": 0.00452,
+                    "neutral": 0.99067
+                }
+            },
+            {
+                "ticker": "RY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01755,
+                    "negative": 0.26144,
+                    "neutral": 0.721
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-17T13:00:46+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-17T12:53:52+00:00",
+        "tickers": [
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00106,
+                    "negative": 0.00979,
+                    "neutral": 0.98915
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-16T23:01:02+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-16T21:48:19+00:00",
+        "tickers": [
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00228,
+                    "negative": 0.87912,
+                    "neutral": 0.1186
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-16T16:54:17+00:00",
+        "tickers": [
+            {
+                "ticker": "LUV",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00427,
+                    "negative": 0.61741,
+                    "neutral": 0.37832
+                }
+            },
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00422,
+                    "negative": 0.44288,
+                    "neutral": 0.5529
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-16T13:17:42+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01813,
+                    "negative": 0.00595,
+                    "neutral": 0.97592
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-16T11:26:49+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-16T11:23:43+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-16T11:00:48+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-16T07:00:43+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-15T16:00:24+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-15T07:00:15+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-15T07:00:14+00:00",
+        "tickers": [
+            {
+                "ticker": "CACI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02082,
+                    "negative": 0.00288,
+                    "neutral": 0.9763
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-15T01:00:18+00:00",
+        "tickers": [
+            {
+                "ticker": "EA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0008,
+                    "negative": 0.00219,
+                    "neutral": 0.99701
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T17:04:08+00:00",
+        "tickers": [
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.0036,
+                    "negative": 0.68627,
+                    "neutral": 0.31013
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00705,
+                    "negative": 0.84125,
+                    "neutral": 0.1517
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.003,
+                    "negative": 0.66936,
+                    "neutral": 0.32765
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T16:52:57+00:00",
+        "tickers": [
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00516,
+                    "negative": 0.46907,
+                    "neutral": 0.52577
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00532,
+                    "negative": 0.46883,
+                    "neutral": 0.52585
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01433,
+                    "negative": 0.01319,
+                    "neutral": 0.97248
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T16:31:44+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-14T15:52:15+00:00",
+        "tickers": [
+            {
+                "ticker": "BK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00874,
+                    "negative": 0.00685,
+                    "neutral": 0.98441
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.16403,
+                    "negative": 0.13944,
+                    "neutral": 0.69653
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.06626,
+                    "negative": 0.28688,
+                    "neutral": 0.64686
+                }
+            },
+            {
+                "ticker": "STO",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00552,
+                    "negative": 0.5773,
+                    "neutral": 0.41718
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03381,
+                    "negative": 0.04085,
+                    "neutral": 0.92534
+                }
+            },
+            {
+                "ticker": "NFLX",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00529,
+                    "negative": 0.00089,
+                    "neutral": 0.99382
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01145,
+                    "negative": 0.37079,
+                    "neutral": 0.61776
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T14:49:21+00:00",
+        "tickers": [
+            {
+                "ticker": "TTM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00355,
+                    "negative": 0.02484,
+                    "neutral": 0.97161
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T11:48:53+00:00",
+        "tickers": [
+            {
+                "ticker": "WFC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00258,
+                    "negative": 0.07492,
+                    "neutral": 0.92249
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00367,
+                    "negative": 0.01109,
+                    "neutral": 0.98523
+                }
+            },
+            {
+                "ticker": "BAC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00121,
+                    "negative": 0.01635,
+                    "neutral": 0.98244
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00124,
+                    "negative": 0.01033,
+                    "neutral": 0.98843
+                }
+            },
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00175,
+                    "negative": 0.02122,
+                    "neutral": 0.97703
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00064,
+                    "negative": 0.009,
+                    "neutral": 0.99036
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T09:12:27+00:00",
+        "tickers": [
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00425,
+                    "negative": 0.49768,
+                    "neutral": 0.49808
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-14T08:45:51+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-13T21:13:47+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00477,
+                    "negative": 0.38061,
+                    "neutral": 0.61462
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-13T17:55:02+00:00",
+        "tickers": [
+            {
+                "ticker": "STLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00571,
+                    "negative": 0.00224,
+                    "neutral": 0.99205
+                }
+            },
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00572,
+                    "negative": 0.00256,
+                    "neutral": 0.99171
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-13T17:40:08+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-13T14:56:14+00:00",
+        "tickers": [
+            {
+                "ticker": "AMOV",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.91785,
+                    "negative": 0.00349,
+                    "neutral": 0.07866
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09833,
+                    "negative": 0.009,
+                    "neutral": 0.89267
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-13T14:52:15+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-13T14:15:49+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-13T14:09:01+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.08621,
+                    "negative": 0.22481,
+                    "neutral": 0.68898
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00262,
+                    "negative": 0.01371,
+                    "neutral": 0.98367
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-13T13:08:36+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-13T11:09:22+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-13T11:00:20+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00224,
+                    "negative": 0.00385,
+                    "neutral": 0.99391
+                }
+            },
+            {
+                "ticker": "GM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00224,
+                    "negative": 0.00906,
+                    "neutral": 0.9887
+                }
+            },
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00228,
+                    "negative": 0.00761,
+                    "neutral": 0.9901
+                }
+            },
+            {
+                "ticker": "CSCO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0033,
+                    "negative": 0.00668,
+                    "neutral": 0.99002
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04557,
+                    "negative": 0.03162,
+                    "neutral": 0.92281
+                }
+            },
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00748,
+                    "negative": 0.00509,
+                    "neutral": 0.98744
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09082,
+                    "negative": 0.01072,
+                    "neutral": 0.89846
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0035,
+                    "negative": 0.01082,
+                    "neutral": 0.98568
+                }
+            },
+            {
+                "ticker": "CRM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.16877,
+                    "negative": 0.0285,
+                    "neutral": 0.80272
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-13T01:45:10+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T18:17:05+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T17:00:02+00:00",
+        "tickers": [
+            {
+                "ticker": "SE0016844831",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00942,
+                    "negative": 0.02833,
+                    "neutral": 0.96225
+                }
+            },
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02835,
+                    "negative": 0.06278,
+                    "neutral": 0.90887
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-12T15:00:04+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T14:12:49+00:00",
+        "tickers": [
+            {
+                "ticker": "ORCL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.98688,
+                    "negative": 0.00941,
+                    "neutral": 0.00371
+                }
+            },
+            {
+                "ticker": "HD",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.93933,
+                    "negative": 0.0349,
+                    "neutral": 0.02577
+                }
+            },
+            {
+                "ticker": "DJI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.34935,
+                    "negative": 0.13841,
+                    "neutral": 0.51224
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.90162,
+                    "negative": 0.0458,
+                    "neutral": 0.05258
+                }
+            },
+            {
+                "ticker": "FDX",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01896,
+                    "negative": 0.37713,
+                    "neutral": 0.60391
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0289,
+                    "negative": 0.16523,
+                    "neutral": 0.80587
+                }
+            },
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.13279,
+                    "negative": 0.03953,
+                    "neutral": 0.82768
+                }
+            },
+            {
+                "ticker": "DIS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01357,
+                    "negative": 0.22319,
+                    "neutral": 0.76324
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00961,
+                    "negative": 0.79235,
+                    "neutral": 0.19804
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-12T13:55:32+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00393,
+                    "negative": 0.40105,
+                    "neutral": 0.59502
+                }
+            },
+            {
+                "ticker": "SE0016844831",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0027,
+                    "negative": 0.19329,
+                    "neutral": 0.80401
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00263,
+                    "negative": 0.8161,
+                    "neutral": 0.18126
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-12T09:46:44+00:00",
+        "tickers": [
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01016,
+                    "negative": 0.00743,
+                    "neutral": 0.9824
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-12T08:53:58+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T08:18:24+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T08:18:09+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T07:35:51+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T06:00:18+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-12T05:00:16+00:00",
+        "tickers": [
+            {
+                "ticker": "AMP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00632,
+                    "negative": 0.30462,
+                    "neutral": 0.68906
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-12T03:00:12+00:00",
+        "tickers": [
+            {
+                "ticker": "HSBC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.003,
+                    "negative": 0.07427,
+                    "neutral": 0.92273
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-11T17:55:08+00:00",
+        "tickers": [
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00266,
+                    "negative": 0.3824,
+                    "neutral": 0.61494
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-11T16:37:55+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T15:57:27+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T15:53:14+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T15:00:12+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T14:20:00+00:00",
+        "tickers": [
+            {
+                "ticker": "BBL",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.01051,
+                    "negative": 0.97838,
+                    "neutral": 0.01111
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-11T13:30:02+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T13:10:45+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T13:00:02+00:00",
+        "tickers": [
+            {
+                "ticker": "EBAY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04547,
+                    "negative": 0.00784,
+                    "neutral": 0.94669
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.36951,
+                    "negative": 0.00455,
+                    "neutral": 0.62594
+                }
+            },
+            {
+                "ticker": "ABNB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.28222,
+                    "negative": 0.00443,
+                    "neutral": 0.71335
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-11T12:35:01+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T09:09:53+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T08:54:12+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T07:41:36+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-11T05:40:58+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-10T23:01:27+00:00",
+        "tickers": [
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00249,
+                    "negative": 0.32973,
+                    "neutral": 0.66778
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-10T17:11:40+00:00",
+        "tickers": [
+            {
+                "ticker": "AMP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00371,
+                    "negative": 0.09148,
+                    "neutral": 0.90481
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-10T14:35:07+00:00",
+        "tickers": [
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0217,
+                    "negative": 0.00569,
+                    "neutral": 0.97261
+                }
+            },
+            {
+                "ticker": "MTU",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02055,
+                    "negative": 0.00261,
+                    "neutral": 0.97684
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-10T14:23:54+00:00",
+        "tickers": [
+            {
+                "ticker": "JPM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07882,
+                    "negative": 0.01161,
+                    "neutral": 0.90957
+                }
+            },
+            {
+                "ticker": "MTU",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01613,
+                    "negative": 0.00536,
+                    "neutral": 0.97851
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00274,
+                    "negative": 0.03054,
+                    "neutral": 0.96673
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00197,
+                    "negative": 0.00405,
+                    "neutral": 0.99397
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-10T10:48:23+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00102,
+                    "negative": 0.00272,
+                    "neutral": 0.99626
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-10T09:41:29+00:00",
+        "tickers": [
+            {
+                "ticker": "AMP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00709,
+                    "negative": 0.03426,
+                    "neutral": 0.95865
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-10T04:00:35+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T22:20:55+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T20:00:24+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T16:13:40+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T15:45:27+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T15:00:19+00:00",
+        "tickers": [
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07918,
+                    "negative": 0.02591,
+                    "neutral": 0.89491
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-09T12:01:13+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T09:47:17+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-09T06:00:09+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-08T23:01:03+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-08T11:00:44+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.17264,
+                    "negative": 0.41393,
+                    "neutral": 0.41343
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-08T06:00:41+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-08T06:00:38+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-08T00:00:30+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T17:51:30+00:00",
+        "tickers": [
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.15043,
+                    "negative": 0.16369,
+                    "neutral": 0.68588
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-07T15:52:26+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T15:00:24+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T14:48:45+00:00",
+        "tickers": [
+            {
+                "ticker": "TGT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02794,
+                    "negative": 0.11644,
+                    "neutral": 0.85562
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05154,
+                    "negative": 0.28938,
+                    "neutral": 0.65908
+                }
+            },
+            {
+                "ticker": "DJI",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00938,
+                    "negative": 0.95787,
+                    "neutral": 0.03275
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.03012,
+                    "negative": 0.69113,
+                    "neutral": 0.27876
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01251,
+                    "negative": 0.13992,
+                    "neutral": 0.84757
+                }
+            },
+            {
+                "ticker": "UAL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.6217,
+                    "negative": 0.21678,
+                    "neutral": 0.16152
+                }
+            },
+            {
+                "ticker": "HPQ",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00304,
+                    "negative": 0.0028,
+                    "neutral": 0.99416
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-07T12:53:59+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T12:32:43+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T11:45:21+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T11:00:48+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T06:00:43+00:00",
+        "tickers": [
+            {
+                "ticker": "HPQ",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00627,
+                    "negative": 0.13781,
+                    "neutral": 0.85592
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-07T06:00:41+00:00",
+        "tickers": [
+            {
+                "ticker": "BTI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00195,
+                    "negative": 0.0372,
+                    "neutral": 0.96085
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-07T04:00:40+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-07T04:00:39+00:00",
+        "tickers": [
+            {
+                "ticker": "NGG",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09727,
+                    "negative": 0.0127,
+                    "neutral": 0.89003
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-06T23:01:32+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-06T19:24:34+00:00",
+        "tickers": [
+            {
+                "ticker": "HPQ",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01775,
+                    "negative": 0.10259,
+                    "neutral": 0.87965
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-06T18:05:56+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-06T17:38:01+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-06T17:37:23+00:00",
+        "tickers": [
+            {
+                "ticker": "ABT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00214,
+                    "negative": 0.04658,
+                    "neutral": 0.95128
+                }
+            }
+        ]
+    },
+    {
+        "published_date": "2024-06-06T15:00:18+00:00",
+        "tickers": []
+    },
+    {
+        "published_date": "2024-06-06T14:56:27+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00473,
+                    "negative": 0.00737,
+                    "neutral": 0.9879
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00853,
+                    "negative": 0.01056,
+                    "neutral": 0.98091
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.01985,
+                    "negative": 0.73409,
+                    "neutral": 0.24606
+                }
+            },
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.01033,
+                    "negative": 0.65215,
+                    "neutral": 0.33751
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0679,
+                    "negative": 0.00547,
+                    "neutral": 0.92663
+                }
+            },
+            {
+                "ticker": "NGG",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.11049,
+                    "negative": 0.00301,
+                    "neutral": 0.8865
+                }
+            },
+            {
+                "ticker": "ACM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.18917,
+                    "negative": 0.01097,
+                    "neutral": 0.79986
+                }
+            }
+        ]
+    }
+]

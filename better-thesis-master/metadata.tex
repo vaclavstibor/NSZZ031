@@ -36,39 +36,45 @@
 %%% Fill in your details %%%
 
 % (Note: \xxx is a "ToDo label" which makes the unfilled visible. Remove it.)
-\def\ThesisTitle{{Financial News Sentiment Analysis}}
-\def\ThesisAuthor{{Václav Stibor}}
-\def\YearSubmitted{\xxx{YEAR}}
+\def\ThesisTitle{Financial News Sentiment Analysis}
+\def\ThesisAuthor{Václav Stibor}
+\def\YearSubmitted{2024}
 
 % department assigned to the thesis
-\def\Department{{Department of Software Engineering}}
+\def\Department{Department of Software Engineering}
 % Is it a department (katedra), or an institute (ústav)?
-\def\DeptType{\xxx{Department}}
+\def\DeptType{Department}
 
-\def\Supervisor{\xxx{Supername Supersurname}}
-\def\SupervisorsDepartment{\xxx{department}}
+\def\Supervisor{doc. RNDr. Irena Holubová, Ph.D.}
+\def\SupervisorsDepartment{Department of Software Engineering}
 
 % Study programme and specialization
-\def\StudyProgramme{\xxx{study programme}}
+\def\StudyProgramme{Computer Science}
 \def\StudyBranch{\xxx{study branch}}
 
 \def\Dedication{%
-Dedication. \xxx{It is nice to say thanks to supervisors, friends, family, book authors and food providers.}
+    I would like to dedicate this thesis to my family and friends who have supported me throughout my studies. Special thanks to my supervisor doc. RNDr. Irena Holubová, Ph.D. for her expertise and guidance during the development of this work. To all who have assisted me, I sincerely appreciate your support.
+
+    Additionally, I am grateful for the consultations provided by Mgr. Petr Škoda, Ph.D., and Ing. Pavel Koupil, Ph.D. contributed to this thesis's improved outcomes.
 }
 
 \def\AbstractEN{%
-{One key skill required to make good investments in the stock market is being able to correctly analyze news related to the finance and the business sector. Which company is diversifying its sectors or which company is showing signs of heading towards bankruptcy? You need to keep yourself updated with every little deal and fallout happening in the market. Financial news can be a little tricky to understand especially for those who are new to the financial world.}
-% ABSTRACT IS NOT A COPY OF YOUR THESIS ASSIGNMENT!
+{
+    In the current era of information overload, tracking associations and comprehending media and online news content, especially for investment purposes, is becoming increasingly demanding. This thesis addresses the challenge by developing an application that evaluates sentiment analysis and visualises connections between companies and news articles. The cornerstone of the application is the extraction of data from news articles, sentiment analysis of the extracted entities, and the provision of this information as an indicator of potential future influences on a company's stock price. The application is designed to be easy to use and intuitive, allowing users to navigate to the articles and perform their analysis to verify the values provided by the application.
+}
+% ABSTRACT IS NOT A COPY OF YOUR THESIS ASSIGNMENT! < 500 Words
 }
 
 \def\AbstractCS{%
-\xxx{You will need to submit both Czech and English abstract to the SIS, no matter what language you use in the thesis. If writing in English, translate the contents of \texttt{\textbackslash{}AbstractEN} into this field. In case you do not speak czech, your supervisor should be able to help you with the translation.}
+V dnešní době přehlcené informacemi se sledování souvislostí a porozumění obsahu médií a online zpráv, zejména pro investiční účely, se stává stále náročnějším. Tato práce se zabývá daným problémem a vývojem aplikace, která vyhodnocuje analýzu sentimentu a vizualizuje spojení mezi společnostmi a zpravodajskými články. Základem aplikace je extrakce dat ze zpravodajských článků, analýza sentimentu extrahovaných entit a poskytování těchto informací jako indikátor možných budoucích vlivů na cenu akcií společnosti. Aplikace je navržena tak, aby byla snadno použitelná a intuitivní, což umožňuje uživatelům navigovat k článkům a provádět tak i vlastní analýzu pro ověření hodnot poskytovaných aplikací.
 }
+
+%\xxx{You will need to submit both Czech and English abstract to the SIS, no matter what language you use in the thesis. If writing in English, translate the contents of \texttt{\textbackslash{}AbstractEN} into this field. In case you do not speak czech, your supervisor should be able to help you with the translation.}
 
 % 3 to 5 keywords (recommended), each enclosed in curly braces.
 % Keywords are useful for indexing and searching for the theses by topic.
 \def\Keywords{%
-\xxx{{key} {words}}
+{entity-level} {sentiment analysis} {news} {stock market}
 }
 
 % If your abstracts are long and do not fit in the infopage, you can make the

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  11 JUN 2024 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  18 JUL 2024 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -219,40 +219,6 @@ Using XMP template file: pdfa.xmp
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus/libertinus.sty
 Package: libertinus 2020/05/06 v. 0.02 (Herbert Voss) Supports libertinus fonts for pdflatex/lualatex/xelatex
  (/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -269,10 +235,7 @@ Package: libertinus-type1 2021/02/14 (Bob Tennent) Supports libertinus fonts for
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -403,7 +366,7 @@ Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
 \symboldsymbols=\mathgroup8
-Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
 Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
@@ -744,7 +707,7 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
-Package biblatex Info: Redefining '\citetitle' on input line 61.
+Package biblatex Info: Redefining '\citetitle' on input line 67.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2022/11/03 v4.52 (NLCT)
  (/usr/local/texlive/2023/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -1103,8 +1066,8 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-Package hyperref Info: Option `unicode' set `true' on input line 127.
-Package hyperref Info: Option `breaklinks' set `true' on input line 128.
+Package hyperref Info: Option `unicode' set `true' on input line 140.
+Package hyperref Info: Option `breaklinks' set `true' on input line 141.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
@@ -1122,27 +1085,33 @@ Package cleveref Info: `amsthm' support loaded on input line 3026.
 Package cleveref Info: `algorithmicx' support loaded on input line 3120.
 Package cleveref Info: `listings' support loaded on input line 3131.
 Package cleveref Info: no abbreviation of names on input line 7852.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count495
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count496
 ) (./todos.tex (/usr/local/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2023/01/31 v1.1.6 Todonotes source and documentation.
 Package: todonotes 2023/01/31
  (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count495
-\calc@Bcount=\count496
+\calc@Acount=\count497
+\calc@Bcount=\count498
 \calc@Adimen=\dimen309
 \calc@Bdimen=\dimen310
 \calc@Askip=\skip114
 \calc@Bskip=\skip115
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count497
+\calc@Ccount=\count499
 \calc@Cskip=\skip116
 )
-\c@@todonotes@numberoftodonotes=\count498
+\c@@todonotes@numberoftodonotes=\count500
 )) (./macros.tex
-\c@thm=\count499
-\c@defn=\count500
-\c@listing=\count501
+\c@thm=\count501
+\c@defn=\count502
+\c@listing=\count503
  (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1150,47 +1119,47 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 ))
-\@quotelevel=\count502
-\@quotereset=\count503
-LaTeX Font Info:    Trying to load font information for T1+LibertinusSerif-TLF on input line 140.
+\@quotelevel=\count504
+\@quotereset=\count505
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSerif-TLF on input line 155.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSerif-TLF.fd
 File: T1LibertinusSerif-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSerif-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 140.
- (./thesis.aux (./title.aux) (./intro.aux) (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./ch6.aux) (./conclusion.aux) (./bibliography.aux) (./abservations.aux) (./howto.aux))
+(Font)              scaled to size 12.0pt on input line 155.
+ (./thesis.aux (./title.aux) (./intro.aux) (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./ch5.aux) (./ch6.aux) (./ch7.aux) (./ch8.aux) (./ch9.aux) (./conclusion.aux) (./bibliography.aux) (./abservations.aux) (./howto.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 140.
-LaTeX Font Info:    ... okay on input line 140.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 155.
+LaTeX Font Info:    ... okay on input line 155.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count504
+\scratchcounter=\count506
 \scratchdimen=\dimen311
 \scratchbox=\box79
-\nofMPsegments=\count505
-\nofMParguments=\count506
+\nofMPsegments=\count507
+\nofMParguments=\count508
 \everyMPshowfont=\toks62
-\MPscratchCnt=\count507
+\MPscratchCnt=\count509
 \MPscratchDim=\dimen312
-\MPnumerator=\count508
-\makeMPintoPDFobject=\count509
+\MPnumerator=\count510
+\makeMPintoPDFobject=\count511
 \everyMPtoPDFconversion=\toks63
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1198,26 +1167,26 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 140.
+Package hyperref Info: Link coloring OFF on input line 155.
  (./thesis.out) (./thesis.out)
 \@outlinefile=\write10
 \openout10 = `thesis.out'.
 
-\c@mv@tabular=\count510
-\c@mv@boldtabular=\count511
-LaTeX Info: Redefining \microtypecontext on input line 140.
-Package microtype Info: Applying patch `item' on input line 140.
-Package microtype Info: Applying patch `toc' on input line 140.
-Package microtype Info: Applying patch `eqnum' on input line 140.
-Package microtype Info: Applying patch `footnote' on input line 140.
-Package microtype Info: Applying patch `verbatim' on input line 140.
+\c@mv@tabular=\count512
+\c@mv@boldtabular=\count513
+LaTeX Info: Redefining \microtypecontext on input line 155.
+Package microtype Info: Applying patch `item' on input line 155.
+Package microtype Info: Applying patch `toc' on input line 155.
+Package microtype Info: Applying patch `eqnum' on input line 155.
+Package microtype Info: Applying patch `footnote' on input line 155.
+Package microtype Info: Applying patch `verbatim' on input line 155.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 140.
+LaTeX Info: Redefining \showhyphens on input line 155.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1241,7 +1210,7 @@ Package caption Info: End \AtBeginDocument code.
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@lasthead=\box80
 \flrow@LT@prelastfoot=\box81
-\c@FBLTpage=\count512
+\c@FBLTpage=\count514
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1258,36 +1227,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
- (./thesis.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Wankhade2022':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Wang2019':
-(biblatex)                - Can't use 'location' + 'address'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Wan2021':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Jin2012':
-(biblatex)                - Invalid format of field 'month'.
-
-)
-Package biblatex Info: Reference section=0 on input line 140.
-Package biblatex Info: Reference segment=0 on input line 140.
-\c@lstlisting=\count513
+ (./thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 155.
+Package biblatex Info: Reference segment=0 on input line 155.
+\c@lstlisting=\count515
 \openout2 = `title.aux'.
 
  (./title.tex
 Package hyperref Info: Option `pageanchor' set `false' on input line 4.
-<img/logo-en.pdf, id=190, 506.4591pt x 156.49065pt>
+<img/logo-en.pdf, id=367, 506.4591pt x 156.49065pt>
 File: img/logo-en.pdf Graphic file (type pdf)
 <use img/logo-en.pdf>
 Package pdftex.def Info: img/logo-en.pdf  used on input line 39.
@@ -1317,34 +1265,12 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 68.
 
 ])
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 144.
+(Font)              scaled to size 24.88pt on input line 159.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 144.
- (./thesis.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(Font)              scaled to size 24.88pt on input line 159.
+ (./thesis.toc (/usr/local/texlive/2023/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1360,168 +1286,183 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 
 
-])
+] [2])
 \tf@toc=\write11
 \openout11 = `thesis.toc'.
 
- [2]
+ [3]
 \openout2 = `intro.aux'.
 
- (./intro.tex) [3
-
-
-]
-\openout2 = `ch1.aux'.
-
- (./ch1.tex
-Chapter 1.
+ (./intro.tex
+<img/intro/apple-intro-a.pdf, id=521, 845.1575pt x 497.81573pt>
+File: img/intro/apple-intro-a.pdf Graphic file (type pdf)
+<use img/intro/apple-intro-a.pdf>
+Package pdftex.def Info: img/intro/apple-intro-a.pdf  used on input line 16.
+(pdftex.def)             Requested size: 390.0pt x 229.71964pt.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 5.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 11.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 13.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 13.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 13.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 13.
-
-
-pdfTeX warning: pdflatex (file ./img/sa-levels.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/sa-levels.pdf, id=304, 383.384pt x 393.71764pt>
-File: img/sa-levels.pdf Graphic file (type pdf)
-<use img/sa-levels.pdf>
-Package pdftex.def Info: img/sa-levels.pdf  used on input line 17.
-(pdftex.def)             Requested size: 195.0pt x 200.25865pt.
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
-LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 18.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
+(Font)              scaled to size 10.95pt on input line 17.
+LaTeX Font Info:    Trying to load font information for T1+LibertinusSans-TLF on input line 17.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusSans-TLF.fd
 File: T1LibertinusSans-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusSans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
+(Font)              scaled to size 10.95pt on input line 17.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusSans-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
+(Font)              scaled to size 10.95pt on input line 17.
  [4
 
 
+]) [5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc} <./img/intro/apple-intro-a.pdf>]
+\openout2 = `ch1.aux'.
 
-
-] [5{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_mfadfl.enc} <./img/sa-levels.pdf>]
-LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 46.
-
-
-pdfTeX warning: pdflatex (file ./img/entity-feature-aspect-level.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/entity-feature-aspect-level.pdf, id=406, 342.59485pt x 251.30255pt>
-File: img/entity-feature-aspect-level.pdf Graphic file (type pdf)
-<use img/entity-feature-aspect-level.pdf>
-Package pdftex.def Info: img/entity-feature-aspect-level.pdf  used on input line 51.
-(pdftex.def)             Requested size: 195.0pt x 143.03687pt.
-[6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc} <./img/entity-feature-aspect-level.pdf>]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 60.
+ (./ch1.tex
+Chapter 1.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 60.
+(Font)              scaled to size 17.28pt on input line 7.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 13.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 15.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 15.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 15.
 
 
-pdfTeX warning: pdflatex (file ./img/ner-theoretical-example.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ner-theoretical-example.pdf, id=475, 831.45078pt x 101.81308pt>
-File: img/ner-theoretical-example.pdf Graphic file (type pdf)
-<use img/ner-theoretical-example.pdf>
-Package pdftex.def Info: img/ner-theoretical-example.pdf  used on input line 72.
+pdfTeX warning: pdflatex (file ./img/theoretical/sa-levels.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/sa-levels.pdf, id=556, 383.384pt x 393.71764pt>
+File: img/theoretical/sa-levels.pdf Graphic file (type pdf)
+<use img/theoretical/sa-levels.pdf>
+Package pdftex.def Info: img/theoretical/sa-levels.pdf  used on input line 19.
+(pdftex.def)             Requested size: 195.0pt x 200.25865pt.
+
+Underfull \vbox (badness 7777) has occurred while \output is active []
+
+ [6
+
+
+
+
+] [7 <./img/theoretical/sa-levels.pdf>]
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 45.
+
+
+pdfTeX warning: pdflatex (file ./img/theoretical/entity-feature-aspect-level.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/entity-feature-aspect-level.pdf, id=657, 342.59485pt x 251.30255pt>
+File: img/theoretical/entity-feature-aspect-level.pdf Graphic file (type pdf)
+<use img/theoretical/entity-feature-aspect-level.pdf>
+Package pdftex.def Info: img/theoretical/entity-feature-aspect-level.pdf  used on input line 50.
+(pdftex.def)             Requested size: 195.0pt x 143.03687pt.
+[8{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_nufysp.enc}]
+
+pdfTeX warning: pdflatex (file ./img/theoretical/ner-theoretical-example.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/ner-theoretical-example.pdf, id=675, 831.45078pt x 101.81308pt>
+File: img/theoretical/ner-theoretical-example.pdf Graphic file (type pdf)
+<use img/theoretical/ner-theoretical-example.pdf>
+Package pdftex.def Info: img/theoretical/ner-theoretical-example.pdf  used on input line 65.
 (pdftex.def)             Requested size: 390.0pt x 47.75583pt.
+[9 <./img/theoretical/entity-feature-aspect-level.pdf>]
 
-
-pdfTeX warning: pdflatex (file ./img/ner-theoretical-example-tags.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ner-theoretical-example-tags.pdf, id=481, 917.06151pt x 481.53984pt>
-File: img/ner-theoretical-example-tags.pdf Graphic file (type pdf)
-<use img/ner-theoretical-example-tags.pdf>
-Package pdftex.def Info: img/ner-theoretical-example-tags.pdf  used on input line 81.
+pdfTeX warning: pdflatex (file ./img/theoretical/ner-theoretical-example-tags.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/ner-theoretical-example-tags.pdf, id=746, 917.06151pt x 481.53984pt>
+File: img/theoretical/ner-theoretical-example-tags.pdf Graphic file (type pdf)
+<use img/theoretical/ner-theoretical-example-tags.pdf>
+Package pdftex.def Info: img/theoretical/ner-theoretical-example-tags.pdf  used on input line 74.
 (pdftex.def)             Requested size: 390.0pt x 204.78764pt.
-[7 <./img/ner-theoretical-example.pdf>]
+[10 <./img/theoretical/ner-theoretical-example.pdf> <./img/theoretical/ner-theoretical-example-tags.pdf>]
 
-pdfTeX warning: pdflatex (file ./img/ner-methods.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/ner-methods.pdf, id=626, 1482.08809pt x 577.65463pt>
-File: img/ner-methods.pdf Graphic file (type pdf)
-<use img/ner-methods.pdf>
-Package pdftex.def Info: img/ner-methods.pdf  used on input line 123.
-(pdftex.def)             Requested size: 390.0pt x 152.0024pt.
+pdfTeX warning: pdflatex (file ./img/theoretical/ner-methods.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/ner-methods.pdf, id=1006, 1491.75543pt x 557.28262pt>
+File: img/theoretical/ner-methods.pdf Graphic file (type pdf)
+<use img/theoretical/ner-methods.pdf>
+Package pdftex.def Info: img/theoretical/ner-methods.pdf  used on input line 115.
+(pdftex.def)             Requested size: 390.0pt x 145.68938pt.
 
-Underfull \vbox (badness 1365) has occurred while \output is active []
+Underfull \vbox (badness 4556) has occurred while \output is active []
 
- [8 <./img/ner-theoretical-example-tags.pdf>] [9 <./img/ner-methods.pdf>]
+ [11 <./img/theoretical/ner-methods.pdf>] [12]
 
-pdfTeX warning: pdflatex (file ./img/unsupervised.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/unsupervised.pdf, id=940, 852.18375pt x 401.5pt>
-File: img/unsupervised.pdf Graphic file (type pdf)
-<use img/unsupervised.pdf>
-Package pdftex.def Info: img/unsupervised.pdf  used on input line 157.
-(pdftex.def)             Requested size: 234.00238pt x 110.24435pt.
-[10]
+pdfTeX warning: pdflatex (file ./img/theoretical/unsupervised.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/unsupervised.pdf, id=1203, 852.18375pt x 401.5pt>
+File: img/theoretical/unsupervised.pdf Graphic file (type pdf)
+<use img/theoretical/unsupervised.pdf>
+Package pdftex.def Info: img/theoretical/unsupervised.pdf  used on input line 151.
+(pdftex.def)             Requested size: 312.00119pt x 146.99657pt.
 
-pdfTeX warning: pdflatex (file ./img/semi-supervised.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/semi-supervised.pdf, id=948, 931.48pt x 610.28pt>
-File: img/semi-supervised.pdf Graphic file (type pdf)
-<use img/semi-supervised.pdf>
-Package pdftex.def Info: img/semi-supervised.pdf  used on input line 164.
-(pdftex.def)             Requested size: 234.00238pt x 153.30528pt.
-[11 <./img/unsupervised.pdf> <./img/semi-supervised.pdf>]
 
-pdfTeX warning: pdflatex (file ./img/supervised.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/supervised.pdf, id=1302, 883.3pt x 610.28pt>
-File: img/supervised.pdf Graphic file (type pdf)
-<use img/supervised.pdf>
-Package pdftex.def Info: img/supervised.pdf  used on input line 172.
-(pdftex.def)             Requested size: 234.00238pt x 161.66756pt.
-[12{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./img/supervised.pdf>] [13]) [14]
+pdfTeX warning: pdflatex (file ./img/theoretical/semi-supervised.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/theoretical/semi-supervised.pdf, id=1205, 931.48pt x 610.28pt>
+File: img/theoretical/semi-supervised.pdf Graphic file (type pdf)
+<use img/theoretical/semi-supervised.pdf>
+Package pdftex.def Info: img/theoretical/semi-supervised.pdf  used on input line 158.
+(pdftex.def)             Requested size: 312.00119pt x 204.41014pt.
+
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+ [13 <./img/theoretical/unsupervised.pdf>]
+<img/theoretical/supervised.pdf, id=1353, 883.3pt x 610.28pt>
+File: img/theoretical/supervised.pdf Graphic file (type pdf)
+<use img/theoretical/supervised.pdf>
+Package pdftex.def Info: img/theoretical/supervised.pdf  used on input line 167.
+(pdftex.def)             Requested size: 312.00119pt x 215.56606pt.
+ [14 <./img/theoretical/semi-supervised.pdf>]) [15 <./img/theoretical/supervised.pdf>]
 \openout2 = `ch2.aux'.
 
  (./ch2.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 10.
-[15
+(Font)              scaled to size 10.0pt on input line 9.
+[16
 
 
 
 
-] [16{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [17] [18]) [19]
+]
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 21.
+ [17] [18] [19]) [20]
 \openout2 = `ch3.aux'.
 
  (./ch3.tex
 Chapter 3.
-[20
+[21
 
 
 
 
-] [21]) [22]
+] [22] [23] [24] [25]
+<img/textual-data/q1-2024-a.pdf, id=1792, 632.78235pt x 597.23125pt>
+File: img/textual-data/q1-2024-a.pdf Graphic file (type pdf)
+<use img/textual-data/q1-2024-a.pdf>
+Package pdftex.def Info: img/textual-data/q1-2024-a.pdf  used on input line 76.
+(pdftex.def)             Requested size: 390.0pt x 368.10153pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26] [27 <./img/textual-data/q1-2024-a.pdf>]
+<img/textual-data/guardian-q1-2024-a.pdf, id=1820, 620.1263pt x 597.23125pt>
+File: img/textual-data/guardian-q1-2024-a.pdf Graphic file (type pdf)
+<use img/textual-data/guardian-q1-2024-a.pdf>
+Package pdftex.def Info: img/textual-data/guardian-q1-2024-a.pdf  used on input line 97.
+(pdftex.def)             Requested size: 390.0pt x 375.61977pt.
+) [28] [29 <./img/textual-data/guardian-q1-2024-a.pdf>] [30]
 \openout2 = `ch4.aux'.
 
  (./ch4.tex
 Chapter 4.
-
-LaTeX Warning: Marginpar on page 23 moved.
-
-[23
+[31
 
 
 
 
-] [24] [25] [26] [27] [28]
+] [32] [33] [34] [35] [36]
 LaTeX Font Info:    Trying to load font information for TS1+LibertinusSerif-TLF on input line 127.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/TS1LibertinusSerif-TLF.fd
 File: TS1LibertinusSerif-TLF.fd 2022/11/07 (autoinst) Font definitions for TS1/LibertinusSerif-TLF.
@@ -1532,74 +1473,381 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LibertinusSerif-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [29{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}] [30] [31] [32]
+ [37{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_rlktsf.enc}] [38] [39] [40]
 
 pdfTeX warning: pdflatex (file ./img/wikidata-microsoft.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<img/wikidata-microsoft.pdf, id=1714, 810.00426pt x 543.60156pt>
+<img/wikidata-microsoft.pdf, id=1931, 810.00426pt x 543.60156pt>
 File: img/wikidata-microsoft.pdf Graphic file (type pdf)
 <use img/wikidata-microsoft.pdf>
 Package pdftex.def Info: img/wikidata-microsoft.pdf  used on input line 242.
 (pdftex.def)             Requested size: 390.0pt x 261.73036pt.
-[33]
+[41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34 <./img/wikidata-microsoft.pdf>]
+ [42 <./img/wikidata-microsoft.pdf>]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/it' will be
 (Font)              scaled to size 12.0pt on input line 262.
- [35{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_opzo24.enc}] [36] [37]) [38]
+ [43{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_opzo24.enc}] [44] [45]) [46]
+\openout2 = `ch5.aux'.
+
+ (./ch5.tex
+Chapter 5.
+[47
+
+
+
+
+] [48] [49] [50]
+<img/elsa/proportion_matched_unmatched_unfound-a.pdf, id=2137, 462.52798pt x 267.54164pt>
+File: img/elsa/proportion_matched_unmatched_unfound-a.pdf Graphic file (type pdf)
+<use img/elsa/proportion_matched_unmatched_unfound-a.pdf>
+Package pdftex.def Info: img/elsa/proportion_matched_unmatched_unfound-a.pdf  used on input line 101.
+(pdftex.def)             Requested size: 350.99762pt x 203.03983pt.
+<img/elsa/proportion_matched_unmatched-a.pdf, id=2138, 462.52798pt x 246.2285pt>
+File: img/elsa/proportion_matched_unmatched-a.pdf Graphic file (type pdf)
+<use img/elsa/proportion_matched_unmatched-a.pdf>
+Package pdftex.def Info: img/elsa/proportion_matched_unmatched-a.pdf  used on input line 108.
+(pdftex.def)             Requested size: 350.99762pt x 186.86508pt.
+ [51 <./img/elsa/proportion_matched_unmatched_unfound-a.pdf>]
+<img/experiment-stock/nvda-preaggregated-a.pdf, id=2156, 597.23125pt x 361.83018pt>
+File: img/experiment-stock/nvda-preaggregated-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/nvda-preaggregated-a.pdf>
+Package pdftex.def Info: img/experiment-stock/nvda-preaggregated-a.pdf  used on input line 123.
+(pdftex.def)             Requested size: 312.00119pt x 189.0251pt.
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 124.
+LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 124.
+<img/experiment-stock/nvda-aggregated-a.pdf, id=2157, 597.23125pt x 361.83018pt>
+File: img/experiment-stock/nvda-aggregated-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/nvda-aggregated-a.pdf>
+Package pdftex.def Info: img/experiment-stock/nvda-aggregated-a.pdf  used on input line 130.
+(pdftex.def)             Requested size: 312.00119pt x 189.0251pt.
+ [52 <./img/elsa/proportion_matched_unmatched-a.pdf>] [53 <./img/experiment-stock/nvda-preaggregated-a.pdf> <./img/experiment-stock/nvda-aggregated-a.pdf>]
+<img/experiment-stock/nvda-hold-strategy-a.pdf, id=2186, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/nvda-hold-strategy-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/nvda-hold-strategy-a.pdf>
+Package pdftex.def Info: img/experiment-stock/nvda-hold-strategy-a.pdf  used on input line 150.
+(pdftex.def)             Requested size: 390.0pt x 275.59544pt.
+<img/experiment-stock/nvda-neutral-a.pdf, id=2187, 845.1575pt x 474.42323pt>
+File: img/experiment-stock/nvda-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/nvda-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/nvda-neutral-a.pdf  used on input line 157.
+(pdftex.def)             Requested size: 390.0pt x 218.92505pt.
+ [54] [55 <./img/experiment-stock/nvda-hold-strategy-a.pdf> <./img/experiment-stock/nvda-neutral-a.pdf>]
+<img/experiment-stock/aapl-neutral-a.pdf, id=2209, 845.1575pt x 469.00157pt>
+File: img/experiment-stock/aapl-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/aapl-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/aapl-neutral-a.pdf  used on input line 166.
+(pdftex.def)             Requested size: 390.0pt x 216.42319pt.
+ [56 <./img/experiment-stock/aapl-neutral-a.pdf>]
+<img/experiment-stock/nvda-interpolated-a.pdf, id=2223, 845.1575pt x 437.35585pt>
+File: img/experiment-stock/nvda-interpolated-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/nvda-interpolated-a.pdf>
+Package pdftex.def Info: img/experiment-stock/nvda-interpolated-a.pdf  used on input line 179.
+(pdftex.def)             Requested size: 390.0pt x 201.8201pt.
+<img/experiment-stock/nvda-corr-a.pdf, id=2226, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/nvda-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/nvda-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/nvda-corr-a.pdf  used on input line 190.
+(pdftex.def)             Requested size: 390.0pt x 275.59544pt.
+ [57 <./img/experiment-stock/nvda-interpolated-a.pdf>] [58 <./img/experiment-stock/nvda-corr-a.pdf>]) [59]
 \openout2 = `ch6.aux'.
 
  (./ch6.tex
-Chapter 5.
-) [39
+Chapter 6.
+[60
+
+
+
+
+]) [61]
+\openout2 = `ch7.aux'.
+
+ (./ch7.tex
+Chapter 7.
+[62
 
 
 
 
 ]
+
+pdfTeX warning: pdflatex (file ./img/architecture/architecture-high.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/architecture-high.pdf, id=2282, 1309.39188pt x 1504.07527pt>
+File: img/architecture/architecture-high.pdf Graphic file (type pdf)
+<use img/architecture/architecture-high.pdf>
+Package pdftex.def Info: img/architecture/architecture-high.pdf  used on input line 24.
+(pdftex.def)             Requested size: 390.0pt x 447.99007pt.
+[63] [64 <./img/architecture/architecture-high.pdf>]
+
+pdfTeX warning: pdflatex (file ./img/architecture/etl-highest.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/etl-highest.pdf, id=2687, 291.3254pt x 585.12903pt>
+File: img/architecture/etl-highest.pdf Graphic file (type pdf)
+<use img/architecture/etl-highest.pdf>
+Package pdftex.def Info: img/architecture/etl-highest.pdf  used on input line 54.
+(pdftex.def)             Requested size: 234.00238pt x 470.01451pt.
+[65] [66 <./img/architecture/etl-highest.pdf>]
+
+pdfTeX warning: pdflatex (file ./img/architecture/database-schema.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/database-schema.pdf, id=2720, 1755.46686pt x 721.51233pt>
+File: img/architecture/database-schema.pdf Graphic file (type pdf)
+<use img/architecture/database-schema.pdf>
+Package pdftex.def Info: img/architecture/database-schema.pdf  used on input line 65.
+(pdftex.def)             Requested size: 390.0pt x 160.28552pt.
+[67 <./img/architecture/database-schema.pdf>] [68]
+
+pdfTeX warning: pdflatex (file ./img/architecture/etl-transform.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/etl-transform.pdf, id=3133, 1297.018pt x 1074.9649pt>
+File: img/architecture/etl-transform.pdf Graphic file (type pdf)
+<use img/architecture/etl-transform.pdf>
+Package pdftex.def Info: img/architecture/etl-transform.pdf  used on input line 100.
+(pdftex.def)             Requested size: 390.0pt x 323.23007pt.
+
+Underfull \vbox (badness 3417) has occurred while \output is active []
+
+ [69 <./img/architecture/etl-transform.pdf>]
+
+pdfTeX warning: pdflatex (file ./img/architecture/etl-load.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/etl-load.pdf, id=3159, 1104.3143pt x 231.88834pt>
+File: img/architecture/etl-load.pdf Graphic file (type pdf)
+<use img/architecture/etl-load.pdf>
+Package pdftex.def Info: img/architecture/etl-load.pdf  used on input line 141.
+(pdftex.def)             Requested size: 390.0pt x 81.89456pt.
+[70]
+
+pdfTeX warning: pdflatex (file ./img/architecture/etl-sources.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/etl-sources.pdf, id=3182, 563.29324pt x 521.04231pt>
+File: img/architecture/etl-sources.pdf Graphic file (type pdf)
+<use img/architecture/etl-sources.pdf>
+Package pdftex.def Info: img/architecture/etl-sources.pdf  used on input line 150.
+(pdftex.def)             Requested size: 312.00119pt x 288.60152pt.
+[71 <./img/architecture/etl-load.pdf>]
+
+pdfTeX warning: pdflatex (file ./img/architecture/ner-req-res.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/ner-req-res.pdf, id=3220, 782.20148pt x 239.9363pt>
+File: img/architecture/ner-req-res.pdf Graphic file (type pdf)
+<use img/architecture/ner-req-res.pdf>
+Package pdftex.def Info: img/architecture/ner-req-res.pdf  used on input line 183.
+(pdftex.def)             Requested size: 390.0pt x 119.63101pt.
+[72 <./img/architecture/etl-sources.pdf>] [73 <./img/architecture/ner-req-res.pdf>]
+
+pdfTeX warning: pdflatex (file ./img/architecture/sa-req-res.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/sa-req-res.pdf, id=3372, 933.31044pt x 401.00284pt>
+File: img/architecture/sa-req-res.pdf Graphic file (type pdf)
+<use img/architecture/sa-req-res.pdf>
+Package pdftex.def Info: img/architecture/sa-req-res.pdf  used on input line 198.
+(pdftex.def)             Requested size: 390.0pt x 167.56952pt.
+[74 <./img/architecture/sa-req-res.pdf>] [75]
+
+pdfTeX warning: pdflatex (file ./img/architecture/website-flowchart.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<img/architecture/website-flowchart.pdf, id=3565, 1408.89496pt x 1015.80878pt>
+File: img/architecture/website-flowchart.pdf Graphic file (type pdf)
+<use img/architecture/website-flowchart.pdf>
+Package pdftex.def Info: img/architecture/website-flowchart.pdf  used on input line 250.
+(pdftex.def)             Requested size: 272.99881pt x 196.81866pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76] [77 <./img/architecture/website-flowchart.pdf>] [78]) [79]
+\openout2 = `ch8.aux'.
+
+ (./ch8.tex
+Chapter 8.
+[80
+
+
+
+
+] [81] [82] [83]) [84]
+\openout2 = `ch9.aux'.
+
+ (./ch9.tex
+Chapter 9.
+<img/user/home-a.pdf, id=3755, 845.1575pt x 495.8544pt>
+File: img/user/home-a.pdf Graphic file (type pdf)
+<use img/user/home-a.pdf>
+Package pdftex.def Info: img/user/home-a.pdf  used on input line 10.
+(pdftex.def)             Requested size: 390.0pt x 228.81456pt.
+<img/user/graphs-a.pdf, id=3757, 845.1575pt x 492.80179pt>
+File: img/user/graphs-a.pdf Graphic file (type pdf)
+<use img/user/graphs-a.pdf>
+Package pdftex.def Info: img/user/graphs-a.pdf  used on input line 21.
+(pdftex.def)             Requested size: 390.0pt x 227.40593pt.
+[85
+
+
+
+
+ <./img/user/home-a.pdf>] [86 <./img/user/graphs-a.pdf>]
+<img/user/graphs-distances-a.pdf, id=3785, 845.1575pt x 492.1822pt>
+File: img/user/graphs-distances-a.pdf Graphic file (type pdf)
+<use img/user/graphs-distances-a.pdf>
+Package pdftex.def Info: img/user/graphs-distances-a.pdf  used on input line 73.
+(pdftex.def)             Requested size: 390.0pt x 227.12001pt.
+<img/user/graphs-only-negative-a.pdf, id=3786, 845.1575pt x 495.53452pt>
+File: img/user/graphs-only-negative-a.pdf Graphic file (type pdf)
+<use img/user/graphs-only-negative-a.pdf>
+Package pdftex.def Info: img/user/graphs-only-negative-a.pdf  used on input line 80.
+(pdftex.def)             Requested size: 390.0pt x 228.66696pt.
+<img/user/graphs-article-a.pdf, id=3787, 845.1575pt x 493.3579pt>
+File: img/user/graphs-article-a.pdf Graphic file (type pdf)
+<use img/user/graphs-article-a.pdf>
+Package pdftex.def Info: img/user/graphs-article-a.pdf  used on input line 87.
+(pdftex.def)             Requested size: 390.0pt x 227.66255pt.
+<img/user/graphs-apple-negative-a.pdf, id=3788, 845.1575pt x 495.12076pt>
+File: img/user/graphs-apple-negative-a.pdf Graphic file (type pdf)
+<use img/user/graphs-apple-negative-a.pdf>
+Package pdftex.def Info: img/user/graphs-apple-negative-a.pdf  used on input line 94.
+(pdftex.def)             Requested size: 390.0pt x 228.47603pt.
+ [87] [88 <./img/user/graphs-distances-a.pdf> <./img/user/graphs-only-negative-a.pdf>] [89 <./img/user/graphs-article-a.pdf> <./img/user/graphs-apple-negative-a.pdf>]
+<img/user/search-am-a.pdf, id=3821, 845.1575pt x 493.00035pt>
+File: img/user/search-am-a.pdf Graphic file (type pdf)
+<use img/user/search-am-a.pdf>
+Package pdftex.def Info: img/user/search-am-a.pdf  used on input line 107.
+(pdftex.def)             Requested size: 390.0pt x 227.49754pt.
+ [90 <./img/user/search-am-a.pdf>]
+<img/user/company-apple-a.pdf, id=3832, 845.1575pt x 492.6937pt>
+File: img/user/company-apple-a.pdf Graphic file (type pdf)
+<use img/user/company-apple-a.pdf>
+Package pdftex.def Info: img/user/company-apple-a.pdf  used on input line 120.
+(pdftex.def)             Requested size: 390.0pt x 227.35605pt.
+<img/user/apple-info-a.pdf, id=3834, 845.1575pt x 254.02383pt>
+File: img/user/apple-info-a.pdf Graphic file (type pdf)
+<use img/user/apple-info-a.pdf>
+Package pdftex.def Info: img/user/apple-info-a.pdf  used on input line 131.
+(pdftex.def)             Requested size: 390.0pt x 117.2206pt.
+<img/user/apple-stock-a.pdf, id=3837, 845.1575pt x 441.93968pt>
+File: img/user/apple-stock-a.pdf Graphic file (type pdf)
+<use img/user/apple-stock-a.pdf>
+Package pdftex.def Info: img/user/apple-stock-a.pdf  used on input line 144.
+(pdftex.def)             Requested size: 390.0pt x 203.93535pt.
+ [91 <./img/user/company-apple-a.pdf>]
+<img/user/apple-stock-range-neutral-a.pdf, id=3849, 845.1575pt x 442.06194pt>
+File: img/user/apple-stock-range-neutral-a.pdf Graphic file (type pdf)
+<use img/user/apple-stock-range-neutral-a.pdf>
+Package pdftex.def Info: img/user/apple-stock-range-neutral-a.pdf  used on input line 151.
+(pdftex.def)             Requested size: 390.0pt x 203.99174pt.
+<img/user/apple-spline-chart-a.pdf, id=3851, 783.6457pt x 451.95691pt>
+File: img/user/apple-spline-chart-a.pdf Graphic file (type pdf)
+<use img/user/apple-spline-chart-a.pdf>
+Package pdftex.def Info: img/user/apple-spline-chart-a.pdf  used on input line 163.
+(pdftex.def)             Requested size: 390.0pt x 224.92966pt.
+<img/user/apple-pie-chart-a.pdf, id=3853, 562.04279pt x 451.74101pt>
+File: img/user/apple-pie-chart-a.pdf Graphic file (type pdf)
+<use img/user/apple-pie-chart-a.pdf>
+Package pdftex.def Info: img/user/apple-pie-chart-a.pdf  used on input line 174.
+(pdftex.def)             Requested size: 312.00119pt x 250.77437pt.
+ [92 <./img/user/apple-info-a.pdf> <./img/user/apple-stock-a.pdf>] [93 <./img/user/apple-stock-range-neutral-a.pdf> <./img/user/apple-spline-chart-a.pdf>]
+<img/user/apple-articles-order-positive-a.pdf, id=3883, 845.1575pt x 352.3009pt>
+File: img/user/apple-articles-order-positive-a.pdf Graphic file (type pdf)
+<use img/user/apple-articles-order-positive-a.pdf>
+Package pdftex.def Info: img/user/apple-articles-order-positive-a.pdf  used on input line 187.
+(pdftex.def)             Requested size: 390.0pt x 162.57106pt.
+<img/user/apple-articles-order-date-a.pdf, id=3884, 845.1575pt x 348.98639pt>
+File: img/user/apple-articles-order-date-a.pdf Graphic file (type pdf)
+<use img/user/apple-articles-order-date-a.pdf>
+Package pdftex.def Info: img/user/apple-articles-order-date-a.pdf  used on input line 194.
+(pdftex.def)             Requested size: 390.0pt x 161.04156pt.
+<img/user/apple-articles-search-a.pdf, id=3885, 845.1575pt x 351.43907pt>
+File: img/user/apple-articles-search-a.pdf Graphic file (type pdf)
+<use img/user/apple-articles-search-a.pdf>
+Package pdftex.def Info: img/user/apple-articles-search-a.pdf  used on input line 201.
+(pdftex.def)             Requested size: 390.0pt x 162.17337pt.
+
+Underfull \vbox (badness 2538) has occurred while \output is active []
+
+ [94 <./img/user/apple-pie-chart-a.pdf>] [95 <./img/user/apple-articles-order-positive-a.pdf> <./img/user/apple-articles-order-date-a.pdf>] [96 <./img/user/apple-articles-search-a.pdf>]
+<img/user/apple-company-graph-a.pdf, id=3921, 845.1575pt x 478.41516pt>
+File: img/user/apple-company-graph-a.pdf Graphic file (type pdf)
+<use img/user/apple-company-graph-a.pdf>
+Package pdftex.def Info: img/user/apple-company-graph-a.pdf  used on input line 232.
+(pdftex.def)             Requested size: 390.0pt x 220.76714pt.
+) [97 <./img/user/apple-company-graph-a.pdf>]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex) [40
+ (./conclusion.tex [98
 
 
 
 
-]
+]) [99]
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 8.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 8.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for T1+LibertinusMono-TLF on input line 8.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/libertinus-type1/T1LibertinusMono-TLF.fd
+File: T1LibertinusMono-TLF.fd 2022/11/07 (autoinst) Font definitions for T1/LibertinusMono-TLF.
 )
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/m/n' will be
+(Font)              scaled to size 10.20007pt on input line 8.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
+(microtype)             `LibertinusMono-TLF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [41
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `T1/LibertinusMono-TLF/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `T1/LibertinusMono-TLF/m/n/12'.
+(microtype)             Ignoring protrusion settings for this character.
+ [100
 
 
 
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_cb34qf.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_tll2u3.enc}]
 LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TLF/m/it' will be
 (Font)              scaled to size 12.0pt on input line 8.
- [42{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_3kirmv.enc}] [43]) [44]
+ [101{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_3kirmv.enc}] [102]
+Overfull \hbox (5.27762pt too wide) in paragraph at lines 8--8
+\T1/LibertinusMono-TLF/m/n/12 com / articles / understanding -[] equities -[] data/$[] \T1/LibertinusSerif-TLF/m/n/12 (-20) (vis-ited on 05/15/2024). |
+ []
+
+[103]) [104]
 \openout2 = `abservations.aux'.
 
- (./abservations.tex (./thesis.acr)) [45
+ (./abservations.tex (./thesis.acr [105
 
 
 
 
 
-]
+])) [106]
 \openout2 = `howto.aux'.
 
  (./howto.tex
 Appendix A.
+<img/textual-data/q4-2023-a.pdf, id=4133, 627.49893pt x 597.23125pt>
+File: img/textual-data/q4-2023-a.pdf Graphic file (type pdf)
+<use img/textual-data/q4-2023-a.pdf>
+Package pdftex.def Info: img/textual-data/q4-2023-a.pdf  used on input line 10.
+(pdftex.def)             Requested size: 390.0pt x 371.19995pt.
+<img/textual-data/q3-2023-a.pdf, id=4134, 624.60188pt x 597.23125pt>
+File: img/textual-data/q3-2023-a.pdf Graphic file (type pdf)
+<use img/textual-data/q3-2023-a.pdf>
+Package pdftex.def Info: img/textual-data/q3-2023-a.pdf  used on input line 17.
+(pdftex.def)             Requested size: 390.0pt x 372.9132pt.
+[107
+
+
+
+
+ <./img/textual-data/q4-2023-a.pdf>] [108 <./img/textual-data/q3-2023-a.pdf>]
+<img/textual-data/guardian-q4-2023-a.pdf, id=4154, 624.45282pt x 597.23125pt>
+File: img/textual-data/guardian-q4-2023-a.pdf Graphic file (type pdf)
+<use img/textual-data/guardian-q4-2023-a.pdf>
+Package pdftex.def Info: img/textual-data/guardian-q4-2023-a.pdf  used on input line 29.
+(pdftex.def)             Requested size: 390.0pt x 373.00433pt.
+<img/textual-data/guardian-q3-2023-a.pdf, id=4155, 618.49881pt x 597.23125pt>
+File: img/textual-data/guardian-q3-2023-a.pdf Graphic file (type pdf)
+<use img/textual-data/guardian-q3-2023-a.pdf>
+Package pdftex.def Info: img/textual-data/guardian-q3-2023-a.pdf  used on input line 36.
+(pdftex.def)             Requested size: 390.0pt x 376.60396pt.
+ [109 <./img/textual-data/guardian-q4-2023-a.pdf>] [110 <./img/textual-data/guardian-q3-2023-a.pdf>]
+Appendix B.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -1607,21 +1855,98 @@ File: lstlang2.sty 2023/02/27 1.9 listings language file
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 8.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 48.
 LaTeX Font Info:    Font shape `T1/LibertinusSans-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 8.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 10.
- [46
+(Font)              scaled to size 10.95pt on input line 48.
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 48.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `T1/LibertinusMono-TLF/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `T1/LibertinusMono-TLF/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/LibertinusMono-TLF/b/n' will be
+(Font)              scaled to size 8.50006pt on input line 50.
+Package microtype Info: Character `guilsinglleft ' is missing
+(microtype)             in font `T1/LibertinusMono-TLF/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `guilsinglright ' is missing
+(microtype)             in font `T1/LibertinusMono-TLF/b/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+ [111
 
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_hvvyjb.enc}] [112] [113] [114]
+Appendix C.
+<img/experiment-stock/aapl-hold-strategy-neutral-a.pdf, id=4328, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/aapl-hold-strategy-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/aapl-hold-strategy-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/aapl-hold-strategy-neutral-a.pdf  used on input line 199.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/amzn-hold-strategy-neutral-a.pdf, id=4329, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/amzn-hold-strategy-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/amzn-hold-strategy-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/amzn-hold-strategy-neutral-a.pdf  used on input line 206.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/googl-hold-strategy-neutral-a.pdf, id=4330, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/googl-hold-strategy-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/googl-hold-strategy-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/googl-hold-strategy-neutral-a.pdf  used on input line 213.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/meta-hold-strategy-neutral-a.pdf, id=4331, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/meta-hold-strategy-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/meta-hold-strategy-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/meta-hold-strategy-neutral-a.pdf  used on input line 220.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/msft-hold-strategy-neutral-a.pdf, id=4332, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/msft-hold-strategy-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/msft-hold-strategy-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/msft-hold-strategy-neutral-a.pdf  used on input line 227.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+[115
 
+ <./img/experiment-stock/aapl-hold-strategy-neutral-a.pdf>] [116 <./img/experiment-stock/amzn-hold-strategy-neutral-a.pdf> <./img/experiment-stock/googl-hold-strategy-neutral-a.pdf>] [117 <./img/experiment-stock/meta-hold-strategy-neutral-a.pdf> <./img/experiment-stock/msft-hold-strategy-neutral-a.pdf>]
+<img/experiment-stock/tsla-hold-strategy-neutral-a.pdf, id=4370, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/tsla-hold-strategy-neutral-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/tsla-hold-strategy-neutral-a.pdf>
+Package pdftex.def Info: img/experiment-stock/tsla-hold-strategy-neutral-a.pdf  used on input line 235.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+ [118
 
+ <./img/experiment-stock/tsla-hold-strategy-neutral-a.pdf>]
+<img/experiment-stock/aapl-corr-a.pdf, id=4380, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/aapl-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/aapl-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/aapl-corr-a.pdf  used on input line 247.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/amzn-corr-a.pdf, id=4381, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/amzn-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/amzn-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/amzn-corr-a.pdf  used on input line 254.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/googl-corr-a.pdf, id=4382, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/googl-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/googl-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/googl-corr-a.pdf  used on input line 261.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/meta-corr-a.pdf, id=4383, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/meta-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/meta-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/meta-corr-a.pdf  used on input line 268.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/msft-corr-a.pdf, id=4384, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/msft-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/msft-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/msft-corr-a.pdf  used on input line 275.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+<img/experiment-stock/tsla-corr-a.pdf, id=4385, 845.1575pt x 597.23125pt>
+File: img/experiment-stock/tsla-corr-a.pdf Graphic file (type pdf)
+<use img/experiment-stock/tsla-corr-a.pdf>
+Package pdftex.def Info: img/experiment-stock/tsla-corr-a.pdf  used on input line 282.
+(pdftex.def)             Requested size: 350.99762pt x 248.03772pt.
+) [119
 
-{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_hvvyjb.enc}] [47] [48]) [49] [50
-
-
-
-]
+ <./img/experiment-stock/aapl-corr-a.pdf>] [120 <./img/experiment-stock/amzn-corr-a.pdf> <./img/experiment-stock/googl-corr-a.pdf>] [121 <./img/experiment-stock/meta-corr-a.pdf> <./img/experiment-stock/msft-corr-a.pdf>] [122 <./img/experiment-stock/tsla-corr-a.pdf>]
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 56.
 See the caption package documentation for explanation.
@@ -1630,12 +1955,12 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[listing] on input line 57.
 See the caption package documentation for explanation.
 
-(./thesis.aux (./title.aux) (./intro.aux) (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./ch6.aux) (./conclusion.aux) (./bibliography.aux) (./abservations.aux) (./howto.aux))
+(./thesis.aux (./title.aux) (./intro.aux) (./ch1.aux) (./ch2.aux) (./ch3.aux) (./ch4.aux) (./ch5.aux) (./ch6.aux) (./ch7.aux) (./ch8.aux) (./ch9.aux) (./conclusion.aux) (./bibliography.aux) (./abservations.aux) (./howto.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6ADB6691883CC2A8442F6535178D3602;7263.
+(rerunfilecheck)             Checksum: 8D3F15D6D26AAC562A0B9A8EA5C250B6;13437.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                thesis
@@ -1650,18 +1975,18 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 ### simple group (level 1) entered at line 269 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 47528 strings out of 476025
- 894064 string characters out of 5790016
- 1918388 words of memory out of 5000000
- 66219 multiletter control sequences out of 15000+600000
- 729837 words of font info for 423 fonts, out of 8000000 for 9000
+ 48689 strings out of 476025
+ 929359 string characters out of 5790016
+ 1907388 words of memory out of 5000000
+ 66945 multiletter control sequences out of 15000+600000
+ 719187 words of font info for 532 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,10n,117p,2301b,3882s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (58 pages, 3291674 bytes).
+ 94i,10n,117p,2301b,4210s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusMono-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusMono-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSans-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-BoldItalic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on thesis.pdf (130 pages, 26384116 bytes).
 PDF statistics:
- 2334 PDF objects out of 2487 (max. 8388607)
- 1647 compressed objects within 17 object streams
- 374 named destinations out of 1000 (max. 500000)
- 104371 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 4648 PDF objects out of 5155 (max. 8388607)
+ 3209 compressed objects within 33 object streams
+ 579 named destinations out of 1000 (max. 500000)
+ 111137 words of extra memory for PDF output out of 128383 (max. 10000000)
 

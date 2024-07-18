@@ -47,32 +47,14 @@ header .navbar-brand img {
   cursor: pointer;
 }
 
+/* Navbar */
 .navbar-toggler-icon {
   width: 30px;
   height: 30px;
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path stroke="rgba(255, 255, 255, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/></svg>');
 }
 
-@media (max-width: 768px) {
-    .navbar-toggler {
-      display: inline-block;
-    }
-  
-    .nav-masthead.d-md-flex {
-      display: none;
-    }
-  
-    .nav-masthead .nav-link {
-      margin: 0.5rem 0;
-    }
-  
-    .nav-masthead.d-flex {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-  }
-
+/* Body */
 body {
   background-color: #131316;
   color: #e3e3e3;
@@ -96,6 +78,27 @@ h1 {
 h1 {
   font-weight: bolder;
   font-size: 40px;
+}
+
+/* Media */
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: inline-block;
+  }
+
+  .nav-masthead.d-md-flex {
+    display: none;
+  }
+
+  .nav-masthead .nav-link {
+    margin: 0.5rem 0;
+  }
+
+  .nav-masthead.d-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 @keyframes gradient-animation {

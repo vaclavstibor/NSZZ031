@@ -5,6 +5,8 @@ import { ForceGraph3DInstance } from '3d-force-graph';
 import ForceGraph3D from '3d-force-graph';
 import * as dat from 'dat.gui';
 
+import { CompanyGraph, Sentiment } from '../../models/CompanyGraph.model';
+
 @Component({
   selector: 'app-graph',
   templateUrl: './graph.component.html',
@@ -22,17 +24,27 @@ export class GraphComponent implements OnInit, OnDestroy {
   constructor(private httpService: HttpService, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
+   /**
+     * When the component is initialized, the graph data is loaded.
+     * Once the data is loaded, the graph is launched.
+     */
     this.loadGraphData();
   }
 
   ngOnDestroy(): void {
+    /**
+     * Cleanup when the component is destroyed.
+     */
     this.cleanup();
   }
 
   private loadGraphData(): void {
+    /**
+     * Load the graph data from the API.
+     */
     this.route.params.subscribe(params => {
       const ticker = params['ticker'];
-      this.httpService.getCompanyGraphData(ticker).subscribe((res: any) => {
+      this.httpService.getCompanyGraphData(ticker).subscribe((res: CompanyGraph) => {
         this.graphData = { nodes: res.nodes, links: res.links };
         this.launchGraph();
       });
@@ -40,42 +52,64 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private launchGraph(): void {
+    /**
+     * Launches the 3D graph with the loaded data.
+     * The graph is set up with the necessary settings and event listeners.
+     * The GUI is set up to allow the user to control the graph's settings.
+     */
     const elem = document.getElementById('3d-graph') as HTMLElement;
     this.graph = ForceGraph3D()(elem)
-      .graphData(this.graphData)
+      .graphData(this.graphData) 
       .forceEngine('d3')
       .nodeOpacity(1)
       .backgroundColor('#131316')
       .linkWidth(link => this.highlightLinks.has(link) ? 5 : 1)
-      .linkDirectionalParticleWidth(link => this.highlightLinks.has(link) ? 5 : 2)
-      .linkDirectionalParticles(link => this.highlightLinks.has(link) ? 5 : 2)
+      .linkDirectionalParticleWidth(link => this.highlightLinks.has(link) ? 5 : 0)
+      .linkDirectionalParticles(link => this.highlightLinks.has(link) ? 5 : 0)
       .linkDirectionalParticleSpeed(link => this.highlightLinks.has(link) ? 0.01 : 0.006)
       .linkColor((link: any) => this.getColorBySentiment(link.sentiment))
       .nodeVal(node => this.getNodeValue(node))
       .nodeColor(node => this.getNodeColor(node))
       .nodeLabel(node => this.getNodeLabel(node))
       .onNodeClick(node => this.onNodeClick(node))
-      .onNodeHover(node => this.onNodeHover(node, this.graph));
+      .onNodeHover(node => this.onNodeHover(node));
 
     this.setupGuiControls();
   }
 
   private getNodeValue(node: any): number {
+    /**
+     * Node value is used to determine the size of the node.
+     */
     if (this.highlightNodes.has(node)) {
+      // Increase the size of the node when it is highlighted
       return node === this.hoverNode ? 50 : 25;
     }
     return node.node_type == 'company' ? 2 : 1;
   }
 
   private getNodeColor(node: any): string {
+    /**
+     * Node color is used to determine the color of the node.
+     * If the node is a company, it will be colored blue. Otherwise, it will be colored based on its sentiment.
+     */
     return node.node_type === 'company' ? '#1D57A9' : this.getColorBySentiment(node.sentiment);
   }
 
   private getNodeLabel(node: any): string {
+    /**
+     * Node label is used to determine the text displayed on the node.
+     * If the node is a company, it will display the company's short name. Otherwise, it will display the article's title.
+     */
     return node.node_type === 'company' ? node.short_name : node.title;
   }
 
   private onNodeClick(node: any): void {
+    /**
+     * When a node is clicked, the graph will zoom in on the node and display information about the node.
+     * If the node is an article, it will display information about the article. 
+     * If the node is a company, it will display information about the company.
+     */
     const distance = 250;
     const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
     const newPos = {
@@ -87,7 +121,11 @@ export class GraphComponent implements OnInit, OnDestroy {
     this.displayNodeInformation(node);
   }
 
-  private onNodeHover(node: any, graph: ForceGraph3DInstance): void {
+  private onNodeHover(node: any): void {
+    /**
+     * When a node is hovered over, the graph will highlight the node and related elements.
+     * If the node is an article, it will highlight the company related to the article.
+     */
     if (this.isNodeAlreadyHovered(node)) return;
 
     this.clearHighlights();
@@ -99,15 +137,25 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private isNodeAlreadyHovered(node: any): boolean {
+    /**
+     * Check if the node is already hovered over.
+     */
     return (!node && !this.highlightNodes.size) || (node && this.hoverNode === node);
   }
 
   private clearHighlights(): void {
+    /**
+     * Clear all highlights from the graph.
+     */
     this.highlightNodes.clear();
     this.highlightLinks.clear();
   }
 
   private highlightNodeAndRelatedElements(node: any): void {
+    /**
+     * Highlight the node and related elements in the graph.
+     * If the node is an article, it will highlight the company related to the article.
+     */
     this.highlightNodes.add(node);
     if (node.node_type === 'article') {
       this.highlightRelatedCompany(node);
@@ -115,6 +163,9 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private highlightRelatedCompany(node: any): void {
+    /**
+     * Highlight the company related to the article.
+     */
     const companyId = this.graphData.links[0].target.id;
     const companyNode = this.graphData.nodes.find((n: any) => n.id === companyId);
     if (companyNode) this.highlightNodes.add(companyNode);
@@ -123,6 +174,10 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private updateHighlight(): void {
+    /**
+     * Update the graph to reflect the current highlights.
+     * This will update the size and color of the nodes, as well as the width and color of the links.
+     */
     this.graph
       .nodeVal(this.graph.nodeVal())
       .linkWidth(this.graph.linkWidth())
@@ -131,7 +186,13 @@ export class GraphComponent implements OnInit, OnDestroy {
       .linkDirectionalParticleWidth(this.graph.linkDirectionalParticleWidth());
   }
 
-  private getColorBySentiment(sentiment: any): string {
+  private getColorBySentiment(sentiment: Sentiment): string {
+    /**
+     * Determine the color of the node based on its sentiment.
+     * If the sentiment is positive, the node will be colored green.
+     * If the sentiment is negative, the node will be colored red.
+     * If the sentiment is neutral, the node will be colored based on the balance of positive and negative sentiment.
+     */
     switch (sentiment.classification) {
       case 'NEGATIVE':
         return 'red';
@@ -147,8 +208,13 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private setupGuiControls(): void {
-    const settings = new GraphSettings();
+    /**
+     * Setup the general GUI controls for the graph.
+     * This will allow the user to adjust the link distances and visibility of the nodes and links.
+     */
+    const settings = new GraphSettings(); 
     this.guiControls = new dat.GUI({ autoPlace: true, width: 250 });
+
     const distancesFolder = this.guiControls.addFolder('Distances');
     distancesFolder.add(settings, 'positiveDistance', 100, 3000).name('POSITIVE').onChange(() => this.updateLinkDistance(settings));
     distancesFolder.add(settings, 'neutralDistance', 100, 3000).name('NEUTRAL').onChange(() => this.updateLinkDistance(settings));
@@ -166,6 +232,11 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private updateLinkDistance(settings: GraphSettings): void {
+    /**
+     * Updates the link distance in the graph based on the user's settings.
+     * The link distance is set based on the sentiment classification of the link.
+     * The distance is set to the user's specified distance for the sentiment classification.
+     */
     const linkForce = this.graph.d3Force('link');
     if (linkForce) {
       linkForce['distance']((link: any) => {
@@ -181,34 +252,51 @@ export class GraphComponent implements OnInit, OnDestroy {
         }
       });
     }
-    this.graph.numDimensions(3);
+    this.graph.numDimensions(3); // Ensure 3D layout
   }
 
   private updateVisibility(settings: GraphSettings): void {
+    /**
+     * Update the visibility of the nodes and links based on the user settings.
+     * This will show or hide nodes and links based on their sentiment classification.
+     */
     this.graph.nodeVisibility((node: any) => {
       if (node.node_type === 'article') {
+        // Show only the nodes that match the sentiment classification
         const key: keyof GraphSettings = `show${node.sentiment.classification}` as keyof GraphSettings;
+        // Return true if the sentiment classification is visible
         return Boolean(settings[key]);
       }
       return true;
     });
 
     this.graph.linkVisibility((link: any) => {
+      // Show only the links that match the sentiment classification
       const key: keyof GraphSettings = `show${link.sentiment.classification}` as keyof GraphSettings;
+      // Return true if the sentiment classification is visible
       return Boolean(settings[key]);
     });
   }
 
   private displayNodeInformation(node: any): void {
+    /**
+     * Display information about the node in the GUI.
+     */
     this.resetGuiInformation();
     if (node.node_type === 'article') {
+      // Display article information
       this.displayArticleInformation(node);
     } else if (node.node_type === 'company') {
+      // Display company information
       this.displayCompanyInformation(node);
     }
   }
 
   private resetGuiInformation(): void {
+    /**
+     * Reset the GUI information panel.
+     */
+
     if (this.guiInformation) {
       this.guiInformation.destroy();
     }
@@ -216,19 +304,33 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private displayArticleInformation(node: any): void {
+    /**
+     * Display information about the article in the GUI.
+     */
     const articleInfoFolder = this.guiInformation!.addFolder('Article Information');
     this.addArticleFields(articleInfoFolder, node);
     this.addSentimentFields(articleInfoFolder, node.sentiment);
   }
 
   private addArticleFields(folder: dat.GUI, node: any): void {
+    /**
+     * Add fields for the article information to the GUI.
+     */
     folder.add({ Title: node.title }, 'Title').name('Title');
     folder.add({ PublishedDate: node.published_date }, 'PublishedDate').name('Published Date');
     folder.add({ Author: node.author }, 'Author').name('Author');
     folder.add({ 'Open URL': () => window.open(node.url, '_blank') }, 'Open URL').name('Open Article');
   }
 
-  private addSentimentFields(folder: dat.GUI, sentiment: any): void {
+  private addSentimentFields(folder: dat.GUI, sentiment: Sentiment): void {
+    /**
+     * Add fields for the sentiment information to the GUI.
+     * If the folder does not exist, it will be created. Otherwise, the fields will be added to the existing folder.
+     * It is due to taht depends if we call this function from the company or article information.
+     * If we call it from the company information, we will have to create the folder.
+     * If we call it from the article information, the folder will already exist. 
+     * And we do not provide Today's Sentiment folder in the article information.
+     */
     const sentimentFolder = folder.name === "Today's Sentiment" ? folder : folder.addFolder('Sentiment');
     sentimentFolder.add({ Sentiment: sentiment.classification }, 'Sentiment').name('Classification');
     sentimentFolder.add({ Positive: sentiment.positive }, 'Positive').name('Positive');
@@ -237,6 +339,9 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private displayCompanyInformation(node: any): void {
+    /**
+     * Display information about the company in the GUI.
+     */
     const companyInfoFolder = this.guiInformation!.addFolder('Company Information');
     this.addCompanyFields(companyInfoFolder, node);
     this.addSentimentFields(companyInfoFolder.addFolder("Today's Sentiment"), node.sentiment);
@@ -244,12 +349,19 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private addCompanyFields(folder: dat.GUI, companyNode: any): void {
+    /**
+     * Add fields for the company information to the GUI.
+     */
     const companyFolder = folder.addFolder(`${companyNode.short_name}`);
     companyFolder.add({ Ticker: companyNode.ticker}, 'Ticker').name('Ticker');
     companyFolder.add({ 'Open Dashboard': () => window.open(`/company/${companyNode.ticker}/dashboard`, '_blank') }, 'Open Dashboard').name('Open Dashboard');
   }
 
   private addArticles(folder: dat.GUI, companyNode: any): void {
+    /**
+     * Add fields for the articles related to the company to the GUI.
+     * This will display information about the articles related to the company.
+     */
     const articlesInfoFolder = this.guiInformation!.addFolder('Articles');
   
     this.graphData.links.forEach((link: any) => {
@@ -267,6 +379,11 @@ export class GraphComponent implements OnInit, OnDestroy {
   }
 
   private cleanup(): void {
+    /**
+     * Cleanup when the component is destroyed.
+     * This will destroy the GUI controls and information panels, as well as the graph.
+     * It is important to clean up the resources when the component is destroyed to prevent memory leaks.
+     */
     if (this.guiControls) {
       this.guiControls.destroy();
       this.guiControls = null;
@@ -282,6 +399,10 @@ export class GraphComponent implements OnInit, OnDestroy {
 }
 
 class GraphSettings {
+  /**
+   * Graph GUI settings for controlling the graph's appearance.
+   */
+
   positiveDistance = 200;
   neutralDistance = 200;
   negativeDistance = 200;
@@ -295,8 +416,9 @@ class GraphSettings {
 
 function truncateWithEllipsis(text: string): string {
   /**
-   * Function for truncation long titles.
+   * Truncate the text with an ellipsis if it exceeds the maximum length for GUI fields.
    */
+
   const maxLength: number = 50;
 
   if (text.length > maxLength) {

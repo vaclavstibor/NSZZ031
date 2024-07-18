@@ -1,0 +1,4915 @@
+[
+    {
+        "id": "94a2a34d-c288-4d1f-9779-a690bd70ba69",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/17/amazon-workers-union-recognition-gmb-vote",
+        "title": "Amazon workers in Coventry lose union recognition ballot by handful of votes",
+        "author": "Richard Partington",
+        "published_date": "2024-07-17T09:03:41+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00158,
+                    "negative": 0.57456,
+                    "neutral": 0.42386
+                }
+            }
+        ]
+    },
+    {
+        "id": "bea97877-b9ba-41a6-a126-9a66a993a5c8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/17/galaxy-book-4-edge-review-samsung-laptop-delivers-power-but-not-battery-life",
+        "title": "Galaxy Book 4 Edge review: Samsung laptop delivers power but not battery life",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-07-17T06:00:15+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01026,
+                    "negative": 0.03338,
+                    "neutral": 0.95636
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01537,
+                    "negative": 0.03748,
+                    "neutral": 0.94715
+                }
+            },
+            {
+                "ticker": "INTC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01539,
+                    "negative": 0.16711,
+                    "neutral": 0.8175
+                }
+            },
+            {
+                "ticker": "DELL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01885,
+                    "negative": 0.04153,
+                    "neutral": 0.93962
+                }
+            }
+        ]
+    },
+    {
+        "id": "5e56aad6-174f-44ce-97b6-7aca084d845a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/16/spacex-x-headquarters-elon-musk",
+        "title": "Elon Musk says X and SpaceX will move from California to Texas",
+        "author": "Kari Paul",
+        "published_date": "2024-07-17T02:51:31+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00276,
+                    "negative": 0.37336,
+                    "neutral": 0.62387
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00129,
+                    "negative": 0.00288,
+                    "neutral": 0.99583
+                }
+            }
+        ]
+    },
+    {
+        "id": "eb681ef6-64b6-4969-86b0-bbdf8eef543b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/16/hackers-claim-disney-data-theft-in-protest-against-ai-generated-artwork",
+        "title": "Hackers claim Disney data theft in protest against AI-generated artwork",
+        "author": "Alex Hern",
+        "published_date": "2024-07-16T17:31:08+00:00",
+        "tickers": [
+            {
+                "ticker": "DIS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00857,
+                    "negative": 0.04912,
+                    "neutral": 0.94231
+                }
+            }
+        ]
+    },
+    {
+        "id": "286ea5fd-91ba-4616-81f8-66fbd7399b72",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/16/case-of-man-craig-wright-who-falsely-claimed-to-be-bitcoin-inventor-referred-to-cps",
+        "title": "Case of man who falsely claimed to be bitcoin inventor referred to CPS",
+        "author": "Alex Hern",
+        "published_date": "2024-07-16T12:09:02+00:00",
+        "tickers": []
+    },
+    {
+        "id": "c99e208b-4cfe-4a2f-a719-843acf7385b8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/16/want-to-know-how-ai-will-affect-government-and-politics-the-bots-have-the-answers",
+        "title": "TechScape: Want to know how AI will affect government and politics? The bots have the answers",
+        "author": "Alex Hern",
+        "published_date": "2024-07-16T10:38:32+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2a531450-11a2-4bfb-a920-88897a696bb4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/15/elon-musk-trump-super-pac",
+        "title": "Elon Musk reportedly plans to give $45m a month to pro-Trump Super Pac",
+        "author": "Lois Beckett",
+        "published_date": "2024-07-16T02:17:27+00:00",
+        "tickers": [
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00178,
+                    "negative": 0.00087,
+                    "neutral": 0.99735
+                }
+            },
+            {
+                "ticker": "PLTR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00848,
+                    "negative": 0.00079,
+                    "neutral": 0.99073
+                }
+            }
+        ]
+    },
+    {
+        "id": "25ff5143-098d-4fe9-9627-abfc4ddc19e4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/14/ais-oppenheimer-moment-autonomous-weapons-enter-the-battlefield",
+        "title": "AI’s ‘Oppenheimer moment’: autonomous weapons enter the battlefield",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-07-14T16:00:54+00:00",
+        "tickers": [
+            {
+                "ticker": "ESLT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0081,
+                    "negative": 0.0091,
+                    "neutral": 0.98279
+                }
+            },
+            {
+                "ticker": "PLTR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00815,
+                    "negative": 0.04913,
+                    "neutral": 0.94271
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0023,
+                    "negative": 0.08333,
+                    "neutral": 0.91437
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00096,
+                    "negative": 0.03062,
+                    "neutral": 0.96842
+                }
+            }
+        ]
+    },
+    {
+        "id": "a99e4689-f567-40eb-a6d3-bc3cea24cf8b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/14/us-financial-watchdog-urged-to-investigate-ndas-at-openai",
+        "title": "US financial watchdog urged to investigate NDAs at OpenAI",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-14T12:00:56+00:00",
+        "tickers": [
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00234,
+                    "negative": 0.03542,
+                    "neutral": 0.96224
+                }
+            }
+        ]
+    },
+    {
+        "id": "92429456-2e90-4b18-8a7d-2e3a2bb15dd7",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/14/renee-diresta-invisble-rulers-internet-algorithms-media-disinformation-ai",
+        "title": "Online manipulation expert Renée DiResta: ‘Conspiracy theories shape our politics in extremely mainstream ways’",
+        "author": "Alex Hern",
+        "published_date": "2024-07-14T12:00:49+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2b0e658e-2eef-43a8-85d5-0733f5f481dc",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/14/forever-chemicals-lithium-ion-batteries-environment",
+        "title": "‘Forever chemicals’ used in lithium ion batteries threaten environment, research finds",
+        "author": "Tom Perkins",
+        "published_date": "2024-07-14T11:00:48+00:00",
+        "tickers": []
+    },
+    {
+        "id": "1ebc53c6-7e7f-48e6-bc43-7db6288aa29c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/14/deepfake-gareth-southgate-england-football-team-euro-2024",
+        "title": "Deepfake clips of Gareth Southgate swearing after England match go viral",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-14T10:50:54+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00233,
+                    "negative": 0.01582,
+                    "neutral": 0.98185
+                }
+            },
+            {
+                "ticker": "EBAY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00288,
+                    "negative": 0.02271,
+                    "neutral": 0.97441
+                }
+            }
+        ]
+    },
+    {
+        "id": "0915732b-3661-4c49-a623-cea2b615fce3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/14/lets-make-history-amazon-staff-at-uk-warehouse-vote-on-union-recognition",
+        "title": "‘Let’s make history!’: Amazon staff at UK warehouse vote on union recognition",
+        "author": "Heather Stewart",
+        "published_date": "2024-07-14T06:00:41+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01274,
+                    "negative": 0.01373,
+                    "neutral": 0.97353
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00265,
+                    "negative": 0.01263,
+                    "neutral": 0.98472
+                }
+            }
+        ]
+    },
+    {
+        "id": "9be961ab-857e-481f-84b3-8ab8236f4314",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/13/top-five-weather-apps",
+        "title": "Should I bring a brolly? Five of the best weather apps",
+        "author": "",
+        "published_date": "2024-07-13T08:00:15+00:00",
+        "tickers": []
+    },
+    {
+        "id": "7b762052-a3d2-4e36-8619-5f28ee5466d3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/13/smart-rings-england-euro-2024-fa-oura-gareth-southgate",
+        "title": "Smart rings: England players hope £300 gadget will give them Euro 2024 edge",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-07-13T05:00:12+00:00",
+        "tickers": [
+            {
+                "ticker": "TKO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04819,
+                    "negative": 0.00304,
+                    "neutral": 0.94877
+                }
+            }
+        ]
+    },
+    {
+        "id": "5d766fee-10d4-4bca-9d6e-5620e46a2fb9",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/12/meta-removes-restrictions-trump-instagram-facebook",
+        "title": "Meta lifts restrictions on Trump’s Facebook and Instagram accounts",
+        "author": "Kari Paul",
+        "published_date": "2024-07-13T02:07:33+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00885,
+                    "negative": 0.00478,
+                    "neutral": 0.98636
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00652,
+                    "negative": 0.01541,
+                    "neutral": 0.97807
+                }
+            }
+        ]
+    },
+    {
+        "id": "111a6307-73c7-4e48-9797-b570f7348219",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/commentisfree/article/2024/jul/13/apple-vision-pro-australia-release-review",
+        "title": "Apple’s Vision Pro headset is impressive – but it’s hard to know its ultimate purpose | Josh Taylor",
+        "author": "Josh Taylor",
+        "published_date": "2024-07-13T00:00:05+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01123,
+                    "negative": 0.00219,
+                    "neutral": 0.98658
+                }
+            },
+            {
+                "ticker": "ZM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00618,
+                    "negative": 0.00756,
+                    "neutral": 0.98626
+                }
+            }
+        ]
+    },
+    {
+        "id": "9ca86ad9-81c1-473e-b66c-b375604ccd38",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/12/ai-prompts-can-boost-writers-creativity-but-result-in-similar-stories-study-finds",
+        "title": "AI prompts can boost writers’ creativity but result in similar stories, study finds",
+        "author": "Nicola Davis",
+        "published_date": "2024-07-12T18:00:00+00:00",
+        "tickers": []
+    },
+    {
+        "id": "fb1701dc-e453-4b3f-9c33-4abf1609e584",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/12/eu-regulators-warns-x-may-face-fines-for-deceptive-blue-tick-system",
+        "title": "Elon Musk promises ‘battle in court’ over EU’s crackdown on X’s blue checks",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-12T12:24:21+00:00",
+        "tickers": [
+            {
+                "ticker": "NTDOY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00578,
+                    "negative": 0.26962,
+                    "neutral": 0.7246
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00428,
+                    "negative": 0.34833,
+                    "neutral": 0.64739
+                }
+            }
+        ]
+    },
+    {
+        "id": "d024931a-db41-4408-a7de-f2a1c81e657d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/11/neuralink-brain-implant",
+        "title": "Elon Musk says Neuralink will test brain implant on second patient in ‘next week or so’",
+        "author": "",
+        "published_date": "2024-07-11T19:19:10+00:00",
+        "tickers": []
+    },
+    {
+        "id": "8213fbfa-0a56-4235-857d-12d2dd9dd107",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/11/trader-recommendation-websites-must-vet-firms-says-watchdog",
+        "title": "Trader recommendation websites must vet firms, says watchdog",
+        "author": "Zoe Wood",
+        "published_date": "2024-07-10T23:01:07+00:00",
+        "tickers": []
+    },
+    {
+        "id": "9fa17ee3-0cc8-4e69-8a28-84124df948e6",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/10/microsoft-drops-observer-seat-on-openai-board-amid-regulator-scrutiny",
+        "title": "Microsoft drops observer seat on OpenAI board amid regulator scrutiny",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-10T11:49:56+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00104,
+                    "negative": 0.0018,
+                    "neutral": 0.99716
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00089,
+                    "negative": 0.00874,
+                    "neutral": 0.99037
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03316,
+                    "negative": 0.0007,
+                    "neutral": 0.96614
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00831,
+                    "negative": 0.00052,
+                    "neutral": 0.99117
+                }
+            }
+        ]
+    },
+    {
+        "id": "3c4c28e0-9a99-4c95-bb60-5e7c9cf7219a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/10/uk-startup-switchee-secures-5m-rented-home-technology",
+        "title": "UK tech startup raises £5m to prevent dangerous mould in social housing",
+        "author": "Alex Lawson",
+        "published_date": "2024-07-10T11:24:41+00:00",
+        "tickers": []
+    },
+    {
+        "id": "ad3d80ab-2352-48f8-8905-f0317f461088",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/10/samsung-electronics-workers-to-extend-strike-indefinitely",
+        "title": "Samsung Electronics workers to extend strike indefinitely",
+        "author": "Kalyeena Makortoff",
+        "published_date": "2024-07-10T07:38:24+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00326,
+                    "negative": 0.02505,
+                    "neutral": 0.97169
+                }
+            }
+        ]
+    },
+    {
+        "id": "b4fb1650-d835-4443-a6a2-076a328bfd1d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/10/uber-is-cutting-fares-before-australias-minimum-gig-work-standards-take-effect-drivers-say",
+        "title": "Uber is cutting fares before Australia’s minimum gig work standards take effect, drivers say",
+        "author": "Josh Taylor",
+        "published_date": "2024-07-09T15:00:33+00:00",
+        "tickers": [
+            {
+                "ticker": "UBER",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0021,
+                    "negative": 0.13604,
+                    "neutral": 0.86186
+                }
+            }
+        ]
+    },
+    {
+        "id": "92db4a36-d37f-4afd-8fae-c2f130dedcdd",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/09/dyson-cut-uk-workforce-jobs",
+        "title": "Dyson to cut more than a quarter of UK workforce",
+        "author": "Julia Kollewe",
+        "published_date": "2024-07-09T12:23:11+00:00",
+        "tickers": []
+    },
+    {
+        "id": "3623e88a-396e-400d-842d-5b60851d92cf",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/09/techscape-ai-nhs-healthcare-artificial-intelligence-cancer-care",
+        "title": "TechScape: Can AI really help fix a healthcare system in crisis?",
+        "author": "Alex Hern",
+        "published_date": "2024-07-09T10:40:12+00:00",
+        "tickers": []
+    },
+    {
+        "id": "7ea4154e-1afd-4f20-8415-4c68a3ab67aa",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/09/surface-pro-11-review-microsoft-arm-qualcomm-speed-battery",
+        "title": "Surface Pro 11 review: Microsoft’s big Arm leap almost pays off",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-07-09T06:00:41+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01277,
+                    "negative": 0.02773,
+                    "neutral": 0.9595
+                }
+            },
+            {
+                "ticker": "INTC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00999,
+                    "negative": 0.03732,
+                    "neutral": 0.9527
+                }
+            },
+            {
+                "ticker": "AMD",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01878,
+                    "negative": 0.03604,
+                    "neutral": 0.94519
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02081,
+                    "negative": 0.01038,
+                    "neutral": 0.96881
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00373,
+                    "negative": 0.49522,
+                    "neutral": 0.50105
+                }
+            }
+        ]
+    },
+    {
+        "id": "881ee844-8327-4b5b-8793-e7c3051c3bf1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/08/the-best-apple-iphones-in-2024-tested-reviewed-and-ranked",
+        "title": "The best Apple iPhones in 2024 – tested, reviewed and ranked",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-07-08T16:37:45+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.08142,
+                    "negative": 0.01136,
+                    "neutral": 0.90721
+                }
+            },
+            {
+                "ticker": "VOD",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0204,
+                    "negative": 0.01942,
+                    "neutral": 0.96019
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00443,
+                    "negative": 0.05998,
+                    "neutral": 0.9356
+                }
+            },
+            {
+                "ticker": "EBAY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00868,
+                    "negative": 0.02019,
+                    "neutral": 0.97113
+                }
+            }
+        ]
+    },
+    {
+        "id": "10059522-2c09-4a62-85e2-ff0c02d347d2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/08/amazon-coventry-workers-union-ballot-gmb",
+        "title": "Amazon’s Coventry workers begin voting in historic union ballot",
+        "author": "Richard Partington",
+        "published_date": "2024-07-08T10:56:21+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04442,
+                    "negative": 0.02457,
+                    "neutral": 0.93101
+                }
+            }
+        ]
+    },
+    {
+        "id": "7fccf517-ffaa-4550-9040-4455b3e8d532",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/07/how-ai-is-helping-us-tackle-the-climate-crisis",
+        "title": "How AI is helping us tackle the climate crisis | Letter",
+        "author": "",
+        "published_date": "2024-07-07T16:19:17+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00251,
+                    "negative": 0.00132,
+                    "neutral": 0.99617
+                }
+            }
+        ]
+    },
+    {
+        "id": "a4450399-6159-46a7-a342-225f8d808a99",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/07/ai-chatbots-phone-scams",
+        "title": "Real criminals, fake victims: how chatbots are being deployed in the global fight against phone scammers ",
+        "author": "Tory Shepherd",
+        "published_date": "2024-07-06T20:00:48+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2109afca-adc8-402f-98d3-e6110155a3a8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/07/tesla-wont-free-up-use-of-its-batteries-in-australia-leaving-owners-unable-to-reap-full-benefits",
+        "title": "Tesla won’t free up use of its batteries, leaving owners unable to reap full benefits",
+        "author": "Peter Hannam",
+        "published_date": "2024-07-06T20:00:46+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0012,
+                    "negative": 0.0028,
+                    "neutral": 0.99599
+                }
+            }
+        ]
+    },
+    {
+        "id": "a89f1dde-e949-4a49-954f-07806dd4b791",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/06/james-muldoon-mark-graham-callum-cant-ai-artificial-intelligence-human-work-exploitation-fairwork-feeding-machine",
+        "title": "James Muldoon, Mark Graham and Callum Cant: ‘AI feeds off the work of human beings’",
+        "author": "Ian Tucker",
+        "published_date": "2024-07-06T15:00:41+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00572,
+                    "negative": 0.00283,
+                    "neutral": 0.99145
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00632,
+                    "negative": 0.00278,
+                    "neutral": 0.9909
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00333,
+                    "negative": 0.21164,
+                    "neutral": 0.78503
+                }
+            }
+        ]
+    },
+    {
+        "id": "789e46cc-70e1-42fd-8339-405e9aa4fa6b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/05/hard-to-argue-against-mandatory-speed-limiters-come-to-the-eu-and-ni",
+        "title": "‘Hard to argue against’: mandatory speed limiters come to the EU and NI",
+        "author": "Gwyn Topham",
+        "published_date": "2024-07-05T04:00:58+00:00",
+        "tickers": []
+    },
+    {
+        "id": "68bb16ff-6b37-4b57-8bb6-c598d5758abb",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/03/australian-children-used-ai-data-stability-midjourney",
+        "title": "Photos of Australian children used in dataset to train AI, human rights group says",
+        "author": "Josh Taylor",
+        "published_date": "2024-07-02T22:16:39+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00301,
+                    "negative": 0.06167,
+                    "neutral": 0.93532
+                }
+            }
+        ]
+    },
+    {
+        "id": "b12dd9af-4ac6-4df5-9858-a70b152d3e9a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/02/google-ai-emissions",
+        "title": "Google’s emissions climb nearly 50% in five years due to AI energy demand",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-02T20:20:03+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.09902,
+                    "negative": 0.75557,
+                    "neutral": 0.14541
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00336,
+                    "negative": 0.07105,
+                    "neutral": 0.92559
+                }
+            }
+        ]
+    },
+    {
+        "id": "50a7e33e-6715-422c-a5be-182aadd413c4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/global/article/2024/jul/02/techscape-new-uk-government-data-nhs",
+        "title": "TechScape: Here’s four ways a new Labour government could use tech to boost Britain",
+        "author": "Alex Hern",
+        "published_date": "2024-07-02T10:30:35+00:00",
+        "tickers": [
+            {
+                "ticker": "NVO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.12854,
+                    "negative": 0.00173,
+                    "neutral": 0.86973
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00127,
+                    "negative": 0.0034,
+                    "neutral": 0.99533
+                }
+            }
+        ]
+    },
+    {
+        "id": "7849f08b-4e64-4a47-a47f-99996d6786d5",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/02/whatsapp-election-labour-gaza-viral-campaign",
+        "title": "Could the WhatsApp election hurt Labour at the polls? ",
+        "author": "Jim Waterson",
+        "published_date": "2024-07-02T09:00:39+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00172,
+                    "negative": 0.00289,
+                    "neutral": 0.99539
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00991,
+                    "negative": 0.01038,
+                    "neutral": 0.97971
+                }
+            }
+        ]
+    },
+    {
+        "id": "66ff04f4-ee3e-4e24-9c51-1e1d6f3980cf",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/02/can-ai-boom-drive-nvidia-to-a-4tn-valuation-despite-investor-doubt",
+        "title": "Can AI boom drive Nvidia to a $4tn valuation despite investor doubt?",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-02T05:00:35+00:00",
+        "tickers": [
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.22416,
+                    "negative": 0.2805,
+                    "neutral": 0.49534
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03846,
+                    "negative": 0.3689,
+                    "neutral": 0.59264
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.14238,
+                    "negative": 0.02434,
+                    "neutral": 0.83328
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00981,
+                    "negative": 0.46075,
+                    "neutral": 0.52944
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0132,
+                    "negative": 0.01404,
+                    "neutral": 0.97276
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00379,
+                    "negative": 0.00125,
+                    "neutral": 0.99496
+                }
+            },
+            {
+                "ticker": "INTC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00637,
+                    "negative": 0.0129,
+                    "neutral": 0.98073
+                }
+            },
+            {
+                "ticker": "TSM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01592,
+                    "negative": 0.00688,
+                    "neutral": 0.9772
+                }
+            },
+            {
+                "ticker": "SMI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0144,
+                    "negative": 0.03119,
+                    "neutral": 0.95441
+                }
+            },
+            {
+                "ticker": "DB",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00213,
+                    "negative": 0.00169,
+                    "neutral": 0.99618
+                }
+            }
+        ]
+    },
+    {
+        "id": "828c9c4b-6025-4d2b-a42c-0cc861294ee1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/02/porn-sites-and-meta-among-those-tasked-with-drafting-australias-online-child-safety-rules",
+        "title": "Porn sites and Meta among those tasked with drafting Australia’s online child safety rules",
+        "author": "Josh Taylor",
+        "published_date": "2024-07-02T01:40:10+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00361,
+                    "negative": 0.02532,
+                    "neutral": 0.97107
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00102,
+                    "negative": 0.0024,
+                    "neutral": 0.99658
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00142,
+                    "negative": 0.00274,
+                    "neutral": 0.99584
+                }
+            }
+        ]
+    },
+    {
+        "id": "3ee69ca9-2dc2-4388-828a-0cd23f7c3899",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/01/meta-facebook-instagram-eu-digital-markets-act",
+        "title": "Meta accused of breaking EU digital law by charging for ad-free social networks",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-01T13:58:00+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00171,
+                    "negative": 0.07073,
+                    "neutral": 0.92756
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00153,
+                    "negative": 0.10302,
+                    "neutral": 0.89544
+                }
+            }
+        ]
+    },
+    {
+        "id": "290eb8dc-fa34-4245-b4ab-bbe3d773e423",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jul/01/seven-signs-deepfake-artificial-intelligence-videos-photographs",
+        "title": "Smudgy chins, weird hands, dodgy numbers: seven signs you’re watching a deepfake ",
+        "author": "Dan Milmo",
+        "published_date": "2024-07-01T11:00:12+00:00",
+        "tickers": []
+    },
+    {
+        "id": "4267b412-ea0c-46b8-9e2b-61c1cab04f00",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/30/ai-clones-voice-acting-industry-impact-australia",
+        "title": "Cheap AI voice clones may wipe out jobs of 5,000 Australian actors",
+        "author": "Josh Taylor",
+        "published_date": "2024-06-29T20:00:00+00:00",
+        "tickers": []
+    },
+    {
+        "id": "5b613c05-e490-4271-a719-3024d4e12706",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/29/ray-kurzweil-google-ai-the-singularity-is-nearer",
+        "title": "AI scientist Ray Kurzweil: ‘We are going to expand intelligence a millionfold by 2045’",
+        "author": "Zoë Corbyn",
+        "published_date": "2024-06-29T15:00:02+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00454,
+                    "negative": 0.01343,
+                    "neutral": 0.98203
+                }
+            }
+        ]
+    },
+    {
+        "id": "cfd6c994-5a4e-4152-a7a9-461584c5f1d7",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/28/google-verily-leave-israel",
+        "title": "Google’s biotech company pulls out of Israel but says Gaza war not the reason",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-06-28T18:58:04+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00256,
+                    "negative": 0.29871,
+                    "neutral": 0.69873
+                }
+            }
+        ]
+    },
+    {
+        "id": "1d3a9b90-5d68-43aa-9ddb-ebe0b008968c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/28/wa-man-fake-free-wifi-airports-data-theft-ntwnfb",
+        "title": "WA man set up fake free wifi at Australian airports and on flights to steal people’s data, police allege",
+        "author": "Stephanie Convery",
+        "published_date": "2024-06-28T01:59:08+00:00",
+        "tickers": []
+    },
+    {
+        "id": "26f80cf2-5b93-4030-a8d9-07cc2934125d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/27/ai-bill-gates-climate-targets-datacentres-energy",
+        "title": "AI will be help rather than hindrance in hitting climate targets, Bill Gates says",
+        "author": "Jillian Ambrose",
+        "published_date": "2024-06-27T14:36:58+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.15034,
+                    "negative": 0.06535,
+                    "neutral": 0.7843
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01435,
+                    "negative": 0.02017,
+                    "neutral": 0.96547
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00735,
+                    "negative": 0.01021,
+                    "neutral": 0.98245
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01433,
+                    "negative": 0.00969,
+                    "neutral": 0.97598
+                }
+            }
+        ]
+    },
+    {
+        "id": "c03b82fd-c37e-4e47-892c-cca435be167e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/27/number-of-girls-in-england-taking-computing-gcse-plummets-study-finds",
+        "title": "Number of girls in England taking computing GCSE plummets, study finds",
+        "author": "Sally Weale",
+        "published_date": "2024-06-26T23:01:21+00:00",
+        "tickers": []
+    },
+    {
+        "id": "3f914e6d-8aa9-4f0d-b330-efb71efd9e45",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/26/artificial-intelligence-misuse-malfunctions-reporting-uk",
+        "title": "UK needs system for recording AI misuse and malfunctions, thinktank says",
+        "author": "Dan Milmo",
+        "published_date": "2024-06-26T05:01:07+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00115,
+                    "negative": 0.02649,
+                    "neutral": 0.97235
+                }
+            }
+        ]
+    },
+    {
+        "id": "0796c18f-4cc5-43cb-aa97-686887301196",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/25/microsoft-facing-huge-antitrust-fine-over-linking-software",
+        "title": "Microsoft faces huge antitrust fine over Teams app",
+        "author": "Lisa O'Carroll",
+        "published_date": "2024-06-25T13:28:50+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00147,
+                    "negative": 0.46231,
+                    "neutral": 0.53623
+                }
+            },
+            {
+                "ticker": "CRM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00158,
+                    "negative": 0.00284,
+                    "neutral": 0.99558
+                }
+            }
+        ]
+    },
+    {
+        "id": "551f08a4-2e9c-4c50-b44e-cedd3d78d15c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/25/injured-amazon-warehouse-workers-gofundme",
+        "title": "‘It’s been hell’: injured Amazon workers turn to GoFundMe to pay bills",
+        "author": "Michael Sainato",
+        "published_date": "2024-06-25T12:00:26+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00266,
+                    "negative": 0.18899,
+                    "neutral": 0.80834
+                }
+            },
+            {
+                "ticker": "TJX",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00744,
+                    "negative": 0.00522,
+                    "neutral": 0.98734
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02869,
+                    "negative": 0.01362,
+                    "neutral": 0.9577
+                }
+            }
+        ]
+    },
+    {
+        "id": "50f35660-f45c-4828-99ba-550d4c12a120",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/25/anthropic-claude-ai-chatbot",
+        "title": "Claude 3.5 suggests AI’s looming ubiquity could be a good thing",
+        "author": "Alex Hern",
+        "published_date": "2024-06-25T10:45:40+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00401,
+                    "negative": 0.23938,
+                    "neutral": 0.75661
+                }
+            }
+        ]
+    },
+    {
+        "id": "fb4ba4ee-6fac-4100-a513-5f768898ed3d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/24/apple-breach-eu-competition-rules-digital-markets-act",
+        "title": "Apple found in breach of EU competition rules",
+        "author": "Lisa O'Carroll",
+        "published_date": "2024-06-24T10:07:41+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00319,
+                    "negative": 0.58849,
+                    "neutral": 0.40832
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00861,
+                    "negative": 0.03843,
+                    "neutral": 0.95296
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00439,
+                    "negative": 0.0499,
+                    "neutral": 0.94571
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02011,
+                    "negative": 0.0137,
+                    "neutral": 0.96619
+                }
+            }
+        ]
+    },
+    {
+        "id": "593958bd-5250-4518-b393-16d9524de883",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/24/geologists-censorship-bias-chinese-chatbot-geogpt",
+        "title": "Geologists raise concerns over possible censorship and bias in Chinese chatbot",
+        "author": "Amy Hawkins",
+        "published_date": "2024-06-24T08:23:40+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00297,
+                    "negative": 0.00244,
+                    "neutral": 0.99459
+                }
+            },
+            {
+                "ticker": "BABA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00222,
+                    "negative": 0.00844,
+                    "neutral": 0.98934
+                }
+            }
+        ]
+    },
+    {
+        "id": "b3a48c02-9003-4eb4-b226-9da59fb0ec48",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/24/zenbook-duo-review-are-two-laptop-screens-better-than-one",
+        "title": "Zenbook Duo review: are two laptop screens better than one?",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-06-24T06:00:22+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00544,
+                    "negative": 0.02595,
+                    "neutral": 0.96861
+                }
+            },
+            {
+                "ticker": "INTC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02408,
+                    "negative": 0.06185,
+                    "neutral": 0.91407
+                }
+            },
+            {
+                "ticker": "DELL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07815,
+                    "negative": 0.00847,
+                    "neutral": 0.91339
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0321,
+                    "negative": 0.00564,
+                    "neutral": 0.96226
+                }
+            },
+            {
+                "ticker": "SPOT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01064,
+                    "negative": 0.00285,
+                    "neutral": 0.98651
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05205,
+                    "negative": 0.03066,
+                    "neutral": 0.91729
+                }
+            }
+        ]
+    },
+    {
+        "id": "60191d2a-4d57-4671-ada8-04b8042c8bd3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/23/emotional-artificial-intelligence-chatgpt-4o-hume-algorithmic-bias",
+        "title": "Are you 80% angry and 2% sad? Why ‘emotional AI’ is fraught with problems",
+        "author": "Ned Carter Miles",
+        "published_date": "2024-06-23T11:00:02+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00207,
+                    "negative": 0.09897,
+                    "neutral": 0.89895
+                }
+            }
+        ]
+    },
+    {
+        "id": "c83ae18b-6406-4b43-bb97-67cbf0707e2e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/21/apple-ai-europe-regulation",
+        "title": "Apple delays launch of AI-powered features in Europe, blaming EU rules",
+        "author": "Blake Montgomery",
+        "published_date": "2024-06-21T19:01:40+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00303,
+                    "negative": 0.04373,
+                    "neutral": 0.95324
+                }
+            }
+        ]
+    },
+    {
+        "id": "9ec43c62-85c0-4cd1-b8c5-fca06d1b3317",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/21/what-does-the-london-nhs-hospitals-data-theft-mean-for-patients",
+        "title": "What does the London NHS hospitals data theft mean for patients?",
+        "author": "Dan Milmo",
+        "published_date": "2024-06-21T17:14:37+00:00",
+        "tickers": []
+    },
+    {
+        "id": "78a4230f-b478-40ba-a582-c3ab9e5844d2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/21/australia-esafety-commissioner-child-abuse-detection-online-safety",
+        "title": "Australia’s eSafety commissioner waters down child abuse detection rules in online safety standards",
+        "author": "Josh Taylor",
+        "published_date": "2024-06-21T03:32:37+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01712,
+                    "negative": 0.06732,
+                    "neutral": 0.91555
+                }
+            }
+        ]
+    },
+    {
+        "id": "a09d8207-8709-4e7d-9793-a33053a4b87c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/20/tiktok-bytedance-legal-filings-us-unconstitutional",
+        "title": "ByteDance alleges US’s ‘singling out of TikTok’ is unconstitutional",
+        "author": "Kari Paul",
+        "published_date": "2024-06-20T23:53:04+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00188,
+                    "negative": 0.04981,
+                    "neutral": 0.94831
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00214,
+                    "negative": 0.07132,
+                    "neutral": 0.92654
+                }
+            }
+        ]
+    },
+    {
+        "id": "31fe1e09-b792-457f-bce5-b243482360c9",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/20/meredith-walker-signal-boss-government-encryption-laws",
+        "title": "‘You cannot do mass surveillance privately, full stop’: Signal boss hits out at government encryption-busting moves",
+        "author": "Josh Taylor",
+        "published_date": "2024-06-19T15:00:11+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00615,
+                    "negative": 0.11207,
+                    "neutral": 0.88178
+                }
+            }
+        ]
+    },
+    {
+        "id": "b99f0c12-583f-4320-a248-d69bbc46c9de",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/19/gmb-to-visit-amazons-coventry-depot-to-hold-vote-for-union-recognition",
+        "title": "GMB starts ballot process to be recognised at Amazon’s Coventry warehouse ",
+        "author": "Heather Stewart",
+        "published_date": "2024-06-19T14:33:09+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0037,
+                    "negative": 0.00774,
+                    "neutral": 0.98856
+                }
+            }
+        ]
+    },
+    {
+        "id": "262d8ceb-11e2-4589-a9c9-ec43069e900e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/19/beats-solo-buds-review-apple-budget-earbuds",
+        "title": "Beats Solo Buds review: Apple’s budget earbuds rock",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-06-19T06:00:28+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0212,
+                    "negative": 0.11921,
+                    "neutral": 0.8596
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02887,
+                    "negative": 0.00573,
+                    "neutral": 0.9654
+                }
+            }
+        ]
+    },
+    {
+        "id": "e01fc8eb-3394-4cf5-9ee7-a1f9215e31f7",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/18/deepfake-video-of-nigel-farage-playing-minecraft-of-course-not-real-party-says",
+        "title": "Deepfake video of Nigel Farage playing Minecraft ‘of course’ not real, party says",
+        "author": "Jim Waterson",
+        "published_date": "2024-06-18T17:20:20+00:00",
+        "tickers": []
+    },
+    {
+        "id": "719ab29f-9471-4250-abc0-cfe94af40e38",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/18/encryption-is-deeply-threatening-to-power-meredith-whittaker-of-messaging-app-signal",
+        "title": "‘Encryption is deeply threatening to power’: Meredith Whittaker of messaging app Signal",
+        "author": "Alex Hern",
+        "published_date": "2024-06-18T13:00:20+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00116,
+                    "negative": 0.04786,
+                    "neutral": 0.95097
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00239,
+                    "negative": 0.04572,
+                    "neutral": 0.95189
+                }
+            }
+        ]
+    },
+    {
+        "id": "4cf6f0df-acf9-41fc-80dc-131c96cf092e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/18/what-happens-iphone-privacy-ai",
+        "title": "Does what happens on your iPhone still stay on your iPhone?",
+        "author": "Alex Hern",
+        "published_date": "2024-06-18T11:09:59+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00259,
+                    "negative": 0.06515,
+                    "neutral": 0.93226
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00199,
+                    "negative": 0.01321,
+                    "neutral": 0.9848
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00187,
+                    "negative": 0.00568,
+                    "neutral": 0.99245
+                }
+            },
+            {
+                "ticker": "SPOT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00507,
+                    "negative": 0.0199,
+                    "neutral": 0.97503
+                }
+            }
+        ]
+    },
+    {
+        "id": "bfb1492c-5720-4445-88d7-efbbdb9b53f4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/16/sam-bankman-fried-ftx-eugenics-scientific-racism",
+        "title": "Sam Bankman-Fried funded a group with racist ties. FTX wants its $5m back",
+        "author": "Jason Wilson",
+        "published_date": "2024-06-16T10:00:47+00:00",
+        "tickers": [
+            {
+                "ticker": "EA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0034,
+                    "negative": 0.0058,
+                    "neutral": 0.99079
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00132,
+                    "negative": 0.00522,
+                    "neutral": 0.99346
+                }
+            }
+        ]
+    },
+    {
+        "id": "6964b39a-4273-4f2c-8342-a9de6e1442b8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/16/computer-says-yes-how-ai-is-changing-our-romantic-lives",
+        "title": "Computer says yes: how AI is changing our romantic lives",
+        "author": "Amelia Abraham",
+        "published_date": "2024-06-16T07:00:42+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00796,
+                    "negative": 0.0239,
+                    "neutral": 0.96814
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00612,
+                    "negative": 0.0012,
+                    "neutral": 0.99268
+                }
+            },
+            {
+                "ticker": "MTCH",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01038,
+                    "negative": 0.00128,
+                    "neutral": 0.98834
+                }
+            },
+            {
+                "ticker": "GRND",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00492,
+                    "negative": 0.00141,
+                    "neutral": 0.99367
+                }
+            },
+            {
+                "ticker": "IAC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01141,
+                    "negative": 0.00187,
+                    "neutral": 0.98672
+                }
+            }
+        ]
+    },
+    {
+        "id": "91e86bbc-df5f-4ec7-8383-004f74002b85",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/world/article/2024/jun/14/why-the-pope-has-the-ears-of-g7-leaders-on-the-ethics-of-ai",
+        "title": "Why the pope has the ears of G7 leaders on the ethics of AI",
+        "author": "Patrick Wintour",
+        "published_date": "2024-06-14T16:02:30+00:00",
+        "tickers": []
+    },
+    {
+        "id": "e55b67a2-65b8-4a7d-8c6c-8ac880d65d25",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/14/elon-musks-45bn-tesla-pay-package-not-a-done-deal-say-legal-experts",
+        "title": "Elon Musk’s $45bn Tesla pay package not a done deal, say legal experts",
+        "author": "Dan Milmo",
+        "published_date": "2024-06-14T15:20:30+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00098,
+                    "negative": 0.00249,
+                    "neutral": 0.99654
+                }
+            },
+            {
+                "ticker": "PEP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00084,
+                    "negative": 0.00266,
+                    "neutral": 0.9965
+                }
+            }
+        ]
+    },
+    {
+        "id": "975efc33-7aee-498c-ad52-99cdb0ff821e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/13/apple-intelligence-ai",
+        "title": "How Apple plans to usher in ‘new privacy standards’ with its long-awaited AI",
+        "author": "Kari Paul",
+        "published_date": "2024-06-13T07:00:21+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01384,
+                    "negative": 0.00173,
+                    "neutral": 0.98443
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01194,
+                    "negative": 0.00788,
+                    "neutral": 0.98018
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03623,
+                    "negative": 0.01091,
+                    "neutral": 0.95286
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04302,
+                    "negative": 0.01768,
+                    "neutral": 0.9393
+                }
+            }
+        ]
+    },
+    {
+        "id": "b8516f20-61b5-49a5-9d39-be9577b70392",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/12/elon-musk-45bn-pay-shareholder-vote",
+        "title": "Should Tesla pay Elon Musk $45bn? The shareholders will decide",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-06-13T06:20:16+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01658,
+                    "negative": 0.02736,
+                    "neutral": 0.95606
+                }
+            }
+        ]
+    },
+    {
+        "id": "d75695f4-aee6-4bf7-936f-33bf6c4952bf",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/jun/12/ron-ayers-obituary",
+        "title": "Ron Ayers obituary",
+        "author": "Andrew Nahum",
+        "published_date": "2024-06-12T16:45:41+00:00",
+        "tickers": []
+    },
+    {
+        "id": "e8a057f0-2e43-4863-82ed-395489849f12",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/12/vote-silicon-valley-city-solano-california-forever",
+        "title": "Voters to weigh in on whether tech billionaires can build new California city",
+        "author": "",
+        "published_date": "2024-06-12T15:56:30+00:00",
+        "tickers": [
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00438,
+                    "negative": 0.00841,
+                    "neutral": 0.98721
+                }
+            }
+        ]
+    },
+    {
+        "id": "5541932f-c6e3-49ea-aa1d-0cbb287328ad",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/12/predators-using-ai-generate-child-sexual-images",
+        "title": "Child predators are using AI to create sexual images of their favorite ‘stars’: ‘My body will never be mine again’",
+        "author": "Katie McQue",
+        "published_date": "2024-06-12T12:00:01+00:00",
+        "tickers": [
+            {
+                "ticker": "DIS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00401,
+                    "negative": 0.00234,
+                    "neutral": 0.99365
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00255,
+                    "negative": 0.06678,
+                    "neutral": 0.93067
+                }
+            }
+        ]
+    },
+    {
+        "id": "321c4626-956a-4104-b86f-1701712521e1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/12/is-the-tesla-board-in-charge-of-a-public-company-or-the-elon-musk-fan-club",
+        "title": "Is the Tesla board in charge of a public company or the Elon Musk fan club? | Nils Pratley",
+        "author": "Nils Pratley",
+        "published_date": "2024-06-12T05:00:15+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0101,
+                    "negative": 0.03906,
+                    "neutral": 0.95084
+                }
+            }
+        ]
+    },
+    {
+        "id": "1691a66e-6e7f-43d7-8f50-b5d35b02d0b2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/12/spain-women-tackle-wikipedia-gender-gap-wikiesfera",
+        "title": "‘We’re writing history’: Spanish women tackle Wikipedia’s gender gap",
+        "author": "Ashifa Kassam",
+        "published_date": "2024-06-12T04:00:16+00:00",
+        "tickers": []
+    },
+    {
+        "id": "af8067d7-1a47-4e62-8a52-33c2512500ce",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/11/elon-musk-withdraws-lawsuit-against-sam-altman-openai",
+        "title": "Elon Musk abruptly withdraws lawsuit against Sam Altman and OpenAI",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-06-11T22:21:12+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0052,
+                    "negative": 0.01565,
+                    "neutral": 0.97915
+                }
+            }
+        ]
+    },
+    {
+        "id": "51a0eadd-a0ea-4d42-8c72-94400c533004",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/11/apple-push-into-ai-could-spark-smartphone-upgrade-supercycle",
+        "title": "Apple push into AI could spark smartphone upgrade ‘supercycle’",
+        "author": "Alex Hern",
+        "published_date": "2024-06-11T16:30:12+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00317,
+                    "negative": 0.00356,
+                    "neutral": 0.99326
+                }
+            }
+        ]
+    },
+    {
+        "id": "e6291596-a119-42e0-999f-95a0df2ca248",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/business/article/2024/jun/11/elon-musk-pay-tesla-vote",
+        "title": "Tesla shareholder criticizes Elon Musk’s ‘ridiculous’ $56bn pay deal ahead of vote",
+        "author": "Lauren Aratani",
+        "published_date": "2024-06-11T16:12:16+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00747,
+                    "negative": 0.00905,
+                    "neutral": 0.98349
+                }
+            }
+        ]
+    },
+    {
+        "id": "32b7a4bc-a911-4892-87e6-01d1233a251a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/11/apple-password-app-tech-age-of-ai",
+        "title": "Why passwords still matter in the age of AI",
+        "author": "Alex Hern",
+        "published_date": "2024-06-11T10:46:41+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01847,
+                    "negative": 0.24022,
+                    "neutral": 0.74131
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0743,
+                    "negative": 0.02246,
+                    "neutral": 0.90324
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00728,
+                    "negative": 0.01633,
+                    "neutral": 0.9764
+                }
+            },
+            {
+                "ticker": "ZM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00295,
+                    "negative": 0.00661,
+                    "neutral": 0.99044
+                }
+            }
+        ]
+    },
+    {
+        "id": "e2d87658-88cd-4e4a-9c09-8088fcc6ddec",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/11/beats-solo-4-review-apple-headphones-get-android-loving-upgrade",
+        "title": "Beats Solo 4 review: Apple headphones get Android-loving upgrade",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-06-11T06:00:37+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.06486,
+                    "negative": 0.02888,
+                    "neutral": 0.90626
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02456,
+                    "negative": 0.0075,
+                    "neutral": 0.96793
+                }
+            },
+            {
+                "ticker": "SONY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02414,
+                    "negative": 0.03468,
+                    "neutral": 0.94118
+                }
+            }
+        ]
+    },
+    {
+        "id": "6aeb7c41-7866-4ff7-91a0-9524c7e35add",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/10/apple-ai-product-launch",
+        "title": "Apple brings ChatGPT to Siri as it debuts ‘Apple Intelligence’ at WWDC 2024",
+        "author": "Kari Paul",
+        "published_date": "2024-06-10T22:58:46+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05277,
+                    "negative": 0.07564,
+                    "neutral": 0.87159
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00887,
+                    "negative": 0.02271,
+                    "neutral": 0.96842
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.96052,
+                    "negative": 0.03101,
+                    "neutral": 0.00847
+                }
+            },
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07479,
+                    "negative": 0.0813,
+                    "neutral": 0.84391
+                }
+            }
+        ]
+    },
+    {
+        "id": "e397a6a3-1921-410c-8779-fb6a09c4cc3f",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/10/james-watson-obituary",
+        "title": "James Watson obituary",
+        "author": "",
+        "published_date": "2024-06-10T16:17:43+00:00",
+        "tickers": []
+    },
+    {
+        "id": "c7c37346-82a7-45bb-a095-20fcbfaf55b3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/10/wooden-bowling-arm-john-venn-machine-rebuilt-cambridge-australia-1909-cricket-team",
+        "title": "Wooden bowling arm that bested Australian cricketer in 1909 rebuilt",
+        "author": "Emine Sinmaz",
+        "published_date": "2024-06-10T04:00:35+00:00",
+        "tickers": []
+    },
+    {
+        "id": "87e0b4a1-7cee-41fd-a51f-0e69bcd56f9e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/08/almost-everyone-supports-labour-why-2024-isnt-the-tiktok-election",
+        "title": "‘Almost everyone supports Labour’: why 2024 isn’t the TikTok election",
+        "author": "Jim Waterson",
+        "published_date": "2024-06-08T05:00:38+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00398,
+                    "negative": 0.01093,
+                    "neutral": 0.9851
+                }
+            }
+        ]
+    },
+    {
+        "id": "636e0304-524a-483c-b672-a53c4bb1552a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/07/uber-lyft-wage-increase-big-tech-win",
+        "title": "Uber and Lyft made a deal to raise drivers’ wages. It was another victory for big tech |  Edward Ongweso Jr",
+        "author": "",
+        "published_date": "2024-06-07T12:30:15+00:00",
+        "tickers": [
+            {
+                "ticker": "UBER",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00266,
+                    "negative": 0.05567,
+                    "neutral": 0.94167
+                }
+            },
+            {
+                "ticker": "LYFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00547,
+                    "negative": 0.04405,
+                    "neutral": 0.95048
+                }
+            }
+        ]
+    },
+    {
+        "id": "307a27d3-4f59-4e5b-82ce-c1e076c40724",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/07/independent-uk-retailers-claim-1bn-damages-against-amazon",
+        "title": "Independent UK retailers claim £1bn damages against Amazon",
+        "author": "Sarah Butler",
+        "published_date": "2024-06-07T12:17:40+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00833,
+                    "negative": 0.08055,
+                    "neutral": 0.91112
+                }
+            }
+        ]
+    },
+    {
+        "id": "3503d4d7-07f5-4ea5-bc23-2a50b07317bc",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/07/elon-musk-may-step-back-if-shareholders-reject-56bn-pay-package-tesla-chair-warns",
+        "title": "Elon Musk may ‘step back’ if shareholders reject $56bn pay package, Tesla chair warns",
+        "author": "Dan Milmo",
+        "published_date": "2024-06-07T10:14:50+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01877,
+                    "negative": 0.19371,
+                    "neutral": 0.78752
+                }
+            }
+        ]
+    },
+    {
+        "id": "58e0b1d8-7fd6-4337-9e16-08c0dbc7a28e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/06/google-to-start-permanently-deleting-users-location-history",
+        "title": "Google to start permanently deleting users’ location history",
+        "author": "Alex Hern",
+        "published_date": "2024-06-06T16:06:13+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0012,
+                    "negative": 0.00629,
+                    "neutral": 0.99251
+                }
+            }
+        ]
+    },
+    {
+        "id": "2d429f5c-2cd0-40bf-b7e6-8e58371fe6b4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/06/group-of-17-london-secondary-schools-join-up-to-go-smartphone-free",
+        "title": "Group of 17 London secondary schools join up to go smartphone-free",
+        "author": "Amelia Hill",
+        "published_date": "2024-06-06T14:59:21+00:00",
+        "tickers": []
+    },
+    {
+        "id": "5a7b1060-6e8e-4fed-b3ea-755293b329a1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/06/apple-to-close-years-old-loophole-that-lets-children-bypass-parental-controls",
+        "title": "Apple to close years-old loophole that lets children bypass parental controls",
+        "author": "Alex Hern",
+        "published_date": "2024-06-06T14:20:02+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00166,
+                    "negative": 0.10442,
+                    "neutral": 0.89392
+                }
+            }
+        ]
+    },
+    {
+        "id": "e6f6d477-be39-4533-83b8-aec05fc2b917",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/06/reinventing-the-pdp-10",
+        "title": "SpaceWar is back! Rebuilding the world’s first gaming computer",
+        "author": "Keith Stuart",
+        "published_date": "2024-06-06T10:45:02+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00548,
+                    "negative": 0.00469,
+                    "neutral": 0.98983
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00757,
+                    "negative": 0.00249,
+                    "neutral": 0.98994
+                }
+            }
+        ]
+    },
+    {
+        "id": "f5220ab0-5484-4857-9fdf-94a848610195",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/05/russian-group-behind-london-hospitals-cyber-attack-says-expert",
+        "title": "Russian crime group behind London hospitals cyber-attack, says expert",
+        "author": "Sammy Gecsoyler",
+        "published_date": "2024-06-05T16:52:42+00:00",
+        "tickers": []
+    },
+    {
+        "id": "dc1b900e-27c8-44fa-9c8e-99f24cbf104d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/05/the-future-is-sending-ai-avatars-to-meetings-for-us-says-zoom-boss",
+        "title": "The future is … sending AI avatars to meetings for us, says Zoom boss",
+        "author": "Alex Hern",
+        "published_date": "2024-06-05T15:20:18+00:00",
+        "tickers": [
+            {
+                "ticker": "ZM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0023,
+                    "negative": 0.00129,
+                    "neutral": 0.99641
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00289,
+                    "negative": 0.00207,
+                    "neutral": 0.99503
+                }
+            }
+        ]
+    },
+    {
+        "id": "4aedd4da-9316-4528-bdd6-902c5d0dfc01",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/05/who-are-qilin-the-cybercriminals-thought-behind-the-london-hospitals-hack",
+        "title": "Who are Qilin, the cybercriminals thought behind the London hospitals hack?",
+        "author": "Alex Hern",
+        "published_date": "2024-06-05T11:10:35+00:00",
+        "tickers": []
+    },
+    {
+        "id": "fe034c96-0fc3-47bd-93f8-6bce9db8600d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/05/tiktok-hackers-target-cnn-paris-hilton-cyber-attack",
+        "title": "TikTok hackers target Paris Hilton, CNN and other high-profile users",
+        "author": "Jack Simpson",
+        "published_date": "2024-06-05T07:44:25+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04473,
+                    "negative": 0.08037,
+                    "neutral": 0.8749
+                }
+            }
+        ]
+    },
+    {
+        "id": "0ce7557c-8cd5-4a7f-a47b-16127a7f8c9f",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/05/x-elon-musk-vs-australia-esafety-commissioner-wakeley-church-stabbing-footage",
+        "title": "X says ‘free speech has prevailed’ after eSafety commissioner drops case over Wakeley church attack posts",
+        "author": "Josh Taylor",
+        "published_date": "2024-06-05T06:15:25+00:00",
+        "tickers": []
+    },
+    {
+        "id": "9cfcf35f-709b-4b79-a356-e915daaa5000",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/05/ai-researchers-build-future-self-chatbot-to-inspire-wise-life-choices",
+        "title": "AI researchers build ‘future self’ chatbot to inspire wise life choices",
+        "author": "Ian Sample",
+        "published_date": "2024-06-05T04:00:12+00:00",
+        "tickers": []
+    },
+    {
+        "id": "043f5246-8307-4ce6-a9da-ce482711b6b3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/04/internet-addiction-alters-brain-chemistry-in-young-people-study-finds",
+        "title": "Internet addiction alters brain chemistry in young people, study finds",
+        "author": "Tobi Thomas",
+        "published_date": "2024-06-04T18:00:00+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2d637fd5-9209-460a-8f12-b393cf6d6e22",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/04/openai-google-ai-risks-letter",
+        "title": "OpenAI and Google DeepMind workers warn of AI industry risks in open letter",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-06-04T17:07:00+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00126,
+                    "negative": 0.0124,
+                    "neutral": 0.98634
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00163,
+                    "negative": 0.00766,
+                    "neutral": 0.9907
+                }
+            }
+        ]
+    },
+    {
+        "id": "e9f77829-a99c-4905-8e49-a2d1d4c7c391",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/04/techscape-uk-election-microtargeting",
+        "title": "Why Facebook won’t be influential in the UK general election",
+        "author": "Alex Hern",
+        "published_date": "2024-06-04T10:46:37+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00739,
+                    "negative": 0.07347,
+                    "neutral": 0.91914
+                }
+            }
+        ]
+    },
+    {
+        "id": "ae7e5a7d-8ac6-4bba-85f2-f3e2fecfcae3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/04/sonos-ace-review-noise-cancelling-headphones",
+        "title": "Sonos Ace review: quality noise-cancelling headphones worth the wait",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-06-04T06:00:06+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0632,
+                    "negative": 0.01017,
+                    "neutral": 0.92663
+                }
+            },
+            {
+                "ticker": "SONO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.06733,
+                    "negative": 0.00709,
+                    "neutral": 0.92558
+                }
+            },
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03965,
+                    "negative": 0.0069,
+                    "neutral": 0.95344
+                }
+            },
+            {
+                "ticker": "SONY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.33742,
+                    "negative": 0.00736,
+                    "neutral": 0.65522
+                }
+            },
+            {
+                "ticker": "UBS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03718,
+                    "negative": 0.01313,
+                    "neutral": 0.94969
+                }
+            }
+        ]
+    },
+    {
+        "id": "6c290e1e-cd0d-444e-a804-07d1be373d2c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/04/x-twitter-porn-policy-under-18-opt-in",
+        "title": "X changes porn policy to opt-in system that blocks under-18 users",
+        "author": "Josh Taylor",
+        "published_date": "2024-06-04T01:19:49+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00182,
+                    "negative": 0.02272,
+                    "neutral": 0.97546
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00187,
+                    "negative": 0.01288,
+                    "neutral": 0.98525
+                }
+            }
+        ]
+    },
+    {
+        "id": "19ff2626-8eb1-4008-82d1-a1c8b81b1cf8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/03/russia-paris-olympics-deepfake-tom-cruise-video",
+        "title": " Russia targets Paris Olympics with deepfake Tom Cruise video",
+        "author": "Dan Milmo",
+        "published_date": "2024-06-03T19:23:45+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0014,
+                    "negative": 0.0237,
+                    "neutral": 0.9749
+                }
+            },
+            {
+                "ticker": "NFLX",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00364,
+                    "negative": 0.10565,
+                    "neutral": 0.89071
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00471,
+                    "negative": 0.07386,
+                    "neutral": 0.92143
+                }
+            }
+        ]
+    },
+    {
+        "id": "a7ca91b4-c896-4781-a8f9-0aa300a82ca9",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/us-news/article/2024/jun/01/christies-website-hack-ransomware-attack",
+        "title": "Christie’s website hack shows how art world has become target for cybercrime",
+        "author": "Edward Helmore",
+        "published_date": "2024-06-01T13:00:03+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2134cfd8-c0a6-4dc0-9ab8-de4544d66924",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/jun/01/ticketek-customer-details-exposed-in-cyber-security-breach",
+        "title": "Ticketek customer details exposed in cybersecurity breach ",
+        "author": "Graham Readfearn",
+        "published_date": "2024-05-31T23:50:56+00:00",
+        "tickers": [
+            {
+                "ticker": "ACE",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00495,
+                    "negative": 0.20245,
+                    "neutral": 0.7926
+                }
+            },
+            {
+                "ticker": "LYV",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00113,
+                    "negative": 0.01475,
+                    "neutral": 0.98412
+                }
+            }
+        ]
+    },
+    {
+        "id": "a0d5de0b-e081-4d84-a61e-b6aac82f5acd",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/31/google-ai-summaries-sge-changes",
+        "title": "Google to refine AI-generated search summaries in response to bizarre results",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-31T18:17:43+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00201,
+                    "negative": 0.0736,
+                    "neutral": 0.92438
+                }
+            }
+        ]
+    },
+    {
+        "id": "7dab8300-bf2b-43f5-bbfb-1c71dcd99ea8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/30/openai-disinformation-russia-israel-china-iran",
+        "title": "OpenAI says Russian and Israeli groups used its tools to spread disinformation",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-30T22:25:47+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00313,
+                    "negative": 0.01377,
+                    "neutral": 0.9831
+                }
+            }
+        ]
+    },
+    {
+        "id": "03605295-da19-4ebe-8a79-20c2dee11d2b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/30/botnet-arrests-covid-insurance-fraud",
+        "title": "Europol and US seize website domains, luxury goods in $6bn cybercrime bust",
+        "author": "Blake Montgomery",
+        "published_date": "2024-05-30T17:41:34+00:00",
+        "tickers": [
+            {
+                "ticker": "RACE",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00513,
+                    "negative": 0.93339,
+                    "neutral": 0.06148
+                }
+            }
+        ]
+    },
+    {
+        "id": "c9e7a2d9-d48a-47be-b459-142acebf4673",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/30/black-americans-online-misinformation",
+        "title": "Black Americans disproportionately encounter lies online, survey finds",
+        "author": "Kari Paul",
+        "published_date": "2024-05-30T15:16:53+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.008,
+                    "negative": 0.02111,
+                    "neutral": 0.97089
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00743,
+                    "negative": 0.02226,
+                    "neutral": 0.97031
+                }
+            }
+        ]
+    },
+    {
+        "id": "c89705c3-2977-4ab3-8ce3-59527c16534d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/31/google-and-apple-keeping-reddit-and-x-in-app-stores-despite-pornography-due-to-revenue-esafety-boss-says",
+        "title": "Google and Apple keeping Reddit and X in app stores despite pornography due to revenue, eSafety boss says",
+        "author": "Josh Taylor",
+        "published_date": "2024-05-30T15:00:14+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00161,
+                    "negative": 0.05043,
+                    "neutral": 0.94796
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00228,
+                    "negative": 0.03223,
+                    "neutral": 0.96548
+                }
+            },
+            {
+                "ticker": "RDDT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00549,
+                    "negative": 0.01122,
+                    "neutral": 0.98328
+                }
+            }
+        ]
+    },
+    {
+        "id": "b28ff6fb-43cd-4107-846f-18b32e2f0a9e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/30/critics-of-putin-and-his-allies-targeted-with-spyware-inside-the-eu",
+        "title": "Critics of Putin and his allies targeted with spyware inside the EU",
+        "author": "Stephanie Kirchgaessner",
+        "published_date": "2024-05-30T12:00:08+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0026,
+                    "negative": 0.0308,
+                    "neutral": 0.96661
+                }
+            }
+        ]
+    },
+    {
+        "id": "016c8b71-20e3-4ee9-a4ae-718ffc47a0b2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/29/meta-censorship-palestine",
+        "title": "Rights groups urge Meta shareholders to end pro-Palestinian content ‘censorship’",
+        "author": "Kari Paul",
+        "published_date": "2024-05-29T17:15:54+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00112,
+                    "negative": 0.04902,
+                    "neutral": 0.94986
+                }
+            }
+        ]
+    },
+    {
+        "id": "1c070965-f681-47ca-aea3-63a866627a8e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/29/uk-mother-boy-who-killed-himself-social-media-access",
+        "title": "UK mother of boy who killed himself seeks right to access his social media",
+        "author": "Robyn Vinter",
+        "published_date": "2024-05-29T10:19:57+00:00",
+        "tickers": []
+    },
+    {
+        "id": "513e1e28-ff67-4124-99c4-1affa0d769b9",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/28/javier-milei-tech-ceo-apple-google-meta",
+        "title": "Argentinian president to meet Silicon Valley CEOs in bid to court tech titans",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-28T18:22:38+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0019,
+                    "negative": 0.01022,
+                    "neutral": 0.98788
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00552,
+                    "negative": 0.00846,
+                    "neutral": 0.98602
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00277,
+                    "negative": 0.01424,
+                    "neutral": 0.98299
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00242,
+                    "negative": 0.0219,
+                    "neutral": 0.97568
+                }
+            }
+        ]
+    },
+    {
+        "id": "af9f6f09-ba86-4ee2-9d93-8651dc56fcb4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/28/techscape-ai-global-summit",
+        "title": "TechScape: What we learned from the global AI summit in South Korea",
+        "author": "Alex Hern",
+        "published_date": "2024-05-28T10:47:52+00:00",
+        "tickers": []
+    },
+    {
+        "id": "134db4d8-fe67-43a9-9b9d-cbb1c68665c9",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/28/facebook-refused-to-take-down-fake-account-says-tiktok-star",
+        "title": "Facebook refused to take down fake account, says TikTok star",
+        "author": "Sarah Marsh",
+        "published_date": "2024-05-28T06:00:45+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00355,
+                    "negative": 0.25878,
+                    "neutral": 0.73767
+                }
+            }
+        ]
+    },
+    {
+        "id": "d041e49a-9468-45bd-98b5-01cae41c1f3b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/27/trying-to-tame-ai-seoul-summit-flags-hurdles-to-regulation",
+        "title": "Trying to tame AI: Seoul summit flags hurdles to regulation",
+        "author": "Alex Hern",
+        "published_date": "2024-05-27T16:40:04+00:00",
+        "tickers": [
+            {
+                "ticker": "IBM",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00169,
+                    "negative": 0.00127,
+                    "neutral": 0.99704
+                }
+            }
+        ]
+    },
+    {
+        "id": "9155cd5c-5b88-4b61-a7d5-36d834482abc",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/27/elon-musk-xai-raises-openai-funding-round",
+        "title": "Elon Musk’s xAI raises $6bn in bid to take on OpenAI",
+        "author": "Jasper Jolly",
+        "published_date": "2024-05-27T14:49:26+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09985,
+                    "negative": 0.00209,
+                    "neutral": 0.89805
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05149,
+                    "negative": 0.00188,
+                    "neutral": 0.94663
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.126,
+                    "negative": 0.00426,
+                    "neutral": 0.86974
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.1241,
+                    "negative": 0.0042,
+                    "neutral": 0.87171
+                }
+            }
+        ]
+    },
+    {
+        "id": "42d0d26c-9a69-4021-9b8e-026bef633fcd",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/27/scarlett-johansson-openai-legal-artificial-intelligence-chatgpt",
+        "title": "Scarlett Johansson’s OpenAI clash is just the start of legal wrangles over artificial intelligence",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-27T13:33:45+00:00",
+        "tickers": [
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00213,
+                    "negative": 0.04904,
+                    "neutral": 0.94883
+                }
+            },
+            {
+                "ticker": "F",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00289,
+                    "negative": 0.00594,
+                    "neutral": 0.99117
+                }
+            }
+        ]
+    },
+    {
+        "id": "60577fbe-3add-4e45-8705-ea8a38bff06b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/27/could-ai-help-cure-downward-spiral-of-human-loneliness",
+        "title": "Could AI help cure ‘downward spiral’ of human loneliness?",
+        "author": "Ian Sample",
+        "published_date": "2024-05-27T05:00:14+00:00",
+        "tickers": []
+    },
+    {
+        "id": "cf89654b-dff4-46b9-854f-cee6497990fd",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/25/big-tech-existential-risk-ai-scientist-max-tegmark-regulations",
+        "title": "Big tech has distracted world from existential risk of AI, says top scientist",
+        "author": "Alex Hern",
+        "published_date": "2024-05-25T05:00:16+00:00",
+        "tickers": []
+    },
+    {
+        "id": "25029664-37d8-4b70-b316-659b97cb35f6",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/25/mps-urge-under-16s-smartphone-ban-statutory-ban-schools",
+        "title": "MPs urge under-16s UK smartphone ban and statutory ban in schools",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-24T23:01:08+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2d6c6bc1-03ab-4651-97f0-97ef3ce6b55a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/24/tesla-boss-elon-musk-criticises-us-tariffs-chinese-electric-vehicles-distort-market",
+        "title": "Tesla boss Elon Musk criticises US tariffs on Chinese electric vehicles",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-24T10:48:50+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.02018,
+                    "negative": 0.95814,
+                    "neutral": 0.02168
+                }
+            },
+            {
+                "ticker": "BLK",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0114,
+                    "negative": 0.18885,
+                    "neutral": 0.79975
+                }
+            }
+        ]
+    },
+    {
+        "id": "f0e3a2b0-3fb9-454e-bae3-a3dd0d4114f2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/23/google-pixel-8a-review-android-camera-chip-ai",
+        "title": "Google Pixel 8a review: new Android mid-range champion",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-05-23T06:00:02+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09123,
+                    "negative": 0.00544,
+                    "neutral": 0.90333
+                }
+            }
+        ]
+    },
+    {
+        "id": "740182cf-dd89-43d0-83a7-67d9daf9bd23",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/22/mike-lynch-fraud-trial-testify",
+        "title": "Tech tycoon Mike Lynch, accused of ‘massive’ fraud, set to testify at US trial",
+        "author": "Kari Paul",
+        "published_date": "2024-05-23T00:06:00+00:00",
+        "tickers": [
+            {
+                "ticker": "HPQ",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0039,
+                    "negative": 0.13293,
+                    "neutral": 0.86317
+                }
+            }
+        ]
+    },
+    {
+        "id": "32cd43b2-7da4-43b7-8342-c75c5c00791d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/22/seoul-summit-showcases-uks-progress-on-trying-to-make-advanced-ai-safe",
+        "title": "Seoul summit showcases UK’s progress on trying to make advanced AI safe ",
+        "author": "Alex Hern",
+        "published_date": "2024-05-22T22:49:10+00:00",
+        "tickers": []
+    },
+    {
+        "id": "ec1d4b47-b0c1-4288-bdbc-814a42a26168",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/22/openai-chatgpt-news-corp-deal",
+        "title": "OpenAI and Wall Street Journal owner News Corp sign content deal",
+        "author": "",
+        "published_date": "2024-05-22T21:39:09+00:00",
+        "tickers": [
+            {
+                "ticker": "NWSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01316,
+                    "negative": 0.00047,
+                    "neutral": 0.98637
+                }
+            },
+            {
+                "ticker": "NWS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01566,
+                    "negative": 0.00068,
+                    "neutral": 0.98366
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00247,
+                    "negative": 0.00375,
+                    "neutral": 0.99379
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0027,
+                    "negative": 0.06584,
+                    "neutral": 0.93146
+                }
+            },
+            {
+                "ticker": "TFCFA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00149,
+                    "negative": 0.00062,
+                    "neutral": 0.99789
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00432,
+                    "negative": 0.00041,
+                    "neutral": 0.99527
+                }
+            }
+        ]
+    },
+    {
+        "id": "9503828b-1ee1-4399-845a-f6317cca1b8a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/22/nvidia-quarterly-earnings",
+        "title": "Nvidia reports stratospheric growth as AI boom shows no sign of stopping",
+        "author": "Edward Helmore",
+        "published_date": "2024-05-22T21:36:59+00:00",
+        "tickers": [
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.67168,
+                    "negative": 0.00818,
+                    "neutral": 0.32013
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.17424,
+                    "negative": 0.0115,
+                    "neutral": 0.81426
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.36267,
+                    "negative": 0.00304,
+                    "neutral": 0.63429
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.38201,
+                    "negative": 0.00277,
+                    "neutral": 0.61521
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.26045,
+                    "negative": 0.05893,
+                    "neutral": 0.68062
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07309,
+                    "negative": 0.00939,
+                    "neutral": 0.91752
+                }
+            }
+        ]
+    },
+    {
+        "id": "d4a516d4-5948-44ab-a0d0-a448c1927fad",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/22/people-with-commonly-autocorrected-names-call-for-tech-firms-to-fix-problem",
+        "title": "People with commonly autocorrected names call for tech firms to fix problem",
+        "author": "Robert Booth",
+        "published_date": "2024-05-22T17:00:44+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0009,
+                    "negative": 0.00833,
+                    "neutral": 0.99077
+                }
+            }
+        ]
+    },
+    {
+        "id": "e7319472-ca9f-47f5-8c32-eacdf118ac6f",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/22/st-albans-headteachers-call-for-under-14s-smartphone-ban",
+        "title": "Campaigners ‘thrilled’ as St Albans aims to be smartphone-free for under-14s",
+        "author": "Sally Weale",
+        "published_date": "2024-05-22T15:20:23+00:00",
+        "tickers": []
+    },
+    {
+        "id": "46045df0-63da-41ef-9980-c4d27727f85e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/21/child-sexual-abuse-material-artificial-intelligence-arrest",
+        "title": "US man used AI to generate 13,000 child sexual abuse pictures, FBI alleges",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-21T16:04:18+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00513,
+                    "negative": 0.19586,
+                    "neutral": 0.79901
+                }
+            }
+        ]
+    },
+    {
+        "id": "4221e959-e71a-4aed-b89b-2612182faed1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/21/sonos-releases-ace-headphones-cinema-sound-bluetooth-wifi-noise-cancelling",
+        "title": "Sonos releases Ace headphones with cinema-sound party trick",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-05-21T13:00:06+00:00",
+        "tickers": [
+            {
+                "ticker": "SONO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00671,
+                    "negative": 0.00132,
+                    "neutral": 0.99197
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03896,
+                    "negative": 0.00608,
+                    "neutral": 0.95497
+                }
+            },
+            {
+                "ticker": "SONY",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04425,
+                    "negative": 0.00432,
+                    "neutral": 0.95143
+                }
+            }
+        ]
+    },
+    {
+        "id": "2501b224-1e21-4467-af60-0bf7fcac22a7",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/21/techscape-openai-sam-altman-superalignment-scarlett-johansson",
+        "title": "TechScape: The people charged with making sure AI doesn’t destroy humanity have left the building",
+        "author": "Alex Hern",
+        "published_date": "2024-05-21T10:38:14+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00415,
+                    "negative": 0.00077,
+                    "neutral": 0.99507
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00664,
+                    "negative": 0.00063,
+                    "neutral": 0.99273
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00157,
+                    "negative": 0.00218,
+                    "neutral": 0.99625
+                }
+            }
+        ]
+    },
+    {
+        "id": "bd8c19cc-23b5-40f9-a260-d12821fcbd15",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/21/first-companies-sign-up-ai-safety-standards-seoul-summit",
+        "title": "First companies sign up to AI safety standards on eve of Seoul summit",
+        "author": "Alex Hern",
+        "published_date": "2024-05-21T10:10:07+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00116,
+                    "negative": 0.0015,
+                    "neutral": 0.99734
+                }
+            }
+        ]
+    },
+    {
+        "id": "f913fabd-18ef-48ea-b43f-85fedbcc7b77",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/commentisfree/article/2024/may/21/finally-mastered-tiktok-recipe-bao-buns-but-almost-five-hours",
+        "title": "I have finally mastered a TikTok recipe for bao buns – but they take almost five hours | Zoe Williams",
+        "author": "Zoe Williams",
+        "published_date": "2024-05-21T10:00:01+00:00",
+        "tickers": []
+    },
+    {
+        "id": "74ebc8ed-a028-4991-ad7c-05df95e63c74",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/21/amazon-echo-hub-review-alexa-smart-home-dashboard",
+        "title": "Amazon Echo Hub review: Alexa’s affordable smart-home dashboard",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-05-21T06:00:32+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05659,
+                    "negative": 0.05114,
+                    "neutral": 0.89227
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01077,
+                    "negative": 0.00481,
+                    "neutral": 0.98442
+                }
+            }
+        ]
+    },
+    {
+        "id": "d9a42fd7-bef8-488b-927f-41d4b1cde980",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/20/chatgpt-scarlett-johansson-voice",
+        "title": "ChatGPT suspends Scarlett Johansson-like voice as actor speaks out against OpenAI",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-20T23:58:21+00:00",
+        "tickers": [
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00304,
+                    "negative": 0.35656,
+                    "neutral": 0.6404
+                }
+            }
+        ]
+    },
+    {
+        "id": "890b9f1c-9d84-47a8-87c8-17612a70d073",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/21/productivity-soars-in-sectors-of-global-economy-most-exposed-to-ai-says-report",
+        "title": "Productivity soars in sectors of global economy most exposed to AI, says report",
+        "author": "Larry Elliott",
+        "published_date": "2024-05-20T23:01:22+00:00",
+        "tickers": []
+    },
+    {
+        "id": "e0fe7cd8-2c4c-45b9-847a-0b8bf00ed4a4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/20/genesis-crypto-fraud-settlement",
+        "title": "New York reaches $2bn settlement with crypto lender Genesis over fraud claims",
+        "author": "",
+        "published_date": "2024-05-20T18:03:13+00:00",
+        "tickers": []
+    },
+    {
+        "id": "1bed9dcd-9bd0-4163-91dc-c2abe0350581",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/20/world-is-ill-prepared-for-breakthroughs-in-ai-say-experts",
+        "title": "World is ill-prepared for breakthroughs in AI, say experts",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-20T18:00:16+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00349,
+                    "negative": 0.01239,
+                    "neutral": 0.98412
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00261,
+                    "negative": 0.01754,
+                    "neutral": 0.97985
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00251,
+                    "negative": 0.00938,
+                    "neutral": 0.98811
+                }
+            }
+        ]
+    },
+    {
+        "id": "9b586039-5895-463e-846a-663dc5619a55",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/20/ipad-air-m2-review-cheaper-apple-ipad-pro-for-rest-of-us-gets-bigger",
+        "title": "iPad Air M2 review: cheaper iPad Pro for rest of us gets bigger",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-05-20T06:00:05+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.04998,
+                    "negative": 0.00242,
+                    "neutral": 0.94761
+                }
+            }
+        ]
+    },
+    {
+        "id": "e2477448-8435-49ca-8c54-8f8eb5d6464b",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/20/ai-chatbots-safeguards-can-be-easily-bypassed-say-uk-researchers",
+        "title": "AI chatbots’ safeguards can be easily bypassed, say UK researchers",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-19T23:01:49+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00215,
+                    "negative": 0.00905,
+                    "neutral": 0.9888
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00152,
+                    "negative": 0.0093,
+                    "neutral": 0.98918
+                }
+            }
+        ]
+    },
+    {
+        "id": "8c4e5feb-830f-4abb-b8f4-ee08b01c41b4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/19/spam-junk-slop-the-latest-wave-of-ai-behind-the-zombie-internet",
+        "title": "Spam, junk … slop? The latest wave of AI behind the ‘zombie internet’",
+        "author": "Alex Hern",
+        "published_date": "2024-05-19T13:00:36+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00602,
+                    "negative": 0.13577,
+                    "neutral": 0.85822
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00415,
+                    "negative": 0.83277,
+                    "neutral": 0.16308
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03249,
+                    "negative": 0.33798,
+                    "neutral": 0.62953
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00243,
+                    "negative": 0.02102,
+                    "neutral": 0.97655
+                }
+            }
+        ]
+    },
+    {
+        "id": "e97f1bdf-c61c-4e39-996b-0bf3115b46a7",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/19/google-ai-overview-attention",
+        "title": "Google remains focused on its long quest for your eyeballs",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-19T12:00:35+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03849,
+                    "negative": 0.04502,
+                    "neutral": 0.91649
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00498,
+                    "negative": 0.42695,
+                    "neutral": 0.56806
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0051,
+                    "negative": 0.06482,
+                    "neutral": 0.93008
+                }
+            }
+        ]
+    },
+    {
+        "id": "2343f252-7b97-4e5d-9347-a2c21f62dcde",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/18/npr-elon-musk-signal",
+        "title": "How a smear campaign against NPR led Elon Musk to feud with Signal",
+        "author": "Renee DiResta",
+        "published_date": "2024-05-18T12:00:06+00:00",
+        "tickers": [
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0077,
+                    "negative": 0.05802,
+                    "neutral": 0.93428
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00555,
+                    "negative": 0.03548,
+                    "neutral": 0.95897
+                }
+            }
+        ]
+    },
+    {
+        "id": "7b1dd4be-8b8d-414d-bfb6-c91bdcfbc445",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/18/openai-putting-shiny-products-above-safety-says-departing-researcher",
+        "title": "OpenAI putting ‘shiny products’ above safety, says departing researcher",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-18T09:44:29+00:00",
+        "tickers": []
+    },
+    {
+        "id": "6a80242b-d9ea-4cc7-9114-3c22cf7d0ee4",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/18/ai-seoul-global-summit-safety-openai-meta",
+        "title": "As the AI world gathers in Seoul, can an accelerating industry balance progress against safety?",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-18T09:00:03+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01194,
+                    "negative": 0.00122,
+                    "neutral": 0.98685
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02202,
+                    "negative": 0.0014,
+                    "neutral": 0.97658
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.01932,
+                    "negative": 0.00294,
+                    "neutral": 0.97775
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.03077,
+                    "negative": 0.00082,
+                    "neutral": 0.96841
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05671,
+                    "negative": 0.00388,
+                    "neutral": 0.93942
+                }
+            }
+        ]
+    },
+    {
+        "id": "98d2d98f-3647-43a1-83c6-852fbb912b97",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/18/how-china-is-using-ai-news-anchors-to-deliver-its-propaganda",
+        "title": "How China is using AI news anchors to deliver its propaganda",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-18T07:00:00+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00384,
+                    "negative": 0.12532,
+                    "neutral": 0.87085
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00175,
+                    "negative": 0.0086,
+                    "neutral": 0.98966
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00259,
+                    "negative": 0.00999,
+                    "neutral": 0.98742
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00179,
+                    "negative": 0.00098,
+                    "neutral": 0.99724
+                }
+            }
+        ]
+    },
+    {
+        "id": "49b94c63-be46-46ba-83e7-63622b2bea9c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/17/ai-may-accelerate-job-losses-and-carbon-emissions-report-finds",
+        "title": "AI may cause job losses and rise in carbon emissions, report finds ",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-17T16:37:13+00:00",
+        "tickers": []
+    },
+    {
+        "id": "c7dfb4a2-05f5-4aec-9422-19bfa0f5dd7c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/17/binance-executive-denied-bail-in-nigeria-over-money-laundering-charges",
+        "title": "Binance executive denied bail in Nigeria over money laundering charges",
+        "author": "Eromo Egbejule",
+        "published_date": "2024-05-17T15:58:40+00:00",
+        "tickers": []
+    },
+    {
+        "id": "c72b1ab5-3254-400c-8091-cbbdd584f056",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/17/ai-weapons-palantir-war-technology",
+        "title": "‘I’m the new Oppenheimer!’: my soul-destroying day at Palantir’s first-ever AI warfare conference",
+        "author": "",
+        "published_date": "2024-05-17T14:00:38+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00136,
+                    "negative": 0.03267,
+                    "neutral": 0.96597
+                }
+            },
+            {
+                "ticker": "PLTR",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00249,
+                    "negative": 0.04237,
+                    "neutral": 0.95514
+                }
+            },
+            {
+                "ticker": "UBER",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00125,
+                    "negative": 0.02118,
+                    "neutral": 0.97757
+                }
+            }
+        ]
+    },
+    {
+        "id": "6754db7b-c87a-4410-9ebb-c01969b31820",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/17/uk-engineering-arup-deepfake-scam-hong-kong-ai-video",
+        "title": "UK engineering firm Arup falls victim to £20m deepfake scam",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-17T12:13:38+00:00",
+        "tickers": [
+            {
+                "ticker": "WPP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00321,
+                    "negative": 0.02677,
+                    "neutral": 0.97002
+                }
+            }
+        ]
+    },
+    {
+        "id": "d6771b80-4d0e-457b-9940-776d53ce66f5",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/17/protesters-vow-to-keep-up-pressure-on-tesla-as-it-expands-german-gigafactory",
+        "title": "Protesters vow to keep up pressure on Tesla as it expands German gigafactory",
+        "author": "Deborah Cole",
+        "published_date": "2024-05-17T11:58:10+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00339,
+                    "negative": 0.08187,
+                    "neutral": 0.91474
+                }
+            }
+        ]
+    },
+    {
+        "id": "bbc91bf1-1072-4183-830f-aee0f376d2ff",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/16/meta-rescinds-job-offer-human-trafficking-expert",
+        "title": "Meta revokes job offer to sextortion expert after he publicly criticizes Instagram",
+        "author": "Katie McQue",
+        "published_date": "2024-05-16T15:53:28+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00294,
+                    "negative": 0.24837,
+                    "neutral": 0.74868
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00142,
+                    "negative": 0.01592,
+                    "neutral": 0.98266
+                }
+            }
+        ]
+    },
+    {
+        "id": "ee784646-2839-41b4-ad9b-51c09f647baf",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/16/eu-investigates-facebook-owner-meta-over-child-safety-and-mental-health-concerns",
+        "title": "EU investigates Facebook owner Meta over child safety and mental health concerns",
+        "author": "Jennifer Rankin",
+        "published_date": "2024-05-16T15:00:04+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00229,
+                    "negative": 0.57774,
+                    "neutral": 0.41997
+                }
+            }
+        ]
+    },
+    {
+        "id": "38e8a2c7-fcc7-4e69-a2d4-ded7feffaacf",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/16/researchers-build-ai-driven-sarcasm-detector",
+        "title": "Researchers build AI-driven sarcasm detector",
+        "author": "Ian Sample",
+        "published_date": "2024-05-16T14:35:10+00:00",
+        "tickers": []
+    },
+    {
+        "id": "822ea1bb-5db8-4725-83f3-c761ce1bdadd",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/15/apple-union-workers-strike-vote-bargaining-delay",
+        "title": "Apple store workers vote to authorize first strike over bargaining delays",
+        "author": "Michael Sainato",
+        "published_date": "2024-05-15T09:00:37+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00146,
+                    "negative": 0.50287,
+                    "neutral": 0.49567
+                }
+            }
+        ]
+    },
+    {
+        "id": "53474836-e595-45e6-ae8a-b843ba9e7697",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/15/tech-firm-raspberry-pi-readies-for-london-stock-market-float",
+        "title": "Tech firm Raspberry Pi readies for London stock market float",
+        "author": "Jack Simpson",
+        "published_date": "2024-05-15T08:26:36+00:00",
+        "tickers": []
+    },
+    {
+        "id": "d15f790e-bd37-4300-a034-c9bcf81aa4c7",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/15/ipad-pro-m4-review-ludicrously-good-hardware-thats-total-overkill-for-most",
+        "title": "iPad Pro M4 review: ludicrously good hardware that’s total overkill for most",
+        "author": "Samuel Gibbs",
+        "published_date": "2024-05-15T06:00:34+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07249,
+                    "negative": 0.00434,
+                    "neutral": 0.92316
+                }
+            }
+        ]
+    },
+    {
+        "id": "fe88f244-b9b4-4705-af01-a2c8eedb3107",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/14/palestine-protest-google-conference",
+        "title": "Gaza protesters block entrance to Google conference over Israel contracts",
+        "author": "Kari Paul",
+        "published_date": "2024-05-14T18:52:07+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00237,
+                    "negative": 0.26067,
+                    "neutral": 0.73696
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00187,
+                    "negative": 0.05312,
+                    "neutral": 0.94501
+                }
+            }
+        ]
+    },
+    {
+        "id": "aba57d78-5cab-4076-aead-35e7065fd5dc",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/14/google-ai-search-results",
+        "title": "Google rolls out AI-generated, summarized search results in US",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-14T18:35:26+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00554,
+                    "negative": 0.00058,
+                    "neutral": 0.99388
+                }
+            }
+        ]
+    },
+    {
+        "id": "83525138-e847-4d84-9f3f-690553b75862",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/14/openai-gpt-4o-model-offers-promise-of-improved-smartphone-assistants",
+        "title": "OpenAI’s new GPT-4o model offers promise of improved smartphone assistants",
+        "author": "Alex Hern",
+        "published_date": "2024-05-14T18:00:00+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.09023,
+                    "negative": 0.00383,
+                    "neutral": 0.90594
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00485,
+                    "negative": 0.00372,
+                    "neutral": 0.99144
+                }
+            }
+        ]
+    },
+    {
+        "id": "a8ae7bf8-9273-458f-b500-7b3bed206711",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/14/elon-musk-payout-threaten-law-firm",
+        "title": "Law professor says Tesla threatened to fire law firm over Musk’s huge payout",
+        "author": "Edward Helmore",
+        "published_date": "2024-05-14T15:59:09+00:00",
+        "tickers": [
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0027,
+                    "negative": 0.47531,
+                    "neutral": 0.52199
+                }
+            }
+        ]
+    },
+    {
+        "id": "7638d102-49f3-4bff-8f5e-92c9feda0f4a",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/13/openai-new-chatgpt-free",
+        "title": "New GPT-4o AI model is faster and free for all users, OpenAI announces",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-13T18:59:02+00:00",
+        "tickers": [
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.15978,
+                    "negative": 0.00135,
+                    "neutral": 0.83888
+                }
+            },
+            {
+                "ticker": "TRI",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02166,
+                    "negative": 0.00129,
+                    "neutral": 0.97705
+                }
+            },
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00364,
+                    "negative": 0.00081,
+                    "neutral": 0.99555
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00348,
+                    "negative": 0.00938,
+                    "neutral": 0.98714
+                }
+            }
+        ]
+    },
+    {
+        "id": "6c926312-fcbb-4e9a-ac79-48529e80477c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/13/wakeley-sydney-church-stabbing-x-elon-musk-vs-australian-government-injunction-video-footage-posts",
+        "title": "Court ends injunction on X over videos of Sydney church stabbing",
+        "author": "Josh Taylor",
+        "published_date": "2024-05-13T06:13:38+00:00",
+        "tickers": []
+    },
+    {
+        "id": "e3ce8a7e-70bc-4cb0-93a7-3d45470b99f2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/13/internet-use-is-associated-with-greater-wellbeing-global-study-finds",
+        "title": "Internet use is associated with greater wellbeing, global study finds",
+        "author": "Nicola Davis",
+        "published_date": "2024-05-12T23:01:08+00:00",
+        "tickers": []
+    },
+    {
+        "id": "a91e7b7e-c848-4d4b-b1b8-9c5ea679b998",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/12/australia-nbn-usage-declining-5g-mobile-network-speeds",
+        "title": "Price, speed and Elon Musk: why some Australians are ditching the NBN",
+        "author": "Josh Taylor",
+        "published_date": "2024-05-11T20:00:37+00:00",
+        "tickers": [
+            {
+                "ticker": "VOD",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0131,
+                    "negative": 0.05453,
+                    "neutral": 0.93236
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.02166,
+                    "negative": 0.01402,
+                    "neutral": 0.96432
+                }
+            }
+        ]
+    },
+    {
+        "id": "14bcde34-c4dd-4519-ab16-a62215b08726",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/11/human-rights-lawyer-susie-alegre-ai-artificial-intelligence-human-rights-robot-wrongs-book-interview",
+        "title": "Human rights lawyer Susie Alegre: ‘If AI is so complex it can’t be explained, there are areas where it shouldn’t be used’",
+        "author": "Killian Fox",
+        "published_date": "2024-05-11T16:00:31+00:00",
+        "tickers": []
+    },
+    {
+        "id": "0f22fb5b-15d0-467a-aac2-49d2a9e159b0",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/11/she-was-accused-of-faking-an-incriminating-video-of-teenage-cheerleaders-she-was-arrested-outcast-and-condemned-the-problem-nothing-was-fake-after-all",
+        "title": "She was accused of faking an incriminating video of teenage cheerleaders. She was arrested, outcast and condemned. The problem? Nothing was fake after all",
+        "author": "Jenny Kleeman",
+        "published_date": "2024-05-11T08:00:21+00:00",
+        "tickers": [
+            {
+                "ticker": "DIS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00269,
+                    "negative": 0.10122,
+                    "neutral": 0.89609
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.0047,
+                    "negative": 0.58413,
+                    "neutral": 0.41117
+                }
+            },
+            {
+                "ticker": "NYT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00382,
+                    "negative": 0.00753,
+                    "neutral": 0.98865
+                }
+            },
+            {
+                "ticker": "TSLA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00246,
+                    "negative": 0.10338,
+                    "neutral": 0.89416
+                }
+            }
+        ]
+    },
+    {
+        "id": "2914f5d8-cb64-42c2-b0a7-057a940a1344",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/10/mod-contractor-hacked-china-failed-report-breach-months",
+        "title": "MoD contractor hacked by China failed to report breach for months",
+        "author": "Dan Sabbagh",
+        "published_date": "2024-05-10T15:00:23+00:00",
+        "tickers": []
+    },
+    {
+        "id": "974e8613-f0ac-4245-b78f-660905639406",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/10/is-ai-lying-to-me-scientists-warn-of-growing-capacity-for-deception",
+        "title": "Is AI lying to me? Scientists warn of growing capacity for deception",
+        "author": "Hannah Devlin",
+        "published_date": "2024-05-10T15:00:21+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00437,
+                    "negative": 0.05498,
+                    "neutral": 0.94065
+                }
+            }
+        ]
+    },
+    {
+        "id": "77729e0d-4bf3-435e-bf26-43bbe7234652",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/10/uk-public-warned-after-huge-rise-in-fires-caused-by-binned-batteries",
+        "title": "UK public warned after huge rise in fires caused by binned batteries",
+        "author": "Helena Horton",
+        "published_date": "2024-05-10T14:11:54+00:00",
+        "tickers": []
+    },
+    {
+        "id": "0a4d2977-74bb-428d-9e3e-d177288210a2",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/10/sydney-church-stabbing-australia-government-vs-x-elon-musk-e-safety-order-invalid",
+        "title": "Order from eSafety to hide Sydney church stabbing video was invalid, X tells court",
+        "author": "Josh Taylor",
+        "published_date": "2024-05-10T08:21:20+00:00",
+        "tickers": []
+    },
+    {
+        "id": "fd082492-8991-41ea-8bbe-c22b05147a0d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/10/ceo-wpp-deepfake-scam",
+        "title": "CEO of world’s biggest ad firm targeted by deepfake scam",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-10T07:01:33+00:00",
+        "tickers": [
+            {
+                "ticker": "WPP",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00363,
+                    "negative": 0.18639,
+                    "neutral": 0.80998
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00461,
+                    "negative": 0.01739,
+                    "neutral": 0.97801
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00434,
+                    "negative": 0.02098,
+                    "neutral": 0.97468
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00675,
+                    "negative": 0.01747,
+                    "neutral": 0.97578
+                }
+            },
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00289,
+                    "negative": 0.19992,
+                    "neutral": 0.79719
+                }
+            }
+        ]
+    },
+    {
+        "id": "163bf3a3-154e-45d6-88bb-ac2f67e9df99",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/09/apple-ipad-ad-prompts-online-backlash",
+        "title": "Apple apologises for iPad ad criticised as ‘destruction of the human experience’",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-09T22:44:25+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00162,
+                    "negative": 0.0327,
+                    "neutral": 0.96568
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00306,
+                    "negative": 0.09645,
+                    "neutral": 0.90049
+                }
+            }
+        ]
+    },
+    {
+        "id": "c5cd21ce-3f62-4f93-93fa-1ce1965def52",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/09/neuralink-brain-chip-implant",
+        "title": "Neuralink’s first implant partly detached from patient’s brain",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-09T17:27:50+00:00",
+        "tickers": []
+    },
+    {
+        "id": "0ec9de52-3a1a-4ce6-b61e-430017ff82b3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/09/openai-considers-allowing-users-to-create-ai-generated-pornography",
+        "title": "OpenAI considers allowing users to create AI-generated pornography",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-09T13:44:51+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00146,
+                    "negative": 0.01274,
+                    "neutral": 0.9858
+                }
+            }
+        ]
+    },
+    {
+        "id": "02177abd-ceed-4768-8233-adb60525af52",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/09/tiktok-auto-flag-ai-videos-digital-watermarking",
+        "title": "TikTok to auto-flag AI videos – even if created on other platforms",
+        "author": "Alex Hern",
+        "published_date": "2024-05-09T12:19:40+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00337,
+                    "negative": 0.00121,
+                    "neutral": 0.99542
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00492,
+                    "negative": 0.0011,
+                    "neutral": 0.99398
+                }
+            },
+            {
+                "ticker": "ADBE",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00985,
+                    "negative": 0.00131,
+                    "neutral": 0.98884
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0053,
+                    "negative": 0.06674,
+                    "neutral": 0.92796
+                }
+            }
+        ]
+    },
+    {
+        "id": "ad655d85-1c9d-497d-aa66-e78e7990edfc",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/09/digital-recreations-of-dead-people-need-urgent-regulation-ai-ethicists-say",
+        "title": "Digital recreations of dead people need urgent regulation, AI ethicists say",
+        "author": "Alex Hern",
+        "published_date": "2024-05-09T00:00:34+00:00",
+        "tickers": []
+    },
+    {
+        "id": "2ac6abd3-82f4-411d-a6c2-042cda35a692",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/08/child-sexual-abuse-meta-arrests",
+        "title": "Inquiry into child sexual abuse on Meta platforms leads to arrest of three men",
+        "author": "Katie McQue",
+        "published_date": "2024-05-08T20:03:47+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00424,
+                    "negative": 0.07481,
+                    "neutral": 0.92096
+                }
+            },
+            {
+                "ticker": "WMT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00313,
+                    "negative": 0.02518,
+                    "neutral": 0.97169
+                }
+            },
+            {
+                "ticker": "IAC",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00306,
+                    "negative": 0.03499,
+                    "neutral": 0.96196
+                }
+            }
+        ]
+    },
+    {
+        "id": "a2146bb9-a660-48d3-a861-181f656752ac",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/08/elon-musk-openai-case-judge-disqualified",
+        "title": "Elon Musk’s lawyers succeed in challenge to remove OpenAI case judge ",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-08T19:07:29+00:00",
+        "tickers": [
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00689,
+                    "negative": 0.03248,
+                    "neutral": 0.96063
+                }
+            }
+        ]
+    },
+    {
+        "id": "5c857f4f-5afd-4c69-bfa5-266d54a3ae0d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/08/crypto-entrepreneur-tortured-dubai-police",
+        "title": "US crypto entrepreneur arrested in Dubai alleges torture by police",
+        "author": "Katie McQue",
+        "published_date": "2024-05-08T18:00:38+00:00",
+        "tickers": []
+    },
+    {
+        "id": "15bf2462-a2a0-419b-aa56-e99b6aa84488",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/07/reddit-earnings",
+        "title": "Reddit shares rise more than 15% in first quarterly earnings since going public",
+        "author": "Kari Paul",
+        "published_date": "2024-05-07T22:18:01+00:00",
+        "tickers": [
+            {
+                "ticker": "RDDT",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.92858,
+                    "negative": 0.03953,
+                    "neutral": 0.03189
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.35356,
+                    "negative": 0.09624,
+                    "neutral": 0.5502
+                }
+            },
+            {
+                "ticker": "GS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.11314,
+                    "negative": 0.00807,
+                    "neutral": 0.87879
+                }
+            }
+        ]
+    },
+    {
+        "id": "5e599a4d-d7f1-469a-9f34-67ab930355b8",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/07/tiktok-sues-us-ban",
+        "title": "TikTok and ByteDance sue US to block law forcing sale of the app",
+        "author": "Kari Paul",
+        "published_date": "2024-05-07T18:01:46+00:00",
+        "tickers": []
+    },
+    {
+        "id": "613be3dd-6353-42c9-af58-77434ec1ce4d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/07/dmitry-khoroshev-named-as-alleged-leader-of-ransomware-gang-lockbit",
+        "title": "Dmitry Khoroshev named as alleged leader of ransomware gang LockBit",
+        "author": "Alex Hern",
+        "published_date": "2024-05-07T17:28:40+00:00",
+        "tickers": [
+            {
+                "ticker": "BA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00564,
+                    "negative": 0.09291,
+                    "neutral": 0.90146
+                }
+            }
+        ]
+    },
+    {
+        "id": "043b9175-eadf-4a18-a58e-6dac2bc6a1c9",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/07/jack-dorsey-quits-bluesky-board-urges-users-stay-elon-musk-x-twitter",
+        "title": "Jack Dorsey quits Bluesky board and urges users to stay on Elon Musk’s X",
+        "author": "Alex Hern",
+        "published_date": "2024-05-07T14:40:51+00:00",
+        "tickers": []
+    },
+    {
+        "id": "d9d29e15-f58f-45e1-b481-22e685673f6c",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/07/techscape-newsletter-snapchat",
+        "title": "TechScape: How Snapchat is saving itself – and keeping up with Silicon Valley giants",
+        "author": "Alex Hern",
+        "published_date": "2024-05-07T10:35:06+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.21181,
+                    "negative": 0.00531,
+                    "neutral": 0.78288
+                }
+            },
+            {
+                "ticker": "KO",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0991,
+                    "negative": 0.00258,
+                    "neutral": 0.89832
+                }
+            }
+        ]
+    },
+    {
+        "id": "c07cea3e-d90b-4885-bd19-23ec2f82beda",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/06/uk-military-personnels-data-hacked-in-mod-payroll-breach",
+        "title": "UK armed forces’ personal data hacked in MoD breach",
+        "author": "Tom Ambrose",
+        "published_date": "2024-05-07T08:16:46+00:00",
+        "tickers": [
+            {
+                "ticker": "CMCSA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00184,
+                    "negative": 0.01141,
+                    "neutral": 0.98674
+                }
+            }
+        ]
+    },
+    {
+        "id": "10d9dd92-194f-4af5-b903-378ae6a12351",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/06/news-on-facebook-is-dead-memes-replace-australian-media-posts-as-meta-turns-off-the-tap",
+        "title": "‘News on Facebook is dead’: memes replace Australian media posts as Meta turns off the tap",
+        "author": "Nick Evershed",
+        "published_date": "2024-05-05T15:00:12+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00817,
+                    "negative": 0.2461,
+                    "neutral": 0.74573
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.10462,
+                    "negative": 0.03397,
+                    "neutral": 0.86142
+                }
+            }
+        ]
+    },
+    {
+        "id": "3c9bd02d-87aa-4cbb-b95f-1741e07cd08e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/05/tiktok-ban-algorithm-decline",
+        "title": "‘It’s just not hitting like it used to’: TikTok was in its flop era before it got banned in the US",
+        "author": "Kari Paul",
+        "published_date": "2024-05-05T12:00:10+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00989,
+                    "negative": 0.10189,
+                    "neutral": 0.88822
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00737,
+                    "negative": 0.00603,
+                    "neutral": 0.98659
+                }
+            }
+        ]
+    },
+    {
+        "id": "571e52e6-0f4e-46fb-b9a5-b41c63372583",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/05/ofcom-accused-of-excluding-bereaved-parents-from-online-safety-consultation",
+        "title": "Ofcom accused of ‘excluding’ bereaved parents from online safety consultation ",
+        "author": "Shanti Das",
+        "published_date": "2024-05-05T05:00:03+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00276,
+                    "negative": 0.247,
+                    "neutral": 0.75024
+                }
+            },
+            {
+                "ticker": "PINS",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00344,
+                    "negative": 0.26691,
+                    "neutral": 0.72966
+                }
+            }
+        ]
+    },
+    {
+        "id": "53043384-afd9-48f3-9c11-722f02b1d25e",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/04/australian-government-online-esafety-laws-crackdown-misinformation-misogyny",
+        "title": "The Australian government wants to stop online harm fuelling violence and division. What can it do?",
+        "author": "Josh Butler",
+        "published_date": "2024-05-04T00:00:26+00:00",
+        "tickers": [
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00078,
+                    "negative": 0.0023,
+                    "neutral": 0.99691
+                }
+            }
+        ]
+    },
+    {
+        "id": "b93e78e8-c07a-4f70-af2c-6747e0257a51",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/02/apple-earnings-iphone-sales-decrease",
+        "title": "Apple reports slumping iPhone sales as global demand weakens",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-02T22:18:39+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.6363,
+                    "negative": 0.27715,
+                    "neutral": 0.08654
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07349,
+                    "negative": 0.01012,
+                    "neutral": 0.91639
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0901,
+                    "negative": 0.10785,
+                    "neutral": 0.80206
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07831,
+                    "negative": 0.05394,
+                    "neutral": 0.86775
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.11918,
+                    "negative": 0.01219,
+                    "neutral": 0.86863
+                }
+            }
+        ]
+    },
+    {
+        "id": "7688a6e4-2cb1-4de4-801c-000540646fad",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/02/apple-working-to-fix-iphone-alarm-problem",
+        "title": "Apple working to fix iPhone alarm problem",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-02T12:18:56+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00182,
+                    "negative": 0.05841,
+                    "neutral": 0.93977
+                }
+            }
+        ]
+    },
+    {
+        "id": "3bac6aac-3585-40f0-8a10-394c978e49f3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/may/01/chatgpt-chatbot-rival-claude-to-be-introduced-on-iphone",
+        "title": "ChatGPT’s chatbot rival Claude to be introduced on iPhone",
+        "author": "Alex Hern",
+        "published_date": "2024-05-01T15:00:33+00:00",
+        "tickers": []
+    },
+    {
+        "id": "39e6e8c4-79a9-45b8-9f0b-fadc42ab3d12",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/amazon-sales-report-ai",
+        "title": "Amazon sales soar with boost from artificial intelligence and advertising",
+        "author": "Kari Paul",
+        "published_date": "2024-04-30T22:47:44+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.71771,
+                    "negative": 0.00834,
+                    "neutral": 0.27396
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00098,
+                    "negative": 0.99871,
+                    "neutral": 0.0003
+                }
+            },
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05556,
+                    "negative": 0.00096,
+                    "neutral": 0.94348
+                }
+            }
+        ]
+    },
+    {
+        "id": "c0f5e8ea-97cd-4c28-8671-69fe2b763d76",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/binance-founder-sentenced-money-laundering",
+        "title": "Binance founder sentenced to four months for money laundering",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-04-30T19:20:41+00:00",
+        "tickers": []
+    }
+]

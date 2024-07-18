@@ -40,7 +40,7 @@ and Kulkarni, Chaitanya},
 title={A survey on sentiment analysis methods, applications, and challenges},
 journal={Artificial Intelligence Review},
 year={2022},
-month={Oct},
+month={8},
 day={01},
 volume={55},
 number={7},
@@ -73,7 +73,6 @@ abstract = {Aspect-level sentiment analysis aims to provide complete and detaile
 booktitle = {The World Wide Web Conference},
 pages = {2033–2044},
 numpages = {12},
-location = {San Francisco, CA, USA},
 series = {WWW '19}
 }
 
@@ -234,7 +233,7 @@ and Dong, Xiaowen},
 title={Sentiment correlation in financial news networks and associated market movements},
 journal={Scientific Reports},
 year={2021},
-month={Feb},
+month={2},
 day={04},
 volume={11},
 number={1},
@@ -280,11 +279,15 @@ ABSTRACT = {Machine reading comprehension (MRC), which requires a machine to ans
 DOI = {10.3390/app9183698}
 }
 
-@misc{reuters2022,
+@article{reuters2022,
   title={After crypto, Stocktwits takes aim at stocks trading},
-  author={{Reuters}},
+  author={Medha Singh},
+  journal={Reuters},
+  publisher={Reuters},
+  month={7},
   year={2022},
-  url={https://www.reuters.com/technology/after-crypto-stocktwits-takes-aim-stocks-trading-2022-07-19/}
+  url={https://www.reuters.com/technology/after-crypto-stocktwits-takes-aim-stocks-trading-2022-07-19/},
+  urldate = {2023-12-20}
 }
 
 @misc{keraghel2024survey,
@@ -463,6 +466,73 @@ abstract = {This paper presents a mathematical definition of the “probability-
   urldate      = {2024-06-09}
 }
 
+# FinBERT
+@misc{araci2019finbert,
+      title={FinBERT: Financial Sentiment Analysis with Pre-trained Language Models}, 
+      author={Dogu Araci},
+      year={2019},
+      eprint={1908.10063},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+# FinEntity
+@inproceedings{tang-etal-2023-finentity,
+    title = "{F}in{E}ntity: Entity-level Sentiment Classification for Financial Texts",
+    author = "Tang, Yixuan  and
+      Yang, Yi  and
+      Huang, Allen  and
+      Tam, Andy  and
+      Tang, Justin",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.956",
+    doi = "10.18653/v1/2023.emnlp-main.956",
+    pages = "15465--15471",
+    abstract = "In the financial domain, conducting entity-level sentiment analysis is crucial for accurately assessing the sentiment directed toward a specific financial entity. To our knowledge, no publicly available dataset currently exists for this purpose. In this work, we introduce an entity-level sentiment classification dataset, called FinEntity, that annotates financial entity spans and their sentiment (positive, neutral, and negative) in financial news. We document the dataset construction process in the paper. Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and ChatGPT on entity-level sentiment classification. In a case study, we demonstrate the practical utility of using FinEntity in monitoring cryptocurrency markets. The data and code of FinEntity is available at https://github.com/yixuantt/FinEntity.",
+}
+
+
+#T5
+@article{t5Colin,
+  author  = {Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu},
+  title   = {Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer},
+  journal = {Journal of Machine Learning Research},
+  year    = {2020},
+  volume  = {21},
+  number  = {140},
+  pages   = {1--67},
+  url     = {http://jmlr.org/papers/v21/20-074.html}
+}
+
+#Sentfin
+@article{sentfin,
+author = {Sinha, Ankur and Kedas, Satishwar and Kumar, Rishu and Malo, Pekka},
+title = {SEntFiN 1.0: Entity-aware sentiment analysis for financial news},
+journal = {Journal of the Association for Information Science and Technology},
+volume = {73},
+number = {9},
+pages = {1314-1335},
+doi = {https://doi.org/10.1002/asi.24634},
+url = {https://asistdl.onlinelibrary.wiley.com/doi/abs/10.1002/asi.24634},
+eprint = {https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24634},
+abstract = {Abstract Fine-grained financial sentiment analysis on news headlines is a challenging task requiring human-annotated datasets to achieve high performance. Limited studies have tried to address the sentiment extraction task in a setting where multiple entities are present in a news headline. In an effort to further research in this area, we make publicly available SEntFiN 1.0, a human-annotated dataset of 10,753 news headlines with entity-sentiment annotations, of which 2,847 headlines contain multiple entities, often with conflicting sentiments. We augment our dataset with a database of over 1,000 financial entities and their various representations in news media amounting to over 5,000 phrases. We propose a framework that enables the extraction of entity-relevant sentiments using a feature-based approach rather than an expression-based approach. For sentiment extraction, we utilize 12 different learning schemes utilizing lexicon-based and pretrained sentence representations and five classification approaches. Our experiments indicate that lexicon-based N-gram ensembles are above par with pretrained word embedding schemes such as GloVe. Overall, RoBERTa and finBERT (domain-specific BERT) achieve the highest average accuracy of 94.29\% and F1-score of 93.27\%. Further, using over 210,000 entity-sentiment predictions, we validate the economic effect of sentiments on aggregate market movements over a long duration.},
+year = {2022}
+}
+
+@article{FinABSAArticle,
+  title={Removing non-stationary knowledge from pre-trained language models for entity-level sentiment classification in finance},
+  author={Son, Guijin and Lee, Hanwool and Kang, Nahyeon and Hahm, Moonjeong},
+  journal={arXiv preprint arXiv:2301.03136},
+  year={2023}
+}
+
 # TODO: Delete?
 @online{name_matcher_lib,
   author = {De Nederlandsche Bank},
@@ -472,11 +542,95 @@ abstract = {This paper presents a mathematical definition of the “probability-
   urldate = {2024-05-09}
 }
 
+@misc{adj_close_bib,
+  title = {Understanding equities data},
+  booktitle = {Quantstart.com},
+  author = {Quantstart},
+  year = {2024},
+  url = {https://www.quantstart.com/articles/understanding-equities-data/},
+  urldate = {2024-05-15}
+}
 
+# Zkontrolovat
+@MISC{laura2023-medium,
+  title = {Using Airflow {XComs} - Laura},
+  booktitle = {Medium},
+  author = {Laura},
+  year = {2023},
+  month = {3},
+  url = {https://medium.com/@laura-fyi/using-airflow-xcoms-4703ea5e534a},
+  urldate = {2024-05-12}
+}
 
+# Zkontrolovat
+@MISC{Stempel2023,
+  title = {{NY} Times sues {OpenAI}, Microsoft for infringing copyrighted works},
+  booktitle = {Reuters.com},
+  author = {Stempel, Jonathan},
+  year  =  {2023},
+  month =  {12},
+  url = {https://www.reuters.com/legal/transactional/ny-times-sues-openai-microsoft-infringing-copyrighted-work-2023-12-27/},
+  urldate = {2024-5-15}
+}
 
+@MISC{Bergen2023,
+  title = {New York Times Sues Microsoft and {OpenAI} for Copyright Infringement},
+  booktitle = {Bloomberg.com},
+  author = {Bergen, Mark},
+  year = 2023,
+  month =  {12},
+  url = {https://www.bloomberg.com/news/articles/2023-12-27/new-york-times-sues-microsoft-and-openai-for-copyright-infringement},
+  urldate = {2024-5-15}
+}
 
+@MISC{Robertson2024,
+  title = {8 Daily Newspapers Sue {OpenAI} and Microsoft Over {A.I}},
+  booktitle = {Nytimes.com},
+  author = {Robertson, Katie},
+  year = {2024},
+  month = {4},
+  url = {https://www.nytimes.com/2024/04/30/business/media/newspapers-sued-microsoft-openai.html},
+  urldate = {2024-5-15}
+}
 
+@ARTICLE{Associated_Press2024,
+  title = {Eight {US} newspapers sue {OpenAI} and Microsoft for copyright infringement},
+  author = {Guardian, The},
+  journal = {Guardian},
+  publisher = {The Guardian},
+  month = {4},
+  year = {2024},
+  urldate = {2024-5-15}
+}
+
+@MISC{finnhub_doc,
+  title = {Finnhub - Free realtime {APIs} for stock, forex and cryptocurrency},
+  booktitle = {Finnhub.io},
+  author = {Finnhub},
+  url = {https://finnhub.io/docs/api/company-news},
+  urldate = {2024-5-16},
+}
+
+@MISC{atom-wiki,
+  title        = "Difference Between {RSS} and {ATOM}",
+  booktitle    = "Tutorialspoint.com",
+  author       = "Sajid, Md",
+  year         = {2023},
+  month        = {7},
+  url = {https://www.tutorialspoint.com/difference-between-rss-and-atom},
+  urldate      = {2024-7-15},
+}
+
+@MISC{rssmarco,
+  title        = "How do {RSS} feeds work?",
+  booktitle    = "{RSS.com} Blog - Podcasting and Beyond",
+  author       = "{Marc}",
+  publisher    = "RSS.com",
+  month        =  {2},
+  year         =  {2024},
+  url = {https://rss.com/blog/how-do-rss-feeds-work/},
+  urldate      = {2024-7-15}
+}
 
 
 

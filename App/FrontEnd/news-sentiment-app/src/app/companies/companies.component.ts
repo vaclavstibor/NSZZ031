@@ -4,17 +4,19 @@ import { OrderByPipe } from 'ngx-pipes';
 import { Router } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
 
+import { CompanyNameAndTicker } from '../models/CompanyNameAndTicker.model';
+
 @Component({
   selector: 'app-companies',
   templateUrl: './companies.component.html',
   styleUrls: ['./companies.component.css', '../app.component.css'],
 })
 export class CompaniesComponent extends HomeComponent implements OnInit {
-  companies: any;
-  inputText: string = '';
-  page: number = 1;
+  companies: CompanyNameAndTicker[] = []; 
+  inputText: string = ''; // Search input text
+  page: number = 1;       // Current page for pagination
 
-  constructor(private httpService: HttpService, private router: Router) {
+  constructor(private httpService: HttpService) {
     super();
   }
 
@@ -23,12 +25,19 @@ export class CompaniesComponent extends HomeComponent implements OnInit {
   }
 
   getCompaniesNamesAndTickers() {
-    this.httpService.getCompaniesNamesAndTickers().subscribe((res: any[]) => {
+    /**
+     * Fetches the list of companies with their names and tickers
+     */
+    this.httpService.getCompaniesNamesAndTickers().subscribe((res: CompanyNameAndTicker[]) => {
       this.companies = new OrderByPipe().transform(res, 'ticker');
     });
   }
 
   search() {
+    /**
+     * Filters the companies based on the search input text
+     * which is used to filter based on shortName and ticker
+     */
     if (this.inputText == '') {
       this.getCompaniesNamesAndTickers();
     } else {

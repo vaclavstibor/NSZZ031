@@ -7,21 +7,21 @@
           <span class="ms-1">GlobeSense</span>
         </a>
       </h3>
-      <button class="navbar-toggler d-md-none" type="button" aria-label="Toggle navigation">
+      <button class="navbar-toggler d-md-none" type="button" aria-label="Toggle navigation" (click)="toggleNavbar()">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <nav class="nav nav-masthead justify-content-center d-none d-md-flex">
+      <nav class="nav nav-masthead justify-content-end d-none d-md-flex">
         <a class="nav-link fw-bold py-1 px-0" routerLink="/">HOME</a>
         <a class="nav-link fw-bold py-1 px-0" routerLink="/companies/graphs">GRAPHS</a>
         <a class="nav-link fw-bold py-1 px-0" routerLink="/companies">COMPANIES</a>
       </nav>
     </div>
-    <nav class="nav nav-masthead justify-content-center d-flex d-md-none">
-      <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" routerLink="/">HOME</a>
+    <nav *ngIf="isNavbarOpen" class="nav nav-masthead justify-content-center d-flex d-md-none">
+      <a class="nav-link fw-bold py-1 px-0" routerLink="/">HOME</a>
       <a class="nav-link fw-bold py-1 px-0" routerLink="/companies/graphs">GRAPHS</a>
       <a class="nav-link fw-bold py-1 px-0" routerLink="/companies">COMPANIES</a>
     </nav>
-  </header> 
+  </header>
 
   <div class="row mt-4">
     <div class="col-md-12 mb-3">

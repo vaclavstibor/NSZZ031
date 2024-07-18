@@ -1,0 +1,13 @@
+pandas==2.0.3
+datasets==2.20.0
+matplotlib==3.7.5
+requests==2.32.3
+numpy==1.24.4
+spacy==3.7.4
+spacy-transformers==1.3.4
+spacy_entity_linker==1.0.3
+SPARQLWrapper==2.0.0
+pydantic==2.6.4
+nltk==3.8.1
+transformers==4.41.2
+torch==2.3.1

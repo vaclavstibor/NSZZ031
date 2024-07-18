@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  22 APR 2024 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.12)  18 JUL 2024 02:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/stiborv/Documents/ZS2324/NPRG045/better-thesis-master/abstract-en.tex
-(/Users/stiborv/Documents/ZS2324/NPRG045/better-thesis-master/abstract-en.tex
+**/Users/stiborv/Documents/2324/ZS2324/NPRG045/better-thesis-master/abstract-en.tex
+(/Users/stiborv/Documents/2324/ZS2324/NPRG045/better-thesis-master/abstract-en.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
@@ -533,14 +533,14 @@ Package rerunfilecheck Info: File `abstract-en.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  23207 strings out of 476025
- 426508 string characters out of 5790016
- 1852388 words of memory out of 5000000
+ 426523 string characters out of 5790016
+ 1850388 words of memory out of 5000000
  43259 multiletter control sequences out of 15000+600000
  516348 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,5n,121p,596b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,5n,121p,601b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
-Output written on abstract-en.pdf (1 page, 36942 bytes).
+Output written on abstract-en.pdf (1 page, 30608 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream

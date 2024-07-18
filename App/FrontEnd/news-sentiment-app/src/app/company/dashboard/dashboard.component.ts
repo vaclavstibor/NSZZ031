@@ -3,6 +3,10 @@ import { HttpService } from '../../services/http.service';
 import { ActivatedRoute } from '@angular/router';
 import { HomeComponent } from 'src/app/home/home.component';
 
+import { CompanyInfo } from 'src/app/models/CompanyInfo.model';
+import { CompanyChart } from 'src/app/models/CompanyChart.model';
+import { CompanyArticleList } from 'src/app/models/CompanyArticleList.model';
+
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
@@ -11,13 +15,13 @@ import { HomeComponent } from 'src/app/home/home.component';
 export class DashboardComponent extends HomeComponent implements OnInit {
   ticker: string = '';
 
-  chartData: any;
+  chartData!: CompanyChart;
   chartLoading: boolean = false;
 
-  infoData: any;
+  infoData!: CompanyInfo;
   infoLoading: boolean = false;
 
-  articlesData: any;
+  articlesData: CompanyArticleList = [];
   articlesLoading: boolean = false;
 
   constructor(private httpService: HttpService, private route: ActivatedRoute) {
@@ -33,10 +37,33 @@ export class DashboardComponent extends HomeComponent implements OnInit {
     });
   }
 
+  async fetchInfoData(ticker: string) {
+    /**
+     * Fetch company info data from the API and update 
+     * the infoData variable with the response.
+     */
+    this.infoLoading = true;
+    this.httpService.getCompanyInfoData(ticker).subscribe({
+      next: (res: CompanyInfo) => {
+        this.infoData = res;
+      },
+      error: (error) => {
+        console.error('Error fetching info data:', error);
+      },
+      complete: () => {
+        this.infoLoading = false;
+      }
+    });
+  }  
+
   async fetchChartData(ticker: string) {
+    /**
+     * Fetch company chart data from the API and update
+     * the chartData variable with the response.
+     */
     this.chartLoading = true;
     this.httpService.getCompanyChartData(ticker).subscribe({
-      next: (res: any) => {
+      next: (res: CompanyChart) => {
         this.chartData = res;
       },
       error: (error) => {
@@ -48,25 +75,14 @@ export class DashboardComponent extends HomeComponent implements OnInit {
     });
   }
 
-  async fetchInfoData(ticker: string) {
-    this.infoLoading = true;
-    this.httpService.getCompanyInfoData(ticker).subscribe({
-      next: (res: any) => {
-        this.infoData = res;
-      },
-      error: (error) => {
-        console.error('Error fetching info data:', error);
-      },
-      complete: () => {
-        this.infoLoading = false;
-      }
-    });
-  }
-
   async fetchArticlesData(ticker: string) {
+    /**
+     * Fetch company articles data from the API and update
+     * the articlesData variable with the response.
+     */
     this.articlesLoading = true;
     this.httpService.getCompanyArticlesData(ticker).subscribe({
-      next: (res: any) => {
+      next: (res: CompanyArticleList) => {
         this.articlesData = res;
       },
       error: (error) => {

@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CanvasJSAngularStockChartsModule } from '@canvasjs/angular-stockcharts';
 
+import { CompanyChart, SentimentData } from 'src/app/models/CompanyChart.model';
+
 @Component({
   selector: 'app-pie-chart',
   standalone: true,
@@ -9,19 +11,20 @@ import { CanvasJSAngularStockChartsModule } from '@canvasjs/angular-stockcharts'
   styleUrls: ['./pie-chart.component.css']
 })
 export class PieChartComponent implements OnInit {
-  @Input() chartData: any;
+  @Input() chartData!: CompanyChart;
   chartOptions: any = {};
 
   constructor() {}
 
-  ngOnInit() {
+  ngOnInit(): void {
       if (this.chartData) {
         const mappedData = this.mapDataToChart(this.chartData.sentiment_data);
         this.getPieChartOptions(mappedData);
       }
   }
 
-  getPieChartOptions(mappedData: { positiveCount: number, negativeCount: number, neutralPositiveCount: number, neutralNegativeCount: number }) {
+  getPieChartOptions(mappedData: PieChartData): void {
+    // Set the chart options
     const colorMap = {
       "POSITIVE": "green",
       "NEGATIVE": "red",
@@ -56,12 +59,14 @@ export class PieChartComponent implements OnInit {
     };
   }
 
-  mapDataToChart(sentimentData: any[]) {
+  mapDataToChart(sentimentData: SentimentData[]) {
+    // Map the sentiment data to the chart
     let positiveCount = 0;
     let negativeCount = 0;
     let neutralPositiveCount = 0;
     let neutralNegativeCount = 0;
 
+    // Count the number of each sentiment classification in the data
     sentimentData.forEach(data => {
       if (data.sentiment.classification === 'POSITIVE') {
         positiveCount++;
@@ -78,8 +83,9 @@ export class PieChartComponent implements OnInit {
 
     const total = positiveCount + negativeCount + neutralPositiveCount + neutralNegativeCount;
 
+    // Calculate the percentage of each sentiment classification in the data (for avg from endpoint to each day)
     const positivePercentage = (positiveCount / total) * 100;
-    const negativePercentage = (negativeCount / total) * 100;
+    const negativePercentage = (negativeCount / total) * 100; 
     const neutralPositivePercentage = (neutralPositiveCount / total) * 100;
     const neutralNegativePercentage = (neutralNegativeCount / total) * 100;
 
@@ -90,4 +96,11 @@ export class PieChartComponent implements OnInit {
       neutralNegativeCount: neutralNegativePercentage
     };
   }
+}
+
+interface PieChartData {
+  positiveCount: number;
+  negativeCount: number;
+  neutralPositiveCount: number;
+  neutralNegativeCount: number;
 }

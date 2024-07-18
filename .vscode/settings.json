@@ -1,8 +1,11 @@
 {
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": false
-    },
-
-    "python.analysis.typeCheckingMode": "off"
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": false
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": null
+  }
 }

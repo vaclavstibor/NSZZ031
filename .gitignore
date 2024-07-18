@@ -1,0 +1,7 @@
+**/.venv/
+**/.apicache/
+**/.__pycache__/
+throttle.ctrl
+mff-server.txt
+notes.txt
+*.env

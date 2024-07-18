@@ -1,2 +1,34 @@
-\chapter{Architecture}
-\label{chap:architecture}
+\chapter{Application Requirements}
+\label{chap:application-requirements}
+The application requirements are clear and concise, so this Chapter will be less extensive than the others. It discusses the requirements for an application of this specific nature within the realm of possibility. In addition, we consulted some of the steps with long-standing stock investors from the context of another confidential project and had discussions with similar groups to refine them. 
+
+We primarily want the user to be able to verify and test historical data to see how our application has evaluated previous sentiment data and how the market reacted before the user considers the values our application will evaluate for them. Looking at the price reactions immediately after the sentiment labels illustrated during experiments in Chapter \ref{chap:entity-level-sentiment-analysis} and also in Appendix \ref{app:sentiment-adjusted-close-price} should be sufficient to display a three-month timeframe.
+
+\section{Functional Requirements}
+\label{sec:functional-requirements}
+The functional requirements are as follows:
+
+\begin{itemize}
+    \item \textbf{Company Search}: Allow users to search for a company based on its name or ticker symbol.
+    \item \textbf{Company Information Display}: Display brief information about the selected company.
+    \item \textbf{Article Sentiment Display}: Show articles in which the company appears, including the sentiment associated with the company.
+    \item \textbf{Article List}: Provide an option to display all articles mentioning the company.
+    \item \textbf{Current Sentiment Value}: Display the current sentiment value of a given company as an average of the sentiment values for a current day.
+    \item \textbf{Sentiment and Price Display}: Simultaneously display the sentiment value and the company's adjusted close price in one graph to enhance analysis.
+    \item \textbf{Company Connections}: Display how individual companies are connected and which sentiment values maintain these connections, conducting sentimental trends around them. Therefore, the ideal solution could be to use a graph network.
+    \item \textbf{Article Sentiment Calculation}: Display the sentiment value of an article based on the average of the individual sentiments of the mentioned companies.
+    \item \textbf{Article Access}: Provide access to read the articles so users can perform their analysis and verify the values given by the application. Due to the nature of the data, the application should provide a link to the original article.
+    \item \textbf{User Interface}: Ensure the user interface is user-friendly and intuitive to navigate as much as possible.
+\end{itemize}
+
+\section{Non-Functional Requirements}
+\label{sec:non-functional-requirements}
+The non-functional requirements are as follows:
+
+\begin{itemize}
+    \item \textbf{Modular Processing}: Ensure modular processing to facilitate the easy addition of new analysis components.
+    \item \textbf{Data Availability}: Ensure that data is available during updating and processing so that users can access the data at any time.
+    \item \textbf{Data Integrity}: Ensure that the cornerstone news data is consistent to provide reliable results. 
+    \item \textbf{Data Accuracy}: Ensure that the application does not present data noise and is accurate and reliable to provide the best results.
+    \item \textbf{Scalability}: Ensure the application is adaptable for more sources and companies.
+\end{itemize}
