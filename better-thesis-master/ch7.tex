@@ -72,7 +72,7 @@ Given the extensive utilisation of the join operation in our queries, we have es
 \begin{itemize}
     \item \textbf{\textit{idx\textunderscore article\textunderscore companies\textunderscore article\textunderscore id\textunderscore company\textunderscore id}} for columns \textit{article\textunderscore id} and \textit{company\textunderscore id} on the \textit{article\textunderscore companies} table
     \item \textbf{\textit{idx\textunderscore sentiments\textunderscore article\textunderscore id\textunderscore company\textunderscore id}} on the sentiments table for columns \textit{article\textunderscore id} and \textit{company\textunderscore id}
-    \item \textbf{\textit{idx\textunderscore article\textunderscore sections\textunderscore article\textunderscore id\textunderscore section\textunderscore id}} on the \textit{article\textunderscore sections} table for columns \textit{article\textunderscore id} and \textit{section\textunderscore id}
+    \item \textbf{\textit{idx\textunderscore article\textunderscore sections\textunderscore article\textunderscore id\textunderscore section\textunderscore id}} on the \textit{article\_ }\textit{sections} table for columns \textit{article\textunderscore id} and \textit{section\textunderscore id}
 \end{itemize}
 
 Suppose we would like to incorporate more types of entities into the database in the future, such as people, events, or products with various relationships between them. In that case, we might consider using a graph database like Neo4j. Nevertheless, the relational model in the current stage of the application version is the most suitable choice for storing current type of data.

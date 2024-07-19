@@ -1,172 +1,172 @@
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{6}
-\glossaryentry{NLP?\glossentry{nlp}|setentrycounter[]{page}"\glsnumberformat}{6}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{NLP?\glossentry{nlp}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{IOB?\glossentry{iob}|setentrycounter[]{page}"\glsnumberformat}{9}
-\glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{10}
-\glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{NLP?\glossentry{nlp}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{NLP?\glossentry{nlp}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{IOB?\glossentry{iob}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{11}
 \glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{11}
-\glossaryentry{SVM?\glossentry{svm}|setentrycounter[]{page}"\glsnumberformat}{14}
-\glossaryentry{CRF?\glossentry{crf}|setentrycounter[]{page}"\glsnumberformat}{14}
-\glossaryentry{ME?\glossentry{me}|setentrycounter[]{page}"\glsnumberformat}{14}
-\glossaryentry{HMM?\glossentry{hmm}|setentrycounter[]{page}"\glsnumberformat}{14}
-\glossaryentry{RNN?\glossentry{rnn}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{TF-IDF?\glossentry{tf-idf}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{GloVe?\glossentry{glove}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{ELMo?\glossentry{elmo}|setentrycounter[]{page}"\glsnumberformat}{15}
-\glossaryentry{SML?\glossentry{sml}|setentrycounter[]{page}"\glsnumberformat}{17}
-\glossaryentry{BERT?\glossentry{bert}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{BERT?\glossentry{bert}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{BERT?\glossentry{bert}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{MRC?\glossentry{mrc}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{T5?\glossentry{t5}|setentrycounter[]{page}"\glsnumberformat}{19}
-\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{21}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{21}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{21}
-\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{23}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{23}
-\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{23}
-\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{23}
+\glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{IO?\glossentry{io}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{BIO?\glossentry{bio}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{BMEWO?\glossentry{bmewo}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{SVM?\glossentry{svm}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CRF?\glossentry{crf}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{ME?\glossentry{me}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{HMM?\glossentry{hmm}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{RNN?\glossentry{rnn}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{CNN?\glossentry{cnn}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{TF-IDF?\glossentry{tf-idf}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{GloVe?\glossentry{glove}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{ELMo?\glossentry{elmo}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{SML?\glossentry{sml}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{BERT?\glossentry{bert}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{BERT?\glossentry{bert}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{BERT?\glossentry{bert}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{MRC?\glossentry{mrc}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{T5?\glossentry{t5}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
 \glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{24}
 \glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{25}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{RSS?\glossentry{rss}|setentrycounter[]{page}"\glsnumberformat}{25}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
 \glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{28}
-\glossaryentry{TF-IDF?\glossentry{tf-idf}|setentrycounter[]{page}"\glsnumberformat}{35}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{62}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{62}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{62}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{62}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{62}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{62}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{62}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{26}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{TF-IDF?\glossentry{tf-idf}|setentrycounter[]{page}"\glsnumberformat}{36}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{63}
 \glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{63}
 \glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{63}
 \glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{63}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{63}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{63}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{63}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{65}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{63}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{64}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{64}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{66}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{67}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{66}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{66}
 \glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{68}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{68}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{68}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{68}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{68}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{69}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{69}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{69}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{69}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{69}
 \glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{69}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{69}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{70}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{70}
 \glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{70}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{70}
 \glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{70}
 \glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{71}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{71}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{71}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{72}
 \glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{72}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{72}
 \glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{72}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{72}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{72}
 \glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{72}
 \glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{72}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{72}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{73}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{73}
 \glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{73}
-\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{73}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{73}
-\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{73}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{74}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{74}
 \glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{74}
 \glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{74}
 \glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{74}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{74}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{74}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{74}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{74}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{74}
 \glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{75}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{75}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{75}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{75}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{75}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{75}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{SA?\glossentry{sa}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{NER?\glossentry{ner}|setentrycounter[]{page}"\glsnumberformat}{75}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{75}
 \glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{76}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{76}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{76}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{78}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{78}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{78}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{76}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{77}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{77}
 \glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{78}
 \glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{79}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{80}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{80}
-\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{80}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{81}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{81}
-\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{81}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{81}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{82}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{82}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{82}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{83}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{83}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{83}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{83}
-\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{83}
-\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{98}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{80}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{81}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{API?\glossentry{api}|setentrycounter[]{page}"\glsnumberformat}{82}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{DAG?\glossentry{dag}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{83}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{84}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{85}
+\glossaryentry{REST API?\glossentry{restapi}|setentrycounter[]{page}"\glsnumberformat}{86}
+\glossaryentry{ETL?\glossentry{etl}|setentrycounter[]{page}"\glsnumberformat}{101}

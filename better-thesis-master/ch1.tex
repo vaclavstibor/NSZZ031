@@ -148,23 +148,23 @@ Before will continue in describing another methods, we should clarify the data u
     \item[Unsupervised learning] The unsupervised learning method discovers patterns of entity occurrence in raw and unlabeled data (see Figure \ref{fig:unsupervised-learning}). Consequently, the individual entities are split into groups based on their characteristic properties. The absence of pre-labeled data by human intervention in the training phase causes no supervisor to guide the model with information about the labels in training data, hence unsupervised learning. A conventional method employed in this approach is clustering, such as K-means clustering \parencite{9072123kmeans}, which divides data\footnote{In our case, the data corresponds to tokens symbolising words.} into groups based on similarity or dissimilarity.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth]{img/theoretical/unsupervised.pdf}
+        \includegraphics[width=0.7\textwidth]{img/theoretical/unsupervised.pdf}
         \caption{Unsupervised learning approach.}
         \label{fig:unsupervised-learning}
     \end{figure}
     \item[Semi-supervised learning] The semi-supervised learning method combines labeled and unlabeled data, with the former comprising a slight portion of the dataset (see Figure \ref{fig:semi-supervised-learning}). As part of the classification training process, the unlabeled data learn the model's ability to generalise and represent the data in space using a statistical feature that better separates the classes. The algorithm aims to create the best decision boundary between classes based on a large amount of unlabeled data. Besides, the labeled data allows the model to determine the classification correctness for improvement, hence semi-supervised learning. Therefore, the model is partially supervised, hence semi-supervised learning. Semi-supervised learning is a preferred approach for model development because the labeled data is mainly expensive and time-consuming to acquire by requiring human intervention. In contrast, unlabeled data is more easily collectable.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, interpolate=false]{img/theoretical/semi-supervised.pdf}
+        \includegraphics[width=0.7\textwidth, interpolate=false]{img/theoretical/semi-supervised.pdf}
         \caption{Semi-supervised learning approach.}
         \label{fig:semi-supervised-learning}
     \end{figure}
 
     Self-training, Co-training, and Multi-view learning are frequently employed subcategories of this learning method. Self-training involves using a small amount of labeled data and a more significant amount of unlabeled data, repeatedly training the model on labeled data and using it to predict labels for unlabeled data. Co-training uses multiple independent models that communicate and share information to improve performance. Multi-view learning combines information from different sources or representations of data, such as combining textual data with metadata.
-    \item[Supervised learning] Unlike the semi-supervised learning method, the supervised learning approach exclusively utilises labeled data. Therefore, the training process is performed just on labeled data. We could perceive this approach as a function $f:~X~\mapsto~Y$, denoted as $f$, mapping input $X$ to output $Y$, where $X$ and $Y$ represent the input and output, respectively, known from the labeled data. Thus, as a supervisor guides the learning process, the model learns the most suitable way to map the input $X$ to the input $Y$. The principal contrast between fully and semi-supervised learning is that in the former case, learning is done only over labeled data and in the latter case on a combination with unlabeled data. The most common algorithms utilised in supervised learning for named entity recognition include statistical models like \acrfull{svm} \parencite{wang2005svm}, \acrfull{crf} \parencite{sutton2012crf}, \acrfull{me} \parencite{berger1996me}, and \acrfull{hmm} \parencite{EDDY1996361hmm}.
+    \item[Supervised learning] Unlike the semi-supervised learning method, the supervised learning approach exclusively utilises labeled data. Therefore, the training process is performed just on labeled data (see Figure \ref{fig:supervised-learning}). We could perceive this approach as a function $f:~X~\mapsto~Y$, denoted as $f$, mapping input $X$ to output $Y$, where $X$ and $Y$ represent the input and output, respectively, known from the labeled data. Thus, as a supervisor guides the learning process, the model learns the most suitable way to map the input $X$ to the input $Y$. The principal contrast between fully and semi-supervised learning is that in the former case, learning is done only over labeled data and in the latter case on a combination with unlabeled data. The most common algorithms utilised in supervised learning for named entity recognition include statistical models like \acrfull{svm} \parencite{wang2005svm}, \acrfull{crf} \parencite{sutton2012crf}, \acrfull{me} \parencite{berger1996me}, and \acrfull{hmm} \parencite{EDDY1996361hmm}.
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.8\textwidth, interpolate=false]{img/theoretical/supervised.pdf}
+        \includegraphics[width=0.7\textwidth, interpolate=false]{img/theoretical/supervised.pdf}
         \caption{Supervised learning approach.}
         \label{fig:supervised-learning}
     \end{figure}
