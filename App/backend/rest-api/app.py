@@ -1,9 +1,11 @@
 
-# import uvicorn
+import os
 from flask import Flask, redirect
 from flask_cors import CORS
 from flask_restful_swagger_2 import Api, swagger
 from flask_swagger_ui import get_swaggerui_blueprint
+
+from dotenv import load_dotenv
 
 # Company Resources
 from src.resources.CompanyChart import CompanyChart
@@ -15,9 +17,13 @@ from src.resources.CompanyGraph import CompanyGraph
 from src.resources.CompaniesNamesAndTickers import CompaniesNamesAndTickers
 from src.resources.CompaniesGraphs import CompaniesGraphs
 
+load_dotenv()
+
+SERVER_HOST = os.getenv("SERVER_HOST")
+SERVER_PORT = int(os.getenv("SERVER_PORT"))
+
 app = Flask(__name__)
-CORS(app)
-#CORS(app, resources={r"/api/*": {"origins": "http://localhost:4200"}})
+CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 api = Api(app, title='GlobeSense REST API', api_version='0.1', description='A REST API for GlobeSense')
 
@@ -46,4 +52,5 @@ def index():
     return redirect(SWAGGER_URL)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8090)
+    app.run(debug=True, host=SERVER_HOST, port=SERVER_PORT)
+    #uvicorn.run("app:app", host=SERVER_HOST, port=SERVER_PORT, reload=True)

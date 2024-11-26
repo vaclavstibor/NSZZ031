@@ -28,7 +28,7 @@ def delete_replicated_tables(connection: psycopg2_connection) -> None:
 
         connection.commit()
         logging.info("Temporary table deletion completed.")
-        
+
     except (Exception, psycopg2.DatabaseError) as error:
         logging.error(f"Error: {error}")
         connection.rollback()

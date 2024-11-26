@@ -1,6 +1,140 @@
 [
     {
-        "id": "fea43aee-d505-4404-8956-27777c0c5ed6",
+        "id": "35c23749-b326-43b0-9baf-1cc0a4d473b1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/02/apple-earnings-iphone-sales-decrease",
+        "title": "Apple reports slumping iPhone sales as global demand weakens",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-02T22:18:39+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.6363,
+                    "negative": 0.27715,
+                    "neutral": 0.08654
+                }
+            },
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07349,
+                    "negative": 0.01012,
+                    "neutral": 0.91639
+                }
+            },
+            {
+                "ticker": "GOOGL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.0901,
+                    "negative": 0.10785,
+                    "neutral": 0.80206
+                }
+            },
+            {
+                "ticker": "MSFT",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.07831,
+                    "negative": 0.05394,
+                    "neutral": 0.86775
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.11918,
+                    "negative": 0.01219,
+                    "neutral": 0.86863
+                }
+            }
+        ]
+    },
+    {
+        "id": "48e211bd-0c3d-4fb4-8c4f-8d99f34d30d3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/02/apple-working-to-fix-iphone-alarm-problem",
+        "title": "Apple working to fix iPhone alarm problem",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-02T12:18:56+00:00",
+        "tickers": [
+            {
+                "ticker": "AAPL",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.00182,
+                    "negative": 0.05841,
+                    "neutral": 0.93977
+                }
+            }
+        ]
+    },
+    {
+        "id": "5917c7fa-790d-401a-bdfc-550f2b404cca",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/may/01/chatgpt-chatbot-rival-claude-to-be-introduced-on-iphone",
+        "title": "ChatGPT’s chatbot rival Claude to be introduced on iPhone",
+        "author": "Alex Hern",
+        "published_date": "2024-05-01T15:00:33+00:00",
+        "tickers": []
+    },
+    {
+        "id": "60c20fba-cafe-4b6a-8c7d-300065051a69",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/amazon-sales-report-ai",
+        "title": "Amazon sales soar with boost from artificial intelligence and advertising",
+        "author": "Kari Paul",
+        "published_date": "2024-04-30T22:47:44+00:00",
+        "tickers": [
+            {
+                "ticker": "AMZN",
+                "sentiment": {
+                    "classification": "POSITIVE",
+                    "positive": 0.71771,
+                    "negative": 0.00834,
+                    "neutral": 0.27396
+                }
+            },
+            {
+                "ticker": "META",
+                "sentiment": {
+                    "classification": "NEGATIVE",
+                    "positive": 0.00098,
+                    "negative": 0.99871,
+                    "neutral": 0.0003
+                }
+            },
+            {
+                "ticker": "NVDA",
+                "sentiment": {
+                    "classification": "NEUTRAL",
+                    "positive": 0.05556,
+                    "negative": 0.00096,
+                    "neutral": 0.94348
+                }
+            }
+        ]
+    },
+    {
+        "id": "6e331041-031d-4c51-ae11-16da7c5d1c5d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/binance-founder-sentenced-money-laundering",
+        "title": "Binance founder sentenced to four months for money laundering",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-04-30T19:20:41+00:00",
+        "tickers": []
+    },
+    {
+        "id": "ddff7178-336f-4c34-82f0-274d9c33ddce",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/30/eu-meta-russian-interference-elections-facebook-fake-news",
@@ -20,7 +154,7 @@
         ]
     },
     {
-        "id": "8d05002b-09f6-4423-b71e-40f183b773d5",
+        "id": "8a8e5526-8a57-49df-af3c-9e251c29d1fa",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/30/techscape-artificial-intelligence-bots-dead-internet-theory",
@@ -58,7 +192,7 @@
         ]
     },
     {
-        "id": "ff47f80c-604f-416a-90c8-fb9264c14d4a",
+        "id": "12481736-b42f-4de6-aa44-6104a94fdfa0",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/30/smartphones-ban-more-harm-than-good-molly-russell-father",
@@ -87,7 +221,7 @@
         ]
     },
     {
-        "id": "f154d8af-8be7-437d-b41f-94d933f2cf99",
+        "id": "68efdd40-69b3-41a8-96d6-b3a0336536b7",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/29/eu-to-investigate-meta-over-election-misinformation-ahead-of-june-polls",
@@ -107,7 +241,7 @@
         ]
     },
     {
-        "id": "39f4eb7c-a824-4f2a-8c28-e69a7d428d2e",
+        "id": "a3636c2d-b9e5-4f91-9558-dd78fc60d6da",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/29/devices-with-weak-passwords-to-be-banned-uk",
@@ -117,7 +251,7 @@
         "tickers": []
     },
     {
-        "id": "0b0f65ab-15fe-4b08-8cea-4282f8ce7e9b",
+        "id": "077b9764-c1c0-43bf-b25f-7700f744bbaa",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/28/the-science-isnt-there-do-dating-apps-really-help-us-find-our-soulmate",
@@ -155,7 +289,7 @@
         ]
     },
     {
-        "id": "c7ff394d-993a-4e04-9970-f7d1aa69da2c",
+        "id": "7c97dac7-b4da-4815-8e55-c236b1308e3d",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/28/bbc-presenters-likeness-used-in-advert-after-firm-tricked-by-ai-generated-voice",
@@ -175,7 +309,7 @@
         ]
     },
     {
-        "id": "941f6ff7-68b0-4c86-83e0-f6af592b0c30",
+        "id": "1a7fe674-d61a-4453-8147-6eecc6916017",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/28/nick-bostrom-controversial-future-of-humanity-institute-closure-longtermism-affective-altruism",
@@ -195,7 +329,7 @@
         ]
     },
     {
-        "id": "7441b5a9-0610-4507-a521-f22085bdee85",
+        "id": "ee1fe4ad-fa27-4330-baf1-c48c9491cf19",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/27/google-project-nimbus-israel",
@@ -224,7 +358,7 @@
         ]
     },
     {
-        "id": "d615ace2-0763-4bd5-a4d3-1a07921a383d",
+        "id": "ad5958b0-da69-4035-adfc-9571869f2424",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/tesla-autopilot-fatal-crash",
@@ -253,7 +387,7 @@
         ]
     },
     {
-        "id": "d6ed1c4e-0d33-42bc-82fe-78d931500387",
+        "id": "412c9502-37f8-40e2-b0eb-6de0cd689963",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/robot-flamethrower-dog-thermonator",
@@ -263,7 +397,7 @@
         "tickers": []
     },
     {
-        "id": "0496544c-18cb-4c04-9442-fc1f5739fbb7",
+        "id": "32ad9e36-75f7-4cd3-a0ac-f0276054928c",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/google-alphabet-2tn-valuation-dividend-shares-results",
@@ -310,7 +444,7 @@
         ]
     },
     {
-        "id": "7678520e-1940-4647-a682-d3015dd9e69c",
+        "id": "3b530a48-2fbb-420b-a947-7a77eeb04221",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/gmb-launches-legal-action-against-out-of-control-amazon-at-coventry-warehouse",
@@ -330,7 +464,7 @@
         ]
     },
     {
-        "id": "13ca8d4f-e1eb-43b1-96fe-4d3425993591",
+        "id": "3e960a16-d88d-4d81-8560-bcf94733f48f",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/foreign-states-targeting-sensitive-research-at-uk-universities-mi5-warns",
@@ -340,7 +474,7 @@
         "tickers": []
     },
     {
-        "id": "a7f83955-0483-4b03-9012-1560435e9517",
+        "id": "17b8394a-8cc9-4ff5-92ff-c3594ba62b57",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/25/microsoft-earnings",
@@ -387,7 +521,7 @@
         ]
     },
     {
-        "id": "09cc1eea-c04d-41a1-b848-5537d7b858b1",
+        "id": "824c8fce-7b06-416b-8c32-8172df203cb5",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/25/google-revenue-quarter-one",
@@ -425,7 +559,7 @@
         ]
     },
     {
-        "id": "5ebfd8ad-5bab-457f-a430-7fdc209d311e",
+        "id": "d777180b-0d9a-4c31-9cb6-e6a9f5bf6c0f",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/25/meta-value-falls-190bn-as-investors-react-to-plan-to-increase-spending-on-ai",
@@ -454,7 +588,7 @@
         ]
     },
     {
-        "id": "970a15a4-fa89-4b0a-b359-f49d03af15a7",
+        "id": "9ffe4eaf-d920-4ab4-8e0a-aa7c7eb33786",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/mar/13/will-us-ban-tiktok",
@@ -501,7 +635,7 @@
         ]
     },
     {
-        "id": "10a40792-193c-4af4-b3c2-45ccf0833de3",
+        "id": "8f12a212-bc17-4b5b-9f72-7ae297656e4a",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/meta-earnings",
@@ -521,7 +655,7 @@
         ]
     },
     {
-        "id": "a3194823-4376-44df-a45a-140913b0aed9",
+        "id": "273709d6-aa36-4ce1-9b32-a4328ff46c77",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/tiktok-reward-to-watch-feature-suspended-after-eu-threats-to-block-it",
@@ -531,7 +665,7 @@
         "tickers": []
     },
     {
-        "id": "2eedf1d3-8119-4375-8bac-e77aef15af0b",
+        "id": "73d2d9ac-3826-4603-b127-5ba2a3bd0de1",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/why-is-us-threatening-to-ban-tiktok-and-could-other-countries-follow-suit",
@@ -569,7 +703,7 @@
         ]
     },
     {
-        "id": "811f1283-2f0f-42a9-82b9-ea2f89827a93",
+        "id": "4f0ee3a5-7c1c-4113-9fc7-06b15efed8cb",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/uk-competition-watchdog-steps-up-scrutiny-of-big-techs-role-in-ai-startups-cma-microsoft-amazon",
@@ -634,7 +768,7 @@
         ]
     },
     {
-        "id": "ee51cbef-a358-4a23-b30d-13026db8156e",
+        "id": "aaa32115-1e09-4d87-87c4-c8b2d6c8b0b2",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/tell-us-whats-your-favourite-everyday-gadget",
@@ -644,7 +778,7 @@
         "tickers": []
     },
     {
-        "id": "82bd1ac5-833f-4436-acc9-0beee4eba412",
+        "id": "754380b1-ff4c-47d1-bee3-2c4caa775f37",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/how-soon-can-tesla-get-its-more-affordable-car-to-the-market",
@@ -673,7 +807,7 @@
         ]
     },
     {
-        "id": "3d99e9cc-6244-4ccb-8eeb-3691d2939452",
+        "id": "70bcb4b7-357e-4587-a214-552486203969",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/harry-daniels-tiktok-singing-celebrities",
@@ -683,7 +817,7 @@
         "tickers": []
     },
     {
-        "id": "83f195cf-ed98-44a8-a16d-11b444a6cbe1",
+        "id": "23f5990e-69e4-4d63-b0cb-8bdc69ad0493",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/senate-passes-bill-banning-tiktok-will-parent-company-sell",
@@ -712,7 +846,7 @@
         ]
     },
     {
-        "id": "428cd91b-11bf-41ce-9ba4-a4bda504efd1",
+        "id": "0522fb7b-738c-4b90-aa85-dfb897347cb1",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/tesla-tsla-earnings-report-cybertruck",
@@ -732,7 +866,7 @@
         ]
     },
     {
-        "id": "8f212b2a-0c24-4ded-8383-118e84298633",
+        "id": "6b73fab2-459e-4b20-a5e6-e49d178d9038",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/techscape-apple-app-store-china-tiktok-meta-llama",
@@ -770,7 +904,7 @@
         ]
     },
     {
-        "id": "679537fa-108b-47fd-af81-49decb64fb9f",
+        "id": "dd2713e4-37ba-4e00-be0d-be0e1e05a3a1",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/can-ai-image-generators-be-policed-to-prevent-explicit-deepfakes-of-children",
@@ -790,7 +924,7 @@
         ]
     },
     {
-        "id": "2b110523-d44d-4ab3-94c7-330f02674337",
+        "id": "79e607ce-2ccc-41d1-8a1a-147434ba2dee",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/paedophiles-create-nude-ai-images-of-children-to-extort-them-says-charity",
@@ -800,7 +934,7 @@
         "tickers": []
     },
     {
-        "id": "c209e033-3136-4bf8-b2dc-29bfcbe07878",
+        "id": "2e3ba5d3-f558-4736-99dc-a064b2cef60b",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/eu-threatens-to-ban-tiktok-lite-over-reward-to-watch-feature",
@@ -820,7 +954,7 @@
         ]
     },
     {
-        "id": "0004ede6-7588-4068-ac14-22e9f5720534",
+        "id": "ffb510c0-1599-47fd-b5e1-56dda766e424",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/elon-musk-hits-back-at-australian-court-order-against-x-images-of-stabbing",
@@ -840,7 +974,7 @@
         ]
     },
     {
-        "id": "c63ca3f0-6c4e-413c-92a7-4a3503d3d543",
+        "id": "8b19dab7-5be4-46fc-802e-c20af6764fa3",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/elon-musk-postpones-india-trip-tesla-results-narendra-modi",
@@ -869,7 +1003,7 @@
         ]
     },
     {
-        "id": "43a791ca-2050-4da4-9733-d2cb9127b903",
+        "id": "dc384208-42a6-4dbb-9a62-e06636f70861",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/tiktok-us-ban-or-forced-sale-bill-bytedance",
@@ -879,7 +1013,7 @@
         "tickers": []
     },
     {
-        "id": "9aac824f-62ae-4ab8-920e-ab35333d7dd4",
+        "id": "8d504c96-9928-4901-ba8a-6397b1256477",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/lawsuit-in-london-to-allege-grindr-shared-users-hiv-status-with-ad-firms",
@@ -899,7 +1033,7 @@
         ]
     },
     {
-        "id": "c27517f5-5087-47fc-8337-72bcdb8857e1",
+        "id": "99272cc2-f353-444e-8b55-bc11a57b57d7",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/21/tesla-sales-price-cuts-elon-musk",
@@ -919,7 +1053,7 @@
         ]
     },
     {
-        "id": "dd0e452d-d108-4be9-beb0-acb706fd3268",
+        "id": "196970e6-c2f6-4da2-a062-feedf500ff61",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/21/sex-offender-banned-from-using-ai-tools-in-landmark-uk-case",
@@ -929,7 +1063,7 @@
         "tickers": []
     },
     {
-        "id": "38275317-8b33-4cb7-9580-c18bdcb7a2d2",
+        "id": "58255fe4-ba4b-494f-a4fe-946aaa98c38b",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/20/us-house-tiktok-byte-dance",
@@ -939,7 +1073,7 @@
         "tickers": []
     },
     {
-        "id": "adddcef2-34b7-4ba2-99a4-01fc740b2c9e",
+        "id": "d4b93d85-31c8-4d57-9cbd-df7080b0ab94",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/20/cybertruck-failures-tesla-elon-musk",
@@ -968,7 +1102,7 @@
         ]
     },
     {
-        "id": "b606d380-11b2-46e9-8adb-1b5c6ed380f1",
+        "id": "fe7c471b-6898-4ca0-9225-51c19afbf2d7",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/oxford-future-of-humanity-institute-closes",
@@ -988,7 +1122,7 @@
         ]
     },
     {
-        "id": "16f198dc-01f5-4d64-be5d-5d5665e4e8f8",
+        "id": "ccecf851-177b-456b-a72d-5ee0a9c74129",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/idf-facial-recognition-surveillance-palestinians",
@@ -1008,7 +1142,7 @@
         ]
     },
     {
-        "id": "e1d6513c-3b62-4c4c-9338-d0b54814cf1c",
+        "id": "e2bb2385-9f12-4a2b-9552-027b71c51fbe",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/amazon-uk-recognise-union-gmb-ballot-coventry-warehouse",
@@ -1028,7 +1162,7 @@
         ]
     },
     {
-        "id": "142291c3-c659-404d-8f77-8c3e55e81321",
+        "id": "34408d9d-9057-4a07-a332-813c2d50df99",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/what-is-bitcoin-halving-price",
@@ -1043,76 +1177,6 @@
                     "positive": 0.00393,
                     "negative": 0.0187,
                     "neutral": 0.97737
-                }
-            }
-        ]
-    },
-    {
-        "id": "ddd1833e-3ed2-45f2-a52f-abfd47ea340f",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/19/quarter-of-uks-three--and-four-year-olds-own-a-smartphone-data-shows",
-        "title": "Quarter of UK’s three- and four-year-olds own a smartphone, data shows",
-        "author": "Dan Milmo",
-        "published_date": "2024-04-18T23:01:49+00:00",
-        "tickers": []
-    },
-    {
-        "id": "0a3ba804-5bf8-4d90-ac79-d5aa2d22a22d",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/18/terror-watchdog-condemns-whatsapp-for-lowering-uk-users-minimum-age-to-13",
-        "title": "Terror watchdog condemns WhatsApp for lowering UK users’ minimum age to 13",
-        "author": "Dan Milmo",
-        "published_date": "2024-04-18T19:23:06+00:00",
-        "tickers": [
-            {
-                "ticker": "META",
-                "sentiment": {
-                    "classification": "NEUTRAL",
-                    "positive": 0.00247,
-                    "negative": 0.10875,
-                    "neutral": 0.88878
-                }
-            }
-        ]
-    },
-    {
-        "id": "a0efbe3c-b0b4-4185-b685-7a1c5ad99ff8",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/18/tell-us-have-you-experiences-last-minute-cancellations-on-airbnb",
-        "title": "Tell us: have you experienced last-minute cancellations on Airbnb?",
-        "author": "Guardian community team",
-        "published_date": "2024-04-18T12:00:59+00:00",
-        "tickers": [
-            {
-                "ticker": "ABNB",
-                "sentiment": {
-                    "classification": "NEUTRAL",
-                    "positive": 0.00126,
-                    "negative": 0.05616,
-                    "neutral": 0.94258
-                }
-            }
-        ]
-    },
-    {
-        "id": "dc58343b-4e4e-4dba-b6f4-cee7e2aac006",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/18/nothing-ear-a-review-cheaper-smaller-longer-lasting-earbuds",
-        "title": "Nothing Ear (a) review: cheaper, smaller, longer-lasting earbuds",
-        "author": "Samuel Gibbs",
-        "published_date": "2024-04-18T10:45:26+00:00",
-        "tickers": [
-            {
-                "ticker": "AAPL",
-                "sentiment": {
-                    "classification": "NEUTRAL",
-                    "positive": 0.02192,
-                    "negative": 0.13018,
-                    "neutral": 0.8479
                 }
             }
         ]

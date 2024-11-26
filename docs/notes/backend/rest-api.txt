@@ -1,0 +1,7 @@
+local:
+docker build -t stiborv/rest-api:latest .
+docker push stiborv/rest-api:latest
+
+remote:
+docker pull stiborv/rest-api:latest
+docker run --name rest-api --network my-network -d -p 5053:5053 --add-host=host.docker.internal:host-gateway -it stiborv/rest-api:latest

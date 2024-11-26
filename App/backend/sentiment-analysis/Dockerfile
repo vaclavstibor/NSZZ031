@@ -32,11 +32,10 @@ COPY --from=build /usr/local/bin /usr/local/bin
 COPY . .
 
 # Expose the application port
-EXPOSE 8080
+EXPOSE 5052
 
 # Only one worker to speed up on local
-#CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080", "--workers", "2"]
-CMD uvicorn app:app --host 0.0.0.0 --port 8080 --workers 2
+CMD uvicorn app:app --host 0.0.0.0 --port 5052 --workers 2
 
 #docker buildx create --use
-#docker buildx build --platform linux/amd64 -t sa-asyncio:latest .
+#docker buildx build --platform linux/amd64 -t sentiment-analysis:latest .

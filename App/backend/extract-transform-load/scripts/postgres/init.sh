@@ -70,7 +70,6 @@ psql -v ON_ERROR_STOP=1 --username "${POSTGRES_USER}" --dbname="${ARTICLES_DB}" 
         FOREIGN KEY (section_id) REFERENCES sections(id) ON DELETE CASCADE
     );
 
-    - join indices
     CREATE UNIQUE INDEX idx_article_companies_article_id_company_id ON article_companies(article_id, company_id);
     CREATE UNIQUE INDEX idx_sentiments_article_id_company_id ON sentiments(article_id, company_id);
     CREATE UNIQUE INDEX idx_article_sections_article_id_section_id ON article_sections(article_id, section_id);

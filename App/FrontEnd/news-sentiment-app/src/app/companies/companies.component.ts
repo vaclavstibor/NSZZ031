@@ -24,16 +24,17 @@ export class CompaniesComponent extends HomeComponent implements OnInit {
     this.getCompaniesNamesAndTickers();
   }
 
-  getCompaniesNamesAndTickers() {
+  getCompaniesNamesAndTickers(): void {
     /**
      * Fetches the list of companies with their names and tickers
+     * and sorts them based on ticker using OrderByPipe,
      */
     this.httpService.getCompaniesNamesAndTickers().subscribe((res: CompanyNameAndTicker[]) => {
       this.companies = new OrderByPipe().transform(res, 'ticker');
     });
   }
 
-  search() {
+  search(): void{
     /**
      * Filters the companies based on the search input text
      * which is used to filter based on shortName and ticker

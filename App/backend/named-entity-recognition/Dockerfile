@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM --platform=linux/amd64 python:3.8-slim AS build
+FROM python:3.8-slim AS build
 
 # Upgrade pip to the latest version
 RUN python -m pip install --upgrade pip
@@ -32,7 +32,7 @@ RUN /venv/bin/python -m spacy_entity_linker "download_knowledge_base"
 RUN apt-get purge -y --auto-remove gcc g++ python3-dev libffi-dev build-essential
 
 # Start a new build stage
-FROM --platform=linux/amd64 python:3.8-slim AS final
+FROM python:3.8-slim AS final
 
 # Set the working directory in the container to /named_entity_recognition
 WORKDIR /named_entity_recognition
@@ -44,9 +44,9 @@ COPY --from=build /venv /venv
 COPY . .
 
 # Declare the port that the application uses
-EXPOSE 4200
+EXPOSE 5051
 
 # Use the shell form to allow environment variable expansion
-CMD /venv/bin/python -m uvicorn app:app --host 0.0.0.0 --port 4200 --workers 2
+CMD /venv/bin/python -m uvicorn app:app --host 0.0.0.0 --port 5051 --workers 2
 
-# docker buildx build --platform linux/amd64 -t stiborv/ner-asyncio:latest . --push
+# docker buildx build --platform linux/amd64 -t stiborv/ner:latest . --push

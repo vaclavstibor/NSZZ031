@@ -1,0 +1,19 @@
+local:
+docker build -t stiborv/angular:latest .
+docker push stiborv/angular:latest
+
+remote:
+docker pull stiborv/angular:latest
+docker run --name angular --network my-network -d -p 4200:4200 stiborv/angular:latest
+
+--- 
+local conference:
+docker build -t stiborv/angular-conference:latest .
+dokcer push stiborv/angular-conference:latest
+
+remote conference:
+docker pull stiborv/angular-conference:latest
+docker run --name angular-conference --network my-network -d -p 4200:4200 stiborv/angular-conference:latest
+
+
+

@@ -22,8 +22,9 @@ load_dotenv()
 ARTICLES_DB = os.getenv("ARTICLES_DB")
 POSTGRES_USER = os.getenv("POSTGRES_USER")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
-DB_PORT = "5434"  # for same docker network port 5432 and postgres; for host machine port 5434 and localhost
-HOST = "localhost"
+DB_PORT = os.getenv("DATABASE_PORT", 5434)  # The port exposed on the host
+HOST = "host.docker.internal"  # Docker's special DNS name to access host
+# for same docker network port 5432 and postgres; for host machine port 5434 and localhost
 
 
 class DatabaseController:

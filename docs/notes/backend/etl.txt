@@ -1,0 +1,22 @@
+local:
+docker compose up --build
+
+docker tag extract-transform-load-postgres stiborv/etl-postgres:latest
+docker tag extract-transform-load-scheduler stiborv/etl-scheduler:latest
+docker tag extract-transform-load-webserver stiborv/etl-webserver:latest
+
+docker push stiborv/etl-postgres:latest
+docker push stiborv/etl-scheduler:latest
+docker push stiborv/etl-webserver:latest
+
+remote:
+docker pull stiborv/etl-postgres:latest
+docker pull stiborv/etl-scheduler:latest
+docker pull stiborv/etl-webserver:latest
+
+docker compose up -d --build
+    - docker-compose exec postgres bash
+    - ls /docker-entrypoint-init.d
+    - ./docker-entrypoint-init.d/init.sh
+docker exec etl_webserver airflow users create --username admin --password nimda --firstname Admin --lastname User --role Admin --email admin@example.com
+docker exec etl_webserver airflow users create --username viewer --password viewer --firstname Viewer --lastname User --role Viewer --email viewer@example.com

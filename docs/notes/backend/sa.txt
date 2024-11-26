@@ -1,0 +1,7 @@
+build on remote after dirs transfer:
+docker build -t stiborv/sa:latest .
+docker login
+docker push stiborv/sa:latest
+
+remote:
+docker run --name sa --network my-network -d -p 5052:5052 stiborv/sa:latest

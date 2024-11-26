@@ -1,0 +1,12 @@
+local:
+docker buildx build --platform linux/amd64 -t stiborv/ner:latest . --push
+
+remote:
+# Pull the latest version of image
+docker pull stiborv/ner:latest
+
+# Create the network if it doesn't exist
+docker network create my-network
+
+# Run the container with the created network
+docker run --name ner --network my-network -d -p 5051:5051 stiborv/ner:latest

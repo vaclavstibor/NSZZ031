@@ -19,12 +19,12 @@ load_dotenv()
 ARTICLES_DB = os.getenv("ARTICLES_DB")
 POSTGRES_USER = os.getenv("POSTGRES_USER")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD")
-DB_PORT = "5432"  # TODO for same docker network port 5432 and postgres; for host machine port 5434 and localhost
+DB_PORT = os.getenv("CONTAINER_DATABASE_PORT")
 
 
 class DatabaseController:
     """
-    Manages database connections and operations for articles data.
+    Manages database connections and operations for articles database.
 
     This controller provides methods to manage the lifecycle of data within the articles database,
     including loading data, replicating and clearing tables, and deleting replicated tables.
@@ -110,10 +110,10 @@ class DatabaseController:
         """
         Inserts additional company data into the database from Yahoo Finance.
 
-        This method uses the `insert_additional_company_data` function from load phase 
+        This method uses the `insert_additional_company_data` function from load phase
         to insert additional company data into the database from Yahoo Finance.
         """
-        
+
         logging.info("Inserting additional company data from Yahoo Finance.")
         with self.get_connection() as connection:
             insert_additional_company_data(connection=connection)
@@ -129,4 +129,3 @@ class DatabaseController:
         logging.info("Deleting articles without companies.")
         with self.get_connection() as connection:
             delete_articles_without_companies(connection=connection)
-

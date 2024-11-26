@@ -20,6 +20,7 @@ export class GraphComponent implements OnInit, OnDestroy {
   private highlightNodes = new Set();
   private highlightLinks = new Set();
   private hoverNode = null;
+  private isRotationActive = true;
 
   constructor(private httpService: HttpService, private route: ActivatedRoute) {}
 
@@ -62,7 +63,7 @@ export class GraphComponent implements OnInit, OnDestroy {
       .graphData(this.graphData) 
       .forceEngine('d3')
       .nodeOpacity(1)
-      .backgroundColor('#131316')
+      .backgroundColor('white')
       .linkWidth(link => this.highlightLinks.has(link) ? 5 : 1)
       .linkDirectionalParticleWidth(link => this.highlightLinks.has(link) ? 5 : 0)
       .linkDirectionalParticles(link => this.highlightLinks.has(link) ? 5 : 0)
@@ -73,6 +74,21 @@ export class GraphComponent implements OnInit, OnDestroy {
       .nodeLabel(node => this.getNodeLabel(node))
       .onNodeClick(node => this.onNodeClick(node))
       .onNodeHover(node => this.onNodeHover(node));
+
+    // - Animation
+    const distance = 1500;
+    let angle = 0; 
+
+    setInterval(() => {
+      if (this.isRotationActive) {
+        this.graph.cameraPosition({
+          x: distance * Math.sin(angle),
+          z: distance * Math.cos(angle)
+        });
+        angle += Math.PI / 300;
+      }
+    }, 10);
+    // - Animation
 
     this.setupGuiControls();
   }
@@ -225,8 +241,12 @@ export class GraphComponent implements OnInit, OnDestroy {
     visibilityFolder.add(settings, 'showNEUTRAL').name('NEUTRAL').onChange(() => this.updateVisibility(settings));
     visibilityFolder.add(settings, 'showNEGATIVE').name('NEGATIVE').onChange(() => this.updateVisibility(settings));
 
+    const animationFolder = this.guiControls.addFolder('Animation');
+    animationFolder.add(settings, 'animation').name('ANIMATION').onChange(() => this.updateAnimation(settings));
+    
     this.updateLinkDistance(settings);
     this.updateVisibility(settings);
+    this.updateAnimation(settings);
 
     this.guiInformation = new dat.GUI({ autoPlace: true, width: 350 });
   }
@@ -253,6 +273,19 @@ export class GraphComponent implements OnInit, OnDestroy {
       });
     }
     this.graph.numDimensions(3); // Ensure 3D layout
+  }
+
+  private updateAnimation(settings: GraphSettings): void {
+    /**
+     * Simple switch function with isRotationActive
+     */
+
+    if (this.isRotationActive) { 
+      this.isRotationActive = false
+    }
+    else {
+      this.isRotationActive = true
+    }
   }
 
   private updateVisibility(settings: GraphSettings): void {
@@ -410,6 +443,8 @@ class GraphSettings {
   showPOSITIVE = true;
   showNEGATIVE = true;
   showNEUTRAL = true;
+
+  animation = true;
 
   [key: string]: any;
 }

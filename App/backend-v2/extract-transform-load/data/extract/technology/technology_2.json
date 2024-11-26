@@ -1,6 +1,56 @@
 [
     {
-        "id": "fea43aee-d505-4404-8956-27777c0c5ed6",
+        "id": "35c23749-b326-43b0-9baf-1cc0a4d473b1",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/02/apple-earnings-iphone-sales-decrease",
+        "title": "Apple reports slumping iPhone sales as global demand weakens",
+        "content": "Apple released its earnings report on Thursday, revealing a drop in overall revenue fueled by slackening iPhone sales. Earnings exceeded market expectations, however, and Apple’s shares rose in after-hours trading. Tim Cook, Apple’s chief executive, said in a statement released before the call that “Apple is reporting revenue of $90.8bn for the March quarter, including an all-time revenue record in services”. The iPhone manufacturer reported revenue of $90.8bn, down 4% year-over-year, but surpassing anticipated earnings of $90.1bn. It declared $0.25 in cash dividend for each share, an increase of 4%. iPhone revenue was $45.96bn, down 10% from the same time period last year, whereas Wall Street’s estimations were $46bn. The company also reported that its board had authorized a $110bn stock buyback. “Longer term, I think that Apple’s shift to a service business model is a robust approach to compensate for its dependence on iPhone sales performance,” said Forrester vice-president and principal analyst Thomas Husson. Apple unseated Samsung late last year as the world’s largest smartphone provider, capturing about 20% of the global market share. Shipments of Apple’s smartphones declined in the first quarter of this year, however, as Chinese competitors such as Huawei gained ground. Samsung, which saw a lighter fall in its shipments than Apple, took back the top spot among smartphone makers in the first months of 2024. During the Q&amp;A portion of the earnings call, Cook and Apple’s chief financial officer, Luca Maestri, fielded multiple questions about the company’s performance in China. Demand in the country has fallen, although the earnings report showed that the situation was less dire than many investors feared. Cook also said Apple would make “significant investments” in generative AI in the coming quarter, in line with similar announcements from Amazon, Alphabet, Microsoft and Meta in recent weeks. He repeatedly brought up artificial intelligence, claiming that the MacBook Air was the “best consumer laptop for AI”. “We continue to feel very bullish about our opportunity in generative AI,” Cook said on the call. “We are making significant investments and we’re looking forward to sharing some very exciting things with our customers soon.” As with many big tech companies over the past year, Apple made cuts in several departments, laying off a sizable number of employees. It shuttered a decade-long project in February to produce an autonomous electric car and laid off about 600 workers last month following the announcement. It is estimated the development of the car, codenamed Project Titan, cost Apple roughly $10bn. The company’s electric vehicle operation had a long history of turmoil, but the full shutdown of the multibillion-dollar effort surprised both the public and Apple employees working on the project. When the electric vehicle project was canceled, Apple executives also announced that they would be dedicating more resources to artificial intelligence projects. Apple has been poaching AI researchers from other tech companies such as Google, according to a Financial Times analysis, and is quietly setting up an AI research lab in Zurich. Apple has also been releasing AI research papers that may predict new features in its phones. Apple has been less public about its foray into generative AI than rivals like Microsoft and Google, but has similarly poured money into staffing up and acquiring AI startups. It is expected to reveal more of its plans for integrating generative AI into smartphones later this year. The Vision Pro headset, Apple’s first new gadget in a decade, was released in early February. According to its two most recent earnings reports, the product does not make a significant contribution to Apple’s revenue. The company is also facing numerous legal battles in the coming months, as regulators in the US and Europe have issued fines and levied antitrust lawsuits. The US Department of Justice filed a landmark antitrust lawsuit in March, accusing Apple of engaging in “a broad, sustained, and illegal course of conduct” to establish a smartphone monopoly. “Apple creates barriers and makes it extremely difficult and expensive for both users and developers to venture outside the Apple ecosystem,” Merrick Garland, the attorney general, said while announcing the suit. European authorities also fined Apple €1.8bn for EU antitrust violations, alleging that the company blocked competition from other music streaming services through unnecessary restrictions on its app store. Apple has rejected the allegations from European and US regulators, and vowed that it will contest the cases against its business practices. Apple’s stock price declined in recent months to fluctuate around $170 per share, down from its all-time high of about $199 which it hit last December. Shares of Apple rose in the days before the earnings report after a well-known financial analyst at Bernstein upgraded the stock to a prediction that it would outperform current market expectations and advised people to buy Apple stock. Cook ended his part of the call touting Apple’s commitment to environmentally friendly operations, and putting a positive spin on the company’s forthcoming products. “I couldn’t be more excited for the future we have ahead of us, driven by the imagination and innovation of our teams and the enduring importance of our products and services in people’s lives,” Cook said.",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-05-02T22:18:39+00:00"
+    },
+    {
+        "id": "48e211bd-0c3d-4fb4-8c4f-8d99f34d30d3",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/article/2024/may/02/apple-working-to-fix-iphone-alarm-problem",
+        "title": "Apple working to fix iPhone alarm problem",
+        "content": "Apple is working to fix a problem that has resulted in some users complaining that their iPhone alarms are not going off – or playing too quietly. The company said it was aware of the issue, which has been picked up by TikTok users, who have complained about incidents where their alarm has failed to sound. “This has probably been the third or fourth day in a row that my alarm clock has not gone off,” said one TikTok user. Another said: “I’ve noticed for the past week or so my alarm just wasn’t waking me up.” Users said the problem was causing them timekeeping problems. Apple said it was working to fix the problem quickly, although it is not clear how many people have been affected or what devices are involved. Another TikTok user, in a video that has garnered nearly 10m views, said their iPhone 15 alarm had gone off at “the lowest volume” and claimed the problem was related to an “attention aware” feature being enabled on their phone. “Apple are you trying to get people fired?” the user added. Apple declined to comment on whether the feature was the reason for the alarm problem, which was first reported by NBC’s Today programme. The attention aware feature lowers the sound of alerts if users are looking at their device. If you are looking at your phone it also dims the display until you stop looking at it. Apple has an online advice page on alarms, which points to controlling the alarm volume via the “Sounds &amp; Haptics” feature under settings, adding that the “do not disturb” and “silent mode” options do not affect the alarm sound. The page also recommends that users check their alarm sound is not set to “none”.",
+        "author": "Dan Milmo",
+        "published_date": "2024-05-02T12:18:56+00:00"
+    },
+    {
+        "id": "5917c7fa-790d-401a-bdfc-550f2b404cca",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/may/01/chatgpt-chatbot-rival-claude-to-be-introduced-on-iphone",
+        "title": "ChatGPT’s chatbot rival Claude to be introduced on iPhone",
+        "content": "OpenAI’s ChatGPT is facing serious competition, as the company’s rival Anthropic brings its Claude chatbot to iPhones. Anthropic, led by a group of former OpenAI staff who quit over differences with chief executive Sam Altman, have a product that already beats ChatGPT on some measures of intelligence, and now wants to win over everyday users. “In today’s world, smartphones are at the centre of how people interact with technology. To make Claude a true AI assistant, it’s crucial that we meet users where they are – and in many cases, that’s on their mobile devices,” said Scott White at Anthropic. “We’re putting the power of Claude directly into people’s hands. It’s not just about convenience; it’s about integrating Claude into the fabric of our daily lives.” The third version of the Claude large language model is offered direct to users on its website in three flavours: a speedy and simple model called “haiku”, a slower and more powerful model called “sonnet”, and, for paying customers only, the full “opus” system. It is that system that took the lead in the LMSys chatbot ranking, becoming the first AI to knock GPT-4 out of pole position, and it also made headlines for its enormous “context window” – a measure of how much of a conversation it can keep in mind at any one time. Opus can hold about 160,000 words, enough for a user to paste in a weighty novel and ask follow-up questions. Until now, though, ChatGPT has faced little competition on users’ devices. OpenAI first released its iOS app in May last year, and it remains one of the few frontier AI models with an accessible consumer app. Anthropic says the Claude app will allow it to bring new features to users, beyond simple ease of use. “For example, the Claude iOS app can, with a user’s consent, access the device’s camera and photo library,” White said. “After a meeting, a business user could snap a photo of a whiteboard diagram and ask Claude to summarise the key points, making it easier to share and act upon important information. Similarly, a consumer could take a picture of a plant they encounter on a hike and ask Claude to identify the species and provide more information about its characteristics and habitat.” Alongside the iOS app, the company is also boosting its business offering, with a “team” plan that lets corporate customers buy chatbot access for their entire staff. “We started Anthropic to lead the frontier of AI safety and research. That isn’t something you can do in the abstract. We don’t think we’d be able to positively influence the industry’s trajectory and inspire a race to the top on AI safety if we weren’t able to compete at the frontier,” White said. That competition appears to be having an effect on the market leader. On Wednesday, OpenAI changed its policies to allow users to access their entire ChatGPT history, without needing to opt in to allowing the company to train on their conversations as a quid pro quo.",
+        "author": "Alex Hern",
+        "published_date": "2024-05-01T15:00:33+00:00"
+    },
+    {
+        "id": "60c20fba-cafe-4b6a-8c7d-300065051a69",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/amazon-sales-report-ai",
+        "title": "Amazon sales soar with boost from artificial intelligence and advertising",
+        "content": "Amazon profits soared once again in the first quarter of 2024, the company announced on Tuesday – the latest in a series of robust earnings reports for the retail giant. The company attributed the boost to artificial intelligence and advertising sales. Amazon reported overall revenue of $143.3bn in the first three months of the year – up 13% from the same period in 2023 and surpassing Wall Street expectations of $142.65bn. The e-commerce giant reported an increase of more than 200% to $15bn, with net income more than tripling to $10.4bn from $3.17bn at the same time in 2023. In a statement accompanying the report, the chief executive, Andy Jassy, said Amazon’s continuing focus on AI has “reaccelerat[ed]” the growth rate of Amazon Web Services (AWS), the company’s cloud-computing sector. Revenue at AWS increased 17% year-over-year to $25bn, and AWS accounted for 62% of total operating profit. In a call following the report, Jassy said Amazon still has a lot of room to grow in the generative AI sector. The boost to AWS comes after growth in the sector had slowed recently. Executives attributed the slump to recovery from the Covid-19 pandemic, which had pushed many companies to improve cloud infrastructure to support remote work. That trend is stabilizing, they said, and demand for AI can further boost its cloud services. “We remain very bullish in AWS,” Jassy said. “We’re at a $100bn-dollar annualized revenue run right now, and this is before you even calculate generative AI. There’s a very large opportunity in front of us.” Advertising sales, meanwhile, increased 24% year-over-year to $11.8bn, after the company expanded its advertising, including rolling out ads on Prime Video, starting earlier this year. As Amazon ramps up its cloud-computing and AI capabilities, it will need to spend more on infrastructure to support the technology, Jassy said on the investor call Tuesday. Capital expenditure (capex) was at $14bn for the quarter, and Jassy said it is expected to increase in subsequent quarters of the fiscal year. “The more demand AWS has, the more we have to procure new data centers’ power and hardware,” he said, adding that the company does not spend capital “without very clear signals that we can monetize it”. Last week, Meta’s shares plummeted on news that the company would increase its capital expenditure to build up its AI capabilities. The earnings report comes after Amazon announced it would invest $11bn to build more data centers in Indiana, promising at least 1,000 jobs there. Also in the quarter, the company extended its partnership with chip manufacturer Nvidia to continue to power its AI offerings. The report underscores a positive response from investors to Amazon’s recent cost-cutting measures, including laying off more than 27,000 employees since late 2022. Amazon laid off hundreds of additional staffers in early 2024. Shares were up 5% in after-hours trading.",
+        "author": "Kari Paul",
+        "published_date": "2024-04-30T22:47:44+00:00"
+    },
+    {
+        "id": "6e331041-031d-4c51-ae11-16da7c5d1c5d",
+        "type": "article",
+        "section": "technology",
+        "url": "https://www.theguardian.com/technology/2024/apr/30/binance-founder-sentenced-money-laundering",
+        "title": "Binance founder sentenced to four months for money laundering",
+        "content": "Changpeng Zhao, the former head of the world’s largest cryptocurrency trading company, was sentenced to four months in jail on Tuesday in a Seattle courtroom. Zhao pleaded guilty late last year to money-laundering violations and stepped down as CEO of Binance. The company itself was fined $4.3bn. Zhao was fined $50m last year. Judge Richard Jones told Zhao that there were a number of mitigating factors in his sentencing, including that he had cooperated with law enforcement. Jones also cited numerous letters the court had received that testified to Zhao’s character, and stated that he did not believe Zhao was likely to reoffend. The Department of Justice sought a 36-month sentence for Zhao in a filing last week, arguing that he “violated US law on an unprecedented scale” and that his “sentence should reflect the gravity of his crimes”. Zhao’s defense lawyers argued that he should receive only probation. “Mr Zhao deeply regrets his offense, and he has shown exceptional acceptance of responsibility and remediation,” Zhao’s lawyers said in their filing before the sentencing. Zhao, who goes by CZ, has for years been one of the biggest names in cryptocurrency. He amassed billions of dollars as head of Binance, founding the exchange in 2017 and growing it into a dominant industry player as crypto investments surged. Zhao’s downfall coincided with a broader legal scrutiny of the crypto industry, including his fellow billionaire Sam Bankman-Fried being sentenced to 25 years in prison this year for financial fraud. The justice department’s case against Zhao revolved around his failure to comply with US anti-money-laundering laws and to file proper reports with government agencies such as the Financial Crimes Enforcement Network. In practice, prosecutors say that led to Binance becoming a hub for illicit financial transactions that included extremist groups, criminals and people trafficking child sexual abuse materials. Binance failed to report more than 100,000 suspicious transactions to law enforcement, prosecutors alleged, including those involving US-designated terror groups such as al-Qaida, Islamic State and Hamas. “From the very beginning, Zhao and other Binance executives had engaged in a deliberate and calculated effort to profit from the US market without implementing the controls that are required by US law,” the attorney general, Merrick Garland, said after Zhao pleaded guilty. During the sentencing hearing, the probation department recommended that Zhao receive five months in prison. They emphasized trying to find a balance between a deterrent and something that would not be unusually harsh. Zhao’s lawyers argued that the government seeking three years in prison was out of step with similar cases where defendants received no jail time. Zhao issued a short statement during the hearing, telling the judge that he wanted to focus his efforts on an online education platform and that he had reflected on his actions. Zhao remained active in the lead-up to the sentencing, traveling around the country and once meeting with Sam Altman, the OpenAI CEO. Earlier this year, he announced to his nearly 9 million followers on the social media platform X that he was starting an online education program, an effort that he brought up again in his remarks at the hearing. In addition to the sentence, Zhao’s plea deal requires him to pay $50m personally and Binance to pay $4.3bn in fines. The deal also carries potential US immigration implications for Zhao, who is a Canadian and Emirati citizen, but who is known for frequently moving between cities. Prosecutors argued following his plea deal that Zhao was a flight risk due to his immense wealth, and a judge ruled that he had to remain in the US awaiting sentencing. Jones stated in the sentencing hearing that Zhao should understand that wealth and power do not make a person immune from legal consequences, adding that Binance had turned a blind eye to criminal activity on its platform. Few within crypto ever approached Zhao’s status within the industry. While Zhao’s former rival Bankman-Fried became a public face and courted politicians in Washington, Zhao’s wealth and influence over crypto far surpassed him. Binance also played an important role in the downfall of Bankman-Fried’s FTX exchange, after Zhao’s decision in 2022 to liquidate Binance’s holdings of FTX’s own cryptocurrency accelerated investor concerns and hastened the rival exchange’s implosion.",
+        "author": "Nick Robins-Early",
+        "published_date": "2024-04-30T19:20:41+00:00"
+    },
+    {
+        "id": "ddff7178-336f-4c34-82f0-274d9c33ddce",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/30/eu-meta-russian-interference-elections-facebook-fake-news",
@@ -10,7 +60,7 @@
         "published_date": "2024-04-30T11:42:53+00:00"
     },
     {
-        "id": "8d05002b-09f6-4423-b71e-40f183b773d5",
+        "id": "8a8e5526-8a57-49df-af3c-9e251c29d1fa",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/30/techscape-artificial-intelligence-bots-dead-internet-theory",
@@ -20,7 +70,7 @@
         "published_date": "2024-04-30T10:41:27+00:00"
     },
     {
-        "id": "ff47f80c-604f-416a-90c8-fb9264c14d4a",
+        "id": "12481736-b42f-4de6-aa44-6104a94fdfa0",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/30/smartphones-ban-more-harm-than-good-molly-russell-father",
@@ -30,7 +80,7 @@
         "published_date": "2024-04-30T07:00:38+00:00"
     },
     {
-        "id": "f154d8af-8be7-437d-b41f-94d933f2cf99",
+        "id": "68efdd40-69b3-41a8-96d6-b3a0336536b7",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/29/eu-to-investigate-meta-over-election-misinformation-ahead-of-june-polls",
@@ -40,7 +90,7 @@
         "published_date": "2024-04-29T15:57:39+00:00"
     },
     {
-        "id": "39f4eb7c-a824-4f2a-8c28-e69a7d428d2e",
+        "id": "a3636c2d-b9e5-4f91-9558-dd78fc60d6da",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/29/devices-with-weak-passwords-to-be-banned-uk",
@@ -50,7 +100,7 @@
         "published_date": "2024-04-28T23:01:17+00:00"
     },
     {
-        "id": "0b0f65ab-15fe-4b08-8cea-4282f8ce7e9b",
+        "id": "077b9764-c1c0-43bf-b25f-7700f744bbaa",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/28/the-science-isnt-there-do-dating-apps-really-help-us-find-our-soulmate",
@@ -60,7 +110,7 @@
         "published_date": "2024-04-28T14:00:06+00:00"
     },
     {
-        "id": "c7ff394d-993a-4e04-9970-f7d1aa69da2c",
+        "id": "7c97dac7-b4da-4815-8e55-c236b1308e3d",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/28/bbc-presenters-likeness-used-in-advert-after-firm-tricked-by-ai-generated-voice",
@@ -70,7 +120,7 @@
         "published_date": "2024-04-28T09:39:54+00:00"
     },
     {
-        "id": "941f6ff7-68b0-4c86-83e0-f6af592b0c30",
+        "id": "1a7fe674-d61a-4453-8147-6eecc6916017",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/28/nick-bostrom-controversial-future-of-humanity-institute-closure-longtermism-affective-altruism",
@@ -80,7 +130,7 @@
         "published_date": "2024-04-28T05:00:02+00:00"
     },
     {
-        "id": "7441b5a9-0610-4507-a521-f22085bdee85",
+        "id": "ee1fe4ad-fa27-4330-baf1-c48c9491cf19",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/27/google-project-nimbus-israel",
@@ -90,7 +140,7 @@
         "published_date": "2024-04-27T11:00:34+00:00"
     },
     {
-        "id": "d615ace2-0763-4bd5-a4d3-1a07921a383d",
+        "id": "ad5958b0-da69-4035-adfc-9571869f2424",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/tesla-autopilot-fatal-crash",
@@ -100,7 +150,7 @@
         "published_date": "2024-04-26T19:20:44+00:00"
     },
     {
-        "id": "d6ed1c4e-0d33-42bc-82fe-78d931500387",
+        "id": "412c9502-37f8-40e2-b0eb-6de0cd689963",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/robot-flamethrower-dog-thermonator",
@@ -110,7 +160,7 @@
         "published_date": "2024-04-26T17:20:26+00:00"
     },
     {
-        "id": "0496544c-18cb-4c04-9442-fc1f5739fbb7",
+        "id": "32ad9e36-75f7-4cd3-a0ac-f0276054928c",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/google-alphabet-2tn-valuation-dividend-shares-results",
@@ -120,7 +170,7 @@
         "published_date": "2024-04-26T15:27:46+00:00"
     },
     {
-        "id": "7678520e-1940-4647-a682-d3015dd9e69c",
+        "id": "3b530a48-2fbb-420b-a947-7a77eeb04221",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/gmb-launches-legal-action-against-out-of-control-amazon-at-coventry-warehouse",
@@ -130,7 +180,7 @@
         "published_date": "2024-04-26T10:44:08+00:00"
     },
     {
-        "id": "13ca8d4f-e1eb-43b1-96fe-4d3425993591",
+        "id": "3e960a16-d88d-4d81-8560-bcf94733f48f",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/26/foreign-states-targeting-sensitive-research-at-uk-universities-mi5-warns",
@@ -140,7 +190,7 @@
         "published_date": "2024-04-25T23:02:17+00:00"
     },
     {
-        "id": "a7f83955-0483-4b03-9012-1560435e9517",
+        "id": "17b8394a-8cc9-4ff5-92ff-c3594ba62b57",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/25/microsoft-earnings",
@@ -150,7 +200,7 @@
         "published_date": "2024-04-25T22:15:40+00:00"
     },
     {
-        "id": "09cc1eea-c04d-41a1-b848-5537d7b858b1",
+        "id": "824c8fce-7b06-416b-8c32-8172df203cb5",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/25/google-revenue-quarter-one",
@@ -160,7 +210,7 @@
         "published_date": "2024-04-25T21:57:38+00:00"
     },
     {
-        "id": "5ebfd8ad-5bab-457f-a430-7fdc209d311e",
+        "id": "d777180b-0d9a-4c31-9cb6-e6a9f5bf6c0f",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/25/meta-value-falls-190bn-as-investors-react-to-plan-to-increase-spending-on-ai",
@@ -170,7 +220,7 @@
         "published_date": "2024-04-25T14:00:34+00:00"
     },
     {
-        "id": "970a15a4-fa89-4b0a-b359-f49d03af15a7",
+        "id": "9ffe4eaf-d920-4ab4-8e0a-aa7c7eb33786",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/mar/13/will-us-ban-tiktok",
@@ -180,7 +230,7 @@
         "published_date": "2024-04-24T22:45:34+00:00"
     },
     {
-        "id": "10a40792-193c-4af4-b3c2-45ccf0833de3",
+        "id": "8f12a212-bc17-4b5b-9f72-7ae297656e4a",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/meta-earnings",
@@ -190,7 +240,7 @@
         "published_date": "2024-04-24T22:41:30+00:00"
     },
     {
-        "id": "a3194823-4376-44df-a45a-140913b0aed9",
+        "id": "273709d6-aa36-4ce1-9b32-a4328ff46c77",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/tiktok-reward-to-watch-feature-suspended-after-eu-threats-to-block-it",
@@ -200,7 +250,7 @@
         "published_date": "2024-04-24T16:59:25+00:00"
     },
     {
-        "id": "2eedf1d3-8119-4375-8bac-e77aef15af0b",
+        "id": "73d2d9ac-3826-4603-b127-5ba2a3bd0de1",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/why-is-us-threatening-to-ban-tiktok-and-could-other-countries-follow-suit",
@@ -210,7 +260,7 @@
         "published_date": "2024-04-24T16:42:38+00:00"
     },
     {
-        "id": "811f1283-2f0f-42a9-82b9-ea2f89827a93",
+        "id": "4f0ee3a5-7c1c-4113-9fc7-06b15efed8cb",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/uk-competition-watchdog-steps-up-scrutiny-of-big-techs-role-in-ai-startups-cma-microsoft-amazon",
@@ -220,7 +270,7 @@
         "published_date": "2024-04-24T15:26:47+00:00"
     },
     {
-        "id": "ee51cbef-a358-4a23-b30d-13026db8156e",
+        "id": "aaa32115-1e09-4d87-87c4-c8b2d6c8b0b2",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/tell-us-whats-your-favourite-everyday-gadget",
@@ -230,7 +280,7 @@
         "published_date": "2024-04-24T14:40:09+00:00"
     },
     {
-        "id": "82bd1ac5-833f-4436-acc9-0beee4eba412",
+        "id": "754380b1-ff4c-47d1-bee3-2c4caa775f37",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/how-soon-can-tesla-get-its-more-affordable-car-to-the-market",
@@ -240,7 +290,7 @@
         "published_date": "2024-04-24T12:02:40+00:00"
     },
     {
-        "id": "3d99e9cc-6244-4ccb-8eeb-3691d2939452",
+        "id": "70bcb4b7-357e-4587-a214-552486203969",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/24/harry-daniels-tiktok-singing-celebrities",
@@ -250,7 +300,7 @@
         "published_date": "2024-04-24T10:00:38+00:00"
     },
     {
-        "id": "83f195cf-ed98-44a8-a16d-11b444a6cbe1",
+        "id": "23f5990e-69e4-4d63-b0cb-8bdc69ad0493",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/senate-passes-bill-banning-tiktok-will-parent-company-sell",
@@ -260,7 +310,7 @@
         "published_date": "2024-04-24T01:58:54+00:00"
     },
     {
-        "id": "428cd91b-11bf-41ce-9ba4-a4bda504efd1",
+        "id": "0522fb7b-738c-4b90-aa85-dfb897347cb1",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/tesla-tsla-earnings-report-cybertruck",
@@ -270,7 +320,7 @@
         "published_date": "2024-04-24T00:06:23+00:00"
     },
     {
-        "id": "8f212b2a-0c24-4ded-8383-118e84298633",
+        "id": "6b73fab2-459e-4b20-a5e6-e49d178d9038",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/techscape-apple-app-store-china-tiktok-meta-llama",
@@ -280,7 +330,7 @@
         "published_date": "2024-04-23T10:50:57+00:00"
     },
     {
-        "id": "679537fa-108b-47fd-af81-49decb64fb9f",
+        "id": "dd2713e4-37ba-4e00-be0d-be0e1e05a3a1",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/can-ai-image-generators-be-policed-to-prevent-explicit-deepfakes-of-children",
@@ -290,7 +340,7 @@
         "published_date": "2024-04-22T23:01:04+00:00"
     },
     {
-        "id": "2b110523-d44d-4ab3-94c7-330f02674337",
+        "id": "79e607ce-2ccc-41d1-8a1a-147434ba2dee",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/23/paedophiles-create-nude-ai-images-of-children-to-extort-them-says-charity",
@@ -300,7 +350,7 @@
         "published_date": "2024-04-22T23:01:04+00:00"
     },
     {
-        "id": "c209e033-3136-4bf8-b2dc-29bfcbe07878",
+        "id": "2e3ba5d3-f558-4736-99dc-a064b2cef60b",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/eu-threatens-to-ban-tiktok-lite-over-reward-to-watch-feature",
@@ -310,7 +360,7 @@
         "published_date": "2024-04-22T18:19:08+00:00"
     },
     {
-        "id": "0004ede6-7588-4068-ac14-22e9f5720534",
+        "id": "ffb510c0-1599-47fd-b5e1-56dda766e424",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/elon-musk-hits-back-at-australian-court-order-against-x-images-of-stabbing",
@@ -320,7 +370,7 @@
         "published_date": "2024-04-22T17:58:52+00:00"
     },
     {
-        "id": "c63ca3f0-6c4e-413c-92a7-4a3503d3d543",
+        "id": "8b19dab7-5be4-46fc-802e-c20af6764fa3",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/elon-musk-postpones-india-trip-tesla-results-narendra-modi",
@@ -330,7 +380,7 @@
         "published_date": "2024-04-22T15:51:22+00:00"
     },
     {
-        "id": "43a791ca-2050-4da4-9733-d2cb9127b903",
+        "id": "dc384208-42a6-4dbb-9a62-e06636f70861",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/tiktok-us-ban-or-forced-sale-bill-bytedance",
@@ -340,7 +390,7 @@
         "published_date": "2024-04-22T11:02:40+00:00"
     },
     {
-        "id": "9aac824f-62ae-4ab8-920e-ab35333d7dd4",
+        "id": "8d504c96-9928-4901-ba8a-6397b1256477",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/22/lawsuit-in-london-to-allege-grindr-shared-users-hiv-status-with-ad-firms",
@@ -350,7 +400,7 @@
         "published_date": "2024-04-22T06:00:20+00:00"
     },
     {
-        "id": "c27517f5-5087-47fc-8337-72bcdb8857e1",
+        "id": "99272cc2-f353-444e-8b55-bc11a57b57d7",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/21/tesla-sales-price-cuts-elon-musk",
@@ -360,7 +410,7 @@
         "published_date": "2024-04-21T17:46:19+00:00"
     },
     {
-        "id": "dd0e452d-d108-4be9-beb0-acb706fd3268",
+        "id": "196970e6-c2f6-4da2-a062-feedf500ff61",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/21/sex-offender-banned-from-using-ai-tools-in-landmark-uk-case",
@@ -370,7 +420,7 @@
         "published_date": "2024-04-21T06:00:49+00:00"
     },
     {
-        "id": "38275317-8b33-4cb7-9580-c18bdcb7a2d2",
+        "id": "58255fe4-ba4b-494f-a4fe-946aaa98c38b",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/20/us-house-tiktok-byte-dance",
@@ -380,7 +430,7 @@
         "published_date": "2024-04-20T19:42:08+00:00"
     },
     {
-        "id": "adddcef2-34b7-4ba2-99a4-01fc740b2c9e",
+        "id": "d4b93d85-31c8-4d57-9cbd-df7080b0ab94",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/20/cybertruck-failures-tesla-elon-musk",
@@ -390,7 +440,7 @@
         "published_date": "2024-04-20T13:00:28+00:00"
     },
     {
-        "id": "b606d380-11b2-46e9-8adb-1b5c6ed380f1",
+        "id": "fe7c471b-6898-4ca0-9225-51c19afbf2d7",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/oxford-future-of-humanity-institute-closes",
@@ -400,7 +450,7 @@
         "published_date": "2024-04-19T22:46:09+00:00"
     },
     {
-        "id": "16f198dc-01f5-4d64-be5d-5d5665e4e8f8",
+        "id": "ccecf851-177b-456b-a72d-5ee0a9c74129",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/idf-facial-recognition-surveillance-palestinians",
@@ -410,7 +460,7 @@
         "published_date": "2024-04-19T17:16:47+00:00"
     },
     {
-        "id": "e1d6513c-3b62-4c4c-9338-d0b54814cf1c",
+        "id": "e2bb2385-9f12-4a2b-9552-027b71c51fbe",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/amazon-uk-recognise-union-gmb-ballot-coventry-warehouse",
@@ -420,7 +470,7 @@
         "published_date": "2024-04-19T10:17:29+00:00"
     },
     {
-        "id": "142291c3-c659-404d-8f77-8c3e55e81321",
+        "id": "34408d9d-9057-4a07-a332-813c2d50df99",
         "type": "article",
         "section": "technology",
         "url": "https://www.theguardian.com/technology/2024/apr/19/what-is-bitcoin-halving-price",
@@ -428,45 +478,5 @@
         "content": "Satoshi Nakamoto, the pseudonymous creator of bitcoin, still has an influence on the cryptocurrency nearly 14 years after disappearing. This week the protocol designed by Nakamoto – an individual or group of individuals who went silent in December 2010 – will trigger what is known as a “bitcoin halving”, a process that has coincided with price increases in the past. The latest halving is expected to take place on Saturday. Here we explain what the bitcoin halving entails and its potential impact. What is bitcoin halving? It is related to how bitcoins are recorded and created. Transactions in the cryptocurrency are recorded on a universally accessible ledger called a blockchain. These transactions are put on the blockchain by “miners” who pack them into blocks that are then linked – or “chained” – together. They do this by solving a cryptographic puzzle using specialised hardware and – this is the key bit – receive a reward in newly created bitcoins. Nakamoto intended the number of bitcoins entering circulation to be finite, at 21m, so the protocol seeks to control the amount of new coins entering the market. It does this by halving the size of the miners’ reward every 210,000 blocks – roughly every four years. The latest halving is expected to take place in the early hours of Saturday in the US and UK, when the reward for adding a new block of transactions to the blockchain will decrease from 6.25 bitcoins to 3.125. Bitcoin – of which there are more than 19m in circulation – will continue to halve until the 21m point is reached, expected in 2140. What will the impact be on the bitcoin price? Halving reduces the supply of new bitcoins, which should in theory increase the price. It is an economic axiom that if demand for an asset remains stable while its supply decreases, its price should go up. The past three halvings – in 2020, 2016 and 2012 – have resulted in an average price increase of 16% over the 60 days that followed, according to data from the asset research firm 10x Research. The 2016 halving resulted in a decrease of 6% over the following 60 days, although it then rallied strongly throughout 2017. Markus Thielen, the head of research at 10x, says the halving is “associated with price increases due to reduced supply” but investors will have to wait for a price peak, which typically comes 500 days after a halving. In recent weeks bitcoin has fallen sharply from a recent record high of more than $70,000 (£56,175) to about $62,000 but it remains a strongly performing asset, up 40% so far in 2024 and more than double where it was at the same time last year. It is worth noting that while prices ultimately rose after the 2016 and 2020 halvings, they underwent prolonged dips – so-called “crypto winters” in 2018 and 2022 where prices underwent a prolonged dip. “The setup feels really familiar to past occasions where there has been a very sharp rally and it forms a top … then breaks,” says Neil Wilson, the chief analyst at the brokerage firm Finalto. Analysts at Deutsche Bank wrote on Thursday that the halving was “already partially priced in by the market” and that they did “not expect prices to increase significantly following the halving event”. Will there be a negative impact? Bitcoin mining companies, which take on the energy and equipment costs of validating transactions, face a financial hit as their reward drops. Andrew O’Neill, the managing director of the digital assets research lab at the credit ratings firm S&amp;P Global, wrote this week: “The block reward remains a significant part of miners’ revenue, therefore halving the reward impacts profitability.” He added: “Some operations will become non-profitable and will shut down as result, particularly those with higher energy costs.” To make bitcoin mining financially sustainable, S&amp;P says, the currency will need to be used more widely throughout the global economy in order to increase miners’ revenues via transaction fees. However, greater use of the cryptocurrency jars with concerns that energy-intensive bitcoin mining is already environmentally unsustainable. There is also, for bitcoin’s many critics, the negative impact of amateur investors being lured in by any price rise – and hype – that follows the halving. Bitcoin has gained in legitimacy this year, increasing its price, with US Securities and Exchange Commission permitting exchange-traded funds (ETFs) – a basket of assets that can be bought and sold like shares on an exchange – that track the price of the cryptocurrency. Nonetheless, the chair of the SEC, Gary Gensler, was begrudging in giving the go-ahead, describing bitcoin as a volatile asset used for “illicit activity including ransomware, money laundering, sanction evasion, and terrorist financing”. O’Neill is also sceptical that there will be a price boom. “The BTC [bitcoin] market is in a very different place to when the prior halvings occurred four, eight and 12 years ago,” he says. “Other drivers such as the growth of BTC ETFs in the US, and macro drivers such as interest rates and market liquidity, will also influence price.” Carol Alexander, a professor of finance at the University of Sussex business school, says any price boost from the halving will ultimately be illusory. “It will probably go above the all-time high but in the long run its value will be zero because there is no intrinsic value in bitcoin whatsoever,” she says. “It’s simply a speculative asset.”",
         "author": "Dan Milmo",
         "published_date": "2024-04-19T06:00:05+00:00"
-    },
-    {
-        "id": "ddd1833e-3ed2-45f2-a52f-abfd47ea340f",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/19/quarter-of-uks-three--and-four-year-olds-own-a-smartphone-data-shows",
-        "title": "Quarter of UK’s three- and four-year-olds own a smartphone, data shows",
-        "content": "A quarter of three- and four-year-olds in the UK now own a smartphone, while half of children under 13 are on social media, according to new data that comes as ministers consider banning all children under 16 from owning a mobile phone. The figures, from the communications regulator Ofcom, show high and rising rates of online activity by children of infant-school age, with 38% of five- to seven-year-olds using social media, compared with 30% a year ago, and 76% of them using a tablet. The findings will boost the argument of those close to Rishi Sunak who have been urging him to clamp down on phone and social media use by young children. Ministers will launch a consultation on what measures to take within weeks, according to government sources. The consultation will include a proposal to ban mobile phone sales to under-16s, one to make it easier for parents to put parental controls on devices, and one to raise the minimum age for social media sites from 13 to as high as 16. Ofcom also found that half of children aged three to 12 use at least one social media app, despite the minimum age requirement of 13. Michelle Donelan, the technology secretary, said in a statement: “Children as young as five should not be accessing social media, and these stark findings show why our Online Safety Act is essential. “Most platforms say they do not allow under-13s on to their sites, and the act will ensure companies enforce these limits or they could face massive fines. If they fail to comply with Ofcom decisions and keep children safe, their bosses could face prison.” She added: “Protecting children online is our No 1 priority and we will not hesitate to build on the act to keep them safe.” The figures come amid growing evidence of the impact of widespread social media use among children. The US government has warned that social media poses a “profound risk” to the mental health and wellbeing of children and teenagers, with the number of children and adolescents dealing with depression and anxiety having risen almost 30% in recent years. Jonathan Haidt, a US academic whose book The Anxious Generation has been cited as influencing No 10’s thinking on children and social media, told the Guardian the mobile phone ownership figures were “very disturbing”. Ofcom research also showed around a quarter of five- to seven-year-olds owned a smartphone. “Something must be done to reverse this trend,” said Haidt, a social psychologist at New York University’s Stern School of Business. He added that parents should work with schools to set a new norm: “Don’t give children a smartphone before the end of secondary education, around age 16.” Child online safety campaigners also called on the government to act. The Molly Rose Foundation said Ofcom had to crack down on platforms that “turn a blind eye” to age requirements, while the NSPCC called for “robust enforcement” of the Online Safety Act, which has provisions on enforcing social media age limits. Joe Ryrie, co-founder of the group Smartphone Free Childhood, said the statistics showed that social media and smartphone use “is a systemic problem and it’s only getting worse.” Ofcom’s annual study of children’s online habits also found the proportion of five- to seven-year-olds sending messages or making voice and video calls had risen from 59% to 65% compared with a year ago. The number of children in that cohort using WhatsApp rose from 29% to 37% and the proportion using TikTok increased from 25% to 30%. Overall, 96% of all children aged between three and 17 go online, with the vast majority of the 4% who are still offline being aged three or four. Even among that demographic – the youngest children surveyed – 84% use the internet. Generally, younger children who are allowed online use a tablet, while secondary-school-age children are more likely to have a smartphone, with more than 95% of 12- to 15-year-olds being given their own mobile phone. The smartphone figures were based on an Ofcom survey of 2,480 parents of children aged between three and 17. It defined a smartphone as a handset that allows individuals to easily download apps, view websites and generally go online.",
-        "author": "Dan Milmo",
-        "published_date": "2024-04-18T23:01:49+00:00"
-    },
-    {
-        "id": "0a3ba804-5bf8-4d90-ac79-d5aa2d22a22d",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/18/terror-watchdog-condemns-whatsapp-for-lowering-uk-users-minimum-age-to-13",
-        "title": "Terror watchdog condemns WhatsApp for lowering UK users’ minimum age to 13",
-        "content": "The UK’s terror watchdog has criticised Mark Zuckerberg’s Meta for lowering the minimum age for WhatsApp users from 16 to 13, warning that the “extraordinary” move could expose more teenagers to extreme content. Jonathan Hall KC said more children could now access material that Meta cannot regulate, including content related to terror or sexual exploitation. Hall, the independent reviewer of terrorism legislation, told LBC radio that the use of end-to-end encryption on WhatsApp – which means only the sender and receiver can see the messages on the app – left Meta unable to take down dangerous material. “So by lowering the age of the user from 16 to 13 for WhatsApp, effectively they’re exposing three more years within that age group … to content that they cannot regulate,” he said. “So, to me, that’s an extraordinary thing to do.” Hall added that children had become increasingly susceptible to terror content, following a record number of arrests last year. “We’ve had 42 children arrested last calendar year. It’s a huge number, biggest ever. It’s now clear that children particularly susceptible to terror content, children who are particularly unhappy … they’re a round peg in a square hole,” he said. “They are looking for meaning in their lives and they find it. And it could be an extremist identity.” WhatsApp announced the age change for the UK and EU in February and it came into force on Wednesday. The platform said the change brought the UK and EU age limit in line with other countries, and that protections were in place. However, child safety campaigners also criticised the decision. The group Smartphone Free Childhood said the move “flies in the face of the growing national demand for big tech to do more to protect our children”. Concerns over illegal content on WhatsApp and other messaging platforms made end-to-end encryption a battleground in the Online Safety Act, which empowers the communications regulator, Ofcom, to order a messaging service to use “accredited technology” to look for and take down child sexual abuse material. The government has attempted to play down the provision, saying Ofcom would only be able to intervene if scanning content was “technically feasible” and if the process met minimum standards of privacy and accuracy. In December, Meta announced it was rolling out end-to-end encryption on its Messenger app, with Instagram expected to follow.",
-        "author": "Dan Milmo",
-        "published_date": "2024-04-18T19:23:06+00:00"
-    },
-    {
-        "id": "a0efbe3c-b0b4-4185-b685-7a1c5ad99ff8",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/18/tell-us-have-you-experiences-last-minute-cancellations-on-airbnb",
-        "title": "Tell us: have you experienced last-minute cancellations on Airbnb?",
-        "content": "We’re interested in hearing from people who have made a booking for accommodation on an online travel platform, only for their host to cancel it at the last minute. Earlier this year, Taylor Swift fans in Australia were left without accommodation after Airbnb hosts cancelled their bookings. Airbnb’s “host cancellation policy” does not seem to have deterred hosts from then relisting their properties at a higher price. Has something similar happened to you? Are you a Swiftie whose plans to watch her European tour have been affected? Or have you made plans for a holiday elsewhere or another trip that have been thrown into disarray by a host’s cancellation?",
-        "author": "Guardian community team",
-        "published_date": "2024-04-18T12:00:59+00:00"
-    },
-    {
-        "id": "dc58343b-4e4e-4dba-b6f4-cee7e2aac006",
-        "type": "article",
-        "section": "technology",
-        "url": "https://www.theguardian.com/technology/2024/apr/18/nothing-ear-a-review-cheaper-smaller-longer-lasting-earbuds",
-        "title": "Nothing Ear (a) review: cheaper, smaller, longer-lasting earbuds",
-        "content": "The tech firm Nothing’s latest set of cut-price Bluetooth earbuds offer great sound and noise cancelling for an even more competitive price, while continuing to stand out from the crowd through cool design. The London-based firm has launched the budget Ear (a), which keep almost everything that was great about previous Nothing earbuds and cost £99 (€99/$99). That is £30 less than its previous offering and the new £129 (€149/$149) Ear, which offer a few more customisations for sound and other features. The Ear (a) have the same shape as their predecessors, though now with an injection of colour to make them a bit more jazzy. The fit and finish is still excellent, with the firm’s signature transparent design revealing some of the inner workings. The stalks have the same squeeze controls for playback, noise cancelling and volume as their predecessors. They are customisable and work pretty well by pinching once, twice, thrice or squeezing and holding the stalks, though the final gesture, double squeeze and hold, took a bit of practice to get right every time. The main body of the earbud and silicone tip sit comfortably and securely in the ear for extended listening sessions. The battery lasts for a solid five to six hours of playback, with a further three or so charges in the case. Nothing has significantly improved the case for the Ear (a), too, shrinking it to roughly the size of the best in the business, such as Apple’s AirPods, slipping nicely into the watch pocket of a pair of jeans. It lacks Qi wireless charging, having only USB-C, which is a sacrifice well made for the size. Specifications Water resistance: IP54 (splash resistant) Connectivity: Bluetooth 5.3 (SBC, AAC, LDAC) Battery life: 5.5h with ANC (24.5h with case) Earbud dimensions: 30.9 x 21.7 x 24.3mm Earbud weight: 4.8g each Driver size: 11mm Charging case dimensions: 47.6 x 63.3 x 22.7mm Charging case weight: 39.6g Case charging: USB-C Great sound for the price The earbuds have Bluetooth 5.3 support with multipoint for connecting two devices at once, making it easy to juggle between devices. They support the usual SBC and AAC Bluetooth audio formats, but also support the high-quality LDAC, which is fairly common among Android devices. Nothing continues to offer better sound quality than rivals at this price. The Ear (a) are just as well-rounded as their processors and sound very similar to their more expensive Ear siblings. They handle complex tracks with ease and have a fairly wide and expansive sound. They can hit very low notes when required but have plenty of detail in the treble and highs. They are a bit more bassy out of the box thanks to a new bass enhance feature, which has five levels and can be adjusted in the Nothing X app along with a basic equaliser. The noise cancelling is also pretty good, managing to dampen the drone of the commute and hubbub of an office well when set to maximum. They also do a slightly better job of dealing with higher tones, such as keyboard clacks and voices, than their predecessors. The ambient sound mode is one of the better ones available, too, while call quality in quiet and noisy environments was decent, if a little artificial-sounding. Sustainability Nothing says the batteries in the earbuds and case will maintain at least 80% of their original capacity for 500 full charge cycles. Out of warranty, replacement cases or earbuds cost £39.99 each, but the earbuds are not repairable, ultimately making them disposable. The earbuds contain recycled tin, but Nothing does not offer trade-in schemes for audio products or publish environmental impact assessments. It estimates the earbuds’ carbon footprint to be 2.72kg. Price The Nothing Ear (a) cost £99 (€99/$99) and come in a choice of three colours, shipping from 22 April. For comparison, the Ear cost £129, the Fairphone Fairbuds cost £129, OnePlus Buds Pro 2 cost £179, Google Pixel Buds Pro cost £199, and the Apple AirPods Pro 2 cost £229. Verdict The Ear (a) have set a new bar for quality at the cheaper end of the market. Costing just £99, they offer better sound and noise cancelling than most rivals, and with a more interesting transparent design that looks great. The earbuds work and fit well, the controls are good, multipoint Bluetooth is very welcome, and they have a solid battery life. The new, smaller and more pocketable case is a clear upgrade over previous Nothing earbuds. They might lack bells and whistles such as a full equaliser or support for advanced spatial audio, and won’t trouble the best on outright audio quality and noise cancelling, but you would have to spend a fair bit more to get a better set of everyday earbuds. The biggest issue is that the battery still cannot be replaced in the earbuds or case, ultimately making them disposable and losing them a star. The Fairbuds have proved it can be done, so it is time for others to take notice. Pros: great value, interesting design, great sound and noise cancelling for the price, comfortable fit, good call quality, solid controls, Bluetooth 5.3 with multipoint, cross-platform app. Cons: disposable, case is very easy to scratch, no head-tracking spatial audio support, no support for future-proofing LC3 or Auracast.",
-        "author": "Samuel Gibbs",
-        "published_date": "2024-04-18T10:45:26+00:00"
     }
 ]

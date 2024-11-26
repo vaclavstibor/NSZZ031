@@ -14,7 +14,7 @@ services:
     env_file:
       - .env
     ports:
-      - "5434:5432"
+      - "${HOST_MACHINE_DATABASE_PORT}:${CONTAINER_DATABASE_PORT}"
     volumes:
       - ./scripts/postgres:/docker-entrypoint-initdb.d
 
@@ -33,13 +33,12 @@ services:
       - .env
     volumes:
       - ./scripts/scheduler:/docker-entrypoint-initdb.d
-      - /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data:/extract-transform-load/data
 
   webserver:
     build:
       context: .
     ports:
-      - "8080:8080"
+      - "${AIRFLOW_SERVER_PORT}:${AIRFLOW_SERVER_PORT}"
     command: >
       bash -c "
       airflow db migrate &&
@@ -52,6 +51,5 @@ services:
       - .env
     volumes:
       - ./scripts/webserver:/docker-entrypoint-initdb.d
-      - /Users/stiborv/Documents/2324/ZS2324/NPRG045/App/backend-v2/extract-transform-load/data:/extract-transform-load/data
 volumes:
   postgres_data:

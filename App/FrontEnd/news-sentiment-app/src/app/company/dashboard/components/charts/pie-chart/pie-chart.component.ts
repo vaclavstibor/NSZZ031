@@ -24,7 +24,11 @@ export class PieChartComponent implements OnInit {
   }
 
   getPieChartOptions(mappedData: PieChartData): void {
-    // Set the chart options
+    /**
+     * Sets the options for the pie chart based on the mapped data.
+     * 
+     * @param mappedData: The mapped data for the pie chart (type: PieChartData)
+     */
     const colorMap = {
       "POSITIVE": "green",
       "NEGATIVE": "red",
@@ -60,6 +64,12 @@ export class PieChartComponent implements OnInit {
   }
 
   mapDataToChart(sentimentData: SentimentData[]) {
+    /**
+     * Maps the sentiment data to the pie chart.
+     * 
+     * @param sentimentData: The sentiment data to map to the chart (type: SentimentData[])
+     */
+    
     // Map the sentiment data to the chart
     let positiveCount = 0;
     let negativeCount = 0;

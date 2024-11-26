@@ -19,33 +19,34 @@ export class HttpService {
 
   getCompanyInfoData(ticker: string): Observable<CompanyInfo> {
     return this.http.get<CompanyInfo>(
-      `${environment.API_BASE_URL}/company/${ticker}/info`
+      `/api/v0/company/${ticker}/info`
     );
   }
 
   getCompanyChartData(ticker: string): Observable<CompanyChart> {
     return this.http.get<CompanyChart>(
-      `${environment.API_BASE_URL}/company/${ticker}/chart`
+      `/api/v0/company/${ticker}/chart`
     );
   }
 
   getCompanyGraphData(ticker: string): Observable<CompanyGraph> {
     return this.http.get<CompanyGraph>(
-      `${environment.API_BASE_URL}/company/${ticker}/graph`
+      `/api/v0/company/${ticker}/graph`
     );
   }
   
   getCompanyArticlesData(ticker: string): Observable<CompanyArticleList> {
     return this.http.get<CompanyArticleList>(
-      `${environment.API_BASE_URL}/company/${ticker}/articles`
+      `/api/v0/company/${ticker}/articles`
     );
   }
 
   getCompaniesNamesAndTickers(): Observable<CompanyNameAndTicker[]> {
-    return this.http.get<CompanyNameAndTicker[]>(`${environment.API_BASE_URL}/companies/names`);
+    return this.http.get<CompanyNameAndTicker[]>(`/api/v0/companies/names`);
   }
 
   getCompaniesGraphsData(): Observable<CompaniesGraphs> {
-    return this.http.get<CompaniesGraphs>(`${environment.API_BASE_URL}/companies/graphs`);
+    return this.http.get<CompaniesGraphs>(`/api/v0/companies/graphs`);
   }
 }
+

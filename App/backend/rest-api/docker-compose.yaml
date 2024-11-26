@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  rest-api:
+    build:
+      context: .
+    env_file:
+      - .env
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}

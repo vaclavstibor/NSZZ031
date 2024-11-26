@@ -1,0 +1,56 @@
+# GENERAL CONFIGURATION
+# ---
+HOST_MACHINE_AIRFLOW_SERVER_PORT="8080"
+CONTAINER_AIRFLOW_SERVER_PORT="8080"
+# ---
+HOST_MACHINE_DATABASE_PORT="5434"
+CONTAINER_DATABASE_PORT="5432"
+# ---
+NER_MODEL_PORT="5051"
+NER_MODEL_API_URL="http://ner:5051/extract-entities"
+# ---
+SA_MODEL_PORT="5052"
+SA_MODEL_API_URL = "http://sa:5052/analyse-sentiment"
+# ---
+
+# This section defines general settings for the application.
+# BEGINNING_OF_TIME specifies the earliest date (format YYYY-MM-DD) from which the application starts processing data.
+# - Current version of the application automatically compute 90 days to the past from the current date, so this value is not used.
+# - But this still could be used in etl.py by loading this variable.
+BEGINNING_OF_TIME="2024-06-25"
+
+# The Guardian API
+# This section contains configuration for accessing The Guardian's API for news data extraction.
+# THE_GUARDIAN_BASE_URL is the base URL for The Guardian API.
+THE_GUARDIAN_BASE_URL="https://content.guardianapis.com"
+# THE_GUARDIAN_API_KEY is the API key required for authenticating requests to The Guardian API.
+THE_GUARDIAN_API_KEY=""
+# THE_GUARDIAN_SECTIONS specifies the news sections to fetch articles from, separated by commas.
+THE_GUARDIAN_SECTIONS="technology,business"
+# THE_GUARDIAN_DIRECTORY is the directory path where the extracted data from The Guardian will be stored.
+THE_GUARDIAN_DIRECTORY="/extract-transform-load/data"
+# THE_GUARDIAN is a label used to identify the source of the data.
+THE_GUARDIAN="the-guardian"
+
+# Airflow
+# This section configures Apache Airflow, a platform to programmatically author, schedule, and monitor workflows.
+# AIRFLOW__DATABASE__SQL_ALCHEMY_CONN is the SQLAlchemy connection string to Airflow's metadata database. [protocol]://[username]:[password]@[host]:[port]/[database]
+AIRFLOW__DATABASE__SQL_ALCHEMY_CONN="postgresql+psycopg2://airflow:airflow@postgres:5432/airflow" 
+# AIRFLOW__SCHEDULER__SCHEDULER_HEARTBEAT_SEC sets the number of seconds for the scheduler heartbeat.
+AIRFLOW__SCHEDULER__SCHEDULER_HEARTBEAT_SEC="10"
+# AIRFLOW__CORE__EXECUTOR specifies the executor to run tasks in Airflow. LocalExecutor runs tasks locally.
+AIRFLOW__CORE__EXECUTOR="LocalExecutor"
+# AIRFLOW__CORE__PARALLELISM sets the number of task instances allowed to run concurrently.
+AIRFLOW__CORE__PARALLELISM="16"
+# PLACEHOLDER for the secret key used to secure the Airflow web interface to see logs, etc.
+AIRFLOW__WEBSERVER__SECRET_KEY='random_secret_key'
+
+# Postgres
+# This section configures the PostgreSQL database.
+POSTGRES_USER="postgres"
+POSTGRES_PASSWORD="postgres"
+ARTICLES_DB="articles"
+# AIRFLOW_USER, AIRFLOW_PASSWORD, and AIRFLOW_DB specify the username, password, and database name for the Airflow database.
+AIRFLOW_USER="airflow"
+AIRFLOW_PASSWORD="airflow"
+AIRFLOW_DB="airflow"

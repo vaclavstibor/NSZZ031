@@ -2,12 +2,12 @@ import os
 import uvicorn
 from fastapi import FastAPI, Depends
 from contextlib import asynccontextmanager
+from dotenv import load_dotenv
 
 from src.models.response import Response
 from src.models.query import Query
 from src.ner.model import Model, SPARQLWikidataConnector, extract_entities
 from src.utils.helpers import setup_logger
-from dotenv import load_dotenv
 
 setup_logger()
 load_dotenv()
@@ -18,19 +18,11 @@ SERVER_PORT = int(os.getenv("SERVER_PORT"))
 
 app = FastAPI()
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    """
-    Lifespan event handler that initializes the model and connector.
-
-    This function is called when the FastAPI application starts up. It initializes
-    the model and connector and stores them in the application state.
-    """
+@app.on_event("startup")
+async def startup_event():
     app.state.model = Model(model_name=SPACY_MODEL_NAME)
     app.state.connector = SPARQLWikidataConnector()
-    yield
 
-app.router.lifespan = lifespan
 
 @app.post("/extract-entities", response_model=Response)
 async def extract(
@@ -55,6 +47,7 @@ async def extract(
     content = query.content
     entities = await extract_entities(model=model, connector=connector, content=content)
     return Response(entities=entities)
+
 
 if __name__ == "__main__":
     uvicorn.run("app:app", host=SERVER_HOST, port=SERVER_PORT, reload=True)

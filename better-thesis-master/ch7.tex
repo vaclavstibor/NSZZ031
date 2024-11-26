@@ -286,3 +286,20 @@ This component acts as a parent component to load individual child components. A
 \end{itemize}
 
 By utilising the input decorator, data for all three charts is loaded only once, allowing us to clearly and efficiently create at least three charts without loading data separately for each chart. Additionally, data loaded into the CompanyInfo and ArticleList components come from specific endpoints explicitly created for their purpose. This approach allows us to effortlessly and efficiently implement additional components we want to include in the dashboard in the future.
+
+Introduction
+In today's era of information explosion and constant flow, it becomes more time-consuming to keep track of associations and deeply understand the published content through online news, primarily when investing in a specific area. The thesis aims to design and implement a tool to provide users with sentiment analysis of news articles to aid investment decision-making. 
+
+Textual Data
+First-party data providers are preferable to third-party providers because they offer higher data quality and reliability as direct sources. This approach ensures that the data accurately reflects reality and complies with terms of service, avoiding legal issues. First-party providers also have better specifications and defined APIs, making them more reliable.
+
+Company to Symbol Linking
+Three naive approaches on static datasets were presented to link company names to ticker symbols. They have limitations with name variations. A more efficient method is enhanced by a trained knowledge base on Wikidata, offering a structured data repository. Using the Spacy Entity Linker library in Python, we can match text entities to Wikidata entries and obtain additional entity information via SPARQL queries. This method covers most companies traded or related to those on exchanges, achieving nearly 100% success depending on the current entity's relationship with the exchange.
+
+Entity-level Sentiment Analysis
+The FinABSA model, trained on the SEntFiN 1.0 dataset, is ideal for this task. The model categorises sentiments into positive, neutral, and negative classes, providing numerical sentiment analysis. The FinEntity dataset, containing paragraphs from newspaper articles, entity annotations, and corresponding sentiments, is suitable for validating the algorithm. After significantly reducing the dataset to ensure precise measurement, the experiment achieved a 92% success rate with high accuracy. The correlation between entity-level sentiment and adjusted close prices of stocks demonstrates promising relationships, highlighting the potential of sentiment analysis in financial markets.
+
+Implementation and architecture:
+The application's high-level architecture contains individual services and their communication. The backend is divided into several services, each with a distinctly defined role. The ETL service is responsible for acquiring data from external sources, transforming it, and storing it in the database. The NER service categorises entities in article content data, while the SA service analyses the sentiment of text at the entity level. The REST API service provides access to data stored in the database. The frontend is written using the Angular framework, providing a user interface for interacting with data from the database through a REST API. The application's components include the Home, Graphs, Companies, CompanyGraph, and CompanyDashboard components.
+
+The tool enables the particular analysis and provide a user-friendly and parameterisable visualisation of the results and their correlation with the stock market using a selected sentiment analysis approach. Each crucial architecture component is verified on a selected set of historical data. The architecture of the system is modular so that it ensures adding/replacing the analytical approaches, as well as integrating new types of input data.

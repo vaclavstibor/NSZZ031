@@ -122,9 +122,15 @@ def replicate_and_clear_tables(connection: psycopg2_connection) -> None:
         )
 
         # Create indexes for the temporary tables
-        cursor.execute("CREATE UNIQUE INDEX idx_temp_article_companies_article_id_company_id ON temp_article_companies(article_id, company_id);")
-        cursor.execute("CREATE UNIQUE INDEX idx_temp_sentiments_article_id_company_id ON temp_sentiments(article_id, company_id);")
-        cursor.execute("CREATE UNIQUE INDEX idx_temp_article_sections_article_id_section_id ON temp_article_sections(article_id, section_id);")
+        cursor.execute(
+            "CREATE UNIQUE INDEX idx_temp_article_companies_article_id_company_id ON temp_article_companies(article_id, company_id);"
+        )
+        cursor.execute(
+            "CREATE UNIQUE INDEX idx_temp_sentiments_article_id_company_id ON temp_sentiments(article_id, company_id);"
+        )
+        cursor.execute(
+            "CREATE UNIQUE INDEX idx_temp_article_sections_article_id_section_id ON temp_article_sections(article_id, section_id);"
+        )
 
         # List of original tables
         table_names = [

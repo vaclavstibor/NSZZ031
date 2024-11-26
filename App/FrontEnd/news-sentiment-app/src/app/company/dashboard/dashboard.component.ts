@@ -41,6 +41,7 @@ export class DashboardComponent extends HomeComponent implements OnInit {
     /**
      * Fetch company info data from the API and update 
      * the infoData variable with the response.
+     * 
      */
     this.infoLoading = true;
     this.httpService.getCompanyInfoData(ticker).subscribe({

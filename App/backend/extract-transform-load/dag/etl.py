@@ -10,8 +10,6 @@ from typing import Dict, List
 from airflow.decorators import dag, task, task_group
 from airflow.operators.python import PythonOperator
 from airflow.utils.task_group import TaskGroup
-from airflow.sensors.filesystem import FileSensor
-from airflow.models import TaskInstance
 
 # Add the path to the sys.path so that the modules can be imported (especially for airflow to find the modules)
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
@@ -25,9 +23,6 @@ from transform.sentiment_analysis import apply_sa
 
 from database.controller import DatabaseController
 
-# https://github.com/apache/airflow/discussions/24463 (for macOS)
-os.environ["NO_PROXY"] = "*"
-
 BEGINNING_OF_TIME = (datetime.now() - timedelta(days=90)).strftime('%Y-%m-%d')
 
 default_args = {
@@ -40,7 +35,7 @@ default_args = {
     dag_id="extract_transform_load",
     default_args=default_args,
     start_date=datetime(2024, 6, 11),
-    schedule="0 */12 * * *",  # every 12 hours
+    schedule="0 */4 * * *",  # every 4 hours
     catchup=False,
 )
 def extract_transform_load() -> None:
@@ -85,7 +80,8 @@ def extract_transform_load() -> None:
         @task_group(group_id="transform_the_guardian_data")
         def transform_the_guardian_data() -> None:
             """
-            Transform the Guardian data.
+            Transform the Guardian data. For each section, creates task groups for each directory (section)
+            in the extract directory. Each file is processed in a separate pipeline. 
             """
             
             for section in source.sections:
@@ -151,7 +147,8 @@ def extract_transform_load() -> None:
         @task_group(group_id="load_the_guardian_data")
         def load_the_guardian_data() -> None:
             """
-            Loads The Guardian data into the database.
+            Loads The Guardian data into the database. Each section one by one is 
+            loaded into the database.
             """
 
             previous_section_group = None
@@ -204,6 +201,7 @@ def extract_transform_load() -> None:
         logging.info("Replicated tables deleted.")
 
     #replicate_and_clear_tables() >> [the_guardian(), the_new_york_times(), the_financial_times()] >> insert_additional_company_data() >> delete_articles_without_companies() >> delete_replicated_tables()
+    # For now, only The Guardian is used
     replicate_and_clear_tables() >> [the_guardian()] >> insert_additional_company_data() >> delete_articles_without_companies() >> delete_replicated_tables()
 
 extract_transform_load()

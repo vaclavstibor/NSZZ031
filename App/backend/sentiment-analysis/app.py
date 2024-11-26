@@ -1,20 +1,16 @@
-import logging
 import os
 from typing import List
-
 from dotenv import load_dotenv
 from fastapi import FastAPI, Depends
 import nltk
-from pydantic import BaseModel
 import uvicorn
+from contextlib import asynccontextmanager
 
 from src.models.query import Query
 from src.models.response import Response
 
 from src.sa.model import Model, analyse_sentiment
 from src.utils.helpers import setup_logger
-
-# Download in root due to possibility of multiple workers of server
 nltk.download("punkt")
 
 setup_logger()
@@ -26,15 +22,8 @@ SERVER_PORT = int(os.getenv("SERVER_PORT"))
 
 app = FastAPI()
 
-
 @app.on_event("startup")
-def startup_event():
-    """
-    A startup event handler that initializes the model and connector.
-
-    This function is called when the FastAPI application starts up. It initializes
-    the model and connector and stores them in the application state.
-    """
+async def startup_event() -> None:
     app.state.model = Model(ckpt_path=FINABSA_MODEL_NAME)
 
 

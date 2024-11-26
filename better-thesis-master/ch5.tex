@@ -198,3 +198,16 @@ The sum of the profits from portfolios based on this strategy is positive. We ac
 
 Regarding the correlation analysis, the results confirm that utilising the full potential of negative and positive sentiment data in classifying neutral sentiment is sensible. Additionally, some correlation, albeit small, does exist and is mostly positive. This indicates that sentiment can be a good indicator of stock prices. It is important to remind readers not to be misled when comparing the strategy portfolio and correlation results, as the portfolio value is based on positive and negative sentiment, and positions are held for seven days. The results are thus rather satisfactory. However, further experiments with more data and different strategies, additional indicators, and conceivably a different interpolation method in the case of correlation would be appropriate.
 
+
+summary:
+Introduction
+In today's era of information explosion and constant flow, it becomes more time-consuming to keep track of associations and deeply understand the published content through online news, primarily when investing in a specific area. The thesis aims to design and implement a tool to provide users with sentiment analysis of news articles to aid investment decision-making. 
+
+Textual Data
+First-party data providers are preferable to third-party providers because they offer higher data quality and reliability as direct sources. This approach ensures that the data accurately reflects reality and complies with terms of service, avoiding legal issues. First-party providers also have better specifications and defined APIs, making them more reliable.
+
+Company to Symbol Linking
+Three naive approaches on static datasets were presented to link company names to ticker symbols. While they are a good start, they have limitations with name variations. A more sophisticated method is the entity-linking approach, enhanced by a trained knowledge base. Wikidata is ideal for this, offering a structured, editable data repository. Using the Spacy Entity Linker library in Python, we can match text entities to Wikidata entries and obtain additional entity information via SPARQL queries. This method covers most companies traded or related to those on exchanges, achieving nearly 100\% success depending on the entity's relationship with the exchange.
+
+Entity-level Sentiment Analysis
+The FinABSA model, trained on the SEntFiN 1.0 dataset, is ideal for this task. The model categorises sentiments into positive, neutral, and negative classes, providing numerical sentiment analysis. The FinEntity dataset, containing paragraphs from newspaper articles, entity annotations, and corresponding sentiments, is suitable for validating the algorithm. The experiment achieved a 92\% success rate, with a high accuracy rate after significantly reducing the dataset to ensure precise measurement. The correlation between entity-level sentiment and adjusted close prices of stocks demonstrates promising relationships, highlighting the potential of sentiment analysis in financial markets.
