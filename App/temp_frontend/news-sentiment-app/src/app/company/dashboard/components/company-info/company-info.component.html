@@ -1,0 +1,44 @@
+<div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <!-- Company Header -->
+    <header class="row mt-4">
+      <div class="col-12">
+        <h3>
+          {{infoData.shortName}} ({{infoData.ticker}})
+          <a class="icon-link" [routerLink]="['/company', infoData.ticker, 'graph']" aria-label="View company graph">
+            <i class="bi bi-diagram-3"></i>
+          </a>
+        </h3>
+      </div>
+    </header>
+  
+    <!-- Company Information -->
+    <section class="row equal-height-cards">
+      <!-- Classification and Industry -->
+      <div class="col-md-4">
+          <div class="card-body">
+            <p>Classification: {{infoData.sentiment.classification}}</p>
+            <p>{{infoData.industry}}</p>
+            <a href="{{infoData.website}}" target="_blank" aria-label="Visit company website">{{infoData.website}}</a>
+          </div>
+      </div>
+  
+      <!-- Today's Sentiment Analysis -->
+      <div class="col-md-4">
+          <div class="card-body">
+            <p>Positive: {{infoData.sentiment.positive}}</p>
+            <p>Neutral: {{infoData.sentiment.neutral}}</p>
+            <p>Negative: {{infoData.sentiment.negative}}</p>
+          </div>
+      </div>
+
+      <!-- Daily Stats -->
+      <div class="col-md-4">
+          <div class="card-body">
+            <p>Daily High: {{infoData.dayHigh}}</p>
+            <p>Daily Low: {{infoData.dayLow}}</p>
+            <p>Volume: {{infoData.volume}}</p>
+          </div>
+      </div>
+
+    </section>
+  </div>
