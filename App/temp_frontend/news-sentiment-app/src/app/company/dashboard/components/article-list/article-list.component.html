@@ -1,0 +1,79 @@
+<div class="article-list-header">
+  <mat-form-field class="filter-field">
+    <input matInput (keyup)="applyFilter($event)" placeholder="Filter articles">
+  </mat-form-field>
+</div>
+
+<div class="article-list-container mat-elevation-z8">
+  <mat-table [dataSource]="dataSource" matSort class="custom-table">
+
+    <!-- Title Column -->
+    <ng-container matColumnDef="title">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Title </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.title}} </mat-cell>
+    </ng-container>
+
+    <!-- Published Date Column -->
+    <ng-container matColumnDef="published_date">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Date </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.published_date | date}} </mat-cell>
+    </ng-container>
+
+    <!-- Section Column -->
+    <ng-container matColumnDef="section">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Section </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.section}} </mat-cell>
+    </ng-container>
+
+    <!-- Type Column -->
+    <ng-container matColumnDef="type">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Type </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.type}} </mat-cell>
+    </ng-container>
+
+    <!-- URL Column -->
+    <ng-container matColumnDef="url">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> URL </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> <a [href]="row.url" target="row.url">{{transformUrl(row.url)}}</a> </mat-cell>
+    </ng-container>
+
+    <!-- Author Column -->
+    <ng-container matColumnDef="author">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Author </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.author}} </mat-cell>
+    </ng-container>
+
+    <!-- Sentiment Column -->
+    <ng-container matColumnDef="sentiment">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Sentiment </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell">
+        <span [ngStyle]="getSentimentStyle(row.sentiment)" class="sentiment-bubble">
+          {{row.sentiment.classification}}
+        </span>
+      </mat-cell>
+    </ng-container>
+
+    <!-- Positive Sentiment Column -->
+    <ng-container matColumnDef="positive">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Positive </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.sentiment.positive}} </mat-cell>
+    </ng-container>
+
+    <!-- Neutral Sentiment Column -->
+    <ng-container matColumnDef="neutral">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Neutral </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.sentiment.neutral}} </mat-cell>
+    </ng-container>
+
+    <!-- Negative Sentiment Column -->
+    <ng-container matColumnDef="negative">
+      <mat-header-cell *matHeaderCellDef mat-sort-header class="custom-header-cell"> Negative </mat-header-cell>
+      <mat-cell *matCellDef="let row" class="custom-cell"> {{row.sentiment.negative}} </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns" class="custom-header-row"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;" class="custom-row"></mat-row>
+  </mat-table>
+
+  <mat-paginator [pageSizeOptions]="[5]" hidePageSize="true" class="custom-paginator"></mat-paginator>
+</div>
