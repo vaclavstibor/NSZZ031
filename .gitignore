@@ -9,4 +9,4 @@ node_modules/
 presentations/
 **/.ipynb_checkpoints/
 .prettierignore
-.DS_Store
+**/.DS_Store
