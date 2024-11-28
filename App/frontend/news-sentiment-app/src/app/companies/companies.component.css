@@ -1,0 +1,107 @@
+/* Card's Content styling */
+.card {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 20px #020202d8, 0 60px 80px rgba(0, 0, 0, 0.678), 0 20px 95px rgba(13, 33, 94, 0);
+    background-color: whitesmoke;
+}
+
+.card:hover {
+    outline: 3px solid #ffffff8a;
+    transform: scale(0.99);
+    transition: transform 0.1s, box-shadow 0.3s, outline 0.15s ease-in;
+    filter: contrast(110%);
+    backdrop-filter: grayscale(0%);
+    color: black;
+    opacity: 100%;
+  }
+
+.cover-container {
+    max-width: 42em;
+}
+
+/* Input styling */
+input {
+    font-family: -apple-system,BlinkMacSystemFont;
+    color: #fff;
+    font-weight: 550;
+    background-color: rgba(31, 31, 33, 0.928);
+    border: none;
+    outline: none;
+    padding: 0.4vw;
+    transition: .4s;
+    padding-left: 2.5rem;
+    
+}
+
+input:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 .20vw rgba(16,190,208,0.186);
+}
+
+input:focus {
+    box-shadow: 0 0 0 .20vw rgba(12, 150, 165, 0.816);
+    padding-left: 1rem;
+    transition: padding-left 0.4s ease-in-out;
+}
+
+.input-container {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    margin: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+}
+
+input:focus ~ .input-icon {
+    opacity: 0;
+    visibility: hidden;
+}
+
+input:valid ~ .input-icon {
+    opacity: 0;
+    visibility: hidden;
+}
+
+input:valid {
+    padding-left: 1rem;
+    transition: padding-left 0.4s ease-in-out;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Pagination styling */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 30px;
+    }
+  }
+

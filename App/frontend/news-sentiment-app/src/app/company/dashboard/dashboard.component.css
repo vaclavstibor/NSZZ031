@@ -1,0 +1,84 @@
+.cover-container {
+  max-width: 42em;
+}
+
+.card {
+  background: linear-gradient(-45deg, #111111 0%, #080808 100%);
+  color: #e3e3e3;
+  border: 1px solid rgba(255, 255, 255, 0.823);
+  box-shadow: 0 20px 40px #020202d8, 0 60px 80px rgba(0, 0, 0, 0.678), 0 20px 95px rgba(13, 33, 94, 0);
+  transition: all 0.6s ease-out;
+}
+
+.card-body {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  outline: 3px solid #ffffff8a;
+  transform: scale(0.99);
+  transition: transform 0.4s, box-shadow 0.6s, outline 0.3s ease-in;
+  filter: contrast(110%);
+  backdrop-filter: grayscale(0%);
+  opacity: 100%;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    padding: 10px;
+  }
+
+  .cover-container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .nav-masthead .nav-link {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+}
+.loading-bar {
+  width: 100%;
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Loader https://uiverse.io/Fernando-sv/quiet-zebra-41 */
+.loader {
+  border: 4px solid #ffffff8a;
+  border-left-color: transparent;
+  border-radius: 50%;
+}
+
+.loader {
+  border: 4px solid #ffffff8a;
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+}
+
+.loader {
+  border: 4px solid #ffffff8a;
+  border-left-color: transparent;
+  width: 36px;
+  height: 36px;
+  animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
